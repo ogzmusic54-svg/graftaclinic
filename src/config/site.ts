@@ -23,11 +23,11 @@ export const siteConfig = {
   // ───── İletişim — bu üç alanı doldurun ─────
   contact: {
     // Uluslararası format, boşluk yok. Örn: +905555555555
-    phone: "+905555555555",
-    phoneDisplay: "+90 555 555 55 55",
+    phone: "+905076473434",
+    phoneDisplay: "0507 647 34 34",
 
     // WhatsApp numarası, başında + olmadan sadece rakam. Örn: 905555555555
-    whatsapp: "905555555555",
+    whatsapp: "905076473434",
     whatsappMessage: {
       tr: "Merhaba, Grafta Clinic web sitesinden ulaşıyorum. Bilgi almak istiyorum.",
       en: "Hello, I'm reaching out via the Grafta Clinic website. I'd like more information.",
@@ -36,12 +36,13 @@ export const siteConfig = {
 
     email: "info@graftaclinic.com",
 
+    // TODO: Müşteriden adres gelince bu dört satırı güncelle
     address: {
-      street: "Klinik adresi — sokak, no",
-      district: "İlçe",
+      street: "Adres bilgisi yakında",
+      district: "",
       city: "İstanbul",
       country: "Türkiye",
-      postalCode: "34000",
+      postalCode: "",
     },
 
     // Çalışma saatleri — istediğiniz formatta yazın, footer'da olduğu gibi gösterilir

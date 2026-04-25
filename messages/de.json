@@ -1,0 +1,437 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "bookAppointment": "Kostenlose Beratung",
+    "categories": {
+      "hair-restoration": "Haarwiederherstellung",
+      "treatments": "Behandlungen",
+      "medical-aesthetics": "Medizinische Ästhetik",
+      "plastic-surgery": "Plastische Chirurgie"
+    }
+  },
+  "common": {
+    "callNow": "Jetzt anrufen",
+    "whatsapp": "WhatsApp",
+    "writeOnWhatsapp": "Auf WhatsApp schreiben",
+    "freeConsultation": "Kostenlose Beratung",
+    "learnMore": "Mehr erfahren",
+    "readMore": "Mehr lesen",
+    "viewAll": "Alle ansehen",
+    "back": "Zurück",
+    "languageLabel": "Sprache",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "followUs": "Folgen Sie uns",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "home": {
+    "meta": {
+      "title": "Grafta Clinic — Haartransplantation & Ästhetische Medizin | Istanbul",
+      "description": "Haartransplantation, Bart- und Augenbrauenrestaurierung, PRP, Filler, Botox und ästhetische Chirurgie in der Grafta Clinic Istanbul. Erfahrenes Team, moderne Technologie. Kostenlose Beratung."
+    },
+    "hero": {
+      "kicker": "Grafta Clinic · Istanbul",
+      "title": "Natürliche Ergebnisse.\nVertrauenswürdige Experten.",
+      "subtitle": "Von der Haartransplantation über plastische Chirurgie bis hin zur medizinischen Ästhetik — eine Adresse für jedes Anliegen. Mit unserem Spezialistenteam und modernster Technologie erreichen Sie selbstbewusst Ihr Wunschbild.",
+      "primaryCta": "Kostenlose Beratung",
+      "secondaryCta": "Leistungen ansehen"
+    },
+    "trust": {
+      "title": "Grafta Clinic in Zahlen",
+      "stats": [
+        { "value": "10K+", "label": "Zufriedene Patienten" },
+        { "value": "15+", "label": "Jahre Erfahrung" },
+        { "value": "60+", "label": "Länder" },
+        { "value": "98%", "label": "Patientenzufriedenheit" }
+      ]
+    },
+    "servicesSection": {
+      "kicker": "Unsere Leistungen",
+      "title": "Klinikqualität für jedes Anliegen",
+      "subtitle": "Wir bieten ein umfassendes Angebot in Haarwiederherstellung, dermatologischen Therapien, medizinischer Ästhetik und plastischer Chirurgie."
+    },
+    "doctors": {
+      "kicker": "Spezialisten-Team",
+      "title": "Lernen Sie Ihr erfahrenes Team kennen",
+      "subtitle": "Zertifizierte Spezialistinnen und Spezialisten mit langjähriger Erfahrung — für einen sicheren Behandlungsweg.",
+      "team": [
+        {
+          "name": "Op. Dr. — Vor- und Nachname",
+          "specialty": "Plastische, rekonstruktive und ästhetische Chirurgie",
+          "bio": "Über 15 Jahre internationale Erfahrung, spezialisiert auf Gesichts-, Nasen- und Brustästhetik."
+        },
+        {
+          "name": "Dr. — Vor- und Nachname",
+          "specialty": "Spezialist für Haarwiederherstellung",
+          "bio": "Referenzname für FUE-, DHI- und Saphir-Techniken."
+        },
+        {
+          "name": "Dr. — Vor- und Nachname",
+          "specialty": "Dermatologie & Medizinische Ästhetik",
+          "bio": "Über 10 Jahre klinische Erfahrung in PRP, Mesotherapie und Injektionsbehandlungen."
+        }
+      ]
+    },
+    "trustBadges": {
+      "title": "Internationale Standards",
+      "subtitle": "ISO-zertifizierte Klinik, vom türkischen Gesundheitsministerium autorisiertes Gesundheitstourismus-Zentrum."
+    },
+    "results": {
+      "kicker": "Patientenergebnisse",
+      "title": "Vorher und Nachher",
+      "subtitle": "Echte Ergebnisse, mit schriftlicher Zustimmung der Patienten geteilt. Jeder Verlauf ist individuell."
+    },
+    "cta": {
+      "title": "Machen Sie den ersten Schritt",
+      "subtitle": "Lassen Sie sich von unseren Spezialisten kostenlos einen persönlichen Plan erstellen. In 30 Sekunden per WhatsApp oder Telefon erreichbar.",
+      "primary": "Auf WhatsApp schreiben",
+      "secondary": "Jetzt anrufen"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Über uns — Grafta Clinic",
+      "description": "Grafta Clinic ist ein führendes Zentrum in Istanbul für Haartransplantation, medizinische Ästhetik und plastische Chirurgie — erfahrene Spezialisten und moderne Infrastruktur."
+    },
+    "hero": {
+      "kicker": "Über uns",
+      "title": "Wo Wissenschaft, Kunst und Vertrauen zusammenkommen",
+      "subtitle": "Grafta Clinic verbindet klinische Exzellenz mit einem menschenzentrierten Ansatz in allen Bereichen der ästhetischen Medizin."
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "body": "Grafta Clinic wurde mit der Vision gegründet, die tiefe Expertise führender Spezialisten mit einer modernen klinischen Infrastruktur zu verbinden. Von der Haarwiederherstellung über plastische Chirurgie bis zur medizinischen Ästhetik bieten wir ein breites Spektrum an Leistungen. Für jede Patientin und jeden Patienten erstellen wir individuelle Behandlungspläne mit Fokus auf natürliche und nachhaltige Ergebnisse."
+    },
+    "values": [
+      {
+        "title": "Patientenzentrierter Ansatz",
+        "description": "Ihr Weg von der Beratung bis zur Genesung wird individuell betrachtet."
+      },
+      {
+        "title": "Transparente Kommunikation",
+        "description": "Erwartungen, Risiken und Ablauf werden in jeder Phase klar geteilt."
+      },
+      {
+        "title": "Evidenzbasierte Versorgung",
+        "description": "Alle Behandlungen folgen evidenzbasierten Protokollen, durchgeführt von zertifizierten Teams."
+      },
+      {
+        "title": "Internationale Standards",
+        "description": "ISO-konforme Infrastruktur, Sterilisations- und Patientensicherheitsverfahren."
+      }
+    ],
+    "facility": {
+      "title": "Unsere Klinik",
+      "body": "Mit modernen Operationssälen, fortschrittlicher Sterilisation und Patientenkomfortbereichen bieten wir Versorgung nach internationalen Standards. Als Klinik mit Genehmigung für Gesundheitstourismus bieten wir umfassende Pakete für unsere internationalen Patientinnen und Patienten."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Kontakt — Grafta Clinic | Termin & Beratung",
+      "description": "Erreichen Sie die Grafta Clinic per Telefon, WhatsApp oder persönlich. Buchen Sie Ihre kostenlose Beratung in 30 Sekunden."
+    },
+    "hero": {
+      "kicker": "Kontakt",
+      "title": "Wir sind nur einen Schritt entfernt",
+      "subtitle": "Erreichen Sie unsere Spezialisten in Sekunden per Telefon oder WhatsApp. Buchen Sie sofort Ihre kostenlose Beratung."
+    },
+    "channels": {
+      "callTitle": "Rufen Sie uns an",
+      "callBody": "Unser Team ist Montag bis Samstag von 09:00 bis 19:00 Uhr erreichbar.",
+      "whatsappTitle": "Auf WhatsApp schreiben",
+      "whatsappBody": "Wir antworten in der Regel innerhalb von 5 Minuten.",
+      "visitTitle": "Besuchen Sie uns",
+      "visitBody": "Wir freuen uns, Sie in unserer modernen Klinik begrüßen zu dürfen."
+    }
+  },
+  "footer": {
+    "tagline": "Klinische Exzellenz in Haarwiederherstellung, medizinischer Ästhetik und plastischer Chirurgie. Istanbul.",
+    "menu": "Menü",
+    "ourServices": "Unsere Leistungen",
+    "contactTitle": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "disclaimer": "Diese Website dient ausschließlich Informationszwecken und ersetzt keine medizinische Beratung. Vor jeder Behandlung ist eine persönliche Beratung erforderlich.",
+    "kvkk": "Datenschutzhinweis",
+    "privacy": "Datenschutzerklärung"
+  },
+  "services": {
+    "indexMeta": {
+      "title": "Unsere Leistungen — Grafta Clinic",
+      "description": "Entdecken Sie das gesamte Leistungsspektrum der Grafta Clinic in Haarwiederherstellung, medizinischer Ästhetik und plastischer Chirurgie."
+    },
+    "indexHero": {
+      "kicker": "Unsere Leistungen",
+      "title": "Von der Haartransplantation bis zur plastischen Chirurgie — unter einem Dach",
+      "subtitle": "Jede Leistung wird von Spezialisten mit individuellen Protokollen geplant."
+    },
+    "common": {
+      "benefitsTitle": "Vorteile",
+      "processTitle": "Behandlungsablauf",
+      "faqTitle": "Häufig gestellte Fragen",
+      "ctaTitle": "Lassen Sie uns gemeinsam den richtigen Plan erstellen",
+      "ctaSubtitle": "Kontaktieren Sie uns für eine kostenlose, unverbindliche Beratung."
+    },
+    "hair-transplant": {
+      "title": "Haartransplantation",
+      "shortDescription": "Natürlich aussehende Haarwiederherstellung mit FUE, DHI und Saphir-Technik.",
+      "metaTitle": "Haartransplantation (FUE, DHI, Saphir) — Grafta Clinic Istanbul",
+      "metaDescription": "Natürliche Ergebnisse mit FUE, DHI und Saphir-FUE. Erfahrenes Team, zertifizierte Klinik. Kostenlose Beratung in der Grafta Clinic.",
+      "heroTitle": "Haartransplantation",
+      "heroSubtitle": "Beenden Sie Haarausfall mit FUE, DHI und Saphir FUE. Eine natürliche, dauerhafte Haarlinie aus Ihren eigenen Follikeln.",
+      "description": "Bei der Haartransplantation werden gesunde Follikel — meist aus dem Spenderareal am Hinterkopf — in Bereiche mit Ausdünnung oder Geheimratsecken verpflanzt. In der Grafta Clinic wenden wir FUE, DHI und Saphir FUE an und wählen die für jeden Patienten passende Methode, wobei der natürliche Winkel und die Dichte erhalten bleiben.",
+      "benefits": [
+        "Natürlich aussehendes, dauerhaftes Ergebnis",
+        "Narbenarme FUE/DHI-Techniken",
+        "Hohe Graftkapazität in einer Sitzung",
+        "Schmerzfrei unter lokaler Betäubung",
+        "Schnelle Rückkehr ins soziale Leben"
+      ],
+      "process": [
+        { "step": "Beratung & Analyse", "description": "Haarliniendesign, Spenderareal-Bewertung und Technikauswahl." },
+        { "step": "Vorbereitung & Anästhesie", "description": "Lokalanästhesie und Vorbereitung des Spenderareals." },
+        { "step": "Graftentnahme", "description": "Follikel werden einzeln mit einem Mikromotor entnommen." },
+        { "step": "Kanaleröffnung", "description": "Mikrokanäle in natürlicher Richtung und Winkel." },
+        { "step": "Graftplatzierung", "description": "Implantation per DHI-Stift oder Implanter." },
+        { "step": "Nachsorge", "description": "Langzeit-Follow-up im Monat 1, 3, 6 und 12." }
+      ],
+      "faq": [
+        { "question": "Bleiben sichtbare Narben?", "answer": "FUE und DHI hinterlassen keine sichtbaren Narben. Punktförmige Spuren im Spenderareal verblassen schnell." },
+        { "question": "Wann sind Ergebnisse sichtbar?", "answer": "Neues Wachstum beginnt ab Monat 3-4; das endgültige Ergebnis ist nach 12 Monaten sichtbar." },
+        { "question": "Fallen die transplantierten Haare aus?", "answer": "Die Follikel aus genetisch resistenten Bereichen sind dauerhaft; der anfängliche 'Schockverlust' in den ersten Wochen ist normal." },
+        { "question": "Wie lange dauert die Operation?", "answer": "Je nach Graftanzahl etwa 6-8 Stunden." }
+      ]
+    },
+    "beard-transplant": {
+      "title": "Barttransplantation",
+      "shortDescription": "Eine dauerhafte Lösung für lückenhafte Bartbereiche mit FUE.",
+      "metaTitle": "Barttransplantation — Grafta Clinic",
+      "metaDescription": "Barttransplantation für lückenhafte Bereiche mit natürlicher Dichte. FUE-Technik, erfahrener Chirurg. Grafta Clinic.",
+      "heroTitle": "Barttransplantation",
+      "heroSubtitle": "Eine dauerhafte Lösung mit natürlicher Richtung und Dichte für genetisch oder narbenbedingt lückenhafte Bartbereiche.",
+      "description": "Die Barttransplantation wird meist mit der FUE-Technik durchgeführt. Aus dem Spenderareal entnommene Grafts werden im Bartbereich passgenau eingesetzt. Das Ergebnis ist natürlich und rasierbar.",
+      "benefits": [
+        "Symmetrisches, natürliches Erscheinungsbild",
+        "Ergebnis in einer Sitzung",
+        "Narbenarme FUE-Technik",
+        "Rasierbar, natürliche Haare",
+        "Dauerhaftes Ergebnis"
+      ],
+      "process": [
+        { "step": "Design", "description": "Bartlinie nach Gesichtsproportionen gezeichnet." },
+        { "step": "Spendervorbereitung", "description": "Geeignete Grafts ausgewählt." },
+        { "step": "Graftentnahme", "description": "Follikelentnahme mit Mikromotor." },
+        { "step": "Platzierung", "description": "Jeder Follikel im natürlichen Winkel platziert." },
+        { "step": "Pflege", "description": "Nachsorge und Kontrollen in der ersten Woche." }
+      ],
+      "faq": [
+        { "question": "Kann ich mich nach der Barttransplantation rasieren?", "answer": "Ja, ab dem 6. Monat können transplantierte Haare problemlos rasiert werden." },
+        { "question": "Ist es schmerzhaft?", "answer": "Der Eingriff ist unter Lokalanästhesie schmerzfrei." },
+        { "question": "Wann sehe ich das Endergebnis?", "answer": "Endgültige Dichte und Natürlichkeit zeigen sich nach 8-12 Monaten." }
+      ]
+    },
+    "eyebrow-transplant": {
+      "title": "Augenbrauentransplantation",
+      "shortDescription": "Natürliche Dichte für die Brauenlinie: dauerhafte Restaurierung.",
+      "metaTitle": "Augenbrauentransplantation — Grafta Clinic",
+      "metaDescription": "Augenbrauentransplantation für dünne, lückenhafte oder narbige Brauen. Mikrodesign, erfahrener Chirurg, dauerhaftes Ergebnis.",
+      "heroTitle": "Augenbrauentransplantation",
+      "heroSubtitle": "Dauerhafte Restaurierung mit natürlicher Richtung und Dichte für durch Genetik, Trauma oder Zupfen verlorene Augenbrauen.",
+      "description": "Bei der Augenbrauentransplantation werden einzelne follikuläre Einheiten aus dem Spenderareal entnommen und in Mikrowinkeln im Brauenbereich platziert. Das Ergebnis ist harmonisch mit dem Gesichtsausdruck, natürlich dicht und dauerhaft.",
+      "benefits": [
+        "Symmetrie, die den Gesichtsausdruck prägt",
+        "Natürliche Richtung und Winkel",
+        "Mikrodesign, langfristiges Ergebnis",
+        "Narbenarme FUE/DHI-Technik"
+      ],
+      "process": [
+        { "step": "Design", "description": "Zeichnung passend zu Gesichtsproportionen, mit Freigabe." },
+        { "step": "Spenderentnahme", "description": "Einzelfollikel werden gesammelt." },
+        { "step": "Platzierung", "description": "Implantation unter Beachtung von Richtung und Winkel." },
+        { "step": "Nachsorge", "description": "Kontrollen in Monat 1, 3 und 6." }
+      ],
+      "faq": [
+        { "question": "Wachsen die Augenbrauenhaare?", "answer": "Ja, da sie aus dem Spenderareal stammen; sie wachsen wie Haare und müssen regelmäßig gestutzt werden." },
+        { "question": "Wie viele Follikel werden benötigt?", "answer": "In der Regel 200-400 Follikel für beide Brauen." }
+      ]
+    },
+    "alopecia-treatment": {
+      "title": "Alopezie-Behandlung",
+      "shortDescription": "Dermatologischer und medizinischer Ansatz bei lokalem Haarausfall.",
+      "metaTitle": "Alopecia areata Behandlung — Grafta Clinic",
+      "metaDescription": "Dermatologische Versorgung, intraläsionale Injektionen und Kombinationsprotokolle bei Alopecia areata. Unter fachärztlicher Aufsicht.",
+      "heroTitle": "Alopezie-Behandlung",
+      "heroSubtitle": "Wissenschaftliche, individuell zugeschnittene Behandlungsprotokolle bei autoimmunbedingtem lokalem Haarausfall.",
+      "description": "Alopecia areata ist eine Autoimmunerkrankung, die sich als runde oder ovale Haarausfallflächen auf der Kopfhaut zeigt. Die Behandlung umfasst dermatologische Untersuchung, gegebenenfalls intraläsionale Steroidinjektionen, topische Therapien und Kombinationen mit PRP/Mesotherapie.",
+      "benefits": [
+        "Dermatologische Bewertung",
+        "Individuelles Protokoll",
+        "Evidenzbasierter Ansatz",
+        "Langzeit-Nachsorge"
+      ],
+      "process": [
+        { "step": "Untersuchung", "description": "Dermoskopie und bei Bedarf Labortests." },
+        { "step": "Diagnose", "description": "Klassifikation des Subtyps (areata, totalis, universalis)." },
+        { "step": "Behandlungsplan", "description": "Auswahl intraläsional oder topisch." },
+        { "step": "Nachsorge", "description": "Monatliche Kontrollen mit Anpassungen." }
+      ],
+      "faq": [
+        { "question": "Kommt Alopezie zurück?", "answer": "Mit der richtigen Behandlung wird in den meisten Fällen ein Wiederwachstum erreicht; in einigen Fällen sind Rückfälle möglich." },
+        { "question": "Wie lange dauert die Behandlung?", "answer": "Je nach Subtyp 3-12 Monate." }
+      ]
+    },
+    "prp-therapy": {
+      "title": "PRP-Therapie",
+      "shortDescription": "Haar- und Hautverjüngung mit Plasma aus Ihrem eigenen Blut.",
+      "metaTitle": "PRP-Therapie (Haar & Haut) — Grafta Clinic",
+      "metaDescription": "Haarausfall stoppen und Haut erneuern mit PRP. Wachstumsfaktoren aus Ihrem eigenen Blut. Unter fachärztlicher Aufsicht.",
+      "heroTitle": "PRP-Therapie",
+      "heroSubtitle": "Stärken Sie Haarfollikel und Haut mit thrombozytenreichem Plasma aus Ihrem eigenen Blut.",
+      "description": "Bei der PRP-Therapie (Platelet-Rich Plasma) wird thrombozytenreiches Plasma, das per Zentrifugation aus dem eigenen Blut gewonnen wird, in Bereiche mit Haarausfall oder Alterungserscheinungen mikroinjiziert. Die enthaltenen Wachstumsfaktoren unterstützen die Versorgung der Follikel und die Geweberegeneration.",
+      "benefits": [
+        "Aus eigenem Blut — kein Allergierisiko",
+        "Deutliche Reduktion des Haarausfalls",
+        "Hautstrahlen und Straffung",
+        "Kurze Sitzung"
+      ],
+      "process": [
+        { "step": "Blutentnahme", "description": "Eine kleine Blutprobe wird entnommen." },
+        { "step": "Zentrifugation", "description": "Plasma wird von den Thrombozyten getrennt." },
+        { "step": "Anwendung", "description": "Mikroinjektionen in Kopfhaut oder Haut." },
+        { "step": "Wiederholung", "description": "In der Regel 3-4 Sitzungen, dann Erhaltungsphase." }
+      ],
+      "faq": [
+        { "question": "Ist PRP schmerzhaft?", "answer": "Mit topischer Anästhesie ist das Unbehagen minimal." },
+        { "question": "Wie häufig ist es nötig?", "answer": "Anfangs 3-4 Sitzungen alle 2-4 Wochen, danach eine Auffrischung alle 6 Monate." }
+      ]
+    },
+    "mesotherapy": {
+      "title": "Mesotherapie",
+      "shortDescription": "Nährende Vitamin-/Mineralcocktails für Haar und Haut.",
+      "metaTitle": "Mesotherapie (Haar & Haut) — Grafta Clinic",
+      "metaDescription": "Individuelle Vitamin-/Aminosäure-Cocktails bei Haarausfall und Hauterneuerung mittels Mesotherapie. Spezialistenteam Grafta Clinic.",
+      "heroTitle": "Mesotherapie",
+      "heroSubtitle": "Kombinationen aus Vitaminen, Aminosäuren und Hyaluronsäure, die Haarfollikel und Haut nähren.",
+      "description": "Die Mesotherapie ist die Anwendung individueller Cocktails per Mikronadeln in die Kopfhaut oder das Gesicht. Sie ist wirksam bei der Verlangsamung von Haarausfall und der Wiederherstellung von Hautstrahlen und -feuchtigkeit.",
+      "benefits": [
+        "Individueller Cocktail",
+        "Schnelle Anwendung, sofortige Rückkehr ins soziale Leben",
+        "Sofortige Frische der Haut",
+        "Begleitende Unterstützung bei Haarausfall"
+      ],
+      "process": [
+        { "step": "Bewertung", "description": "Cocktailauswahl basierend auf Haut-/Haaranalyse." },
+        { "step": "Anwendung", "description": "Oberflächliche Injektionen mit Mikronadeln." },
+        { "step": "Sitzungsserie", "description": "In der Regel einmal wöchentlich, 4-6 Sitzungen." }
+      ],
+      "faq": [
+        { "question": "Gibt es Nebenwirkungen?", "answer": "Außer vorübergehender Rötung sind Nebenwirkungen selten." },
+        { "question": "Wann zeigen sich Ergebnisse?", "answer": "Nach 1-2 Sitzungen für die Haut, nach 4-6 Sitzungen für das Haar." }
+      ]
+    },
+    "fillers-botox": {
+      "title": "Filler & Botox",
+      "shortDescription": "Injektionen, die Linien glätten und Volumen wiederherstellen.",
+      "metaTitle": "Botox- und Filler-Behandlungen — Grafta Clinic",
+      "metaDescription": "Mit Botox Mimikfalten glätten, mit Fillern Volumen herstellen. Natürliche Ergebnisse, erfahrener Spezialist. Grafta Clinic Istanbul.",
+      "heroTitle": "Filler & Botox",
+      "heroSubtitle": "Medizinisch-ästhetische Injektionen, die Mimikfalten und Volumenverluste behandeln und dabei einen natürlichen Look bewahren.",
+      "description": "Botox glättet Linien an Stirn, zwischen den Brauen und um die Augen. Hyaluronsäurefiller geben Wangenknochen, Lippen, Kinn und Wangen natürliches Volumen. Alle Behandlungen erfolgen unter fachärztlicher Aufsicht mit zertifizierten Produkten.",
+      "benefits": [
+        "Natürliches, dezentes Ergebnis",
+        "Anwendungsdauer 15–30 Minuten",
+        "Sofortige Rückkehr ins soziale Leben",
+        "Stufenweise Planung möglich"
+      ],
+      "process": [
+        { "step": "Beratung", "description": "Gesichtsanalyse und Behandlungsplan." },
+        { "step": "Anwendung", "description": "Präzise Injektion mit feinen Nadeln." },
+        { "step": "Nachsorge", "description": "Kontrolle am Tag 10-14, optionales Touch-up." }
+      ],
+      "faq": [
+        { "question": "Wie lange wirkt Botox?", "answer": "In der Regel 4-6 Monate, danach kann die Behandlung wiederholt werden." },
+        { "question": "Sind Filler dauerhaft?", "answer": "Hyaluronsäurefiller werden innerhalb von 6-18 Monaten vom Körper abgebaut." }
+      ]
+    },
+    "youth-vaccine": {
+      "title": "Jugendimpfung",
+      "shortDescription": "Eine bio-regenerative Behandlung für Hautelastizität und Strahlen.",
+      "metaTitle": "Jugendimpfung (Profhilo / NCTF) — Grafta Clinic",
+      "metaDescription": "Stellen Sie die Hautstruktur von innen her wieder her. Profhilo und ähnliche bio-regenerative Anwendungen. Grafta Clinic.",
+      "heroTitle": "Jugendimpfung",
+      "heroSubtitle": "Bio-regenerative Behandlungen, die die hauteigene Kollagenproduktion von innen unterstützen.",
+      "description": "Die Jugendimpfung ist die Anwendung von Cocktails mit Hyaluronsäure und mehreren Vitaminen/Aminosäuren (z. B. NCTF, Profhilo), die sich über die Hautschichten verteilen und Kollagen- und Elastinproduktion fördern. Sie ist kein dauerhafter Filler — sie repariert die hauteigene Struktur.",
+      "benefits": [
+        "Deutliche Steigerung der Hautelastizität",
+        "Natürliches Strahlen",
+        "Glättung feiner Linien",
+        "Auch an Hals und Händen wirksam"
+      ],
+      "process": [
+        { "step": "Analyse", "description": "Bewertung von Hautalter und Bedürfnissen." },
+        { "step": "Anwendung", "description": "Mikroinjektionen, oberflächlich verteilt." },
+        { "step": "Wiederholung", "description": "In der Regel zwei Sitzungen im Abstand von vier Wochen." }
+      ],
+      "faq": [
+        { "question": "Wie lange hält das Ergebnis?", "answer": "Die erste Serie wirkt 6-9 Monate; eine jährliche Auffrischung wird empfohlen." },
+        { "question": "Für wen ist es geeignet?", "answer": "Ab dem späten zwanzigsten Lebensjahrzehnt für alle, die ihre Hautelastizität erhalten möchten." }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Nasenkorrektur (Rhinoplastik)",
+      "shortDescription": "Ein chirurgischer Plan für eine natürliche Nase im Einklang mit Ihrem Gesicht.",
+      "metaTitle": "Nasenkorrektur (Rhinoplastik) — Grafta Clinic",
+      "metaDescription": "Funktionale und ästhetische Exzellenz mit Rhinoplastik. Offene und geschlossene Technik, erfahrener plastischer Chirurg. Grafta Clinic.",
+      "heroTitle": "Nasenkorrektur",
+      "heroSubtitle": "Natürliche, harmonische Ergebnisse, die zu Ihren Gesichtszügen passen — Funktion und Ästhetik vereint.",
+      "description": "Die Rhinoplastik ist eine plastische Chirurgie zur Veränderung von Form, Größe oder Funktion der Nase. In der Grafta Clinic wird der Eingriff sowohl mit offener als auch mit geschlossener Technik geplant, wobei sowohl Ästhetik als auch Atemfunktion berücksichtigt werden. In Fällen mit Septumkorrektur ist eine kombinierte Behandlung möglich.",
+      "benefits": [
+        "Harmonie mit den Gesichtsproportionen",
+        "Gleichzeitige Lösung von Atemproblemen",
+        "Natürliches Erscheinungsbild",
+        "Dauerhaftes Ergebnis"
+      ],
+      "process": [
+        { "step": "Beratung", "description": "3D-Analyse und Bewertung der Gesichtsproportionen." },
+        { "step": "Planung", "description": "Wahl offene/geschlossene Technik, Erwartungen abgleichen." },
+        { "step": "Operation", "description": "Vollnarkose, 2-3-stündiger Eingriff." },
+        { "step": "Genesung", "description": "Schiene in der ersten Woche, soziale Rückkehr in 7-10 Tagen." },
+        { "step": "Nachsorge", "description": "Kontrollen in Monat 1, 3, 6 und 12." }
+      ],
+      "faq": [
+        { "question": "Wann sind die Ergebnisse endgültig?", "answer": "Sichtbare Verbesserung in 1 Monat; Endergebnis nach 12 Monaten." },
+        { "question": "Wie lange dauert die Genesung?", "answer": "Soziales Leben in 7-10 Tagen; Sport in 4-6 Wochen." },
+        { "question": "Sind beide Techniken dauerhaft?", "answer": "Ja, beide Techniken liefern dauerhafte Ergebnisse." }
+      ]
+    },
+    "breast-aesthetics": {
+      "title": "Brustästhetik",
+      "shortDescription": "Fachchirurgie für Vergrößerung, Verkleinerung und Straffung.",
+      "metaTitle": "Brustästhetik (Vergrößerung, Verkleinerung, Straffung) — Grafta Clinic",
+      "metaDescription": "Vergrößerung, Verkleinerung und Straffung in der Brustästhetik. CE/FDA-zertifizierte Implantate, erfahrener plastischer Chirurg.",
+      "heroTitle": "Brustästhetik",
+      "heroSubtitle": "Natürliche Ergebnisse im Einklang mit Ihrem Körper bei Vergrößerung, Verkleinerung und Straffung.",
+      "description": "Die Brustästhetik umfasst verschiedene Techniken wie Vergrößerung, Verkleinerung und Mastopexie (Straffung). Die Wahl der Technik hängt von Anatomie, Hautstruktur und Erwartungen der Patientin ab. In der Grafta Clinic werden ausschließlich CE/FDA-zertifizierte Implantate verwendet.",
+      "benefits": [
+        "Auf den Körper zugeschnittene Planung",
+        "Zertifizierte Implantate",
+        "Natürliches Erscheinungsbild",
+        "Komfortable Genesung"
+      ],
+      "process": [
+        { "step": "Beratung", "description": "Anatomische Messungen und Zielsetzung." },
+        { "step": "Planung", "description": "Auswahl von Implantattyp/-form/-platzierung." },
+        { "step": "Operation", "description": "1-3-stündiger Eingriff unter Vollnarkose." },
+        { "step": "Genesung", "description": "Stütz-BH und Nachsorge in den ersten 6 Wochen." }
+      ],
+      "faq": [
+        { "question": "Wie lange halten Implantate?", "answer": "Moderne Implantate können 10-15 Jahre oder länger halten; regelmäßige Kontrollen werden empfohlen." },
+        { "question": "Beeinträchtigt es das Stillen?", "answer": "Bei der richtigen Technik wird das Stillen in der Regel nicht beeinträchtigt." }
+      ]
+    }
+  }
+}

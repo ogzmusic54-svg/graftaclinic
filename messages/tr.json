@@ -1,0 +1,437 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "bookAppointment": "Ücretsiz Konsültasyon",
+    "categories": {
+      "hair-restoration": "Saç Restorasyonu",
+      "treatments": "Tedaviler",
+      "medical-aesthetics": "Medikal Estetik",
+      "plastic-surgery": "Plastik Cerrahi"
+    }
+  },
+  "common": {
+    "callNow": "Hemen Ara",
+    "whatsapp": "WhatsApp",
+    "writeOnWhatsapp": "WhatsApp'tan Yaz",
+    "freeConsultation": "Ücretsiz Konsültasyon",
+    "learnMore": "Detaylı Bilgi",
+    "readMore": "Devamını Oku",
+    "viewAll": "Tümünü Gör",
+    "back": "Geri",
+    "languageLabel": "Dil",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "hours": "Çalışma Saatleri",
+    "followUs": "Bizi Takip Edin",
+    "skipToContent": "İçeriğe geç"
+  },
+  "home": {
+    "meta": {
+      "title": "Grafta Clinic — Saç Ekimi & Estetik Tıp Merkezi | İstanbul",
+      "description": "Grafta Clinic'te saç ekimi, sakal ve kaş ekimi, PRP, dolgu, botox ve estetik cerrahi hizmetleri. Uzman doktor kadrosu, modern teknoloji, güvenilir sonuçlar. Ücretsiz konsültasyon."
+    },
+    "hero": {
+      "kicker": "Grafta Clinic · İstanbul",
+      "title": "Doğal sonuçlar.\nGüvenilir uzmanlar.",
+      "subtitle": "Saç ekiminden plastik cerrahiye, medikal estetiğe kadar tüm ihtiyaçlarınız için tek merkez. Uzman doktor kadromuz ve son teknoloji ekipmanlarımızla, hayalini kurduğunuz görünüme güvenle ulaşın.",
+      "primaryCta": "Ücretsiz Konsültasyon",
+      "secondaryCta": "Hizmetleri İncele"
+    },
+    "trust": {
+      "title": "Sayılarla Grafta Clinic",
+      "stats": [
+        { "value": "10K+", "label": "Mutlu Hasta" },
+        { "value": "15+", "label": "Yıllık Deneyim" },
+        { "value": "60+", "label": "Ülkeden Hasta" },
+        { "value": "98%", "label": "Memnuniyet Oranı" }
+      ]
+    },
+    "servicesSection": {
+      "kicker": "Hizmetlerimiz",
+      "title": "Her ihtiyaca, klinik kalitede çözüm",
+      "subtitle": "Saç restorasyonu, dermatolojik tedaviler, medikal estetik ve plastik cerrahi alanlarında bütüncül bir hizmet sunuyoruz."
+    },
+    "doctors": {
+      "kicker": "Uzman Kadro",
+      "title": "Tecrübeli ekibinizle tanışın",
+      "subtitle": "Her biri kendi alanında uzun yıllar deneyime sahip, sertifikalı doktorlarımızla güvenli bir tedavi süreci.",
+      "team": [
+        {
+          "name": "Op. Dr. — Ad Soyad",
+          "specialty": "Plastik, Rekonstrüktif ve Estetik Cerrahi",
+          "bio": "15+ yıl uluslararası deneyim. Yüz, burun ve göğüs estetiği alanında uzmanlaşmıştır."
+        },
+        {
+          "name": "Dr. — Ad Soyad",
+          "specialty": "Saç Restorasyonu Uzmanı",
+          "bio": "FUE, DHI ve Saphir teknikleri konusunda referans gösterilen uzman hekim."
+        },
+        {
+          "name": "Dr. — Ad Soyad",
+          "specialty": "Dermatoloji & Medikal Estetik",
+          "bio": "PRP, mezoterapi ve enjeksiyonel tedavilerde 10+ yıl klinik deneyim."
+        }
+      ]
+    },
+    "trustBadges": {
+      "title": "Uluslararası Standartlar",
+      "subtitle": "ISO sertifikalı klinik, TC Sağlık Bakanlığı yetkili sağlık turizmi merkezi."
+    },
+    "results": {
+      "kicker": "Hasta Sonuçları",
+      "title": "Önce ve Sonra",
+      "subtitle": "Hastalarımızın yazılı izniyle paylaşılan gerçek sonuçlar. Her hastanın süreci ve sonuçları kişiseldir."
+    },
+    "cta": {
+      "title": "İlk adımı atın",
+      "subtitle": "Uzman doktorlarımız size özel tedavi planını ücretsiz hazırlasın. WhatsApp veya telefonla 30 saniyede ulaşın.",
+      "primary": "WhatsApp'tan Yaz",
+      "secondary": "Hemen Ara"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Hakkımızda — Grafta Clinic",
+      "description": "Grafta Clinic; saç ekimi, medikal estetik ve plastik cerrahi alanlarında deneyimli uzman kadrosu ve modern altyapısıyla İstanbul'da hizmet veren öncü bir merkezdir."
+    },
+    "hero": {
+      "kicker": "Hakkımızda",
+      "title": "Bilim, sanat ve güvenin buluştuğu adres",
+      "subtitle": "Grafta Clinic, estetik tıbbın her alanında klinik mükemmelliği ve insan odaklı yaklaşımı bir araya getirir."
+    },
+    "story": {
+      "title": "Hikâyemiz",
+      "body": "Grafta Clinic, alanında uzman doktorların birikimini modern bir klinik altyapısıyla birleştirme vizyonuyla kurulmuştur. Saç restorasyonundan plastik cerrahiye, medikal estetiğe kadar geniş bir yelpazede hizmet sunuyoruz. Her bir hastamızın kendine özgü ihtiyaçlarına özel tedavi planları geliştirir, doğal ve kalıcı sonuçlara odaklanırız."
+    },
+    "values": [
+      {
+        "title": "Hasta odaklı yaklaşım",
+        "description": "Süreciniz konsültasyondan iyileşmeye kadar bizim için bireyseldir."
+      },
+      {
+        "title": "Şeffaf bilgilendirme",
+        "description": "Beklentiler, riskler ve süreç her aşamada açıkça paylaşılır."
+      },
+      {
+        "title": "Bilimsel temel",
+        "description": "Tüm tedaviler kanıta dayalı protokollerle, sertifikalı ekiplerce uygulanır."
+      },
+      {
+        "title": "Uluslararası standart",
+        "description": "ISO uyumlu altyapı, sterilizasyon ve hasta güvenliği prosedürleri."
+      }
+    ],
+    "facility": {
+      "title": "Klinik Altyapımız",
+      "body": "Modern ameliyathaneler, sterilizasyon sistemleri ve hasta konfor alanları ile uluslararası standartlarda hizmet sunuyoruz. Sağlık turizmi yetki belgesine sahip merkezimiz, yurt dışından gelen hastalar için tam kapsamlı paketler sunmaktadır."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "İletişim — Grafta Clinic | Randevu & Konsültasyon",
+      "description": "Grafta Clinic'e ulaşın: telefon, WhatsApp ve adres bilgileri. Ücretsiz konsültasyon için bizi arayın veya WhatsApp'tan yazın."
+    },
+    "hero": {
+      "kicker": "İletişim",
+      "title": "Bir adım uzaktayız",
+      "subtitle": "Sorularınız için telefon ya da WhatsApp ile saniyeler içinde uzman ekibimize ulaşın. Ücretsiz konsültasyon randevunuzu hemen oluşturun."
+    },
+    "channels": {
+      "callTitle": "Telefonla ulaşın",
+      "callBody": "Hafta içi ve cumartesi 09:00 – 19:00 arası ekibimiz hatta.",
+      "whatsappTitle": "WhatsApp'tan yazın",
+      "whatsappBody": "Mesajınıza genellikle 5 dakika içinde dönüş yapıyoruz.",
+      "visitTitle": "Bizi ziyaret edin",
+      "visitBody": "Modern kliniğimizde sizi ağırlamaktan mutluluk duyarız."
+    }
+  },
+  "footer": {
+    "tagline": "Saç ekimi, medikal estetik ve plastik cerrahide klinik mükemmellik. İstanbul.",
+    "menu": "Menü",
+    "ourServices": "Hizmetlerimiz",
+    "contactTitle": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "disclaimer": "Bu site bilgi amaçlıdır ve tıbbi tavsiye yerine geçmez. Her tedavi öncesi yüz yüze konsültasyon zorunludur.",
+    "kvkk": "KVKK Aydınlatma Metni",
+    "privacy": "Gizlilik Politikası"
+  },
+  "services": {
+    "indexMeta": {
+      "title": "Hizmetlerimiz — Grafta Clinic",
+      "description": "Grafta Clinic'te sunulan saç ekimi, medikal estetik ve plastik cerrahi hizmetlerinin tamamını inceleyin."
+    },
+    "indexHero": {
+      "kicker": "Hizmetlerimiz",
+      "title": "Saç ekiminden plastik cerrahiye, tek çatı altında",
+      "subtitle": "Her hizmet, alanında uzman doktorlar tarafından, kişiye özel protokollerle planlanır."
+    },
+    "common": {
+      "benefitsTitle": "Faydaları",
+      "processTitle": "Tedavi Süreci",
+      "faqTitle": "Sıkça Sorulan Sorular",
+      "ctaTitle": "Sizin için en uygun planı birlikte oluşturalım",
+      "ctaSubtitle": "Ücretsiz, bağlayıcı olmayan konsültasyon için bize ulaşın."
+    },
+    "hair-transplant": {
+      "title": "Saç Ekimi",
+      "shortDescription": "FUE, DHI ve Saphir teknikleriyle doğal görünümlü saç restorasyonu.",
+      "metaTitle": "Saç Ekimi (FUE, DHI, Safir) — Grafta Clinic İstanbul",
+      "metaDescription": "Saç ekiminde FUE, DHI ve Safir FUE teknikleriyle doğal sonuçlar. Uzman ekip, sertifikalı klinik. Ücretsiz konsültasyon için Grafta Clinic.",
+      "heroTitle": "Saç Ekimi",
+      "heroSubtitle": "Saç dökülmesinin önüne geçin: FUE, DHI ve Safir FUE teknikleriyle, kendi köklerinizden doğal ve kalıcı saç hattı.",
+      "description": "Saç ekimi, dökülmenin görülmediği bölgelerden (çoğunlukla ense) alınan sağlıklı greftlerin, açılma ya da seyrekleşme bulunan alanlara nakledilmesi işlemidir. Grafta Clinic'te uyguladığımız FUE, DHI ve Safir FUE teknikleri ile her hasta için en uygun yöntem belirlenir; doğal saç çıkış açısı ve sıklığı korunur.",
+      "benefits": [
+        "Doğal görünümlü, kalıcı sonuç",
+        "İz bırakmayan FUE/DHI teknikleri",
+        "Tek seansta yüksek greft kapasitesi",
+        "Lokal anestezi ile ağrısız işlem",
+        "Hızlı sosyal hayata dönüş"
+      ],
+      "process": [
+        { "step": "Konsültasyon ve analiz", "description": "Saç çizgisi tasarımı, donör alan değerlendirmesi ve teknik seçimi." },
+        { "step": "Hazırlık ve anestezi", "description": "Lokal anestezi, donör alanın hazırlanması." },
+        { "step": "Greft alımı", "description": "Mikro motorla foliküllerin tek tek toplanması." },
+        { "step": "Kanal açma", "description": "Doğal yön ve açıyla mikro kanalların oluşturulması." },
+        { "step": "Greft yerleştirme", "description": "Foliküllerin DHI kalemi ya da implanter ile yerleştirilmesi." },
+        { "step": "Takip ve bakım", "description": "1, 3, 6 ve 12. ay kontrolleri ile uzun vadeli takip." }
+      ],
+      "faq": [
+        { "question": "Saç ekimi sonrası iz kalır mı?", "answer": "FUE ve DHI tekniklerinde belirgin bir iz oluşmaz. Donör alandaki mikro noktasal izler kısa sürede kaybolur." },
+        { "question": "Sonuçlar ne zaman görülür?", "answer": "Yeni saçlar 3-4. aydan itibaren çıkmaya başlar; nihai sonuç 12. ayda netleşir." },
+        { "question": "Ekilen saçlar dökülür mü?", "answer": "Kalıcı genetik yapıdaki köklerden alınan greftler dökülmez; ancak işlem sonrası ilk haftalardaki şok dökülme normaldir." },
+        { "question": "Operasyon ne kadar sürer?", "answer": "Greft sayısına göre değişmekle birlikte ortalama 6-8 saattir." }
+      ]
+    },
+    "beard-transplant": {
+      "title": "Sakal Ekimi",
+      "shortDescription": "Seyrek ya da bölgesel sakal kayıplarına FUE ile kalıcı çözüm.",
+      "metaTitle": "Sakal Ekimi — Grafta Clinic",
+      "metaDescription": "Sakal ekimi ile seyrek bölgelere doğal yoğunluk. FUE tekniği, uzman cerrah, kalıcı sonuç. Grafta Clinic ücretsiz konsültasyon.",
+      "heroTitle": "Sakal Ekimi",
+      "heroSubtitle": "Genetik veya yaralanmaya bağlı seyrek sakal alanlarına, doğal yön ve sıklıkta kalıcı çözüm.",
+      "description": "Sakal ekimi, çoğunlukla FUE tekniği ile yapılan ve ense bölgesinden alınan greftlerin sakal alanına yön ve açıya uygun şekilde nakledildiği bir uygulamadır. Sonuçlar doğaldır ve traş olunabilir.",
+      "benefits": [
+        "Yüz hattına simetrik, doğal görünüm",
+        "Tek seansta sonuç",
+        "İzsiz FUE tekniği",
+        "Traş edilebilir, doğal kıllar",
+        "Kalıcı sonuç"
+      ],
+      "process": [
+        { "step": "Tasarım", "description": "Yüz oranlarına göre sakal hattı çizimi." },
+        { "step": "Donör hazırlık", "description": "Ense bölgesinden uygun greftlerin seçilmesi." },
+        { "step": "Greft alımı", "description": "Mikro motorla folikül toplama." },
+        { "step": "Yerleştirme", "description": "Doğal açı ile her bir folikülün yerleştirilmesi." },
+        { "step": "Bakım", "description": "İlk hafta yıkama protokolü ve kontroller." }
+      ],
+      "faq": [
+        { "question": "Sakal ekimi sonrası traş olabilir miyim?", "answer": "Evet, ekilen kıllar 6. aydan itibaren rahatlıkla traş edilebilir." },
+        { "question": "Acı verir mi?", "answer": "Lokal anestezi sayesinde işlem ağrısızdır." },
+        { "question": "Ne zaman tam sonuç görürüm?", "answer": "8-12. ayda nihai yoğunluk ve doğallık ortaya çıkar." }
+      ]
+    },
+    "eyebrow-transplant": {
+      "title": "Kaş Ekimi",
+      "shortDescription": "Yüz ifadesine doğal yoğunluk: kalıcı kaş restorasyonu.",
+      "metaTitle": "Kaş Ekimi — Grafta Clinic",
+      "metaDescription": "Kaş ekimi ile dökülen, seyrek ya da yara izli kaşlara doğal ve kalıcı çözüm. Mikro tasarım, uzman cerrah. Grafta Clinic.",
+      "heroTitle": "Kaş Ekimi",
+      "heroSubtitle": "Genetik, travma ya da yıllarca alma sonucu kaybedilen kaşlara doğal yön ve sıklıkta kalıcı çözüm.",
+      "description": "Kaş ekiminde, ensesinden alınan tek tel foliküller mikro açılarla kaş bölgesine nakledilir. Sonuç, ifade çizgileriyle uyumlu, doğal yoğunlukta ve kalıcıdır.",
+      "benefits": [
+        "Yüze ifade kazandıran simetri",
+        "Doğal yön ve açı",
+        "Mikro tasarım, kalıcı sonuç",
+        "İzsiz FUE/DHI tekniği"
+      ],
+      "process": [
+        { "step": "Tasarım", "description": "Yüz oranlarına göre çizim ve onay." },
+        { "step": "Donör alımı", "description": "Tek tel foliküllerin toplanması." },
+        { "step": "Yerleştirme", "description": "Açı ve yön gözetilerek nakil." },
+        { "step": "Takip", "description": "1, 3 ve 6. ay kontrolleri." }
+      ],
+      "faq": [
+        { "question": "Kaş kılları uzar mı?", "answer": "Evet, ense bölgesinden alındığı için saç gibi uzar. Düzenli olarak kesilmesi gerekir." },
+        { "question": "Kaç tel folikül gerekir?", "answer": "Genellikle iki kaş için 200-400 tel arasında değişir." }
+      ]
+    },
+    "alopecia-treatment": {
+      "title": "Saç Kıran (Alopesi) Tedavisi",
+      "shortDescription": "Bölgesel saç kayıplarına dermatolojik ve medikal yaklaşım.",
+      "metaTitle": "Saç Kıran (Alopecia) Tedavisi — Grafta Clinic",
+      "metaDescription": "Alopecia areata tedavisinde dermatolojik bakım, intralezyonel enjeksiyonlar ve kombinasyon protokolleri. Uzman dermatolog kontrolünde.",
+      "heroTitle": "Saç Kıran (Alopesi) Tedavisi",
+      "heroSubtitle": "Bağışıklık sistemi kaynaklı bölgesel saç kayıplarına bilimsel ve kişiye özel tedavi protokolleri.",
+      "description": "Alopecia areata, saçlı deride yuvarlak veya oval şekilde saç kayıplarıyla seyreden otoimmün bir durumdur. Tedavide dermatolojik muayene, gerektiğinde lezyon içi steroid enjeksiyonları, topikal tedaviler ve PRP/mezoterapi kombinasyonları kullanılır.",
+      "benefits": [
+        "Dermatolog değerlendirmesi",
+        "Kişiye özel protokol",
+        "Kanıta dayalı yaklaşım",
+        "Uzun vadeli takip"
+      ],
+      "process": [
+        { "step": "Muayene", "description": "Dermoskopi ve gerekirse laboratuvar testleri." },
+        { "step": "Tanı", "description": "Türün belirlenmesi (areata, totalis, universalis)." },
+        { "step": "Tedavi planı", "description": "İntralezyonel veya topikal tedavi seçimi." },
+        { "step": "Takip", "description": "Aylık kontroller, plan revizyonu." }
+      ],
+      "faq": [
+        { "question": "Alopecia geri döner mi?", "answer": "Doğru tedavi ile çoğu hastada saç çıkışı sağlanır; bazı vakalarda nüks gözlenebilir." },
+        { "question": "Tedavi süresi ne kadardır?", "answer": "Vakanın türüne göre 3-12 ay arasında değişir." }
+      ]
+    },
+    "prp-therapy": {
+      "title": "PRP Tedavisi",
+      "shortDescription": "Kendi kanınızdan elde edilen plazma ile saç ve cilt yenilenmesi.",
+      "metaTitle": "PRP Tedavisi (Saç & Cilt) — Grafta Clinic",
+      "metaDescription": "PRP ile saç dökülmesini durdurun, cildi yenileyin. Kendi kanınızdan elde edilen büyüme faktörleri. Uzman doktor kontrolünde.",
+      "heroTitle": "PRP Tedavisi",
+      "heroSubtitle": "Kendi kanınızdan elde edilen trombosit zengin plazma ile saç köklerini ve cilt dokusunu güçlendirin.",
+      "description": "PRP (Platelet-Rich Plasma) tedavisinde, kişinin kendi kanından santrifüj yöntemiyle ayrılan trombosit zengin plazma, saç dökülmesi yaşanan bölgeye ya da yaşlanma izleri olan cilde mikro enjeksiyonlarla uygulanır. İçerdiği büyüme faktörleri ile köklerin beslenmesini ve doku yenilenmesini destekler.",
+      "benefits": [
+        "Kendi kanınızdan, alerji riski yok",
+        "Saç dökülmesinde belirgin azalma",
+        "Cilt parlaklığı ve sıkılaşma",
+        "Kısa seans süresi"
+      ],
+      "process": [
+        { "step": "Kan alımı", "description": "Az miktarda kan örneği alınır." },
+        { "step": "Santrifüj", "description": "Plazma trombositlerden ayrıştırılır." },
+        { "step": "Uygulama", "description": "Mikro iğnelerle saçlı deri ya da cilde enjeksiyon." },
+        { "step": "Tekrar", "description": "Genellikle 3-4 seans, ardından bakım seansları." }
+      ],
+      "faq": [
+        { "question": "PRP ağrılı mıdır?", "answer": "Topikal anestezi ile rahatsızlık minimumdur." },
+        { "question": "Ne sıklıkla yapılmalıdır?", "answer": "İlk dönemde 2-4 hafta arayla 3-4 seans, sonra 6 ayda bir hatırlatma seansı." }
+      ]
+    },
+    "mesotherapy": {
+      "title": "Mezoterapi",
+      "shortDescription": "Saç ve cilt için besleyici vitamin/mineral karışımları.",
+      "metaTitle": "Mezoterapi (Saç & Cilt) — Grafta Clinic",
+      "metaDescription": "Mezoterapi ile saç dökülmesi ve cilt yenilenmesi için kişiye özel vitamin/aminoasit karışımları. Grafta Clinic uzman kadrosu.",
+      "heroTitle": "Mezoterapi",
+      "heroSubtitle": "Saç köklerini ve cildi besleyen vitamin, aminoasit ve hyalüronik asit kombinasyonları.",
+      "description": "Mezoterapi, ihtiyaca göre hazırlanmış kokteyllerin mikro iğne yardımıyla saçlı deri ya da yüze uygulanması yöntemidir. Saç dökülmesinin yavaşlatılmasında, cildin parlaklık ve nem dengesinin onarılmasında etkilidir.",
+      "benefits": [
+        "Kişiye özel kokteyl",
+        "Hızlı uygulama, sosyal hayata anında dönüş",
+        "Cilt için anında tazelik",
+        "Saç dökülmesinde destek tedavi"
+      ],
+      "process": [
+        { "step": "Değerlendirme", "description": "Cilt/saç analizine göre kokteyl seçimi." },
+        { "step": "Uygulama", "description": "Mikro iğnelerle yüzeysel enjeksiyon." },
+        { "step": "Seri seans", "description": "Genellikle haftada 1, 4-6 seans." }
+      ],
+      "faq": [
+        { "question": "Yan etkisi var mı?", "answer": "Geçici kızarıklık dışında belirgin yan etkisi nadirdir." },
+        { "question": "Etkisi ne zaman görülür?", "answer": "Cilt için 1-2 seans sonrası, saç için 4-6 seans sonrası." }
+      ]
+    },
+    "fillers-botox": {
+      "title": "Dolgu & Botox",
+      "shortDescription": "Çizgileri yumuşatmak ve hacim kazandırmak için enjeksiyonel uygulamalar.",
+      "metaTitle": "Botox ve Dolgu Uygulamaları — Grafta Clinic",
+      "metaDescription": "Botox ile mimik çizgilerini yumuşatın, dolgu ile yüze hacim kazandırın. Doğal sonuçlar, uzman doktor. Grafta Clinic İstanbul.",
+      "heroTitle": "Dolgu & Botox",
+      "heroSubtitle": "Mimik çizgileri ve hacim kayıpları için, doğal görünümü koruyan medikal estetik enjeksiyonları.",
+      "description": "Botox uygulaması alın, kaş arası ve kaz ayağı çizgilerini yumuşatırken, hyalüronik asit dolguları elmacık, dudak, çene ve yanak gibi bölgelere doğal hacim kazandırır. Tüm uygulamalar dermatolog/cerrah kontrolünde, sertifikalı ürünlerle yapılır.",
+      "benefits": [
+        "Doğal, abartısız sonuç",
+        "15-30 dakikalık uygulama",
+        "Anında sosyal hayata dönüş",
+        "Kademeli planlama imkânı"
+      ],
+      "process": [
+        { "step": "Konsültasyon", "description": "Yüz analizi ve uygulama haritası." },
+        { "step": "Uygulama", "description": "İnce uçlu iğnelerle hassas enjeksiyon." },
+        { "step": "Takip", "description": "10-14. gün kontrolü, gerekirse rötuş." }
+      ],
+      "faq": [
+        { "question": "Botox kaç ay etkili?", "answer": "Genellikle 4-6 ay etkili kalır, sonrasında tekrar uygulanabilir." },
+        { "question": "Dolgu kalıcı mı?", "answer": "Hyalüronik asit dolgular 6-18 ay arasında vücut tarafından emilir." }
+      ]
+    },
+    "youth-vaccine": {
+      "title": "Gençlik Aşısı",
+      "shortDescription": "Cilt elastikiyeti ve parlaklığı için biyo-rejeneratif tedavi.",
+      "metaTitle": "Gençlik Aşısı (Profhilo / NCTF) — Grafta Clinic",
+      "metaDescription": "Gençlik aşısı ile cilt yapısını içeriden onarın. Profhilo ve benzer biyo-rejeneratif uygulamalar. Grafta Clinic.",
+      "heroTitle": "Gençlik Aşısı",
+      "heroSubtitle": "Cildin kendi kollajen üretimini destekleyen biyo-rejeneratif uygulamalarla içeriden bakım.",
+      "description": "Gençlik aşısı, hyalüronik asit ve çoklu vitamin/aminoasit içeren kokteyllerin (örn. NCTF, Profhilo) cildin tüm katmanlarına dağılarak kollajen ve elastin üretimini desteklediği bir uygulamadır. Kalıcı dolgu değildir; cildin kendi yapısını onarır.",
+      "benefits": [
+        "Cilt elastikiyetinde belirgin artış",
+        "Doğal parlaklık",
+        "İnce çizgilerin yumuşaması",
+        "Boyun ve el bölgesinde de etkili"
+      ],
+      "process": [
+        { "step": "Analiz", "description": "Cilt yaşının ve ihtiyacının değerlendirilmesi." },
+        { "step": "Uygulama", "description": "Mikro enjeksiyonlarla yüzeye yayılım." },
+        { "step": "Tekrar", "description": "Genellikle 4 hafta arayla 2 seans." }
+      ],
+      "faq": [
+        { "question": "Etkisi ne kadar sürer?", "answer": "İlk seri 6-9 ay etkili olur, ardından yıllık bakım önerilir." },
+        { "question": "Kimlere uygundur?", "answer": "20'li yaşların sonundan itibaren, cilt elastikiyetini korumak isteyen herkes için uygundur." }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Burun Estetiği",
+      "shortDescription": "Yüzünüzle uyumlu, doğal bir burun için cerrahi planlama.",
+      "metaTitle": "Burun Estetiği (Rinoplasti) — Grafta Clinic",
+      "metaDescription": "Burun estetiği (rinoplasti) ile fonksiyonel ve estetik mükemmellik. Açık ve kapalı teknik, uzman plastik cerrah. Grafta Clinic.",
+      "heroTitle": "Burun Estetiği",
+      "heroSubtitle": "Yüz hatlarınıza uyumlu, doğal sonuçlar veren rinoplasti — fonksiyon ve estetik bir arada.",
+      "description": "Rinoplasti, burnun şeklini, boyutunu ya da işlevini değiştirmek amacıyla yapılan plastik cerrahi operasyonudur. Grafta Clinic'te açık ve kapalı tekniklerle, hem estetik hem de nefes alma işlevi göz önünde bulundurularak planlanır. Septoplasti gerektiren olgularda eş zamanlı tedavi mümkündür.",
+      "benefits": [
+        "Yüz oranlarıyla uyum",
+        "Solunum sorunlarına eş zamanlı çözüm",
+        "Doğal görünüm",
+        "Kalıcı sonuç"
+      ],
+      "process": [
+        { "step": "Konsültasyon", "description": "3D analiz, yüz oranlarının değerlendirilmesi." },
+        { "step": "Planlama", "description": "Açık/kapalı teknik kararı, beklentilerin netleştirilmesi." },
+        { "step": "Operasyon", "description": "Genel anestezi, 2-3 saatlik cerrahi." },
+        { "step": "İyileşme", "description": "İlk hafta atel, 7-10 gün sonra sosyal hayat." },
+        { "step": "Takip", "description": "1, 3, 6 ve 12. ay kontrolleri." }
+      ],
+      "faq": [
+        { "question": "Sonuçlar ne zaman tam görülür?", "answer": "Belirgin görüntü 1 ay içinde, nihai sonuç 12. ayda netleşir." },
+        { "question": "İyileşme süresi nedir?", "answer": "Sosyal hayata 7-10 gün, sportif aktivitelere 4-6 hafta." },
+        { "question": "Her iki teknik de kalıcı mı?", "answer": "Evet, her iki teknik de kalıcı sonuç verir." }
+      ]
+    },
+    "breast-aesthetics": {
+      "title": "Göğüs Estetiği",
+      "shortDescription": "Büyütme, küçültme ve dikleştirme operasyonlarında uzman cerrahi.",
+      "metaTitle": "Göğüs Estetiği (Büyütme, Küçültme, Dikleştirme) — Grafta Clinic",
+      "metaDescription": "Göğüs estetiğinde büyütme, küçültme ve dikleştirme. Sertifikalı implantlar, uzman plastik cerrah. Grafta Clinic.",
+      "heroTitle": "Göğüs Estetiği",
+      "heroSubtitle": "Büyütme, küçültme ve dikleştirme operasyonlarında bedeninizle uyumlu, doğal sonuçlar.",
+      "description": "Göğüs estetiği; büyütme (augmentasyon), küçültme (redüksiyon) ve dikleştirme (mastopeksi) gibi farklı teknikleri kapsar. Hangi yöntemin uygulanacağı, hastanın anatomisi, cilt yapısı ve beklentilerine göre belirlenir. Grafta Clinic'te yalnızca CE/FDA sertifikalı implantlar kullanılır.",
+      "benefits": [
+        "Bedene uygun planlama",
+        "Sertifikalı implantlar",
+        "Doğal görünüm",
+        "Konforlu iyileşme süreci"
+      ],
+      "process": [
+        { "step": "Konsültasyon", "description": "Anatomik ölçümler ve hedef belirleme." },
+        { "step": "Planlama", "description": "İmplant tipi/şekli/yerleşimi seçimi." },
+        { "step": "Operasyon", "description": "Genel anestezi altında 1-3 saatlik cerrahi." },
+        { "step": "İyileşme", "description": "İlk 6 hafta destek sütyeni ve takip." }
+      ],
+      "faq": [
+        { "question": "İmplantların ömrü nedir?", "answer": "Modern implantlar 10-15 yıl ya da daha uzun süre kullanılabilir; düzenli kontrol önerilir." },
+        { "question": "Emzirmeyi etkiler mi?", "answer": "Doğru teknik seçildiğinde emzirme genellikle etkilenmez." }
+      ]
+    }
+  }
+}

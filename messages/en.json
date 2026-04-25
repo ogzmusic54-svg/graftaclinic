@@ -1,0 +1,437 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "bookAppointment": "Free Consultation",
+    "categories": {
+      "hair-restoration": "Hair Restoration",
+      "treatments": "Treatments",
+      "medical-aesthetics": "Medical Aesthetics",
+      "plastic-surgery": "Plastic Surgery"
+    }
+  },
+  "common": {
+    "callNow": "Call Now",
+    "whatsapp": "WhatsApp",
+    "writeOnWhatsapp": "Message on WhatsApp",
+    "freeConsultation": "Free Consultation",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "back": "Back",
+    "languageLabel": "Language",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "followUs": "Follow us",
+    "skipToContent": "Skip to content"
+  },
+  "home": {
+    "meta": {
+      "title": "Grafta Clinic — Hair Transplant & Aesthetic Medicine | Istanbul",
+      "description": "Hair transplant, beard and eyebrow restoration, PRP, fillers, botox and aesthetic surgery at Grafta Clinic Istanbul. Expert team, modern technology, trusted results. Free consultation."
+    },
+    "hero": {
+      "kicker": "Grafta Clinic · Istanbul",
+      "title": "Natural results.\nTrusted experts.",
+      "subtitle": "From hair restoration to plastic surgery and medical aesthetics — one address for every need. With our expert doctors and state-of-the-art technology, achieve the look you have envisioned with confidence.",
+      "primaryCta": "Free Consultation",
+      "secondaryCta": "Explore Services"
+    },
+    "trust": {
+      "title": "Grafta Clinic in numbers",
+      "stats": [
+        { "value": "10K+", "label": "Happy Patients" },
+        { "value": "15+", "label": "Years of Experience" },
+        { "value": "60+", "label": "Countries Served" },
+        { "value": "98%", "label": "Patient Satisfaction" }
+      ]
+    },
+    "servicesSection": {
+      "kicker": "Our Services",
+      "title": "Clinical-grade solutions for every need",
+      "subtitle": "We offer comprehensive care across hair restoration, dermatological treatments, medical aesthetics, and plastic surgery."
+    },
+    "doctors": {
+      "kicker": "Expert Team",
+      "title": "Meet your experienced team",
+      "subtitle": "Certified specialists with years of dedicated experience in their respective fields, ensuring a safe treatment journey.",
+      "team": [
+        {
+          "name": "Op. Dr. — Full Name",
+          "specialty": "Plastic, Reconstructive and Aesthetic Surgery",
+          "bio": "15+ years of international experience, specialised in facial, rhinoplasty and breast aesthetics."
+        },
+        {
+          "name": "Dr. — Full Name",
+          "specialty": "Hair Restoration Specialist",
+          "bio": "A reference name for FUE, DHI and Sapphire techniques."
+        },
+        {
+          "name": "Dr. — Full Name",
+          "specialty": "Dermatology & Medical Aesthetics",
+          "bio": "10+ years of clinical experience in PRP, mesotherapy and injectables."
+        }
+      ]
+    },
+    "trustBadges": {
+      "title": "International Standards",
+      "subtitle": "ISO-certified clinic, authorized health tourism centre by the Republic of Türkiye Ministry of Health."
+    },
+    "results": {
+      "kicker": "Patient Results",
+      "title": "Before and After",
+      "subtitle": "Real results, shared with patients' written consent. Each patient's journey and outcome is unique."
+    },
+    "cta": {
+      "title": "Take the first step",
+      "subtitle": "Let our specialists prepare a personalised plan for you, free of charge. Reach us in 30 seconds via WhatsApp or phone.",
+      "primary": "Message on WhatsApp",
+      "secondary": "Call Now"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About — Grafta Clinic",
+      "description": "Grafta Clinic is a leading center in Istanbul for hair restoration, medical aesthetics and plastic surgery, combining experienced specialists with modern infrastructure."
+    },
+    "hero": {
+      "kicker": "About",
+      "title": "Where science, art and trust meet",
+      "subtitle": "Grafta Clinic combines clinical excellence with a human-centered approach across every area of aesthetic medicine."
+    },
+    "story": {
+      "title": "Our Story",
+      "body": "Grafta Clinic was founded with the vision of merging the deep expertise of leading specialists with a modern clinical infrastructure. From hair restoration to plastic surgery and medical aesthetics, we deliver a wide range of services. We craft personalised treatment plans for every patient, focusing on natural and lasting outcomes."
+    },
+    "values": [
+      {
+        "title": "Patient-centered approach",
+        "description": "Your journey, from consultation to recovery, is treated as uniquely yours."
+      },
+      {
+        "title": "Transparent communication",
+        "description": "Expectations, risks and the process are clearly shared at every stage."
+      },
+      {
+        "title": "Evidence-based care",
+        "description": "All treatments follow evidence-based protocols, applied by certified teams."
+      },
+      {
+        "title": "International standards",
+        "description": "ISO-aligned infrastructure, sterilisation and patient safety procedures."
+      }
+    ],
+    "facility": {
+      "title": "Our Facility",
+      "body": "We deliver care to international standards through modern operating theatres, advanced sterilisation systems and patient comfort areas. As a clinic with health tourism authorization, we offer all-inclusive packages for our international patients."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact — Grafta Clinic | Appointment & Consultation",
+      "description": "Reach Grafta Clinic by phone, WhatsApp or in person. Book your free consultation in 30 seconds."
+    },
+    "hero": {
+      "kicker": "Contact",
+      "title": "We are one step away",
+      "subtitle": "Reach our specialists by phone or WhatsApp in seconds. Book your free consultation right away."
+    },
+    "channels": {
+      "callTitle": "Call us",
+      "callBody": "Our team is on the line Monday to Saturday, 09:00–19:00.",
+      "whatsappTitle": "Message on WhatsApp",
+      "whatsappBody": "We typically reply within 5 minutes.",
+      "visitTitle": "Visit us",
+      "visitBody": "We would be delighted to welcome you at our modern clinic."
+    }
+  },
+  "footer": {
+    "tagline": "Clinical excellence in hair restoration, medical aesthetics and plastic surgery. Istanbul.",
+    "menu": "Menu",
+    "ourServices": "Our Services",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "disclaimer": "This site is for informational purposes only and does not substitute medical advice. An in-person consultation is required prior to any treatment.",
+    "kvkk": "Data Privacy Notice",
+    "privacy": "Privacy Policy"
+  },
+  "services": {
+    "indexMeta": {
+      "title": "Our Services — Grafta Clinic",
+      "description": "Discover the full range of hair restoration, medical aesthetics and plastic surgery services offered at Grafta Clinic."
+    },
+    "indexHero": {
+      "kicker": "Our Services",
+      "title": "From hair transplant to plastic surgery — under one roof",
+      "subtitle": "Each service is planned by specialist doctors with personalised protocols."
+    },
+    "common": {
+      "benefitsTitle": "Benefits",
+      "processTitle": "Treatment Process",
+      "faqTitle": "Frequently Asked Questions",
+      "ctaTitle": "Let's design the right plan for you",
+      "ctaSubtitle": "Reach us for a free, no-obligation consultation."
+    },
+    "hair-transplant": {
+      "title": "Hair Transplant",
+      "shortDescription": "Natural-looking hair restoration with FUE, DHI and Sapphire techniques.",
+      "metaTitle": "Hair Transplant (FUE, DHI, Sapphire) — Grafta Clinic Istanbul",
+      "metaDescription": "Natural results in hair transplant with FUE, DHI and Sapphire FUE techniques. Expert team, certified clinic. Free consultation at Grafta Clinic.",
+      "heroTitle": "Hair Transplant",
+      "heroSubtitle": "Stop hair loss with FUE, DHI and Sapphire FUE techniques. A natural, permanent hairline using your own follicles.",
+      "description": "Hair transplant is the procedure of relocating healthy follicles, typically harvested from the donor area at the back of the scalp, to areas of thinning or recession. At Grafta Clinic we apply FUE, DHI and Sapphire FUE techniques and select the most suitable method for each patient, preserving the natural angle and density of hair.",
+      "benefits": [
+        "Natural-looking, permanent results",
+        "Scarless FUE/DHI techniques",
+        "High graft capacity in a single session",
+        "Pain-free under local anaesthesia",
+        "Quick return to social life"
+      ],
+      "process": [
+        { "step": "Consultation & analysis", "description": "Hairline design, donor area assessment and technique selection." },
+        { "step": "Preparation & anaesthesia", "description": "Local anaesthesia and donor area preparation." },
+        { "step": "Graft extraction", "description": "Follicles harvested one by one with a micromotor." },
+        { "step": "Channel opening", "description": "Micro-channels created with the natural direction and angle." },
+        { "step": "Graft placement", "description": "Follicles implanted with a DHI pen or implanter." },
+        { "step": "Follow-up", "description": "Long-term follow-up at month 1, 3, 6 and 12." }
+      ],
+      "faq": [
+        { "question": "Will there be visible scars?", "answer": "FUE and DHI techniques do not leave a visible scar. Pinpoint marks in the donor area fade quickly." },
+        { "question": "When will results show?", "answer": "New hair starts growing from month 3-4; final result becomes visible by month 12." },
+        { "question": "Will the transplanted hair fall out?", "answer": "Grafts taken from genetically resistant areas are permanent; the initial 'shock loss' in the first weeks is normal." },
+        { "question": "How long does the operation take?", "answer": "Typically 6-8 hours, depending on the number of grafts." }
+      ]
+    },
+    "beard-transplant": {
+      "title": "Beard Transplant",
+      "shortDescription": "A permanent solution for sparse or patchy beard areas via FUE.",
+      "metaTitle": "Beard Transplant — Grafta Clinic",
+      "metaDescription": "Beard transplant for sparse areas with natural density. FUE technique, expert surgeon, lasting result. Free consultation at Grafta Clinic.",
+      "heroTitle": "Beard Transplant",
+      "heroSubtitle": "A permanent solution with natural direction and density for genetic or scar-related sparse beard areas.",
+      "description": "Beard transplant is mostly performed with the FUE technique. Grafts harvested from the donor area are placed in the beard region following the correct angle and direction. The result is natural and shavable.",
+      "benefits": [
+        "Symmetric, natural look",
+        "Single-session result",
+        "Scarless FUE technique",
+        "Shavable, natural hairs",
+        "Permanent outcome"
+      ],
+      "process": [
+        { "step": "Design", "description": "Beard line drawn following facial proportions." },
+        { "step": "Donor preparation", "description": "Suitable grafts selected from the donor area." },
+        { "step": "Graft extraction", "description": "Follicles harvested with a micromotor." },
+        { "step": "Placement", "description": "Each follicle placed at the natural angle." },
+        { "step": "Care", "description": "Aftercare and follow-up in the first week." }
+      ],
+      "faq": [
+        { "question": "Can I shave after a beard transplant?", "answer": "Yes, transplanted hairs can be shaved comfortably from month 6." },
+        { "question": "Is it painful?", "answer": "The procedure is painless under local anaesthesia." },
+        { "question": "When will I see the final result?", "answer": "Final density and naturalness appear at months 8-12." }
+      ]
+    },
+    "eyebrow-transplant": {
+      "title": "Eyebrow Transplant",
+      "shortDescription": "Natural density for the brow line: a permanent restoration.",
+      "metaTitle": "Eyebrow Transplant — Grafta Clinic",
+      "metaDescription": "Eyebrow transplant for thin, sparse or scar-affected brows. Micro-design, expert surgeon, permanent result. Grafta Clinic.",
+      "heroTitle": "Eyebrow Transplant",
+      "heroSubtitle": "Permanent restoration with natural direction and density for brows lost to genetics, trauma or over-plucking.",
+      "description": "In eyebrow transplant, single follicular units harvested from the donor area are placed in the brow region at micro-angles. The outcome is harmonious with facial expression, naturally dense and permanent.",
+      "benefits": [
+        "Symmetry that defines facial expression",
+        "Natural direction and angle",
+        "Micro-design, lasting result",
+        "Scarless FUE/DHI technique"
+      ],
+      "process": [
+        { "step": "Design", "description": "Drawing aligned with facial proportions and approval." },
+        { "step": "Donor harvest", "description": "Single follicles collected." },
+        { "step": "Placement", "description": "Implantation observing direction and angle." },
+        { "step": "Follow-up", "description": "Reviews at month 1, 3 and 6." }
+      ],
+      "faq": [
+        { "question": "Will the eyebrow hairs grow?", "answer": "Yes, since they originate from the donor area; they grow like hair and need regular trimming." },
+        { "question": "How many follicles are needed?", "answer": "Usually 200-400 follicles for both brows." }
+      ]
+    },
+    "alopecia-treatment": {
+      "title": "Alopecia Treatment",
+      "shortDescription": "A dermatological and medical approach to localised hair loss.",
+      "metaTitle": "Alopecia Areata Treatment — Grafta Clinic",
+      "metaDescription": "Dermatological care, intralesional injections and combination protocols for alopecia areata. Under specialist supervision.",
+      "heroTitle": "Alopecia Treatment",
+      "heroSubtitle": "Scientific, individually tailored treatment protocols for autoimmune-related localised hair loss.",
+      "description": "Alopecia areata is an autoimmune condition presenting as round or oval patches of hair loss on the scalp. Treatment includes dermatological assessment, intralesional steroid injections when appropriate, topical therapies and combinations with PRP/mesotherapy.",
+      "benefits": [
+        "Dermatologist evaluation",
+        "Personalised protocol",
+        "Evidence-based approach",
+        "Long-term follow-up"
+      ],
+      "process": [
+        { "step": "Examination", "description": "Dermoscopy and laboratory tests where needed." },
+        { "step": "Diagnosis", "description": "Subtype classification (areata, totalis, universalis)." },
+        { "step": "Treatment plan", "description": "Selection of intralesional or topical therapy." },
+        { "step": "Follow-up", "description": "Monthly reviews with plan adjustments." }
+      ],
+      "faq": [
+        { "question": "Does alopecia come back?", "answer": "With the right treatment, regrowth is achieved in most patients; recurrences are possible in some cases." },
+        { "question": "How long does the treatment take?", "answer": "Typically 3-12 months depending on the subtype." }
+      ]
+    },
+    "prp-therapy": {
+      "title": "PRP Therapy",
+      "shortDescription": "Hair and skin rejuvenation with plasma derived from your own blood.",
+      "metaTitle": "PRP Therapy (Hair & Skin) — Grafta Clinic",
+      "metaDescription": "Stop hair loss and renew your skin with PRP. Growth factors derived from your own blood. Specialist supervision.",
+      "heroTitle": "PRP Therapy",
+      "heroSubtitle": "Strengthen hair follicles and skin with platelet-rich plasma obtained from your own blood.",
+      "description": "In PRP (Platelet-Rich Plasma) therapy, platelet-rich plasma separated from the patient's own blood via centrifugation is microinjected into areas with hair loss or signs of ageing. The growth factors support follicular nourishment and tissue renewal.",
+      "benefits": [
+        "From your own blood — zero allergy risk",
+        "Marked reduction in hair loss",
+        "Skin radiance and tightening",
+        "Short session duration"
+      ],
+      "process": [
+        { "step": "Blood draw", "description": "A small blood sample is taken." },
+        { "step": "Centrifugation", "description": "Plasma is separated from the platelets." },
+        { "step": "Application", "description": "Microinjections into the scalp or skin." },
+        { "step": "Repeat", "description": "Usually 3-4 sessions, then maintenance." }
+      ],
+      "faq": [
+        { "question": "Is PRP painful?", "answer": "Discomfort is minimal with topical anaesthesia." },
+        { "question": "How often is it needed?", "answer": "Initially 3-4 sessions every 2-4 weeks, then a refresher every 6 months." }
+      ]
+    },
+    "mesotherapy": {
+      "title": "Mesotherapy",
+      "shortDescription": "Nourishing vitamin/mineral cocktails for hair and skin.",
+      "metaTitle": "Mesotherapy (Hair & Skin) — Grafta Clinic",
+      "metaDescription": "Personalised vitamin/amino acid cocktails for hair loss and skin renewal via mesotherapy. Grafta Clinic specialists.",
+      "heroTitle": "Mesotherapy",
+      "heroSubtitle": "Combinations of vitamins, amino acids and hyaluronic acid that nourish hair follicles and skin.",
+      "description": "Mesotherapy is the application of bespoke cocktails into the scalp or face via micro-needles. It is effective in slowing down hair loss and restoring radiance and hydration to the skin.",
+      "benefits": [
+        "Personalised cocktail",
+        "Quick application, immediate return to social life",
+        "Instant freshness for the skin",
+        "Adjunct support for hair loss"
+      ],
+      "process": [
+        { "step": "Assessment", "description": "Cocktail selection based on skin/hair analysis." },
+        { "step": "Application", "description": "Superficial injections via micro-needles." },
+        { "step": "Series", "description": "Typically once a week, 4-6 sessions." }
+      ],
+      "faq": [
+        { "question": "Are there side effects?", "answer": "Apart from temporary redness, side effects are rare." },
+        { "question": "When will results appear?", "answer": "After 1-2 sessions for skin, after 4-6 sessions for hair." }
+      ]
+    },
+    "fillers-botox": {
+      "title": "Fillers & Botox",
+      "shortDescription": "Injectables that smooth lines and restore volume.",
+      "metaTitle": "Botox and Filler Treatments — Grafta Clinic",
+      "metaDescription": "Soften expression lines with Botox, restore volume with fillers. Natural results, expert specialist. Grafta Clinic Istanbul.",
+      "heroTitle": "Fillers & Botox",
+      "heroSubtitle": "Medical aesthetic injectables that preserve a natural look while addressing expression lines and volume loss.",
+      "description": "Botox softens the lines on the forehead, between the brows and around the eyes. Hyaluronic acid fillers add natural volume to the cheekbones, lips, chin and cheeks. All treatments are administered under specialist supervision using certified products.",
+      "benefits": [
+        "Natural, understated outcome",
+        "15–30 minute application",
+        "Immediate return to social life",
+        "Possibility for staged planning"
+      ],
+      "process": [
+        { "step": "Consultation", "description": "Facial analysis and treatment map." },
+        { "step": "Application", "description": "Precise injection with fine-tip needles." },
+        { "step": "Follow-up", "description": "Day 10-14 review with optional touch-ups." }
+      ],
+      "faq": [
+        { "question": "How long does Botox last?", "answer": "Typically 4-6 months, after which it can be repeated." },
+        { "question": "Are fillers permanent?", "answer": "Hyaluronic acid fillers are absorbed by the body within 6-18 months." }
+      ]
+    },
+    "youth-vaccine": {
+      "title": "Youth Vaccine",
+      "shortDescription": "A bio-regenerative treatment for skin elasticity and glow.",
+      "metaTitle": "Youth Vaccine (Profhilo / NCTF) — Grafta Clinic",
+      "metaDescription": "Restore skin structure from within with the youth vaccine. Profhilo and similar bio-regenerative applications. Grafta Clinic.",
+      "heroTitle": "Youth Vaccine",
+      "heroSubtitle": "Bio-regenerative treatments that support the skin's own collagen production from within.",
+      "description": "The youth vaccine is the application of cocktails containing hyaluronic acid and multiple vitamins/amino acids (e.g. NCTF, Profhilo) that diffuse across the layers of the skin and support collagen and elastin production. It is not a permanent filler — it repairs the skin's own structure.",
+      "benefits": [
+        "Marked increase in skin elasticity",
+        "Natural radiance",
+        "Smoothing of fine lines",
+        "Effective on neck and hands as well"
+      ],
+      "process": [
+        { "step": "Analysis", "description": "Assessing the skin's age and needs." },
+        { "step": "Application", "description": "Microinjections distributed on the surface." },
+        { "step": "Repeat", "description": "Typically two sessions, four weeks apart." }
+      ],
+      "faq": [
+        { "question": "How long does it last?", "answer": "The first series lasts 6-9 months; an annual maintenance is recommended." },
+        { "question": "Who is it suitable for?", "answer": "From the late twenties onward, anyone wishing to maintain skin elasticity." }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Rhinoplasty",
+      "shortDescription": "A surgical plan for a natural nose in harmony with your face.",
+      "metaTitle": "Rhinoplasty (Nose Job) — Grafta Clinic",
+      "metaDescription": "Functional and aesthetic excellence with rhinoplasty. Open and closed techniques, expert plastic surgeon. Grafta Clinic.",
+      "heroTitle": "Rhinoplasty",
+      "heroSubtitle": "Natural, harmonious results in line with your facial features — function and aesthetics together.",
+      "description": "Rhinoplasty is plastic surgery aimed at altering the shape, size or function of the nose. At Grafta Clinic the procedure is planned with both open and closed techniques, considering both aesthetics and breathing function. In cases requiring septoplasty, a combined treatment is possible.",
+      "benefits": [
+        "Harmony with facial proportions",
+        "Simultaneous solution to breathing problems",
+        "Natural appearance",
+        "Permanent outcome"
+      ],
+      "process": [
+        { "step": "Consultation", "description": "3D analysis and assessment of facial proportions." },
+        { "step": "Planning", "description": "Choosing open/closed technique, aligning expectations." },
+        { "step": "Surgery", "description": "General anaesthesia, 2-3 hour procedure." },
+        { "step": "Recovery", "description": "Splint for the first week, social return in 7-10 days." },
+        { "step": "Follow-up", "description": "Reviews at month 1, 3, 6 and 12." }
+      ],
+      "faq": [
+        { "question": "When are the results final?", "answer": "Visible improvement in 1 month; final result by month 12." },
+        { "question": "What is the recovery time?", "answer": "Social life in 7-10 days; sports in 4-6 weeks." },
+        { "question": "Are both techniques permanent?", "answer": "Yes, both techniques deliver permanent results." }
+      ]
+    },
+    "breast-aesthetics": {
+      "title": "Breast Aesthetics",
+      "shortDescription": "Expert surgery for augmentation, reduction and lift.",
+      "metaTitle": "Breast Aesthetics (Augmentation, Reduction, Lift) — Grafta Clinic",
+      "metaDescription": "Augmentation, reduction and lift for breast aesthetics. CE/FDA-certified implants, expert plastic surgeon. Grafta Clinic.",
+      "heroTitle": "Breast Aesthetics",
+      "heroSubtitle": "Natural results in harmony with your body for augmentation, reduction and lift surgeries.",
+      "description": "Breast aesthetics covers different techniques such as augmentation, reduction and mastopexy (lift). The technique of choice depends on the patient's anatomy, skin structure and expectations. At Grafta Clinic, only CE/FDA-certified implants are used.",
+      "benefits": [
+        "Body-tailored planning",
+        "Certified implants",
+        "Natural appearance",
+        "Comfortable recovery"
+      ],
+      "process": [
+        { "step": "Consultation", "description": "Anatomical measurements and goal setting." },
+        { "step": "Planning", "description": "Selection of implant type/shape/placement." },
+        { "step": "Surgery", "description": "1-3 hour operation under general anaesthesia." },
+        { "step": "Recovery", "description": "Support bra and follow-ups for the first 6 weeks." }
+      ],
+      "faq": [
+        { "question": "How long do implants last?", "answer": "Modern implants can last 10-15 years or longer; routine check-ups are advised." },
+        { "question": "Will it affect breastfeeding?", "answer": "When the right technique is chosen, breastfeeding is generally not affected." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2b48"/>
+      <stop offset="55%" stop-color="#031632"/>
+      <stop offset="100%" stop-color="#5d4201"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#c5a059" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#c5a059" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia, serif" font-size="42" font-weight="600"
+        fill="#ffffff" opacity="0.55" letter-spacing="0.05em">
+    Grafta Clinic
+  </text>
+  <text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui, sans-serif" font-size="14"
+        fill="#c5a059" opacity="0.8" letter-spacing="0.3em">
+    BURAYA GÖRSEL EKLEYIN
+  </text>
+</svg>

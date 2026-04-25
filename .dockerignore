@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+.gitignore
+.env*.local
+.vercel
+*.md
+.vscode
+.idea
+.claude
+.DS_Store
+Thumbs.db
+graftalogo.png
+scripts

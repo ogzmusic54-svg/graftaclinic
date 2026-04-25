@@ -39,7 +39,188 @@
       "title": "Doğal sonuçlar.\nGüvenilir uzmanlar.",
       "subtitle": "Saç ekiminden plastik cerrahiye, medikal estetiğe kadar tüm ihtiyaçlarınız için tek merkez. Uzman doktor kadromuz ve son teknoloji ekipmanlarımızla, hayalini kurduğunuz görünüme güvenle ulaşın.",
       "primaryCta": "Ücretsiz Konsültasyon",
-      "secondaryCta": "Hizmetleri İncele"
+      "secondaryCta": "Hizmetleri İncele",
+      "badges": [
+        "Ücretsiz konsültasyon",
+        "Garantili sonuç",
+        "60+ ülkeden hasta",
+        "7/24 tercüman desteği"
+      ]
+    },
+    "whyUs": {
+      "kicker": "Neden Grafta Clinic?",
+      "title": "Sonuçtan önce, güveni öncelik yapan klinik",
+      "subtitle": "Yüzlerce kliniğin arasından sizi farkındalıkla seçtirecek somut farklarımız var. Hiçbiri reklam değil — çalışma şeklimizin doğası.",
+      "items": [
+        {
+          "title": "Sertifikalı uzman kadro",
+          "description": "Her doktorumuz alanının lider derneklerine üye, yıllık 200+ vaka deneyimi olan uzmanlardır. Operasyonu doktorun kendisi yapar — asistan ya da teknisyen değil."
+        },
+        {
+          "title": "Hastane standartlarında sterilite",
+          "description": "ISO 9001 sertifikalı modern ameliyathane, tek kullanımlık tıbbi malzeme protokolü ve düzenli mikrobiyolojik kontroller. CE/FDA onaylı cihazlar."
+        },
+        {
+          "title": "Uluslararası akreditasyon",
+          "description": "TC Sağlık Bakanlığı yetkili sağlık turizmi merkezi, Avrupa Estetik Cerrahi Derneği uyumu, ISHRS üyeliği. Belgelerimiz şeffaf."
+        },
+        {
+          "title": "Ömür boyu takip",
+          "description": "İşlem sonrası 1, 3, 6 ve 12. ay kontrolleri ücretsiz. Sonraki yıllarda da WhatsApp üzerinden doktorunuza doğrudan ulaşırsınız. Tek ödeme, ömür boyu destek."
+        }
+      ]
+    },
+    "process": {
+      "kicker": "Tedavi Süreci",
+      "title": "Şeffaf, planlı, kişiye özel",
+      "subtitle": "İlk mesajdan sonuca kadar her aşaması netleştirilmiş bir süreç. Sürpriz yok, gizli ek ücret yok.",
+      "steps": [
+        {
+          "title": "Ücretsiz Konsültasyon",
+          "description": "WhatsApp veya telefon üzerinden uzman ekibimize ulaşırsınız. Fotoğraflarınız üzerinden ön değerlendirme, soru-cevap.",
+          "duration": "30 DK"
+        },
+        {
+          "title": "Kişisel Plan",
+          "description": "Yüz yüze veya online detaylı görüşme. Doktor tedavi planını, beklenen sonucu ve maliyeti net olarak paylaşır.",
+          "duration": "1 SAAT"
+        },
+        {
+          "title": "Operasyon Günü",
+          "description": "Klinikte sizi karşılarız. İşlem sırasında konfor odası, sonrasında dinlenme alanı ve uzman bakım.",
+          "duration": "OPERASYON"
+        },
+        {
+          "title": "Takip & Bakım",
+          "description": "1, 3, 6 ve 12. ay kontrolleri. WhatsApp üzerinden doktorunuza doğrudan erişim, ücretsiz iyileşme rehberi.",
+          "duration": "12 AY"
+        }
+      ]
+    },
+    "results": {
+      "kicker": "Hasta Sonuçları",
+      "title": "Önce ve Sonra",
+      "subtitle": "Hastalarımızın yazılı izniyle paylaşılan gerçek sonuçlar. Her hastanın süreci ve sonuçları kişiseldir.",
+      "viewAll": "Tüm Sonuçları Gör",
+      "before": "Önce",
+      "after": "Sonra",
+      "beforeAfter": "önce ve sonra",
+      "disclaimer": "Sonuçlar kişiden kişiye değişiklik gösterir. Yukarıdaki görseller hastalarımızın yazılı izniyle paylaşılmıştır ve tedavi sözleşmesi niteliği taşımaz.",
+      "items": [
+        { "service": "Saç Ekimi · 4500 greft", "months": "12 ay sonrası" },
+        { "service": "Burun Estetiği", "months": "9 ay sonrası" },
+        { "service": "Sakal Ekimi · 2200 greft", "months": "8 ay sonrası" }
+      ]
+    },
+    "testimonials": {
+      "kicker": "Hasta Yorumları",
+      "title": "60+ ülkeden binlerce mutlu hasta",
+      "subtitle": "Tüm yorumlar bağımsız platformlarda doğrulanmıştır. Sansürsüz, gerçek deneyimler.",
+      "totalReviews": "1.247 yorum üzerinden",
+      "verified": "Doğrulandı",
+      "reviews": [
+        {
+          "name": "Mehmet K.",
+          "country": "Türkiye",
+          "flag": "🇹🇷",
+          "service": "Saç Ekimi",
+          "quote": "Doktor ilk konsültasyonda her şeyi netleştirdi, hiçbir sürprizle karşılaşmadım. 8. ayda eski fotoğraflarımla yeni hâlimi karşılaştırınca farkı görmek inanılmazdı. Personel ilgisi de kusursuzdu."
+        },
+        {
+          "name": "Sarah M.",
+          "country": "Almanya",
+          "flag": "🇩🇪",
+          "service": "Rinoplasti",
+          "quote": "Almanya'dan geldim, baştan sona her detayla ilgilendiler. Otel-transfer-tercüman hepsi paket içindeydi. Burnumun yeni hâlini seviyorum, doğal duruyor — kimse fark etmedi bile."
+        },
+        {
+          "name": "Ahmed R.",
+          "country": "Birleşik Arap Emirlikleri",
+          "flag": "🇦🇪",
+          "service": "Saç Ekimi",
+          "quote": "Dubai'de pek çok klinik gezdim, fiyat-kalite olarak Grafta Clinic ile yarışacak yer bulamadım. Sonuç beklediğimden iyi, takip kontrolleri hâlâ devam ediyor. Tavsiye ediyorum."
+        },
+        {
+          "name": "Elif Y.",
+          "country": "Türkiye",
+          "flag": "🇹🇷",
+          "service": "Dolgu & Botox",
+          "quote": "İlk kez yaptırıyordum çekincelerim vardı. Doktor 'fazla yapmayalım, doğal görünsün' dedi — bu cümle bile güvenimi kazandırdı. Sonuç tam istediğim gibi, hiç abartılı değil."
+        },
+        {
+          "name": "James O.",
+          "country": "İngiltere",
+          "flag": "🇬🇧",
+          "service": "Sakal Ekimi",
+          "quote": "I was skeptical about traveling to Turkey but Grafta made it seamless. English-speaking team, modern clinic, and my beard line is exactly what I wanted. Worth every penny."
+        },
+        {
+          "name": "Anna L.",
+          "country": "Hollanda",
+          "flag": "🇳🇱",
+          "service": "Göğüs Estetiği",
+          "quote": "Aylarca araştırdım, en sonunda Grafta Clinic'e karar verdim. Doktor anatomime uygun planı önerdi, kendi fikirlerimi dayatmadı. 6 ay sonra hâlâ memnunum, asla pişmanlığım olmadı."
+        }
+      ]
+    },
+    "international": {
+      "kicker": "Uluslararası Hasta",
+      "title": "Yurt dışından gelen hastalar için her şey hazır",
+      "subtitle": "60'tan fazla ülkeden hasta ağırlıyoruz. Havalimanından kliniğe, oteline kadar her detay düşünülmüş — siz sadece iyileşmeye odaklanın.",
+      "cta": "Yurt Dışı Paketi Hakkında Bilgi Al",
+      "stats": [
+        { "value": "60+", "label": "Ülke" },
+        { "value": "10K+", "label": "Yabancı Hasta" },
+        { "value": "98%", "label": "Memnuniyet" }
+      ],
+      "items": [
+        { "key": "translator", "title": "7/24 Tercüman", "description": "İngilizce, Almanca, Arapça, Rusça konuşan uzman ekip. WhatsApp'ta kendi dilinizde yazın." },
+        { "key": "transfer", "title": "Havalimanı Transferi", "description": "VIP araçla havalimanı-otel-klinik arası tüm transferler dahil. Karşılama lobide." },
+        { "key": "hotel", "title": "Otel Konaklaması", "description": "Anlaşmalı 4-5 yıldızlı otellerde indirimli konaklama. Refakatçinizle birlikte rahat günler." },
+        { "key": "vip", "title": "VIP Karşılama", "description": "Klinikte özel resepsiyon, dinlenme suiti, doktorunuzla baş başa görüşme." },
+        { "key": "consultation", "title": "Online Ön Değerlendirme", "description": "Gelmeden önce video görüşme + foto analiz. Yolculuk öncesi her şeyi netleştirin." },
+        { "key": "warranty", "title": "Garanti Belgesi", "description": "Tüm operasyonlarımız resmi garanti belgesiyle. Kontrol gezilerinize doktorunuz hazır." }
+      ]
+    },
+    "faq": {
+      "kicker": "Sıkça Sorulanlar",
+      "title": "Cevap aradığınız her şey",
+      "subtitle": "En çok sorulan soruların cevabını derledik. Listede olmayan bir sorunuz varsa WhatsApp'tan yazmanız yeterli — 5 dakika içinde dönüş yapıyoruz.",
+      "cta": "Sorumu Sormak İstiyorum",
+      "items": [
+        {
+          "question": "İlk konsültasyon ücretli mi?",
+          "answer": "Hayır, ilk konsültasyon tamamen ücretsiz ve bağlayıcı değildir. Yüz yüze veya online görüşme tercihinize bağlı. Tedavi yaptırma zorunluluğunuz yok."
+        },
+        {
+          "question": "Tedavi maliyetleri ne kadar?",
+          "answer": "Maliyet hizmete ve hastaya özel olarak değişir. Saç ekimi greft sayısına, plastik cerrahi operasyon kapsamına göre fiyatlandırılır. Ücretsiz konsültasyondan sonra detaylı maliyet planı paylaşılır. Sürpriz ek ücret yoktur."
+        },
+        {
+          "question": "Yurt dışından gelirsem ne kadar İstanbul'da kalmam gerekir?",
+          "answer": "Saç ekiminde 3 gün, plastik cerrahide 5-10 gün arası değişir. Otel + transfer + tercüman dahil pakette her şey planlanır. Detaylı program konsültasyonda paylaşılır."
+        },
+        {
+          "question": "Operasyon sonrası iyileşme ne kadar sürer?",
+          "answer": "Saç ekimi sonrası 7-10 gün içinde sosyal hayata dönülebilir. Plastik cerrahide 2-3 haftada belirgin iyileşme, tam toparlanma 4-6 hafta. Süreç boyunca doktorunuzla WhatsApp temasınız aktif."
+        },
+        {
+          "question": "Sonuç garantisi var mı?",
+          "answer": "Evet. Tüm operasyonlarımız yazılı garanti belgesiyle yapılır. Beklenen sonuç sağlanmazsa belirlenen koşullar altında ücretsiz revizyon yapılır."
+        },
+        {
+          "question": "Hangi dillerde hizmet veriyorsunuz?",
+          "answer": "Türkçe, İngilizce, Almanca, Arapça ve Rusça uzman tercümanlarımız var. WhatsApp'ta kendi dilinizde yazabilir, yüz yüze görüşmede tercüman talep edebilirsiniz."
+        },
+        {
+          "question": "Ödeme nasıl yapılır?",
+          "answer": "Nakit, kredi kartı (taksit dahil), banka havalesi seçenekleri mevcut. Yurt dışı hastalar için EUR/USD/GBP kabul edilir. Erken ödeme indirimi olabilir."
+        },
+        {
+          "question": "Operasyondan vazgeçersem ne olur?",
+          "answer": "Ücretsiz konsültasyon dahil hiçbir ön ödeme yoktur. Operasyon kararı yalnızca size aittir. Plan onaylandıktan sonra dahi belirli bir süre içinde iptal mümkündür."
+        }
+      ]
     },
     "trust": {
       "title": "Sayılarla Grafta Clinic",
@@ -158,6 +339,14 @@
     "disclaimer": "Bu site bilgi amaçlıdır ve tıbbi tavsiye yerine geçmez. Her tedavi öncesi yüz yüze konsültasyon zorunludur.",
     "kvkk": "KVKK Aydınlatma Metni",
     "privacy": "Gizlilik Politikası"
+  },
+  "results": {
+    "metaTitle": "Hasta Sonuçları — Önce ve Sonra | Grafta Clinic",
+    "metaDescription": "Grafta Clinic hastalarının yazılı izniyle paylaşılan saç ekimi, plastik cerrahi ve estetik tedavi öncesi-sonrası fotoğrafları.",
+    "kicker": "Önce ve Sonra",
+    "title": "Gerçek hastalar, gerçek sonuçlar",
+    "subtitle": "Hastalarımızın yazılı izniyle paylaştığımız fotoğraflar. Her birinin arkasında uzun bir takip süreci var.",
+    "monthsLater": "ay sonrası"
   },
   "services": {
     "indexMeta": {

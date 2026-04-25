@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();
-  const staticPaths = ["", "/about", "/services", "/contact"];
+  const staticPaths = ["", "/about", "/services", "/results", "/contact"];
 
   const entries: MetadataRoute.Sitemap = [];
 

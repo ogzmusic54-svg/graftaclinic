@@ -52,6 +52,17 @@ export function Hero() {
               {tCommon("callNow")}
             </a>
           </div>
+
+          <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 text-sm text-white/80 border-t border-white/10 pt-6">
+            {(t.raw("badges") as string[]).map((badge, i) => (
+              <span key={i} className="inline-flex items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 20 20" className="text-[var(--color-accent-bright)] shrink-0" aria-hidden="true">
+                  <path d="M4 10l4 4 8-8" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                {badge}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>

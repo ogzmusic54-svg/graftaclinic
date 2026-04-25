@@ -39,7 +39,188 @@
       "title": "Natürliche Ergebnisse.\nVertrauenswürdige Experten.",
       "subtitle": "Von der Haartransplantation über plastische Chirurgie bis hin zur medizinischen Ästhetik — eine Adresse für jedes Anliegen. Mit unserem Spezialistenteam und modernster Technologie erreichen Sie selbstbewusst Ihr Wunschbild.",
       "primaryCta": "Kostenlose Beratung",
-      "secondaryCta": "Leistungen ansehen"
+      "secondaryCta": "Leistungen ansehen",
+      "badges": [
+        "Kostenlose Beratung",
+        "Garantierte Ergebnisse",
+        "Patienten aus über 60 Ländern",
+        "24/7 Dolmetscher-Service"
+      ]
+    },
+    "whyUs": {
+      "kicker": "Warum Grafta Clinic?",
+      "title": "Eine Klinik, die Vertrauen vor Ergebnis stellt",
+      "subtitle": "Unter Hunderten von Kliniken sind dies die konkreten Punkte, die uns unterscheiden. Keine Marketingversprechen — so arbeiten wir grundsätzlich.",
+      "items": [
+        {
+          "title": "Zertifiziertes Spezialistenteam",
+          "description": "Jeder unserer Ärzte ist Mitglied in führenden Fachgesellschaften und führt 200+ Fälle pro Jahr durch. Der Eingriff wird vom Arzt persönlich durchgeführt — niemals von Assistenten oder Technikern."
+        },
+        {
+          "title": "Klinikstandard-Sterilität",
+          "description": "ISO 9001 zertifizierte moderne Operationssäle, Einmalmaterialien und regelmäßige mikrobiologische Audits. Ausschließlich CE/FDA zugelassene Geräte."
+        },
+        {
+          "title": "Internationale Akkreditierung",
+          "description": "Vom türkischen Gesundheitsministerium autorisiertes Gesundheitstourismuszentrum, EAES-konform, ISHRS-Mitglied. Unsere Zertifikate sind transparent."
+        },
+        {
+          "title": "Lebenslange Nachsorge",
+          "description": "Kostenlose Kontrollen in Monat 1, 3, 6 und 12. Direkter WhatsApp-Zugang zu Ihrem Arzt jahrelang. Einmalzahlung, lebenslange Betreuung."
+        }
+      ]
+    },
+    "process": {
+      "kicker": "Behandlungsablauf",
+      "title": "Transparent, geplant, individuell",
+      "subtitle": "Jeder Schritt von Ihrer ersten Nachricht bis zum Endergebnis ist klar geregelt. Keine Überraschungen, keine versteckten Kosten.",
+      "steps": [
+        {
+          "title": "Kostenlose Beratung",
+          "description": "Erreichen Sie unsere Spezialisten per WhatsApp oder Telefon. Vorbewertung anhand von Fotos, all Ihre Fragen werden beantwortet.",
+          "duration": "30 MIN"
+        },
+        {
+          "title": "Persönlicher Plan",
+          "description": "Ausführliches persönliches oder Online-Treffen. Der Arzt teilt Behandlungsplan, erwartetes Ergebnis und Gesamtkosten offen mit.",
+          "duration": "1 STUNDE"
+        },
+        {
+          "title": "Tag des Eingriffs",
+          "description": "Wir empfangen Sie in der Klinik. Komfortsuite während des Eingriffs, Erholungsbereich und engagierte Betreuung danach.",
+          "duration": "EINGRIFF"
+        },
+        {
+          "title": "Nachsorge & Pflege",
+          "description": "Kontrollen in Monat 1, 3, 6 und 12. Direkter WhatsApp-Zugang zu Ihrem Arzt, kostenloser Genesungsleitfaden.",
+          "duration": "12 MONATE"
+        }
+      ]
+    },
+    "results": {
+      "kicker": "Patientenergebnisse",
+      "title": "Vorher und Nachher",
+      "subtitle": "Echte Ergebnisse, mit schriftlicher Zustimmung der Patienten geteilt. Jeder Verlauf ist individuell.",
+      "viewAll": "Alle Ergebnisse ansehen",
+      "before": "Vorher",
+      "after": "Nachher",
+      "beforeAfter": "vorher und nachher",
+      "disclaimer": "Ergebnisse variieren von Person zu Person. Die obigen Bilder wurden mit schriftlicher Zustimmung unserer Patienten geteilt und stellen keine Behandlungsgarantie dar.",
+      "items": [
+        { "service": "Haartransplantation · 4500 Grafts", "months": "Nach 12 Monaten" },
+        { "service": "Nasenkorrektur", "months": "Nach 9 Monaten" },
+        { "service": "Barttransplantation · 2200 Grafts", "months": "Nach 8 Monaten" }
+      ]
+    },
+    "testimonials": {
+      "kicker": "Patientenbewertungen",
+      "title": "Tausende zufriedene Patienten aus über 60 Ländern",
+      "subtitle": "Alle Bewertungen werden auf unabhängigen Plattformen verifiziert. Ungefiltert, echte Erfahrungen.",
+      "totalReviews": "aus 1.247 Bewertungen",
+      "verified": "Verifiziert",
+      "reviews": [
+        {
+          "name": "Mehmet K.",
+          "country": "Türkei",
+          "flag": "🇹🇷",
+          "service": "Haartransplantation",
+          "quote": "Der Arzt klärte alles in der ersten Beratung, keine Überraschungen. Im 8. Monat war der Unterschied zwischen alten und neuen Fotos unglaublich. Auch die Betreuung war makellos."
+        },
+        {
+          "name": "Sarah M.",
+          "country": "Deutschland",
+          "flag": "🇩🇪",
+          "service": "Nasenkorrektur",
+          "quote": "Ich kam aus Deutschland und sie kümmerten sich um jedes Detail. Hotel-Transfer-Dolmetscher waren alle im Paket. Ich liebe meine neue Nase, sie sieht natürlich aus — keiner hat es bemerkt."
+        },
+        {
+          "name": "Ahmed R.",
+          "country": "Vereinigte Arabische Emirate",
+          "flag": "🇦🇪",
+          "service": "Haartransplantation",
+          "quote": "Ich besuchte viele Kliniken in Dubai, aber das Preis-Leistungs-Verhältnis von Grafta Clinic ist unschlagbar. Das Ergebnis war besser als erwartet. Ich empfehle sie weiter."
+        },
+        {
+          "name": "Elif Y.",
+          "country": "Türkei",
+          "flag": "🇹🇷",
+          "service": "Filler & Botox",
+          "quote": "Es war mein erstes Mal, ich hatte Bedenken. Der Arzt sagte: 'Lass uns nicht übertreiben, natürlich bleiben' — dieser Satz schaffte Vertrauen. Das Ergebnis ist genau wie ich es wollte."
+        },
+        {
+          "name": "James O.",
+          "country": "Vereinigtes Königreich",
+          "flag": "🇬🇧",
+          "service": "Barttransplantation",
+          "quote": "I was skeptical about traveling to Turkey but Grafta made it seamless. English-speaking team, modern clinic, and my beard line is exactly what I wanted. Worth every penny."
+        },
+        {
+          "name": "Anna L.",
+          "country": "Niederlande",
+          "flag": "🇳🇱",
+          "service": "Brustästhetik",
+          "quote": "Ich recherchierte monatelang und entschied mich für Grafta Clinic. Der Arzt schlug einen Plan passend zu meiner Anatomie vor, ohne eigene Ideen aufzudrängen. 6 Monate später bin ich noch zufrieden, keine Reue."
+        }
+      ]
+    },
+    "international": {
+      "kicker": "Internationale Patienten",
+      "title": "Alles ist bereit für Patienten aus dem Ausland",
+      "subtitle": "Wir empfangen Patienten aus über 60 Ländern. Jedes Detail ist geregelt — vom Flughafen bis zur Klinik bis zum Hotel — damit Sie sich nur auf Ihre Genesung konzentrieren.",
+      "cta": "Mehr zum internationalen Paket erfahren",
+      "stats": [
+        { "value": "60+", "label": "Länder" },
+        { "value": "10K+", "label": "Internationale Patienten" },
+        { "value": "98%", "label": "Zufriedenheit" }
+      ],
+      "items": [
+        { "key": "translator", "title": "24/7 Dolmetscher", "description": "Spezialistenteam mit Englisch, Deutsch, Arabisch, Russisch. Schreiben Sie uns auf WhatsApp in Ihrer Sprache." },
+        { "key": "transfer", "title": "Flughafentransfer", "description": "VIP-Transfers zwischen Flughafen, Hotel und Klinik — alles inklusive. Empfang in der Lobby." },
+        { "key": "hotel", "title": "Hotelunterkunft", "description": "Vergünstigte Aufenthalte in unseren 4-5 Sterne Partnerhotels. Komfortable Tage für Sie und Begleitung." },
+        { "key": "vip", "title": "VIP-Empfang", "description": "Privater Empfang in der Klinik, Erholungssuite, Einzelgespräch mit Ihrem Arzt." },
+        { "key": "consultation", "title": "Online-Vorbewertung", "description": "Videogespräch + Fotoanalyse vor Ihrer Reise. Alles geklärt vor der Anreise." },
+        { "key": "warranty", "title": "Schriftliche Garantie", "description": "Alle Eingriffe mit offiziellem Garantiezertifikat. Ihr Arzt ist auch bei Ihren Folgereisen verfügbar." }
+      ]
+    },
+    "faq": {
+      "kicker": "Häufig gestellte Fragen",
+      "title": "Antworten auf alle Ihre Fragen",
+      "subtitle": "Wir haben die häufigsten Fragen gesammelt. Wenn Ihre nicht dabei ist, schreiben Sie uns auf WhatsApp — wir antworten meist innerhalb von 5 Minuten.",
+      "cta": "Meine Frage stellen",
+      "items": [
+        {
+          "question": "Ist die erste Beratung kostenlos?",
+          "answer": "Ja, die erste Beratung ist komplett kostenlos und unverbindlich. Persönlich oder online — Ihre Wahl. Es besteht keine Verpflichtung zur Behandlung."
+        },
+        {
+          "question": "Wie viel kostet die Behandlung?",
+          "answer": "Kosten sind individuell. Haartransplantation wird nach Graftanzahl berechnet, plastische Chirurgie nach Eingriffsumfang. Nach der kostenlosen Beratung erhalten Sie einen detaillierten Plan. Keine versteckten Gebühren."
+        },
+        {
+          "question": "Wie lange muss ich aus dem Ausland in Istanbul bleiben?",
+          "answer": "3 Tage für Haartransplantation, 5-10 Tage für plastische Chirurgie. Das Hotel + Transfer + Dolmetscher Paket regelt alles. Detaillierter Plan in der Beratung."
+        },
+        {
+          "question": "Wie lange dauert die Genesung?",
+          "answer": "Nach Haartransplantation Rückkehr ins Sozialleben in 7-10 Tagen. Nach plastischer Chirurgie sichtbare Genesung in 2-3 Wochen, vollständig in 4-6 Wochen. Ihr Arzt bleibt per WhatsApp erreichbar."
+        },
+        {
+          "question": "Bieten Sie eine Garantie?",
+          "answer": "Ja. Alle unsere Eingriffe haben eine schriftliche Garantie. Wenn das erwartete Ergebnis nicht erreicht wird, erfolgt eine kostenlose Revision unter definierten Bedingungen."
+        },
+        {
+          "question": "Welche Sprachen unterstützen Sie?",
+          "answer": "Wir haben Fachdolmetscher für Türkisch, Englisch, Deutsch, Arabisch und Russisch. Schreiben Sie uns in Ihrer Sprache auf WhatsApp; bei Vor-Ort-Treffen können Sie einen Dolmetscher anfordern."
+        },
+        {
+          "question": "Wie wird bezahlt?",
+          "answer": "Bargeld, Kreditkarte (mit Ratenzahlung), Banküberweisung möglich. EUR/USD/GBP für internationale Patienten akzeptiert. Frühzahlerrabatte möglich."
+        },
+        {
+          "question": "Was, wenn ich es mir anders überlege?",
+          "answer": "Inkl. der kostenlosen Beratung sind keine Vorauszahlungen erforderlich. Die Entscheidung liegt allein bei Ihnen. Auch nach Planabstimmung ist innerhalb einer definierten Frist eine Stornierung möglich."
+        }
+      ]
     },
     "trust": {
       "title": "Grafta Clinic in Zahlen",
@@ -158,6 +339,14 @@
     "disclaimer": "Diese Website dient ausschließlich Informationszwecken und ersetzt keine medizinische Beratung. Vor jeder Behandlung ist eine persönliche Beratung erforderlich.",
     "kvkk": "Datenschutzhinweis",
     "privacy": "Datenschutzerklärung"
+  },
+  "results": {
+    "metaTitle": "Patientenergebnisse — Vorher und Nachher | Grafta Clinic",
+    "metaDescription": "Vorher-Nachher-Fotos von Haartransplantation, plastischer Chirurgie und ästhetischen Behandlungen in der Grafta Clinic, mit schriftlicher Patientenzustimmung geteilt.",
+    "kicker": "Vorher und Nachher",
+    "title": "Echte Patienten, echte Ergebnisse",
+    "subtitle": "Fotos, die wir mit der schriftlichen Zustimmung unserer Patienten teilen. Hinter jedem steht eine lange Nachsorgereise.",
+    "monthsLater": "Monate später"
   },
   "services": {
     "indexMeta": {

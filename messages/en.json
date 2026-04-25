@@ -39,7 +39,188 @@
       "title": "Natural results.\nTrusted experts.",
       "subtitle": "From hair restoration to plastic surgery and medical aesthetics — one address for every need. With our expert doctors and state-of-the-art technology, achieve the look you have envisioned with confidence.",
       "primaryCta": "Free Consultation",
-      "secondaryCta": "Explore Services"
+      "secondaryCta": "Explore Services",
+      "badges": [
+        "Free consultation",
+        "Guaranteed results",
+        "Patients from 60+ countries",
+        "24/7 interpreter support"
+      ]
+    },
+    "whyUs": {
+      "kicker": "Why Grafta Clinic?",
+      "title": "A clinic that puts trust before results",
+      "subtitle": "Among hundreds of clinics, here are the concrete reasons that set us apart. None of these are marketing slogans — they are how we operate by default.",
+      "items": [
+        {
+          "title": "Certified specialist team",
+          "description": "Each of our doctors is a member of leading associations in their field, with 200+ cases per year. The doctor performs the procedure personally — never an assistant or technician."
+        },
+        {
+          "title": "Hospital-grade sterility",
+          "description": "ISO 9001 certified modern operating theatres, single-use medical supplies and routine microbiological audits. CE/FDA approved equipment only."
+        },
+        {
+          "title": "International accreditation",
+          "description": "Authorized health tourism centre by the Turkish Ministry of Health, EAES alignment, ISHRS membership. Our credentials are fully transparent."
+        },
+        {
+          "title": "Lifetime follow-up",
+          "description": "Free check-ups at month 1, 3, 6 and 12. Direct WhatsApp access to your doctor afterwards, for years to come. One-time payment, lifelong support."
+        }
+      ]
+    },
+    "process": {
+      "kicker": "Treatment Process",
+      "title": "Transparent, planned, personalised",
+      "subtitle": "Every step from your first message to the final outcome is clearly mapped out. No surprises, no hidden costs.",
+      "steps": [
+        {
+          "title": "Free Consultation",
+          "description": "Reach our specialists via WhatsApp or phone. Photo-based pre-evaluation, your questions answered.",
+          "duration": "30 MIN"
+        },
+        {
+          "title": "Personal Plan",
+          "description": "An in-depth in-person or online meeting. The doctor shares the treatment plan, expected outcome and total cost openly.",
+          "duration": "1 HOUR"
+        },
+        {
+          "title": "Day of the Procedure",
+          "description": "We welcome you at the clinic. Comfort suite during the procedure, recovery area and dedicated care afterwards.",
+          "duration": "PROCEDURE"
+        },
+        {
+          "title": "Follow-up & Care",
+          "description": "Reviews at month 1, 3, 6 and 12. Direct WhatsApp access to your doctor, free recovery guide.",
+          "duration": "12 MONTHS"
+        }
+      ]
+    },
+    "results": {
+      "kicker": "Patient Results",
+      "title": "Before and After",
+      "subtitle": "Real results, shared with patients' written consent. Each patient's journey and outcome is unique.",
+      "viewAll": "View All Results",
+      "before": "Before",
+      "after": "After",
+      "beforeAfter": "before and after",
+      "disclaimer": "Results vary from person to person. The images above have been shared with our patients' written consent and do not constitute a treatment guarantee.",
+      "items": [
+        { "service": "Hair Transplant · 4500 grafts", "months": "12 months later" },
+        { "service": "Rhinoplasty", "months": "9 months later" },
+        { "service": "Beard Transplant · 2200 grafts", "months": "8 months later" }
+      ]
+    },
+    "testimonials": {
+      "kicker": "Patient Reviews",
+      "title": "Thousands of happy patients from 60+ countries",
+      "subtitle": "All reviews are verified on independent platforms. Unfiltered, real experiences.",
+      "totalReviews": "from 1,247 reviews",
+      "verified": "Verified",
+      "reviews": [
+        {
+          "name": "Mehmet K.",
+          "country": "Türkiye",
+          "flag": "🇹🇷",
+          "service": "Hair Transplant",
+          "quote": "The doctor cleared everything in the first consultation, no surprises during the journey. By month 8 the contrast between old and new was unbelievable. The staff care was flawless too."
+        },
+        {
+          "name": "Sarah M.",
+          "country": "Germany",
+          "flag": "🇩🇪",
+          "service": "Rhinoplasty",
+          "quote": "I came from Germany and they handled every detail. Hotel-transfer-translator was all bundled. I love my new nose, it looks natural — nobody even noticed I had it done."
+        },
+        {
+          "name": "Ahmed R.",
+          "country": "United Arab Emirates",
+          "flag": "🇦🇪",
+          "service": "Hair Transplant",
+          "quote": "I visited many clinics in Dubai but Grafta Clinic's quality-to-price ratio is unmatched. Result better than expected, follow-up reviews are still ongoing. I recommend them."
+        },
+        {
+          "name": "Elif Y.",
+          "country": "Türkiye",
+          "flag": "🇹🇷",
+          "service": "Fillers & Botox",
+          "quote": "It was my first time and I was anxious. The doctor said 'let's not overdo it, keep it natural' — that single sentence built my trust. Result is exactly what I wanted, never overdone."
+        },
+        {
+          "name": "James O.",
+          "country": "United Kingdom",
+          "flag": "🇬🇧",
+          "service": "Beard Transplant",
+          "quote": "I was skeptical about traveling to Turkey but Grafta made it seamless. English-speaking team, modern clinic, and my beard line is exactly what I wanted. Worth every penny."
+        },
+        {
+          "name": "Anna L.",
+          "country": "Netherlands",
+          "flag": "🇳🇱",
+          "service": "Breast Aesthetics",
+          "quote": "I researched for months and finally chose Grafta Clinic. The doctor proposed a plan suited to my anatomy without imposing his own ideas. 6 months in, still happy, no regrets."
+        }
+      ]
+    },
+    "international": {
+      "kicker": "International Patients",
+      "title": "Everything is ready for patients arriving from abroad",
+      "subtitle": "We host patients from 60+ countries. Every detail is taken care of — from airport to clinic to hotel — so you can focus only on your recovery.",
+      "cta": "Ask About the International Package",
+      "stats": [
+        { "value": "60+", "label": "Countries" },
+        { "value": "10K+", "label": "International Patients" },
+        { "value": "98%", "label": "Satisfaction" }
+      ],
+      "items": [
+        { "key": "translator", "title": "24/7 Interpreter", "description": "Specialist team speaking English, German, Arabic, Russian. Message us in your language on WhatsApp." },
+        { "key": "transfer", "title": "Airport Transfer", "description": "VIP transfers between airport, hotel and clinic — all included. Welcome at the lobby." },
+        { "key": "hotel", "title": "Hotel Accommodation", "description": "Discounted stays at our partnered 4-5 star hotels. Comfortable days for you and a companion." },
+        { "key": "vip", "title": "VIP Welcome", "description": "Private reception at the clinic, recovery suite, one-on-one consultation with your doctor." },
+        { "key": "consultation", "title": "Online Pre-Evaluation", "description": "Video call + photo analysis before you travel. Everything cleared up before the journey." },
+        { "key": "warranty", "title": "Written Guarantee", "description": "All procedures come with an official guarantee certificate. Your doctor is available during your follow-up trips." }
+      ]
+    },
+    "faq": {
+      "kicker": "Frequently Asked Questions",
+      "title": "All the answers you are looking for",
+      "subtitle": "We've gathered the most common questions. If yours isn't listed, message us on WhatsApp — we typically reply in under 5 minutes.",
+      "cta": "Ask My Question",
+      "items": [
+        {
+          "question": "Is the first consultation free?",
+          "answer": "Yes, the first consultation is completely free and non-binding. In-person or online — your choice. There is no obligation to proceed with treatment."
+        },
+        {
+          "question": "How much does treatment cost?",
+          "answer": "Costs are personalised. Hair transplant is priced by graft count, plastic surgery by procedure scope. After the free consultation a detailed plan is shared. No hidden fees."
+        },
+        {
+          "question": "If I'm coming from abroad, how long do I need to stay in Istanbul?",
+          "answer": "3 days for hair transplant, 5-10 days for plastic surgery. The hotel + transfer + interpreter package handles everything. The exact program is shared during consultation."
+        },
+        {
+          "question": "How long is the recovery period?",
+          "answer": "After hair transplant, social return in 7-10 days. After plastic surgery, visible recovery in 2-3 weeks, full recovery in 4-6 weeks. Your doctor stays in WhatsApp contact throughout."
+        },
+        {
+          "question": "Do you offer a guarantee?",
+          "answer": "Yes. All our procedures come with a written guarantee. If the expected result is not achieved, free revision applies under defined terms."
+        },
+        {
+          "question": "Which languages do you support?",
+          "answer": "We have specialist interpreters in Turkish, English, German, Arabic and Russian. Message us in your language on WhatsApp; request an interpreter for in-person meetings."
+        },
+        {
+          "question": "How is payment made?",
+          "answer": "Cash, credit card (with installments), bank transfer all available. EUR/USD/GBP accepted for international patients. Early-payment discounts may apply."
+        },
+        {
+          "question": "What if I change my mind?",
+          "answer": "Including the free consultation, no upfront payment is required. The decision is entirely yours. Even after the plan is agreed, cancellation is possible within a defined window."
+        }
+      ]
     },
     "trust": {
       "title": "Grafta Clinic in numbers",
@@ -158,6 +339,14 @@
     "disclaimer": "This site is for informational purposes only and does not substitute medical advice. An in-person consultation is required prior to any treatment.",
     "kvkk": "Data Privacy Notice",
     "privacy": "Privacy Policy"
+  },
+  "results": {
+    "metaTitle": "Patient Results — Before and After | Grafta Clinic",
+    "metaDescription": "Before-and-after photos of hair transplant, plastic surgery and aesthetic treatments at Grafta Clinic, shared with patients' written consent.",
+    "kicker": "Before and After",
+    "title": "Real patients, real results",
+    "subtitle": "Photos shared with our patients' written consent. A long follow-up journey stands behind each one.",
+    "monthsLater": "months later"
   },
   "services": {
     "indexMeta": {

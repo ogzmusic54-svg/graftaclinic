@@ -51,10 +51,6 @@ export function BeforeAfterTeaser() {
                     {t("after")}
                   </span>
                 </div>
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <p className="font-serif text-lg leading-tight">{item.service}</p>
-                  <p className="text-xs text-white/80 mt-1">{item.months}</p>
-                </div>
               </div>
             </article>
           ))}

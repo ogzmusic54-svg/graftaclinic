@@ -94,6 +94,31 @@ export default async function ServiceDetailPage({ params }: PageProps) {
     },
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: tNav("home"),
+        item: `${siteConfig.url}/${locale}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: tNav("services"),
+        item: `${siteConfig.url}/${locale}/services`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: t("title"),
+        item: `${siteConfig.url}/${locale}/services/${slug}`,
+      },
+    ],
+  };
+
   return (
     <>
       <section className="relative overflow-hidden bg-[var(--color-primary-deep)] text-white">
@@ -247,6 +272,11 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(procedureJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
     </>
   );

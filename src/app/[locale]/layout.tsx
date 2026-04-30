@@ -11,6 +11,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { OrganizationSchema } from "@/components/OrganizationSchema";
+import { WebSiteSchema } from "@/components/WebSiteSchema";
 
 import "../globals.css";
 
@@ -124,6 +125,7 @@ export default async function LocaleLayout({
           <Footer />
           <WhatsAppFloat />
           <OrganizationSchema locale={locale as Locale} />
+          <WebSiteSchema locale={locale as Locale} />
         </NextIntlClientProvider>
       </body>
     </html>

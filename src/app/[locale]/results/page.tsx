@@ -72,9 +72,6 @@ export default async function ResultsPage({
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {PLACEHOLDER_RESULTS.map((item, i) => {
               const serviceTitle = tServices(`${item.service}.title`);
-              const subtitle = item.grafts
-                ? `${item.grafts} greft · ${item.months} ${t("monthsLater")}`
-                : `${item.months} ${t("monthsLater")}`;
               return (
                 <article key={i} className="card group">
                   <div className="relative aspect-square overflow-hidden">
@@ -93,10 +90,6 @@ export default async function ResultsPage({
                       <span className="px-2.5 py-1 rounded-full bg-[var(--color-accent)] text-xs font-bold text-[var(--color-primary-deep)] uppercase tracking-wider">
                         {tCommon("after")}
                       </span>
-                    </div>
-                    <div className="absolute bottom-4 left-4 right-4 text-white">
-                      <p className="font-serif text-lg leading-tight">{serviceTitle}</p>
-                      <p className="text-xs text-white/80 mt-1">{subtitle}</p>
                     </div>
                   </div>
                 </article>

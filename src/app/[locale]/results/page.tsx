@@ -81,7 +81,7 @@ export default async function ResultsPage({
                 <article key={i} className="card group">
                   <div className="relative aspect-square overflow-hidden">
                     <SmartImage
-                      src={`/images/results/result-${(i % 9) + 1}.jpg`}
+                      src={`/images/results/result-${(i % 7) + 1}.png`}
                       alt={`${serviceTitle} — ${tCommon("beforeAfter")}`}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"

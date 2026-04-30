@@ -8,9 +8,9 @@ export function BeforeAfterTeaser() {
   const t = useTranslations("home.results");
 
   const items: Item[] = [
-    { service: t("items.0.service"), months: t("items.0.months"), image: "/images/results/result-1.png" },
-    { service: t("items.1.service"), months: t("items.1.months"), image: "/images/results/result-2.png" },
-    { service: t("items.2.service"), months: t("items.2.months"), image: "/images/results/result-3.png" },
+    { service: t("items.0.service"), months: t("items.0.months"), image: "/images/results/result-1.jpg" },
+    { service: t("items.1.service"), months: t("items.1.months"), image: "/images/results/result-2.jpg" },
+    { service: t("items.2.service"), months: t("items.2.months"), image: "/images/results/result-3.jpg" },
   ];
 
   return (

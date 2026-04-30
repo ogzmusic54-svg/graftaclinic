@@ -5,7 +5,6 @@ import { WhyUs } from "@/components/WhyUs";
 import { ServicesSection } from "@/components/ServicesSection";
 import { ProcessSection } from "@/components/ProcessSection";
 import { BeforeAfterTeaser } from "@/components/BeforeAfterTeaser";
-import { DoctorsSection } from "@/components/DoctorsSection";
 import { Testimonials } from "@/components/Testimonials";
 import { InternationalSection } from "@/components/InternationalSection";
 import { TrustBadges } from "@/components/TrustBadges";
@@ -28,7 +27,6 @@ export default async function HomePage({
       <ServicesSection />
       <ProcessSection />
       <BeforeAfterTeaser />
-      <DoctorsSection />
       <Testimonials />
       <InternationalSection />
       <TrustBadges />

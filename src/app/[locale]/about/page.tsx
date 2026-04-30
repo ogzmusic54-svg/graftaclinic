@@ -6,7 +6,6 @@ import { routing, hasLocale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
 import { SmartImage } from "@/components/SmartImage";
 import { TrustStats } from "@/components/TrustStats";
-import { DoctorsSection } from "@/components/DoctorsSection";
 import { TrustBadges } from "@/components/TrustBadges";
 import { CtaSection } from "@/components/CtaSection";
 
@@ -118,7 +117,6 @@ export default async function AboutPage({
         </div>
       </section>
 
-      <DoctorsSection />
       <TrustBadges />
       <CtaSection />
     </>

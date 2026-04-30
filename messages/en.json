@@ -107,9 +107,9 @@
       "beforeAfter": "before and after",
       "disclaimer": "Results vary from person to person. The images above have been shared with our patients' written consent and do not constitute a treatment guarantee.",
       "items": [
+        { "service": "Hair Transplant · 3500 grafts", "months": "9 months later" },
         { "service": "Hair Transplant · 4500 grafts", "months": "12 months later" },
-        { "service": "Rhinoplasty", "months": "9 months later" },
-        { "service": "Beard Transplant · 2200 grafts", "months": "8 months later" }
+        { "service": "Hair Transplant · 5200 grafts", "months": "12 months later" }
       ]
     },
     "testimonials": {

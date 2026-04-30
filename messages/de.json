@@ -107,9 +107,9 @@
       "beforeAfter": "vorher und nachher",
       "disclaimer": "Ergebnisse variieren von Person zu Person. Die obigen Bilder wurden mit schriftlicher Zustimmung unserer Patienten geteilt und stellen keine Behandlungsgarantie dar.",
       "items": [
+        { "service": "Haartransplantation · 3500 Grafts", "months": "Nach 9 Monaten" },
         { "service": "Haartransplantation · 4500 Grafts", "months": "Nach 12 Monaten" },
-        { "service": "Nasenkorrektur", "months": "Nach 9 Monaten" },
-        { "service": "Barttransplantation · 2200 Grafts", "months": "Nach 8 Monaten" }
+        { "service": "Haartransplantation · 5200 Grafts", "months": "Nach 12 Monaten" }
       ]
     },
     "testimonials": {

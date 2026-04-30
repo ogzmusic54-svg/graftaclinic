@@ -33,15 +33,13 @@ export async function generateMetadata({
 }
 
 const PLACEHOLDER_RESULTS = [
-  { service: "hair-transplant", grafts: "4500", months: "12" },
   { service: "hair-transplant", grafts: "3200", months: "9" },
-  { service: "rhinoplasty", grafts: "", months: "9" },
-  { service: "rhinoplasty", grafts: "", months: "12" },
-  { service: "beard-transplant", grafts: "2200", months: "8" },
-  { service: "fillers-botox", grafts: "", months: "1" },
-  { service: "eyebrow-transplant", grafts: "350", months: "6" },
+  { service: "hair-transplant", grafts: "3800", months: "10" },
+  { service: "hair-transplant", grafts: "4200", months: "12" },
+  { service: "hair-transplant", grafts: "4500", months: "12" },
+  { service: "hair-transplant", grafts: "4800", months: "12" },
   { service: "hair-transplant", grafts: "5200", months: "12" },
-  { service: "breast-aesthetics", grafts: "", months: "6" },
+  { service: "hair-transplant", grafts: "5800", months: "14" },
 ];
 
 export default async function ResultsPage({

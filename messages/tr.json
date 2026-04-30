@@ -107,9 +107,9 @@
       "beforeAfter": "önce ve sonra",
       "disclaimer": "Sonuçlar kişiden kişiye değişiklik gösterir. Yukarıdaki görseller hastalarımızın yazılı izniyle paylaşılmıştır ve tedavi sözleşmesi niteliği taşımaz.",
       "items": [
+        { "service": "Saç Ekimi · 3500 greft", "months": "9 ay sonrası" },
         { "service": "Saç Ekimi · 4500 greft", "months": "12 ay sonrası" },
-        { "service": "Burun Estetiği", "months": "9 ay sonrası" },
-        { "service": "Sakal Ekimi · 2200 greft", "months": "8 ay sonrası" }
+        { "service": "Saç Ekimi · 5200 greft", "months": "12 ay sonrası" }
       ]
     },
     "testimonials": {

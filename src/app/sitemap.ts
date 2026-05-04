@@ -6,7 +6,15 @@ import { siteConfig } from "@/config/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();
-  const staticPaths = ["", "/about", "/services", "/results", "/contact", "/hair-transplant-turkey"];
+  const staticPaths = [
+    "",
+    "/about",
+    "/services",
+    "/results",
+    "/contact",
+    "/hair-transplant-turkey",
+    "/hiv-positive-hair-transplant-turkey",
+  ];
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -17,11 +25,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
     const isHome = path === "";
     const isLanding = path === "/hair-transplant-turkey";
+    const isNiche = path === "/hiv-positive-hair-transplant-turkey";
     entries.push({
       url: `${base}/${routing.defaultLocale}${path}`,
       lastModified: now,
       changeFrequency: isHome ? "weekly" : "monthly",
-      priority: isHome ? 1 : isLanding ? 0.9 : 0.8,
+      priority: isHome ? 1 : isLanding ? 0.9 : isNiche ? 0.85 : 0.8,
       alternates: { languages },
     });
   }

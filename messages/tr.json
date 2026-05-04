@@ -859,5 +859,124 @@
       "primary": "WhatsApp'tan Yaz",
       "secondary": "Hemen Ara"
     }
+  },
+  "hivPositive": {
+    "meta": {
+      "title": "Türkiye'de HIV Pozitif Saç Ekimi — Gizli, Ayrımcılıksız | Grafta Clinic",
+      "description": "Evet, İstanbul'da HIV pozitif hastalara saç ekimi uyguluyoruz. Aynı cerrah, aynı ameliyathane, aynı her şey dahil fiyat — mutlak gizlilik ile. ISHRS uyumlu protokol, ek ücret yok, işaretli dosya yok. Ücretsiz, gizli konsültasyon.",
+      "keywords": "hiv pozitif saç ekimi türkiye, hiv saç ekimi istanbul, hiv dostu saç ekimi kliniği, hiv hastaları için saç ekimi, gizli saç ekimi türkiye"
+    },
+    "hero": {
+      "kicker": "Gizli · Ayrımcılıksız · Diskret",
+      "title": "Türkiye'de HIV Pozitif Hastalar İçin Saç Ekimi",
+      "subtitle": "HIV pozitif hastaları, her hastamıza gösterdiğimiz aynı saygı, sterilite ve klinik mükemmellikle kabul ediyor ve tedavi ediyoruz. Ayrımcılığın tıpta yeri yoktur — ve durumunuz özel kalır.",
+      "h1Subline": "ISO 9001 sertifikalı · Her hasta için evrensel önlemler · KVKK / GDPR uyumlu tam gizlilik",
+      "primaryCta": "Gizli WhatsApp",
+      "secondaryCta": "Diskret E-posta",
+      "trustChips": [
+        "Ek ücret yok",
+        "Aynı cerrah, aynı ameliyathane",
+        "Personele ifşa yok",
+        "ISHRS uyumlu protokol",
+        "Yazılı gizlilik"
+      ]
+    },
+    "intro": {
+      "title": "Türkiye'deki birçok klinik neden sessizce 'hayır' diyor — ve biz neden demiyoruz",
+      "body": "HIV ile yaşayan birçok uluslararası hasta, durumlarını bir Türk saç ekimi kliniğine açıkladıktan sonra ya açıkça reddedildiklerini ya da 'takipten düştüklerini' bildiriyor. Genellikle gerekçe olarak HIV bir 'personel güvenliği' veya 'sterilizasyon' endişesi olarak sunuluyor. Her ikisi de tıbben ve hukuken yanlıştır. Modern saç ekimi prosedürleri zaten her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel önlemler kullanır — viral durumdan bağımsız olarak. HIV ile yaşayan bir kişiye bakım vermeyi reddetmek Türk tıbbi etik mevzuatını ihlal eder. Grafta Clinic'te ISHRS ve Türkiye Sağlık Bakanlığı'nın önerdiği bakım standardını uyguluyoruz: kontrollü viral yüke sahip HIV pozitif hastalar her hasta gibi tedavi edilir — ayrı oda, ayrı gün, ek ücret veya işaretli dosya yoktur."
+    },
+    "medicalReality": {
+      "title": "Tıbbi gerçek: HIV saç ekimi protokolünü değiştirmez",
+      "subtitle": "Her saygın cerrahın bildiği üç gerçek.",
+      "items": [
+        {
+          "title": "Evrensel önlemler herkese uygulanır",
+          "description": "Tek kullanımlık punch'lar, tek kullanımlık iğneler, sterilize edilmiş aletler, vakalar arasında değiştirilen eldivenler — bunlar HIV, HBV veya HCV durumundan bağımsız olarak her hasta için zorunlu standartlardır. 'Ekstra' bir protokol yoktur; standart protokol zaten herkesi korur."
+        },
+        {
+          "title": "Sonuçlar eşdeğerdir",
+          "description": "Hakemli kanıtlar, kontrollü HIV'li (CD4 350'nin üzerinde, stabil antiretroviral tedavi altında saptanamayan viral yük) hastalarda greft sağkalımı, iyileşme süresi ve nihai yoğunluğun HIV negatif kohortlarla istatistiksel olarak aynı olduğunu tutarlı biçimde gösterir."
+        },
+        {
+          "title": "Yasal bakım yükümlülüğü mutlaktır",
+          "description": "Türkiye Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi, hastalık durumuna dayalı ayrımcılığı açıkça yasaklar. Kontrollü HIV'i olan bir hastaya saç ekimini reddetmek Türkiye'de yasadışıdır."
+        }
+      ]
+    },
+    "ourProtocol": {
+      "title": "HIV pozitif hasta protokolümüz — klinik olarak aynı, ekstra diskret",
+      "subtitle": "'Özel' bir klinik yola ihtiyacımız yok. Yükseltilmiş bir gizlilik yolu sunuyoruz.",
+      "items": [
+        {
+          "title": "Operasyon öncesi kan tahlili incelemesi",
+          "description": "Son (90 gün içinde) CD4 sayımı, viral yük ve antiretroviral tedavi onayı isteriz. Bu, kronik tıbbi durumu olan her hasta için yürüttüğümüz standart op-öncesi inceleme ile aynıdır — diyabet, hipertansiyon, otoimmün hastalık — HIV'e özel değildir."
+        },
+        {
+          "title": "Aynı cerrah, aynı ameliyathane, aynı gün",
+          "description": "Sizi ayrıca veya günün son vakası olarak planlamayız. Her hasta gibi aynı cerrahı, aynı ameliyathaneyi ve aynı aletleri alırsınız — çünkü prosedürle ilgili hiçbir şey değişmez."
+        },
+        {
+          "title": "İşaretli dosya yok, 'kırmızı sticker' yok",
+          "description": "Durumunuz yalnızca cerrahınızın ve anestezistinizin erişebildiği şifrelenmiş hasta dosyanızda kayıtlıdır. Oda dışında işaretleme yoktur. Resepsiyon, şoförler, otel personeli ve tercümanlar tıbbi dosyanızı asla görmez."
+        },
+        {
+          "title": "Diskret ödeme seçenekleri",
+          "description": "Banka havalesi, kredi kartı ve nakit mevcuttur. Talep halinde fatura kalemleri 'saç ekimi' yerine 'estetik prosedür' olarak etiketlenebilir."
+        },
+        {
+          "title": "Diskret iletişim kanalları",
+          "description": "Fotoğraflar ve mesajlar tercih ettiğiniz mesajlaşma kanalı üzerinden iletilebilir. Arkadaş veya partner yazışmaları tamamen ayrı tutulur. Telefonunuza durumunuzu belirten hiçbir mesaj göndermeyiz."
+        }
+      ]
+    },
+    "confidentiality": {
+      "title": "Gizlilik, pratikte — sadece kâğıt üzerinde değil",
+      "items": [
+        "Tıbbi kayıtlar şifrelenmiş ve yalnızca doğrudan cerrahi ekibinize erişilebilir",
+        "Şoförlere, otel personeline veya tercümanlara durum ifşası yok",
+        "Fotoğraf belgeleri kimlik tanımlayıcı meta veriler olmadan saklanır",
+        "Talep halinde faturalar 'estetik prosedür' olarak etiketlenir",
+        "Açıkça yetkilendirmediğiniz sürece sigorta yazışması yapılmaz",
+        "Arkadaş veya partner refakatçi memnuniyetle ağırlanır — siz seçmedikçe bilmek zorunda değiller",
+        "Kayıtlar yalnızca yasal olarak gerekli süre boyunca saklanır, ardından kalıcı olarak silinir"
+      ]
+    },
+    "legalProtection": {
+      "title": "Türkiye'de yasal korumanız",
+      "body": "Türkiye, sağlık bilgilerini en yüksek yasal koruma seviyesine sahip 'özel nitelikli' kişisel veri olarak sınıflandıran 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca sıkı hasta gizlilik yasaları uygular. HIV durumuna dayalı ayrımcılık Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi uyarınca açıkça yasaklanmıştır. HIV durumunuz nedeniyle sizi reddeden bir klinik yasayı çiğniyor demektir — Sağlık Bakanlığı'na ve KVKK Kurumu'na şikayet etme hakkınız vardır. Bunu sizi korkutmak için değil, haklarınızı bilesiniz diye söylüyoruz."
+    },
+    "journey": {
+      "title": "Yolculuğunuz, adım adım",
+      "steps": [
+        { "day": "1. Adım", "title": "Gizli ön değerlendirme", "description": "Tercih ettiğiniz güvenli kanal üzerinden fotoğraflarınızı ve son kan tahlillerinizi (CD4 sayımı, viral yük) gönderin. Cerrah tarafından bizzat incelenir — asla bir yönetici veya satış temsilcisi tarafından değil." },
+        { "day": "2. Adım", "title": "Cerrah video görüşmesi", "description": "Saç çizgisi hedeflerini, teknik seçimini (FUE / DHI / Safir) ve diskret olma veya iyileşmeyle ilgili tüm özel endişeleri tartışmak için cerrahınızla doğrudan video görüşme." },
+        { "day": "3. Adım", "title": "Diskret olarak rezerve edilen her şey dahil paket", "description": "Otel, transfer ve tercüman — tıbbi bağlam olmadan rezerve edilir. Rezervasyonunuzda yalnızca 'estetik prosedür' yazar. Refakatçi memnuniyetle ağırlanır." },
+        { "day": "4. Adım", "title": "Operasyon günü", "description": "Her hasta gibi aynı ameliyathane, aynı cerrah, aynı protokol. 6-8 saatlik FUE / DHI / Safir prosedür. Dosyanıza yalnızca cerrahi ekibiniz erişebilir." },
+        { "day": "5. Adım", "title": "İyileşme ve 12 ay takip", "description": "1, 3, 6 ve 12. ayda diskret takip. Garanti kriterleri çerçevesinde ücretsiz revizyon. Her hastaya sunulan aynı bakım standardı." }
+      ]
+    },
+    "faq": {
+      "title": "SSS — Türkiye'de HIV+ saç ekimi",
+      "items": [
+        { "question": "HIV pozitif olduğum için ek ücret alınacak mı?", "answer": "Hayır. Ek ücret almak ayrımcılık olur. Fiyatlandırmamız her hastayla aynıdır: Safir FUE için her şey dahil 2.950 $'dan, Essential FUE için 1.950 $'dan başlar." },
+        { "question": "Otele, şoföre veya tercümana durumumu açıklamam gerekiyor mu?", "answer": "Hayır. Durumunuz tıbbi bilgidir ve yalnızca bilmeleri gereken cerrahınız ve anestezistinizle paylaşılır. Otel bir isim ve rezervasyon görür; şoför bir alış görür; tercüman bir konsültasyon görür. Hiçbiri tıbbi dosyanıza erişemez." },
+        { "question": "Hangi CD4 sayımı ve viral yük gerekli?", "answer": "ISHRS rehberini izliyoruz: CD4 ≥ 350 ve en az 3 aydır stabil antiretroviral tedavi altında saptanamayan viral yük. Bu eşiklerin dışındaki hastalar bireysel cerrah incelemesinden geçer — toptan ret bizim varsayılanımız değildir." },
+        { "question": "Cerrahi ekip durumumu bilecek mi?", "answer": "Evet — cerrahınız ve anestezistiniz tam tıbbi dosyanızı görür. Bu güvenli bakım için zorunludur. Türk tıbbi gizlilik yasası ve iç gizlilik sözleşmemizle bağlıdırlar. Klinik zincirindeki başka hiç kimsenin erişimi yoktur." },
+        { "question": "Daha yüksek komplikasyon riski var mı?", "answer": "Hakemli kanıtlar, stabil ART altındaki HIV pozitif hastalar için greft sağkalımı, enfeksiyon oranı veya iyileşme süresinde istatistiksel olarak anlamlı bir fark olmadığını gösterir. Bunu sonuç denetimimizde doğrudan takip ediyoruz." },
+        { "question": "HBV veya HCV pozitif de isem?", "answer": "Aynı yanıt: evrensel önlemler tüm kan yoluyla bulaşan patojenleri kapsar. HBV ve HCV pozitif hastaları aynı koşullarda kabul ediyoruz. Ko-enfeksiyonlar karaciğer fonksiyonunun daha yakın op-öncesi incelemesini gerektirir." },
+        { "question": "Diskret ödeme yapabilir miyim?", "answer": "Banka havalesi, kredi kartı ve nakit mevcuttur. Talep halinde fatura kalemleri 'saç ekimi' yerine 'estetik prosedür' olarak etiketlenebilir. Seyahat sigortası ifşası talep etmiyoruz." },
+        { "question": "Bu Türkiye'de yasal mı?", "answer": "Evet — açıkça. Türk Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi uyarınca HIV durumu nedeniyle bakımı reddetmek yasadışıdır. Uygun önlemler ve aydınlatılmış onamla prosedürün gerçekleştirilmesi tamamen yasaldır." },
+        { "question": "Partnerim veya ailem durumumu bilmiyorsa?", "answer": "Bilmek zorunda değiller. Tek başınıza seyahat edebilir veya yalnızca kozmetik bağlamı bildirilen bir refakatçiyle gelebilirsiniz. Aile veya partnerlerden gizliliği koruyan hastalara bakma konusunda tam deneyimimiz var." },
+        { "question": "Sonuçları ne zaman göreceğim?", "answer": "Aynı zaman çizelgesi: 1. ayda dökülme, 3-4. aydan itibaren yeni çıkış, 6. ayda yoğunluk görünür, 12. ayda nihai sonuç. HIV durumu iyileşmeyi değiştirmez." },
+        { "question": "Türkiye'deki neden daha fazla klinik HIV+ hastaları kabul etmiyor?", "answer": "Çoğunlukla güncel olmayan eğitim ve temelsiz personel kaygısı. Tıbbi gerçek yirmi yılı aşkın süredir yerleşmiş durumda; pek çok klinik iç politikalarını basitçe güncellememiş. Biz güncel kanıtları ve Türk hukukunu izleme bilinçli kararını verdik." },
+        { "question": "Konuşmaya nasıl başlarım?", "answer": "Tercih ettiğiniz kanal üzerinden mesaj gönderin. Yalnızca söylemeyi seçtiğiniz şeyi söyleyin — sadece 'görüşmek istediğim bir bağışıklık durumum var' bile başlamak için yeterlidir. Kabul ekibimiz ifşa hızınıza saygı göstermek üzere eğitimlidir." }
+      ]
+    },
+    "cta": {
+      "title": "Hazır olduğunuzda — kendi tempunuzda",
+      "subtitle": "Hazır olduğunuzda fotoğraflarınızı gönderin. Durumunuzu yalnızca seçtiğinizde açıklayın. Saç ekimi yolculuğunuz size ait, sizin koşullarınızda.",
+      "primary": "WhatsApp'tan Yaz",
+      "secondary": "Diskret E-posta Gönder"
+    }
   }
 }

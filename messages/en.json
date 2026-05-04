@@ -859,5 +859,124 @@
       "primary": "Message on WhatsApp",
       "secondary": "Call Now"
     }
+  },
+  "hivPositive": {
+    "meta": {
+      "title": "HIV-Positive Hair Transplant in Turkey — Confidential, Discrimination-Free | Grafta Clinic",
+      "description": "Yes, we perform hair transplants for HIV-positive patients in Istanbul. Same surgeon, same theatre, same all-inclusive price — with absolute confidentiality. ISHRS-aligned protocol, no extra cost, no marked file. Free, discreet consultation.",
+      "keywords": "hiv positive hair transplant turkey, hiv hair transplant istanbul, hiv friendly hair transplant clinic, hair transplant for hiv patients, discreet hair transplant turkey"
+    },
+    "hero": {
+      "kicker": "Confidential · Discrimination-Free · Discreet",
+      "title": "Hair Transplant for HIV-Positive Patients in Turkey",
+      "subtitle": "We accept and care for HIV-positive patients with the same dignity, sterility and clinical excellence we extend to every patient. Discrimination has no place in medicine — and your status remains private.",
+      "h1Subline": "ISO 9001 certified · Universal precautions for every patient · Full KVKK / GDPR-aligned confidentiality",
+      "primaryCta": "Confidential WhatsApp",
+      "secondaryCta": "Discreet Email",
+      "trustChips": [
+        "No additional cost",
+        "Same surgeon, same theatre",
+        "No staff disclosure",
+        "ISHRS-aligned protocol",
+        "Written confidentiality"
+      ]
+    },
+    "intro": {
+      "title": "Why so many Turkish clinics quietly say no — and why we don't",
+      "body": "Many international patients living with HIV report being either openly refused or 'lost in follow-up' once they disclose their status to a Turkish hair transplant clinic. The reasons cited usually frame HIV as a 'staff safety' or 'sterilization' concern. Both are medically and legally inaccurate. Modern hair transplant procedures already use single-use punches, single-use needles and universal precautions for every patient — irrespective of viral status. Refusing care to a person living with HIV violates Turkish medical ethics regulations. At Grafta Clinic we apply the standard of care recommended by the ISHRS and the Turkish Ministry of Health: HIV-positive patients with controlled viral load are treated identically to any other patient — no separate room, no separate day, no extra cost, no marked file."
+    },
+    "medicalReality": {
+      "title": "The medical reality: HIV does not change the hair transplant protocol",
+      "subtitle": "Three facts every reputable surgeon already knows.",
+      "items": [
+        {
+          "title": "Universal precautions apply to everyone",
+          "description": "Single-use punches, single-use needles, sterilized instruments, gloves changed between cases — these are mandatory standards for every patient regardless of HIV, HBV or HCV status. There is no 'extra' protocol; the standard protocol already protects everyone."
+        },
+        {
+          "title": "Outcomes are equivalent",
+          "description": "Peer-reviewed evidence consistently shows that graft survival, healing time and final density in patients with controlled HIV (CD4 above 350, undetectable viral load on stable antiretroviral therapy) are statistically identical to HIV-negative cohorts."
+        },
+        {
+          "title": "The legal duty of care is absolute",
+          "description": "Turkish Patient Rights Regulation and Medical Deontology Regulation explicitly prohibit discrimination on the basis of disease status. Refusing a hair transplant to a patient with controlled HIV is unlawful in Turkey."
+        }
+      ]
+    },
+    "ourProtocol": {
+      "title": "Our HIV-positive patient protocol — clinically the same, with extra discretion",
+      "subtitle": "We do not need a 'special' clinical pathway. We do offer a heightened privacy pathway.",
+      "items": [
+        {
+          "title": "Pre-op review of bloodwork",
+          "description": "We ask for recent (within 90 days) CD4 count, viral load and confirmation of antiretroviral therapy. This is the standard pre-op review we run for every patient with chronic medical conditions — diabetes, hypertension, autoimmune disease — not specific to HIV."
+        },
+        {
+          "title": "Same surgeon, same theatre, same day",
+          "description": "You are not scheduled separately or last in the day. You receive the same surgeon, the same operating theatre and the same instruments as every patient — because nothing about the procedure changes."
+        },
+        {
+          "title": "No marked file, no 'red sticker'",
+          "description": "Your status is recorded only in your encrypted patient file accessible to your surgeon and anaesthetist. No outside-of-room marking. Reception, drivers, hotel staff and interpreters never see your medical file."
+        },
+        {
+          "title": "Discreet payment options",
+          "description": "Bank transfer, credit card and cash are all available. Invoice line items can be labeled 'aesthetic procedure' rather than 'hair transplant' on request."
+        },
+        {
+          "title": "Discreet communication channels",
+          "description": "Photos and messages can be exchanged via your preferred messaging channel. Friend or partner correspondence kept fully separate. We never message your phone with anything that identifies your status."
+        }
+      ]
+    },
+    "confidentiality": {
+      "title": "Confidentiality, in practice — not just on paper",
+      "items": [
+        "Medical records encrypted and accessible only to your direct surgical team",
+        "No status disclosure to drivers, hotel concierge or interpreters",
+        "Photo documentation stored without identifying metadata",
+        "Invoices labeled 'aesthetic procedure' on request",
+        "No insurance correspondence unless you specifically authorize it",
+        "Friend or partner companion welcome — they need not know unless you choose",
+        "Records retained only for the legally required period, then permanently deleted"
+      ]
+    },
+    "legalProtection": {
+      "title": "Your legal protection in Turkey",
+      "body": "Turkey applies strict patient privacy laws under Law No. 6698 on the Protection of Personal Data (KVKK), which classifies health information as a 'special category' of personal data with the highest level of legal protection. Discrimination on the basis of HIV status is explicitly prohibited under the Patient Rights Regulation and the Medical Deontology Regulation. A clinic that refuses you because of HIV status is breaking the law — you have the right to file a complaint with the Ministry of Health and the KVKK Authority. We mention this not to alarm you, but so you know your rights."
+    },
+    "journey": {
+      "title": "Your journey, step by step",
+      "steps": [
+        { "day": "Step 1", "title": "Confidential pre-evaluation", "description": "Send your photos and recent bloodwork (CD4 count, viral load) via your preferred secure channel. Reviewed personally by the surgeon — never by an admin or sales rep." },
+        { "day": "Step 2", "title": "Surgeon video call", "description": "Direct video call with your surgeon to discuss hairline goals, technique selection (FUE / DHI / Sapphire), and any specific concerns about discretion or recovery." },
+        { "day": "Step 3", "title": "All-inclusive package booked discreetly", "description": "Hotel, transfer and interpreter — booked with no medical context. Your reservation simply says 'aesthetic procedure'. Companion welcome." },
+        { "day": "Step 4", "title": "Day of surgery", "description": "Same operating theatre, same surgeon, same protocol as every patient. 6-8 hour FUE / DHI / Sapphire procedure. Your file is accessible only to your surgical team." },
+        { "day": "Step 5", "title": "Recovery & 12-month follow-up", "description": "Discreet follow-up at month 1, 3, 6 and 12. Free revision under guarantee criteria. The same standard of care extended to every patient." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ — HIV+ hair transplant in Turkey",
+      "items": [
+        { "question": "Will I be charged extra because I'm HIV-positive?", "answer": "No. Charging extra would be discrimination. Our pricing is identical to every other patient: from $2,950 all-inclusive for Sapphire FUE, from $1,950 for Essential FUE." },
+        { "question": "Do I need to disclose my status to the hotel, driver or interpreter?", "answer": "No. Your status is medical information and is shared only with your surgeon and anaesthetist on a need-to-know basis. The hotel sees a name and reservation; the driver sees a pickup; the interpreter sees a consultation. None of them have access to your medical file." },
+        { "question": "What CD4 count and viral load are required?", "answer": "We follow ISHRS guidance: CD4 ≥ 350 and an undetectable viral load on stable antiretroviral therapy for at least 3 months. Patients outside these thresholds receive an individual surgeon review — outright refusal is not our default." },
+        { "question": "Will the surgical team know my status?", "answer": "Yes — your surgeon and anaesthetist see your full medical file. This is mandatory for safe care. They are bound by Turkish medical confidentiality law and our internal NDA. No one else in the clinic chain has access." },
+        { "question": "Are there higher complication risks?", "answer": "Peer-reviewed evidence shows no statistically significant difference in graft survival, infection rate or healing time for HIV-positive patients on stable ART. We track this directly in our outcomes audit." },
+        { "question": "What if I'm also HBV or HCV positive?", "answer": "Same answer: universal precautions cover all bloodborne pathogens. We accept HBV and HCV positive patients on the same terms. Co-infections require closer pre-op review of liver function." },
+        { "question": "Can I pay discreetly?", "answer": "Bank transfer, credit card and cash are all available. Invoice line items can be labeled 'aesthetic procedure' rather than 'hair transplant' on request. We do not require travel insurance disclosure." },
+        { "question": "Is this even legal in Turkey?", "answer": "Yes — explicitly. Refusing care because of HIV status is unlawful under Turkish Patient Rights Regulation and Medical Deontology Regulation. Performing the procedure with proper precautions and informed consent is fully legal." },
+        { "question": "What if my partner or family doesn't know my status?", "answer": "They do not need to know. You can travel alone, or with a companion who is told only the cosmetic context. We have full experience caring for patients who maintain privacy from family or partners." },
+        { "question": "How long until I see results?", "answer": "Identical timeline: shedding at month 1, new growth from month 3-4, density visible by month 6, final result by month 12. HIV status does not change recovery." },
+        { "question": "Why don't more clinics in Turkey accept HIV+ patients?", "answer": "Mostly outdated training and unfounded staff anxiety. The medical reality has been settled for over two decades; many clinics simply have not updated their internal policies. We made the conscious decision to follow current evidence and Turkish law." },
+        { "question": "How do I start the conversation?", "answer": "Send a message via your preferred channel. State only what you choose to state — even just 'I have an immune condition I'd like to discuss' is enough to begin. Our intake team is trained to respect your pace of disclosure." }
+      ]
+    },
+    "cta": {
+      "title": "Ready when you are — at your pace",
+      "subtitle": "Send your photos when you're ready. Disclose your status only when you choose. Your hair transplant journey is yours, on your terms.",
+      "primary": "Message on WhatsApp",
+      "secondary": "Send Discreet Email"
+    }
   }
 }

@@ -859,5 +859,124 @@
       "primary": "Auf WhatsApp schreiben",
       "secondary": "Jetzt anrufen"
     }
+  },
+  "hivPositive": {
+    "meta": {
+      "title": "HIV-positive Haartransplantation in der Türkei — Vertraulich, Diskriminierungsfrei | Grafta Clinic",
+      "description": "Ja, wir führen Haartransplantationen für HIV-positive Patienten in Istanbul durch. Gleicher Chirurg, gleicher OP, gleicher All-inclusive-Preis — mit absoluter Vertraulichkeit. ISHRS-konformes Protokoll, keine Zusatzkosten, keine markierte Akte. Kostenlose, diskrete Beratung.",
+      "keywords": "hiv positive haartransplantation türkei, hiv haartransplantation istanbul, hiv-freundliche haarklinik, haartransplantation für hiv-patienten, diskrete haartransplantation türkei"
+    },
+    "hero": {
+      "kicker": "Vertraulich · Diskriminierungsfrei · Diskret",
+      "title": "Haartransplantation für HIV-positive Patienten in der Türkei",
+      "subtitle": "Wir akzeptieren und behandeln HIV-positive Patienten mit derselben Würde, Sterilität und klinischen Exzellenz, die wir jedem Patienten zukommen lassen. Diskriminierung hat in der Medizin keinen Platz — und Ihr Status bleibt privat.",
+      "h1Subline": "ISO 9001-zertifiziert · Universelle Vorsichtsmaßnahmen für jeden Patienten · KVKK / DSGVO-konforme vollständige Vertraulichkeit",
+      "primaryCta": "Vertrauliches WhatsApp",
+      "secondaryCta": "Diskrete E-Mail",
+      "trustChips": [
+        "Keine Zusatzkosten",
+        "Gleicher Chirurg, gleicher OP",
+        "Keine Offenlegung gegenüber Personal",
+        "ISHRS-konformes Protokoll",
+        "Schriftliche Vertraulichkeit"
+      ]
+    },
+    "intro": {
+      "title": "Warum so viele türkische Kliniken stillschweigend ablehnen — und warum wir das nicht tun",
+      "body": "Viele internationale Patienten, die mit HIV leben, berichten, dass sie offen abgelehnt oder 'aus der Nachsorge verloren' werden, sobald sie ihren Status einer türkischen Haartransplantationsklinik mitteilen. Die genannten Gründe rahmen HIV meist als 'Personal-Sicherheits-' oder 'Sterilisations-' Bedenken. Beides ist medizinisch und rechtlich falsch. Moderne Haartransplantationsverfahren verwenden bereits Einweg-Punches, Einweg-Nadeln und universelle Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. Einer Person, die mit HIV lebt, die Versorgung zu verweigern, verstößt gegen die türkischen medizinethischen Vorschriften. In der Grafta Clinic wenden wir den von der ISHRS und dem türkischen Gesundheitsministerium empfohlenen Versorgungsstandard an: HIV-positive Patienten mit kontrollierter Viruslast werden identisch wie jeder andere Patient behandelt — kein separater Raum, kein separater Tag, keine Zusatzkosten, keine markierte Akte."
+    },
+    "medicalReality": {
+      "title": "Die medizinische Realität: HIV ändert das Haartransplantationsprotokoll nicht",
+      "subtitle": "Drei Fakten, die jeder seriöse Chirurg bereits kennt.",
+      "items": [
+        {
+          "title": "Universelle Vorsichtsmaßnahmen gelten für alle",
+          "description": "Einweg-Punches, Einweg-Nadeln, sterilisierte Instrumente, Handschuhwechsel zwischen Fällen — diese sind verbindliche Standards für jeden Patienten unabhängig vom HIV-, HBV- oder HCV-Status. Es gibt kein 'extra' Protokoll; das Standardprotokoll schützt bereits alle."
+        },
+        {
+          "title": "Ergebnisse sind gleichwertig",
+          "description": "Peer-Review-Belege zeigen durchgängig, dass Graft-Überleben, Heilungszeit und endgültige Dichte bei Patienten mit kontrolliertem HIV (CD4 über 350, nicht nachweisbare Viruslast unter stabiler antiretroviraler Therapie) statistisch identisch zu HIV-negativen Kohorten sind."
+        },
+        {
+          "title": "Die rechtliche Versorgungspflicht ist absolut",
+          "description": "Die türkische Patientenrechteverordnung und die Verordnung über die ärztliche Berufsethik verbieten ausdrücklich Diskriminierung aufgrund des Krankheitsstatus. Einer Person mit kontrolliertem HIV eine Haartransplantation zu verweigern, ist in der Türkei rechtswidrig."
+        }
+      ]
+    },
+    "ourProtocol": {
+      "title": "Unser Protokoll für HIV-positive Patienten — klinisch identisch, mit zusätzlicher Diskretion",
+      "subtitle": "Wir benötigen keinen 'speziellen' klinischen Pfad. Wir bieten einen erweiterten Privatsphäre-Pfad.",
+      "items": [
+        {
+          "title": "Präoperative Überprüfung der Blutwerte",
+          "description": "Wir bitten um aktuelle (innerhalb von 90 Tagen) CD4-Zahl, Viruslast und Bestätigung der antiretroviralen Therapie. Dies ist die standardmäßige präoperative Überprüfung, die wir für jeden Patienten mit chronischen medizinischen Erkrankungen durchführen — Diabetes, Bluthochdruck, Autoimmunerkrankungen — nicht spezifisch für HIV."
+        },
+        {
+          "title": "Gleicher Chirurg, gleicher OP, gleicher Tag",
+          "description": "Sie werden nicht separat oder als letzter Patient des Tages eingeplant. Sie erhalten denselben Chirurgen, denselben OP-Saal und dieselben Instrumente wie jeder Patient — denn am Verfahren ändert sich nichts."
+        },
+        {
+          "title": "Keine markierte Akte, kein 'roter Aufkleber'",
+          "description": "Ihr Status wird nur in Ihrer verschlüsselten Patientenakte erfasst, auf die Ihr Chirurg und Anästhesist zugreifen können. Keine Markierung außerhalb des Raums. Empfang, Fahrer, Hotelpersonal und Dolmetscher sehen Ihre medizinische Akte niemals."
+        },
+        {
+          "title": "Diskrete Zahlungsoptionen",
+          "description": "Banküberweisung, Kreditkarte und Bargeld sind alle verfügbar. Auf Wunsch können Rechnungspositionen als 'ästhetisches Verfahren' anstelle von 'Haartransplantation' bezeichnet werden."
+        },
+        {
+          "title": "Diskrete Kommunikationskanäle",
+          "description": "Fotos und Nachrichten können über Ihren bevorzugten Messaging-Kanal ausgetauscht werden. Korrespondenz mit Freund oder Partner wird vollständig getrennt gehalten. Wir senden Ihnen niemals Nachrichten, die Ihren Status identifizieren."
+        }
+      ]
+    },
+    "confidentiality": {
+      "title": "Vertraulichkeit, in der Praxis — nicht nur auf dem Papier",
+      "items": [
+        "Medizinische Aufzeichnungen verschlüsselt und nur Ihrem direkten chirurgischen Team zugänglich",
+        "Keine Statusoffenlegung gegenüber Fahrern, Hotel-Concierge oder Dolmetschern",
+        "Foto-Dokumentation ohne identifizierende Metadaten gespeichert",
+        "Rechnungen auf Wunsch als 'ästhetisches Verfahren' gekennzeichnet",
+        "Keine Versicherungskorrespondenz, sofern Sie diese nicht ausdrücklich genehmigen",
+        "Freund oder Partner als Begleitung willkommen — sie müssen nichts wissen, sofern Sie es nicht wünschen",
+        "Aufzeichnungen werden nur für den gesetzlich erforderlichen Zeitraum aufbewahrt und dann dauerhaft gelöscht"
+      ]
+    },
+    "legalProtection": {
+      "title": "Ihr rechtlicher Schutz in der Türkei",
+      "body": "Die Türkei wendet strenge Patientendatenschutzgesetze nach Gesetz Nr. 6698 zum Schutz personenbezogener Daten (KVKK) an, das Gesundheitsinformationen als 'besondere Kategorie' personenbezogener Daten mit dem höchsten rechtlichen Schutzniveau einstuft. Diskriminierung aufgrund des HIV-Status ist nach der Patientenrechteverordnung und der Verordnung über die ärztliche Berufsethik ausdrücklich verboten. Eine Klinik, die Sie aufgrund Ihres HIV-Status ablehnt, verstößt gegen das Gesetz — Sie haben das Recht, eine Beschwerde beim Gesundheitsministerium und der KVKK-Behörde einzureichen. Wir erwähnen dies nicht, um Sie zu beunruhigen, sondern damit Sie Ihre Rechte kennen."
+    },
+    "journey": {
+      "title": "Ihre Reise, Schritt für Schritt",
+      "steps": [
+        { "day": "Schritt 1", "title": "Vertrauliche Vorbeurteilung", "description": "Senden Sie Ihre Fotos und aktuellen Blutwerte (CD4-Zahl, Viruslast) über Ihren bevorzugten sicheren Kanal. Wird persönlich vom Chirurgen geprüft — niemals von einem Verwaltungs- oder Vertriebsmitarbeiter." },
+        { "day": "Schritt 2", "title": "Video-Anruf mit dem Chirurgen", "description": "Direkter Video-Anruf mit Ihrem Chirurgen, um Haarlinien-Ziele, Technikauswahl (FUE / DHI / Saphir) und alle spezifischen Bedenken bezüglich Diskretion oder Genesung zu besprechen." },
+        { "day": "Schritt 3", "title": "Diskret gebuchtes All-inclusive-Paket", "description": "Hotel, Transfer und Dolmetscher — ohne medizinischen Kontext gebucht. Ihre Reservierung lautet einfach 'ästhetisches Verfahren'. Begleitung willkommen." },
+        { "day": "Schritt 4", "title": "Operationstag", "description": "Gleicher OP-Saal, gleicher Chirurg, gleiches Protokoll wie für jeden Patienten. 6-8-stündiger FUE-/DHI-/Saphir-Eingriff. Auf Ihre Akte hat nur Ihr chirurgisches Team Zugriff." },
+        { "day": "Schritt 5", "title": "Genesung und 12-monatige Nachsorge", "description": "Diskrete Nachsorge in Monat 1, 3, 6 und 12. Kostenlose Revision unter Garantiekriterien. Der gleiche Versorgungsstandard für jeden Patienten." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ — HIV+ Haartransplantation in der Türkei",
+      "items": [
+        { "question": "Werde ich extra berechnet, weil ich HIV-positiv bin?", "answer": "Nein. Eine Mehrkosten-Berechnung wäre Diskriminierung. Unsere Preise sind identisch mit denen jedes anderen Patienten: ab 2.950 $ all-inclusive für Saphir-FUE, ab 1.950 $ für Essential FUE." },
+        { "question": "Muss ich meinen Status dem Hotel, Fahrer oder Dolmetscher offenlegen?", "answer": "Nein. Ihr Status ist medizinische Information und wird nur mit Ihrem Chirurgen und Anästhesisten auf Need-to-know-Basis geteilt. Das Hotel sieht Namen und Reservierung; der Fahrer sieht eine Abholung; der Dolmetscher sieht eine Beratung. Keiner von ihnen hat Zugriff auf Ihre medizinische Akte." },
+        { "question": "Welche CD4-Zahl und Viruslast sind erforderlich?", "answer": "Wir folgen den ISHRS-Leitlinien: CD4 ≥ 350 und nicht nachweisbare Viruslast unter stabiler antiretroviraler Therapie für mindestens 3 Monate. Patienten außerhalb dieser Schwellenwerte erhalten eine individuelle chirurgische Überprüfung — eine pauschale Ablehnung ist nicht unser Standard." },
+        { "question": "Wird das chirurgische Team meinen Status kennen?", "answer": "Ja — Ihr Chirurg und Anästhesist sehen Ihre vollständige medizinische Akte. Dies ist für eine sichere Versorgung verbindlich. Sie sind durch das türkische ärztliche Schweigepflichtgesetz und unsere interne Vertraulichkeitsvereinbarung gebunden. Niemand sonst in der Klinikkette hat Zugriff." },
+        { "question": "Gibt es höhere Komplikationsrisiken?", "answer": "Peer-Review-Belege zeigen keinen statistisch signifikanten Unterschied bei Graft-Überleben, Infektionsrate oder Heilungszeit für HIV-positive Patienten unter stabiler ART. Wir verfolgen dies direkt in unserem Ergebnis-Audit." },
+        { "question": "Was, wenn ich auch HBV- oder HCV-positiv bin?", "answer": "Gleiche Antwort: Universelle Vorsichtsmaßnahmen decken alle blutübertragenen Erreger ab. Wir akzeptieren HBV- und HCV-positive Patienten zu denselben Bedingungen. Ko-Infektionen erfordern eine engere präoperative Überprüfung der Leberfunktion." },
+        { "question": "Kann ich diskret bezahlen?", "answer": "Banküberweisung, Kreditkarte und Bargeld sind alle verfügbar. Auf Wunsch können Rechnungspositionen als 'ästhetisches Verfahren' anstelle von 'Haartransplantation' bezeichnet werden. Wir verlangen keine Offenlegung der Reiseversicherung." },
+        { "question": "Ist das in der Türkei überhaupt legal?", "answer": "Ja — ausdrücklich. Die Versorgung aufgrund des HIV-Status zu verweigern, ist nach der türkischen Patientenrechteverordnung und der Verordnung über die ärztliche Berufsethik rechtswidrig. Den Eingriff mit angemessenen Vorsichtsmaßnahmen und informierter Einwilligung durchzuführen, ist vollständig legal." },
+        { "question": "Was, wenn mein Partner oder meine Familie meinen Status nicht kennt?", "answer": "Sie müssen es nicht wissen. Sie können allein reisen oder mit einer Begleitung kommen, der nur der kosmetische Kontext mitgeteilt wird. Wir haben volle Erfahrung mit der Versorgung von Patienten, die ihre Privatsphäre vor Familie oder Partnern wahren." },
+        { "question": "Wie lange bis ich Ergebnisse sehe?", "answer": "Identischer Zeitplan: Ausfallen in Monat 1, neues Wachstum ab Monat 3-4, Dichte sichtbar in Monat 6, Endergebnis in Monat 12. Der HIV-Status ändert die Genesung nicht." },
+        { "question": "Warum akzeptieren nicht mehr Kliniken in der Türkei HIV+ Patienten?", "answer": "Meist veraltete Schulung und unbegründete Personalängste. Die medizinische Realität ist seit über zwei Jahrzehnten geklärt; viele Kliniken haben ihre internen Richtlinien einfach nicht aktualisiert. Wir haben die bewusste Entscheidung getroffen, aktuellen Erkenntnissen und türkischem Recht zu folgen." },
+        { "question": "Wie beginne ich das Gespräch?", "answer": "Senden Sie eine Nachricht über Ihren bevorzugten Kanal. Sagen Sie nur, was Sie sagen möchten — selbst nur 'Ich habe eine Immunerkrankung, über die ich sprechen möchte' reicht aus, um zu beginnen. Unser Aufnahmeteam ist darauf geschult, Ihr Tempo der Offenlegung zu respektieren." }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, wenn Sie es sind — in Ihrem Tempo",
+      "subtitle": "Senden Sie Ihre Fotos, wenn Sie bereit sind. Legen Sie Ihren Status nur offen, wenn Sie es wählen. Ihre Haartransplantationsreise gehört Ihnen, zu Ihren Bedingungen.",
+      "primary": "Auf WhatsApp schreiben",
+      "secondary": "Diskrete E-Mail senden"
+    }
   }
 }

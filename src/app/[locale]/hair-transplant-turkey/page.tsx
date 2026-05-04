@@ -75,6 +75,7 @@ export default async function HairTransplantTurkeyPage({ params }: PageProps) {
 
   const t = await getTranslations("hairTransplantTurkey");
   const tNav = await getTranslations("nav");
+  const tCommon = await getTranslations("common");
 
   const stats = t.raw("intro.stats") as KV[];
   const trustChips = t.raw("hero.trustChips") as string[];
@@ -523,14 +524,37 @@ export default async function HairTransplantTurkeyPage({ params }: PageProps) {
             </p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {patientGroups.map((g) => (
-              <article key={g.title} className="card p-6 bg-white">
-                <h3 className="font-serif text-lg text-[var(--color-text-strong)]">{g.title}</h3>
-                <p className="mt-2 text-sm text-[var(--color-text-muted)] leading-relaxed">
-                  {g.description}
-                </p>
-              </article>
-            ))}
+            {patientGroups.map((g, i) => {
+              const linkedSlug = i === 3 ? "/hiv-positive-hair-transplant-turkey" : null;
+              if (linkedSlug) {
+                return (
+                  <Link
+                    key={g.title}
+                    href={linkedSlug}
+                    className="card p-6 bg-white block hover:border-[var(--color-accent)] transition-colors"
+                  >
+                    <h3 className="font-serif text-lg text-[var(--color-text-strong)]">{g.title}</h3>
+                    <p className="mt-2 text-sm text-[var(--color-text-muted)] leading-relaxed">
+                      {g.description}
+                    </p>
+                    <span className="mt-3 inline-flex items-center gap-1 text-xs font-medium uppercase tracking-wider text-[var(--color-accent-deep)]">
+                      {tCommon("readMore")}
+                      <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+                        <path d="M3 6h6m0 0L6 3m3 3L6 9" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </span>
+                  </Link>
+                );
+              }
+              return (
+                <article key={g.title} className="card p-6 bg-white">
+                  <h3 className="font-serif text-lg text-[var(--color-text-strong)]">{g.title}</h3>
+                  <p className="mt-2 text-sm text-[var(--color-text-muted)] leading-relaxed">
+                    {g.description}
+                  </p>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>

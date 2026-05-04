@@ -4,6 +4,7 @@
     "about": "About",
     "services": "Services",
     "contact": "Contact",
+    "hairTransplantTurkey": "Hair Transplant Turkey",
     "bookAppointment": "Free Consultation",
     "categories": {
       "hair-restoration": "Hair Restoration",
@@ -616,6 +617,247 @@
         { "question": "How long do implants last?", "answer": "Modern implants can last 10-15 years or longer; routine check-ups are advised." },
         { "question": "Will it affect breastfeeding?", "answer": "When the right technique is chosen, breastfeeding is generally not affected." }
       ]
+    }
+  },
+  "hairTransplantTurkey": {
+    "meta": {
+      "title": "Best Hair Transplant Clinic in Turkey 2025 — Grafta Clinic Istanbul",
+      "description": "Choosing a hair transplant clinic in Turkey? Grafta Clinic Istanbul offers FUE, DHI and Sapphire FUE with all-inclusive packages from $1,950. Health-tourism authorized, ISO-certified, lifetime follow-up. Free consultation.",
+      "keywords": "best hair transplant clinic in turkey, hair transplant istanbul, hair transplant turkey 2025, hair transplant turkey price, fue dhi sapphire turkey, afro hair transplant turkey, hair transplant clinic for women turkey"
+    },
+    "hero": {
+      "kicker": "Hair Transplant Turkey · Istanbul",
+      "title": "Best Hair Transplant Clinic in Turkey",
+      "subtitle": "Recognized internationally for natural, permanent results. FUE, DHI and Sapphire FUE techniques performed by board-certified surgeons in an ISO-certified facility — with an all-inclusive package that handles everything from airport pickup to your final follow-up.",
+      "h1Subline": "Trusted by 10,000+ patients from 60+ countries · Authorized by the Turkish Ministry of Health for health tourism",
+      "primaryCta": "Get Free Consultation on WhatsApp",
+      "secondaryCta": "Call Us Now",
+      "trustChips": [
+        "All-inclusive from $1,950",
+        "ISO 9001 certified clinic",
+        "ISHRS-aligned surgeons",
+        "Written guarantee",
+        "Lifetime follow-up"
+      ]
+    },
+    "intro": {
+      "title": "Why Turkey is the world's #1 destination for hair transplant",
+      "body": "Every year more than 750,000 international patients travel to Turkey for hair restoration. Istanbul alone hosts hundreds of clinics — but only a small fraction operate to international medical standards, employ board-certified surgeons, and publish transparent results. This guide explains what separates the best hair transplant clinic in Turkey from the rest, and why patients from the United States, United Kingdom, Germany, the Netherlands, the Gulf and beyond consistently choose Grafta Clinic Istanbul.",
+      "stats": [
+        { "value": "10,000+", "label": "International patients" },
+        { "value": "60+", "label": "Countries served" },
+        { "value": "98%", "label": "Patient satisfaction" },
+        { "value": "15+", "label": "Years of experience" }
+      ]
+    },
+    "whyTurkey": {
+      "title": "Why a hair transplant in Turkey costs less — without compromising on quality",
+      "subtitle": "Patients often ask whether the price difference between the United States, the United Kingdom and Turkey reflects a quality gap. It does not. The price gap reflects local cost structure: lower clinic operating costs, lower physician overhead, a competitive medical-tourism market, and government incentives for accredited health-tourism providers. The actual technology, techniques and surgeon training are the same — and in many cases superior — to what is offered in New York, Miami, Los Angeles, London or Berlin.",
+      "comparison": {
+        "title": "Hair transplant cost comparison · 5,000 grafts (typical Norwood 5)",
+        "rows": [
+          { "country": "United States (NYC, Miami, LA)", "price": "$15,000 – $25,000", "note": "Often technician-performed; surgeon involvement varies" },
+          { "country": "United Kingdom (London)", "price": "£10,000 – £18,000", "note": "Long waiting lists, limited graft capacity per session" },
+          { "country": "Germany / Netherlands", "price": "€8,000 – €15,000", "note": "High insurance overhead reflected in price" },
+          { "country": "Turkey · Grafta Clinic Istanbul", "price": "$2,950 – $4,500", "note": "Surgeon-led, all-inclusive (hotel + transfer + interpreter)" }
+        ],
+        "note": "Prices reflect 2025 averages from publicly listed clinics in each region. Grafta Clinic prices include hotel accommodation, VIP airport transfer, interpreter services, all medications and a written guarantee."
+      }
+    },
+    "whyGrafta": {
+      "title": "What makes Grafta Clinic the best hair transplant clinic in Istanbul",
+      "subtitle": "Eight non-negotiable standards that separate us from high-volume \"hair mills\".",
+      "items": [
+        {
+          "title": "Surgeon-led procedure — never technician-only",
+          "description": "Your hairline design, channel opening and graft extraction are performed personally by a board-certified surgeon. Many clinics in Turkey delegate the entire procedure to technicians; we do not. Our surgeons are members of ISHRS and FUE Europe."
+        },
+        {
+          "title": "Maximum 1 patient per surgeon per day",
+          "description": "We deliberately limit ourselves to one operation per surgeon per day. This guarantees full attention, no rushed graft handling, and the lowest possible follicle damage rate (under 5%, vs. industry average of 15-25%)."
+        },
+        {
+          "title": "FUE, DHI and Sapphire FUE — chosen for you, not for us",
+          "description": "We offer all three techniques. We recommend the one that suits your hairline pattern, donor area and goals — never the one with the highest margin for the clinic."
+        },
+        {
+          "title": "ISO 9001 certified facility, JCI-aligned protocols",
+          "description": "Hospital-grade operating theatres, single-use medical instruments, microbiological audits, CE/FDA-approved equipment only. We publish our certification numbers; many competitors do not."
+        },
+        {
+          "title": "Authorized health-tourism provider",
+          "description": "Officially registered with the Turkish Ministry of Health for international patient care (license number disclosed on consultation). This is a regulated status with audited compliance."
+        },
+        {
+          "title": "Written guarantee with free revision clause",
+          "description": "If your graft survival rate falls below the agreed threshold at month 12, we perform a free revision session. The guarantee is contractual, not a marketing slogan."
+        },
+        {
+          "title": "Lifetime follow-up — by your surgeon, not a call centre",
+          "description": "Free check-ups at month 1, 3, 6 and 12. After that, direct WhatsApp access to your surgeon for years. Most international clinics drop contact after week 2."
+        },
+        {
+          "title": "Transparent pricing — no upsells on the day",
+          "description": "The price quoted in your free consultation is the price you pay. We do not 'discover' you need more grafts on the operation day, a tactic some Istanbul clinics are well-known for."
+        }
+      ]
+    },
+    "techniques": {
+      "title": "Hair transplant techniques we offer",
+      "subtitle": "All three modern techniques are performed in-house. The right choice depends on your donor area, hairline goal and lifestyle preferences.",
+      "items": [
+        {
+          "name": "Sapphire FUE",
+          "tagline": "Highest density, fastest recovery",
+          "description": "Channels are opened with sapphire-tipped blades instead of steel. Smaller incisions, denser packing, and faster healing — typically the best choice for patients seeking maximum density in the frontal hairline."
+        },
+        {
+          "name": "DHI (Direct Hair Implantation)",
+          "tagline": "No shaving required for women & unshaven cases",
+          "description": "Choi implanter pens place each graft directly without pre-cut channels. Ideal for women, mid-density refinement, and patients who prefer not to shave the recipient area."
+        },
+        {
+          "name": "Classic FUE",
+          "tagline": "Highest graft yield in a single session",
+          "description": "The proven workhorse technique. Best for large session sizes (4,500-6,000 grafts), Norwood 5-7 patterns, and patients prioritising graft volume over recovery speed."
+        },
+        {
+          "name": "Afro Hair Transplant",
+          "tagline": "Specialist technique for curly/coiled hair",
+          "description": "Afro and curly hair has follicles that curve below the skin — extracting them without transection requires specialist tools and surgeon experience. We have a dedicated afro hair protocol with documented outcomes for Black men and women."
+        },
+        {
+          "name": "Women's Hair Transplant",
+          "tagline": "Diffuse thinning, FPHL, traction alopecia",
+          "description": "Female hair restoration requires different planning: diffuse thinning patterns, hormonal evaluation, and unshaven DHI to preserve dignity during recovery. Our female-patient protocol includes a dedicated female surgeon when requested."
+        },
+        {
+          "name": "HIV+ Friendly Protocol",
+          "tagline": "Same-day surgery, no discrimination",
+          "description": "We accept HIV-positive patients with controlled viral load and follow universal sterile precautions identical to those used for every patient. Many Turkish clinics quietly refuse — we do not. Discretion guaranteed."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Hair transplant Turkey — transparent pricing",
+      "subtitle": "All packages are all-inclusive. The number you see is the number you pay.",
+      "disclaimer": "Final pricing is confirmed after a free pre-evaluation (photo or video). Graft count is determined by your donor area density and recipient area size — not by an upsell at the clinic.",
+      "tiers": [
+        {
+          "name": "Essential FUE",
+          "price": "from $1,950",
+          "grafts": "up to 3,500 grafts",
+          "includes": [
+            "Surgeon-led FUE procedure",
+            "2 nights at 4-star partner hotel",
+            "VIP airport ↔ hotel ↔ clinic transfers",
+            "English / German / Arabic interpreter",
+            "PRP session × 1",
+            "12-month written guarantee",
+            "Recovery kit (shampoo, lotion, foam)"
+          ]
+        },
+        {
+          "name": "Premium Sapphire FUE / DHI",
+          "price": "from $2,950",
+          "grafts": "up to 5,000 grafts",
+          "includes": [
+            "Surgeon-led Sapphire FUE or DHI",
+            "3 nights at 5-star partner hotel",
+            "VIP airport ↔ hotel ↔ clinic transfers",
+            "Multilingual interpreter (24/7 WhatsApp)",
+            "PRP session × 2",
+            "12-month written guarantee",
+            "Recovery kit + dietary supplements",
+            "Post-op video consultation × 4"
+          ],
+          "highlight": "Most chosen"
+        },
+        {
+          "name": "Signature (Afro / Women / Mega-session)",
+          "price": "tailored quote",
+          "grafts": "up to 6,000 grafts",
+          "includes": [
+            "Specialist surgeon (afro / female / mega-session)",
+            "5-star hotel · 4 nights",
+            "Private VIP transfers + concierge",
+            "Dedicated case manager",
+            "PRP × 3 + exosome session",
+            "Lifetime guarantee on graft viability",
+            "Premium recovery kit",
+            "Quarterly video follow-ups for 24 months"
+          ]
+        }
+      ]
+    },
+    "package": {
+      "title": "Your all-inclusive Istanbul package",
+      "subtitle": "Most international patients arrive on a Tuesday morning and fly home on Friday afternoon. Here is what is handled for you.",
+      "items": [
+        { "title": "VIP airport transfer", "description": "Driver waits at arrivals with your name. Mercedes Vito, English-speaking. No taxi, no apps, no surprises." },
+        { "title": "4 or 5-star hotel", "description": "Quiet, clean, walking distance to clinic. Breakfast included. Room is yours from arrival to departure." },
+        { "title": "Multilingual interpreter", "description": "English, German, Arabic, Russian, French. With you at the consultation, the procedure briefing and on WhatsApp 24/7." },
+        { "title": "Surgeon consultation", "description": "Pre-op video call before you fly. In-person assessment on arrival. The surgeon — not a sales rep — answers your questions." },
+        { "title": "Operation day comfort", "description": "Comfort suite, lunch, music, breaks every 90 minutes. The procedure takes 6-8 hours; we make it feel shorter." },
+        { "title": "Post-op care visit", "description": "Wash and check-up the next day at the clinic. Recovery kit handed over, every step shown to you in person." },
+        { "title": "12-month follow-up", "description": "Photo reviews at month 1, 3, 6, 12. Direct WhatsApp line to your surgeon. Free revision if guarantee criteria are not met." },
+        { "title": "Optional: companion friendly", "description": "Bring a friend or partner. Companion stays at the same hotel free; transfers included." }
+      ]
+    },
+    "journey": {
+      "title": "Your hair transplant journey, day by day",
+      "steps": [
+        { "day": "Before you fly", "title": "Free pre-evaluation", "description": "Send 4 photos via WhatsApp. The surgeon reviews them personally and replies with a graft estimate, technique recommendation and total cost — usually within 24 hours. No deposit, no pressure." },
+        { "day": "Day 1 · Arrival", "title": "Welcome & in-person consultation", "description": "Driver meets you at Istanbul airport. Quick rest at the hotel, then in-person consultation at the clinic: hairline design, donor area assessment, blood tests. Free dinner reservation if you'd like." },
+        { "day": "Day 2 · Operation", "title": "The procedure", "description": "9:00 AM start. Local anaesthesia, graft extraction, channel opening, implantation. 6-8 hours with breaks. Lunch served. You leave the clinic on your own feet, head bandaged. Driver waits to take you back." },
+        { "day": "Day 3 · Wash & departure", "title": "First wash and aftercare briefing", "description": "Return to the clinic for the first medical wash, photo documentation and recovery kit handover. The surgeon explains every step of home care. Driver to airport. You're home for dinner." },
+        { "day": "Months 1 – 12", "title": "Recovery and final result", "description": "Shedding phase at month 1 (normal). New growth from month 3-4. Density visible by month 6. Final result by month 12. Photo check-ups along the way; revision available if needed." }
+      ]
+    },
+    "patientGroups": {
+      "title": "Specialist hair transplant care — for every patient",
+      "subtitle": "We have dedicated protocols for the patient groups most often turned away or under-served by high-volume clinics.",
+      "items": [
+        { "title": "Afro hair transplant in Turkey", "description": "Curly and coiled follicles require specialist extraction tools and surgeon experience to avoid transection. Our afro hair surgeon has a documented portfolio with Black men and women, including Norwood 6-7 cases. Free hairline visualisation included." },
+        { "title": "Hair transplant for women", "description": "Female pattern hair loss (FPHL) needs hormonal screening, diffuse-pattern planning and unshaven DHI. We assign a female case manager and offer a female surgeon on request. Discreet, dignity-first protocol." },
+        { "title": "Hair transplant for Black men", "description": "Beyond afro hair specifics — broader hairline aesthetics for Black men, including temple restoration and beard transplant for skin-fade compatibility." },
+        { "title": "HIV-positive patients", "description": "We accept HIV+ patients with controlled viral load. Universal precautions are applied to every patient already, so no different protocol is needed. Confidentiality guaranteed under Turkish patient privacy law." },
+        { "title": "Repair / second-procedure cases", "description": "Botched hairlines from other clinics, unnatural plug appearance, low-density transplants. We restore — and we tell you honestly when revision is or isn't realistic." },
+        { "title": "Norwood 6-7 mega-sessions", "description": "Up to 6,000 grafts in a single day with two-surgeon teams when the donor area allows. Maximum coverage in one trip." }
+      ]
+    },
+    "results": {
+      "title": "Real before-and-after results from international patients",
+      "subtitle": "Results published with written patient consent. Each patient's outcome reflects their own donor density, hairline goal and recovery — no two journeys are identical.",
+      "cta": "See the full results gallery"
+    },
+    "reviews": {
+      "title": "What patients from around the world say",
+      "subtitle": "Independent reviews on Trustpilot, Google and Reddit. We do not filter, edit or pay for reviews."
+    },
+    "faq": {
+      "title": "Frequently asked questions about hair transplant in Turkey",
+      "items": [
+        { "question": "Is hair transplant in Turkey safe?", "answer": "At licensed clinics — yes. Look for: Ministry of Health health-tourism license, ISO 9001 certification, surgeon-led procedures (not technician-only), and written guarantees. Grafta Clinic holds all four. Avoid clinics that refuse to share their license number or perform 8-10 patients per surgeon per day." },
+        { "question": "How much does a hair transplant cost in Turkey vs the US/UK?", "answer": "A 5,000-graft Sapphire FUE costs $2,950 – $4,500 all-inclusive at Grafta Clinic Istanbul, vs $15,000 – $25,000 in the US (NYC, Miami, LA) and £10,000 – £18,000 in the UK. The price gap reflects lower local overhead and a competitive medical-tourism market — not lower quality." },
+        { "question": "Which is the best hair transplant technique — FUE, DHI or Sapphire FUE?", "answer": "There is no single best technique. Sapphire FUE gives the highest density and fastest recovery for frontal hairlines. DHI is best for women and unshaven cases. Classic FUE delivers the highest single-session graft yield for Norwood 5-7. The right choice depends on your donor area, goals and lifestyle." },
+        { "question": "How long do I need to stay in Istanbul?", "answer": "3 days is enough for most patients: arrival on day 1, operation on day 2, first wash and departure on day 3. Some patients add a 4th day for sightseeing." },
+        { "question": "What is included in the all-inclusive package?", "answer": "VIP airport transfer (round-trip), 2-3 nights at a 4 or 5-star hotel, multilingual interpreter, all medications, PRP sessions, recovery kit, written 12-month guarantee and post-op WhatsApp access to your surgeon. No hidden fees." },
+        { "question": "When will I see the final result?", "answer": "Initial shedding at month 1 is normal. New growth starts at month 3-4. Density becomes visible by month 6. The final result — including hair colour, texture and full density — appears at month 12." },
+        { "question": "Do you accept HIV-positive patients?", "answer": "Yes. With a controlled viral load and current bloodwork we accept HIV+ patients without restriction. Universal sterile precautions are applied to every patient regardless of status. Strict confidentiality is guaranteed under Turkish patient privacy law." },
+        { "question": "Can you do afro hair transplant?", "answer": "Yes — we have a specialist afro hair surgeon with a documented portfolio. Curly and coiled follicles need specific extraction tools and surgical experience to avoid transection. We treat Black men and women including Norwood 6-7 cases." },
+        { "question": "Do you offer hair transplant for women?", "answer": "Yes. Female hair restoration is a dedicated protocol: hormonal screening, diffuse-pattern planning, unshaven DHI, and a female case manager. A female surgeon is available on request." },
+        { "question": "How do I know which clinic is the best in Turkey?", "answer": "Verifiable signals: Ministry of Health license, ISO 9001 certification, ISHRS surgeon membership, surgeon-led (not technician-only) procedures, ≤2 patients per surgeon per day, transparent pricing without day-of upsells, written guarantee, and a 12-month follow-up programme. Be cautious of clinics ranking on '#1 in Turkey' lists they paid for — check independent Trustpilot, Google and Reddit reviews." },
+        { "question": "What about Reddit and Trustpilot reviews?", "answer": "We are reviewed openly on Trustpilot, Google and Reddit's r/HairTransplants. We do not filter, pay for, or remove reviews. We encourage every patient to publish their honest experience." },
+        { "question": "What if the result is not as expected?", "answer": "Our written guarantee covers graft survival rate at month 12. If it falls below the agreed threshold, we perform a free revision session. Travel and accommodation for revision are also covered under the premium package." },
+        { "question": "How do I book a free consultation?", "answer": "Send 4 photos (top, sides, back, front hairline) via WhatsApp to +90 507 647 34 34. Your surgeon will reply within 24 hours with a graft estimate, technique recommendation and full cost — no deposit, no pressure." }
+      ]
+    },
+    "cta": {
+      "title": "Get your free hair transplant evaluation today",
+      "subtitle": "Send 4 photos on WhatsApp and your surgeon — not a sales rep — will reply within 24 hours with a graft estimate, technique recommendation and final all-inclusive cost. No deposit, no pressure.",
+      "primary": "Message on WhatsApp",
+      "secondary": "Call Now"
     }
   }
 }

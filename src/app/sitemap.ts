@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();
-  const staticPaths = ["", "/about", "/services", "/results", "/contact"];
+  const staticPaths = ["", "/about", "/services", "/results", "/contact", "/hair-transplant-turkey"];
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -15,11 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const l of routing.locales) {
       languages[l] = `${base}/${l}${path}`;
     }
+    const isHome = path === "";
+    const isLanding = path === "/hair-transplant-turkey";
     entries.push({
       url: `${base}/${routing.defaultLocale}${path}`,
       lastModified: now,
-      changeFrequency: path === "" ? "weekly" : "monthly",
-      priority: path === "" ? 1 : 0.8,
+      changeFrequency: isHome ? "weekly" : "monthly",
+      priority: isHome ? 1 : isLanding ? 0.9 : 0.8,
       alternates: { languages },
     });
   }

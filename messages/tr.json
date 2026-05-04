@@ -4,6 +4,7 @@
     "about": "Hakkımızda",
     "services": "Hizmetler",
     "contact": "İletişim",
+    "hairTransplantTurkey": "Türkiye Saç Ekimi",
     "bookAppointment": "Ücretsiz Konsültasyon",
     "categories": {
       "hair-restoration": "Saç Restorasyonu",
@@ -616,6 +617,247 @@
         { "question": "İmplantların ömrü nedir?", "answer": "Modern implantlar 10-15 yıl ya da daha uzun süre kullanılabilir; düzenli kontrol önerilir." },
         { "question": "Emzirmeyi etkiler mi?", "answer": "Doğru teknik seçildiğinde emzirme genellikle etkilenmez." }
       ]
+    }
+  },
+  "hairTransplantTurkey": {
+    "meta": {
+      "title": "Türkiye'nin En İyi Saç Ekimi Kliniği 2025 — Grafta Clinic İstanbul",
+      "description": "Türkiye'de saç ekimi mi düşünüyorsunuz? Grafta Clinic İstanbul'da FUE, DHI ve Safir FUE teknikleri, her şey dahil paketlerle 1.950 $'dan başlayan fiyatlarla. Sağlık turizmi yetki belgeli, ISO sertifikalı, ömür boyu takip. Ücretsiz konsültasyon.",
+      "keywords": "türkiye en iyi saç ekimi kliniği, istanbul saç ekimi, türkiye saç ekimi 2025, türkiye saç ekimi fiyat, fue dhi safir türkiye, afro saç ekimi türkiye, kadın saç ekimi türkiye"
+    },
+    "hero": {
+      "kicker": "Saç Ekimi Türkiye · İstanbul",
+      "title": "Türkiye'nin En İyi Saç Ekimi Kliniği",
+      "subtitle": "Doğal ve kalıcı sonuçlarıyla uluslararası alanda tanınan klinik. ISO sertifikalı tesiste, sertifikalı cerrahların uyguladığı FUE, DHI ve Safir FUE teknikleri — havalimanı karşılamasından son kontrolünüze kadar her şeyi kapsayan paketle.",
+      "h1Subline": "60+ ülkeden 10.000+ hasta · Türkiye Cumhuriyeti Sağlık Bakanlığı sağlık turizmi yetki belgeli",
+      "primaryCta": "WhatsApp'tan Ücretsiz Konsültasyon",
+      "secondaryCta": "Hemen Ara",
+      "trustChips": [
+        "Her şey dahil 1.950 $'dan",
+        "ISO 9001 sertifikalı klinik",
+        "ISHRS uyumlu cerrahlar",
+        "Yazılı garanti",
+        "Ömür boyu takip"
+      ]
+    },
+    "intro": {
+      "title": "Saç ekiminde Türkiye neden dünyanın 1 numaralı destinasyonu?",
+      "body": "Her yıl 750.000'den fazla uluslararası hasta saç ekimi için Türkiye'ye geliyor. Yalnız İstanbul'da yüzlerce klinik faaliyet gösteriyor — ancak yalnızca küçük bir kısmı uluslararası tıbbi standartlara uyuyor, sertifikalı cerrahlarla çalışıyor ve sonuçlarını şeffaf biçimde paylaşıyor. Bu rehber, Türkiye'nin en iyi saç ekimi kliniğini diğerlerinden ayıran kriterleri ve ABD, İngiltere, Almanya, Hollanda, Körfez ve daha birçok ülkeden hastaların neden Grafta Clinic İstanbul'u tercih ettiğini açıklıyor.",
+      "stats": [
+        { "value": "10.000+", "label": "Uluslararası hasta" },
+        { "value": "60+", "label": "Hizmet verilen ülke" },
+        { "value": "%98", "label": "Hasta memnuniyeti" },
+        { "value": "15+", "label": "Yıllık tecrübe" }
+      ]
+    },
+    "whyTurkey": {
+      "title": "Türkiye'de saç ekimi neden daha uygun? Kalite vermeden, fiyat avantajı nereden geliyor?",
+      "subtitle": "Hastalar genellikle ABD, İngiltere ve Türkiye arasındaki fiyat farkının kalite farkını yansıtıp yansıtmadığını sorar. Yansıtmıyor. Fiyat farkı yerel maliyet yapısından kaynaklanıyor: daha düşük klinik işletim giderleri, daha düşük hekim maliyetleri, rekabetçi medikal turizm pazarı ve sağlık turizmi yetki belgeli sağlayıcılara verilen devlet teşvikleri. Kullanılan teknoloji, teknikler ve cerrah eğitimi New York, Miami, Los Angeles, Londra ya da Berlin'de sunulanlarla aynı — pek çok durumda daha üstün.",
+      "comparison": {
+        "title": "Saç ekimi fiyat karşılaştırması · 5.000 greft (tipik Norwood 5)",
+        "rows": [
+          { "country": "ABD (NYC, Miami, LA)", "price": "15.000 – 25.000 $", "note": "Sıklıkla teknisyen uygular; cerrah katılımı değişkendir" },
+          { "country": "İngiltere (Londra)", "price": "10.000 – 18.000 £", "note": "Uzun bekleme listeleri, seans başına sınırlı greft kapasitesi" },
+          { "country": "Almanya / Hollanda", "price": "8.000 – 15.000 €", "note": "Yüksek sigorta yükü fiyata yansıyor" },
+          { "country": "Türkiye · Grafta Clinic İstanbul", "price": "2.950 – 4.500 $", "note": "Cerrah uygular, her şey dahil (otel + transfer + tercüman)" }
+        ],
+        "note": "Fiyatlar 2025 yılı için her bölgedeki kamuya açık klinik ortalamalarını yansıtır. Grafta Clinic fiyatlarına otel konaklaması, VIP havalimanı transferi, tercüman hizmeti, tüm ilaçlar ve yazılı garanti dahildir."
+      }
+    },
+    "whyGrafta": {
+      "title": "Grafta Clinic'i İstanbul'un en iyi saç ekimi kliniği yapan unsurlar",
+      "subtitle": "Bizi yüksek hacimli \"saç ekimi fabrikalarından\" ayıran sekiz tavizsiz standart.",
+      "items": [
+        {
+          "title": "Cerrah uygular — yalnızca teknisyen değil",
+          "description": "Saç çizgisi tasarımınız, kanal açma ve greft alma işlemleri sertifikalı bir cerrah tarafından bizzat yapılır. Türkiye'deki birçok klinik tüm prosedürü teknisyenlere bırakır; biz bırakmıyoruz. Cerrahlarımız ISHRS ve FUE Europe üyesidir."
+        },
+        {
+          "title": "Cerrah başına günde maksimum 1 hasta",
+          "description": "Cerrah başına günde tek operasyonla sınırlandırıyoruz. Bu, tam dikkat, aceleye gelmeyen greft işleme ve mümkün olan en düşük folikül hasar oranı (sektör ortalaması %15-25 iken biz %5'in altında) anlamına geliyor."
+        },
+        {
+          "title": "FUE, DHI ve Safir FUE — sizin için uygun olan, klinik için en kârlı olan değil",
+          "description": "Üç tekniği de uyguluyoruz. Saç çizgisi paterniniz, donör bölgeniz ve hedeflerinize uygun olanı öneriyoruz — kliniğe en yüksek kâr getireni değil."
+        },
+        {
+          "title": "ISO 9001 sertifikalı tesis, JCI uyumlu protokoller",
+          "description": "Hastane standardında ameliyathaneler, tek kullanımlık tıbbi cihazlar, mikrobiyolojik denetimler, yalnızca CE/FDA onaylı ekipman. Sertifika numaralarımızı yayınlıyoruz; çoğu rakibimiz yayınlamıyor."
+        },
+        {
+          "title": "Sağlık turizmi yetki belgeli sağlayıcı",
+          "description": "Türkiye Cumhuriyeti Sağlık Bakanlığı'nca uluslararası hasta bakımı için resmi olarak kayıtlıdır (lisans numarası konsültasyonda paylaşılır). Bu, denetimli uyumluluğa tabi düzenlenmiş bir statüdür."
+        },
+        {
+          "title": "Yazılı garanti ve ücretsiz revizyon hakkı",
+          "description": "12. ayda greft tutma oranınız anlaşılan eşiğin altına düşerse ücretsiz revizyon seansı uygularız. Garanti pazarlama sloganı değil; sözleşme şartıdır."
+        },
+        {
+          "title": "Ömür boyu takip — cerrahınızla, çağrı merkeziyle değil",
+          "description": "1, 3, 6 ve 12. ayda ücretsiz kontroller. Sonrasında yıllarca cerrahınıza doğrudan WhatsApp erişimi. Çoğu uluslararası klinik 2. haftadan sonra iletişimi keser."
+        },
+        {
+          "title": "Şeffaf fiyatlandırma — operasyon günü ek satış yok",
+          "description": "Ücretsiz konsültasyonda size verilen fiyat ödediğiniz fiyattır. Operasyon günü 'meğer daha fazla grefte ihtiyacınız varmış' söylemiyle ek satış yapan İstanbul kliniklerinden değiliz."
+        }
+      ]
+    },
+    "techniques": {
+      "title": "Sunduğumuz saç ekimi teknikleri",
+      "subtitle": "Üç modern teknik de kendi bünyemizde uygulanır. Doğru seçim donör bölgenize, saç çizgisi hedefinize ve yaşam tarzı tercihlerinize bağlıdır.",
+      "items": [
+        {
+          "name": "Safir FUE",
+          "tagline": "En yüksek yoğunluk, en hızlı iyileşme",
+          "description": "Kanallar çelik yerine safir uçlu bistürilerle açılır. Daha küçük insizyonlar, daha yoğun yerleştirme ve daha hızlı iyileşme — özellikle ön saç çizgisinde maksimum yoğunluk arayan hastalar için en iyi seçim."
+        },
+        {
+          "name": "DHI (Direct Hair Implantation)",
+          "tagline": "Kadın ve traşsız vakalar için tıraş gerektirmez",
+          "description": "Choi implanter kalemleri her grefti önceden açılmış kanal olmadan doğrudan yerleştirir. Kadınlar, orta-yoğunluk düzenlemesi ve alıcı bölgeyi tıraş etmek istemeyen hastalar için ideal."
+        },
+        {
+          "name": "Klasik FUE",
+          "tagline": "Tek seansta en yüksek greft verimi",
+          "description": "Kanıtlanmış ana teknik. Büyük seans (4.500-6.000 greft), Norwood 5-7 paterni ve iyileşme hızından çok greft hacmi öncelikli hastalar için en iyisidir."
+        },
+        {
+          "name": "Afro Saç Ekimi",
+          "tagline": "Kıvırcık/buklemli saç için uzman teknik",
+          "description": "Afro ve kıvırcık saç köklerinin cilt altında kıvrılan yapısı vardır — transeksiyon olmadan çıkarılması özel ekipman ve cerrah deneyimi gerektirir. Siyahi erkek ve kadın hastalar için belgelenmiş sonuçları olan özel afro saç protokolümüz mevcuttur."
+        },
+        {
+          "name": "Kadın Saç Ekimi",
+          "tagline": "Diffüz incelme, FPHL, traksiyon alopesi",
+          "description": "Kadın saç restorasyonu farklı planlama gerektirir: diffüz incelme paterni, hormonal değerlendirme ve iyileşme sürecinde mahremiyeti koruyan tıraşsız DHI. Kadın hasta protokolümüz, talep halinde kadın cerrah seçeneğini içerir."
+        },
+        {
+          "name": "HIV+ Dostu Protokol",
+          "tagline": "Aynı gün operasyon, ayrımcılık yok",
+          "description": "Kontrollü viral yüke sahip HIV pozitif hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemleri uyguluyoruz. Türkiye'deki birçok klinik sessizce reddeder — biz reddetmiyoruz. Gizlilik garantilidir."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Türkiye saç ekimi — şeffaf fiyatlandırma",
+      "subtitle": "Tüm paketler her şey dahildir. Gördüğünüz rakam ödediğiniz rakamdır.",
+      "disclaimer": "Nihai fiyat, ücretsiz ön değerlendirme (fotoğraf veya video) sonrasında onaylanır. Greft sayısı donör bölge yoğunluğunuza ve alıcı bölge büyüklüğüne göre belirlenir — klinikteki ek satışla değil.",
+      "tiers": [
+        {
+          "name": "Essential FUE",
+          "price": "1.950 $'dan",
+          "grafts": "3.500 grefte kadar",
+          "includes": [
+            "Cerrah uygulamalı FUE",
+            "4 yıldızlı partner otelde 2 gece",
+            "VIP havalimanı ↔ otel ↔ klinik transferleri",
+            "İngilizce / Almanca / Arapça tercüman",
+            "1 PRP seansı",
+            "12 ay yazılı garanti",
+            "İyileşme kiti (şampuan, losyon, köpük)"
+          ]
+        },
+        {
+          "name": "Premium Safir FUE / DHI",
+          "price": "2.950 $'dan",
+          "grafts": "5.000 grefte kadar",
+          "includes": [
+            "Cerrah uygulamalı Safir FUE veya DHI",
+            "5 yıldızlı partner otelde 3 gece",
+            "VIP havalimanı ↔ otel ↔ klinik transferleri",
+            "Çok dilli tercüman (7/24 WhatsApp)",
+            "2 PRP seansı",
+            "12 ay yazılı garanti",
+            "İyileşme kiti + diyet takviyeleri",
+            "Op sonrası 4 video konsültasyon"
+          ],
+          "highlight": "En çok tercih edilen"
+        },
+        {
+          "name": "Signature (Afro / Kadın / Mega-seans)",
+          "price": "kişiye özel teklif",
+          "grafts": "6.000 grefte kadar",
+          "includes": [
+            "Uzman cerrah (afro / kadın / mega-seans)",
+            "5 yıldızlı otel · 4 gece",
+            "Özel VIP transferler + concierge",
+            "Özel vaka yöneticisi",
+            "3 PRP + 1 ekzosom seansı",
+            "Greft canlılığında ömür boyu garanti",
+            "Premium iyileşme kiti",
+            "24 ay boyunca üç ayda bir video takip"
+          ]
+        }
+      ]
+    },
+    "package": {
+      "title": "Her şey dahil İstanbul paketiniz",
+      "subtitle": "Çoğu uluslararası hasta Salı sabahı geliyor, Cuma öğleden sonra dönüyor. Bizim halletmemiz gerekenler şunlar.",
+      "items": [
+        { "title": "VIP havalimanı transferi", "description": "Şoför, isminizle gelişlerde bekler. Mercedes Vito, İngilizce konuşan. Taksi yok, uygulama yok, sürpriz yok." },
+        { "title": "4 veya 5 yıldızlı otel", "description": "Sessiz, temiz, kliniğe yürüme mesafesinde. Kahvaltı dahil. Oda geliş-gidişiniz boyunca sizin." },
+        { "title": "Çok dilli tercüman", "description": "İngilizce, Almanca, Arapça, Rusça, Fransızca. Konsültasyonda, prosedür brifinginde ve 7/24 WhatsApp'ta yanınızda." },
+        { "title": "Cerrah konsültasyonu", "description": "Uçuştan önce ön op video görüşmesi. Geliş günü yüz yüze değerlendirme. Sorularınızı cerrah cevaplar — satış temsilcisi değil." },
+        { "title": "Operasyon günü konforu", "description": "Konfor süiti, öğle yemeği, müzik, 90 dakikada bir mola. Prosedür 6-8 saat sürer; biz daha kısa hissettiririz." },
+        { "title": "Op sonrası bakım ziyareti", "description": "Ertesi gün klinikte yıkama ve kontrol. İyileşme kiti elden teslim, her adım yüz yüze gösterilir." },
+        { "title": "12 ay takip", "description": "1, 3, 6, 12. ayda fotoğraf incelemeleri. Cerrahınıza doğrudan WhatsApp hattı. Garanti kriterleri karşılanmazsa ücretsiz revizyon." },
+        { "title": "Opsiyonel: refakatçi dostu", "description": "Bir arkadaş veya partner getirin. Refakatçi aynı otelde ücretsiz konaklar; transferler dahildir." }
+      ]
+    },
+    "journey": {
+      "title": "Saç ekimi yolculuğunuz, gün gün",
+      "steps": [
+        { "day": "Uçuştan önce", "title": "Ücretsiz ön değerlendirme", "description": "WhatsApp'tan 4 fotoğraf gönderin. Cerrah bunları bizzat inceler ve genellikle 24 saat içinde greft tahmini, teknik önerisi ve toplam maliyetle döner. Depozito yok, baskı yok." },
+        { "day": "1. Gün · Geliş", "title": "Karşılama ve yüz yüze konsültasyon", "description": "Şoför sizi İstanbul havalimanında karşılar. Otelde kısa dinlenme, ardından klinikte yüz yüze konsültasyon: saç çizgisi tasarımı, donör bölge değerlendirmesi, kan tahlilleri. İsterseniz ücretsiz akşam yemeği rezervasyonu." },
+        { "day": "2. Gün · Operasyon", "title": "Prosedür", "description": "09.00 başlangıç. Lokal anestezi, greft alma, kanal açma, yerleştirme. Molalarla 6-8 saat. Öğle yemeği servis edilir. Klinikten kendi ayaklarınızla, sargılı şekilde çıkarsınız. Şoför sizi bekler." },
+        { "day": "3. Gün · Yıkama ve dönüş", "title": "İlk yıkama ve bakım brifingi", "description": "İlk tıbbi yıkama, fotoğraf belgeleme ve iyileşme kitinin teslimi için kliniğe dönüş. Cerrah ev bakımının her adımını anlatır. Havalimanına şoför. Akşam yemeğine evdesiniz." },
+        { "day": "1 – 12. ay", "title": "İyileşme ve nihai sonuç", "description": "1. ayda dökülme fazı (normal). 3-4. aydan itibaren yeni çıkış. 6. ayda yoğunluk görünür hale gelir. Nihai sonuç 12. ayda. Yol boyunca fotoğraf kontrolleri; gerekirse revizyon mevcuttur." }
+      ]
+    },
+    "patientGroups": {
+      "title": "Uzman saç ekimi bakımı — her hasta için",
+      "subtitle": "Yüksek hacimli kliniklerde sıklıkla geri çevrilen veya yeterince ilgilenilmeyen hasta grupları için özel protokollerimiz var.",
+      "items": [
+        { "title": "Türkiye'de afro saç ekimi", "description": "Kıvırcık ve buklemli folliküller, transeksiyon olmadan çıkarılması için özel ekipman ve cerrah deneyimi gerektirir. Afro saç cerrahımızın siyahi erkek ve kadın hastalarla, Norwood 6-7 vakaları dahil belgelenmiş portföyü vardır. Saç çizgisi görselleştirmesi ücretsizdir." },
+        { "title": "Kadınlar için saç ekimi", "description": "Kadın tipi saç dökülmesi (FPHL) hormonal tarama, diffüz patern planlaması ve tıraşsız DHI gerektirir. Kadın vaka yöneticisi atıyoruz ve talep halinde kadın cerrah sunuyoruz. Mahremiyet öncelikli, gizli protokol." },
+        { "title": "Siyahi erkekler için saç ekimi", "description": "Afro saç özelliklerinin ötesinde — şakak restorasyonu ve cilt-fade uyumluluğu için sakal ekimi dahil siyahi erkekler için geniş saç çizgisi estetiği." },
+        { "title": "HIV pozitif hastalar", "description": "Kontrollü viral yüke sahip HIV+ hastaları kabul ediyoruz. Evrensel önlemler her hastaya zaten uygulanıyor; farklı bir protokole ihtiyaç yok. Türkiye hasta gizlilik mevzuatı uyarınca gizlilik garantilidir." },
+        { "title": "Onarım / ikinci operasyon vakaları", "description": "Diğer kliniklerden kötü sonuçlanmış saç çizgileri, doğal olmayan plug görünümü, düşük yoğunluklu nakiller. Restore ediyoruz — ve revizyonun gerçekçi olup olmadığını dürüstçe söylüyoruz." },
+        { "title": "Norwood 6-7 mega-seansları", "description": "Donör bölge izin verdiğinde, iki cerrahlı ekiplerle tek günde 6.000 grefte kadar. Tek seyahatte maksimum kapsama." }
+      ]
+    },
+    "results": {
+      "title": "Uluslararası hastalardan gerçek öncesi-sonrası sonuçlar",
+      "subtitle": "Sonuçlar yazılı hasta onayı ile yayınlanmıştır. Her hastanın sonucu kendi donör yoğunluğunu, saç çizgisi hedefini ve iyileşmesini yansıtır — iki yolculuk birbirinin aynısı değildir.",
+      "cta": "Tüm sonuçlar galerisini görüntüle"
+    },
+    "reviews": {
+      "title": "Dünyanın dört bir yanından hastaların söyledikleri",
+      "subtitle": "Trustpilot, Google ve Reddit'te bağımsız yorumlar. Yorumları filtrelemiyor, düzenlemiyor veya bunun için ödeme yapmıyoruz."
+    },
+    "faq": {
+      "title": "Türkiye'de saç ekimi hakkında sıkça sorulan sorular",
+      "items": [
+        { "question": "Türkiye'de saç ekimi güvenli mi?", "answer": "Lisanslı kliniklerde — evet. Şunlara bakın: Sağlık Bakanlığı sağlık turizmi yetki belgesi, ISO 9001 sertifikası, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler ve yazılı garantiler. Grafta Clinic'te dördü de mevcuttur. Lisans numarasını paylaşmayı reddeden veya cerrah başına günde 8-10 hasta uygulayan kliniklerden kaçının." },
+        { "question": "ABD/İngiltere'ye kıyasla Türkiye'de saç ekimi ne kadar?", "answer": "5.000 greftlik Safir FUE, Grafta Clinic İstanbul'da her şey dahil 2.950 – 4.500 $ iken ABD'de (NYC, Miami, LA) 15.000 – 25.000 $ ve İngiltere'de 10.000 – 18.000 £ aralığındadır. Fiyat farkı düşük yerel maliyetler ve rekabetçi medikal turizm pazarından kaynaklanır — düşük kaliteden değil." },
+        { "question": "En iyi saç ekimi tekniği hangisi — FUE, DHI yoksa Safir FUE?", "answer": "Tek bir 'en iyi' teknik yoktur. Safir FUE ön saç çizgisinde en yüksek yoğunluğu ve en hızlı iyileşmeyi sağlar. DHI kadınlar ve tıraşsız vakalar için en iyisidir. Klasik FUE Norwood 5-7 için tek seansta en yüksek greft verimini sunar. Doğru seçim donör bölgenize, hedeflerinize ve yaşam tarzınıza bağlıdır." },
+        { "question": "İstanbul'da ne kadar kalmam gerekiyor?", "answer": "Çoğu hasta için 3 gün yeterli: 1. gün geliş, 2. gün operasyon, 3. gün ilk yıkama ve dönüş. Bazı hastalar şehir gezisi için 4. günü ekler." },
+        { "question": "Her şey dahil pakete neler dahil?", "answer": "VIP havalimanı transferi (gidiş-dönüş), 4 veya 5 yıldızlı otelde 2-3 gece, çok dilli tercüman, tüm ilaçlar, PRP seansları, iyileşme kiti, 12 ay yazılı garanti ve op sonrası cerrahınıza WhatsApp erişimi. Gizli ücret yoktur." },
+        { "question": "Nihai sonucu ne zaman göreceğim?", "answer": "1. ayda ilk dökülme normaldir. 3-4. ayda yeni çıkış başlar. 6. ayda yoğunluk görünür hale gelir. Nihai sonuç — saç rengi, dokusu ve tam yoğunluk dahil — 12. ayda ortaya çıkar." },
+        { "question": "HIV pozitif hastaları kabul ediyor musunuz?", "answer": "Evet. Kontrollü viral yük ve güncel kan tahlilleriyle HIV+ hastaları kısıtlamasız kabul ediyoruz. Statüsünden bağımsız olarak her hastaya evrensel steril önlemler uygulanır. Türkiye hasta gizlilik mevzuatı uyarınca tam gizlilik garantilidir." },
+        { "question": "Afro saç ekimi yapıyor musunuz?", "answer": "Evet — belgelenmiş portföye sahip uzman bir afro saç cerrahımız var. Kıvırcık ve buklemli folliküller, transeksiyondan kaçınmak için özel ekipman ve cerrahi deneyim gerektirir. Norwood 6-7 vakaları dahil siyahi erkek ve kadın hastaları tedavi ediyoruz." },
+        { "question": "Kadınlar için saç ekimi sunuyor musunuz?", "answer": "Evet. Kadın saç restorasyonu özel bir protokoldür: hormonal tarama, diffüz patern planlaması, tıraşsız DHI ve kadın vaka yöneticisi. Talep halinde kadın cerrah mevcuttur." },
+        { "question": "Türkiye'de hangi kliniğin en iyi olduğunu nasıl anlarım?", "answer": "Doğrulanabilir göstergeler: Sağlık Bakanlığı yetki belgesi, ISO 9001 sertifikası, ISHRS cerrah üyeliği, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler, cerrah başına günde ≤2 hasta, gün-ek-satışı olmayan şeffaf fiyatlandırma, yazılı garanti ve 12 ay takip programı. Para vererek girdikleri 'Türkiye'de #1' listelerinde sıralanan kliniklere dikkat — bağımsız Trustpilot, Google ve Reddit yorumlarını kontrol edin." },
+        { "question": "Reddit ve Trustpilot yorumları ne durumda?", "answer": "Trustpilot, Google ve Reddit'in r/HairTransplants topluluğunda açıkça değerlendiriliyoruz. Yorumları filtrelemiyor, bunun için ödeme yapmıyor veya kaldırmıyoruz. Her hastayı dürüst deneyimini paylaşmaya teşvik ediyoruz." },
+        { "question": "Sonuç beklendiği gibi olmazsa ne olur?", "answer": "Yazılı garantimiz 12. ayda greft tutma oranını kapsar. Anlaşılan eşiğin altına düşerse ücretsiz revizyon seansı uygularız. Premium pakette revizyon için seyahat ve konaklama da dahildir." },
+        { "question": "Ücretsiz konsültasyonu nasıl ayırtırım?", "answer": "WhatsApp üzerinden +90 507 647 34 34 numaraya 4 fotoğraf gönderin (üst, yan, arka, ön saç çizgisi). Cerrahınız 24 saat içinde greft tahmini, teknik önerisi ve tam maliyetle yanıtlar — depozito ve baskı yoktur." }
+      ]
+    },
+    "cta": {
+      "title": "Bugün ücretsiz saç ekimi değerlendirmenizi alın",
+      "subtitle": "WhatsApp'tan 4 fotoğraf gönderin; cerrahınız — satış temsilcisi değil — 24 saat içinde greft tahmini, teknik önerisi ve nihai her şey dahil maliyetle yanıt verir. Depozito yok, baskı yok.",
+      "primary": "WhatsApp'tan Yaz",
+      "secondary": "Hemen Ara"
     }
   }
 }

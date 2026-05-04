@@ -4,6 +4,7 @@
     "about": "Über uns",
     "services": "Leistungen",
     "contact": "Kontakt",
+    "hairTransplantTurkey": "Haartransplantation Türkei",
     "bookAppointment": "Kostenlose Beratung",
     "categories": {
       "hair-restoration": "Haarwiederherstellung",
@@ -616,6 +617,247 @@
         { "question": "Wie lange halten Implantate?", "answer": "Moderne Implantate können 10-15 Jahre oder länger halten; regelmäßige Kontrollen werden empfohlen." },
         { "question": "Beeinträchtigt es das Stillen?", "answer": "Bei der richtigen Technik wird das Stillen in der Regel nicht beeinträchtigt." }
       ]
+    }
+  },
+  "hairTransplantTurkey": {
+    "meta": {
+      "title": "Beste Haartransplantationsklinik in der Türkei 2025 — Grafta Clinic Istanbul",
+      "description": "Sie überlegen eine Haartransplantation in der Türkei? Grafta Clinic Istanbul bietet FUE, DHI und Saphir-FUE mit All-inclusive-Paketen ab 1.950 $. Vom Gesundheitsministerium für Gesundheitstourismus zertifiziert, ISO-zertifiziert, lebenslange Nachsorge. Kostenlose Beratung.",
+      "keywords": "beste haartransplantation klinik türkei, haartransplantation istanbul, haartransplantation türkei 2025, haartransplantation türkei preis, fue dhi saphir türkei, afro haartransplantation türkei, haartransplantation frauen türkei"
+    },
+    "hero": {
+      "kicker": "Haartransplantation Türkei · Istanbul",
+      "title": "Beste Haartransplantationsklinik in der Türkei",
+      "subtitle": "International anerkannt für natürliche, dauerhafte Ergebnisse. FUE, DHI und Saphir-FUE durch zertifizierte Chirurgen in einer ISO-zertifizierten Einrichtung — mit einem All-inclusive-Paket, das alles vom Flughafentransfer bis zur letzten Nachsorge abdeckt.",
+      "h1Subline": "Mehr als 10.000 Patienten aus über 60 Ländern · Vom türkischen Gesundheitsministerium für Gesundheitstourismus zertifiziert",
+      "primaryCta": "Kostenlose Beratung auf WhatsApp",
+      "secondaryCta": "Jetzt anrufen",
+      "trustChips": [
+        "All-inclusive ab 1.950 $",
+        "ISO 9001-zertifizierte Klinik",
+        "ISHRS-konforme Chirurgen",
+        "Schriftliche Garantie",
+        "Lebenslange Nachsorge"
+      ]
+    },
+    "intro": {
+      "title": "Warum die Türkei das weltweit führende Ziel für Haartransplantationen ist",
+      "body": "Jedes Jahr reisen mehr als 750.000 internationale Patienten für eine Haartransplantation in die Türkei. Allein Istanbul beherbergt Hunderte von Kliniken — aber nur ein kleiner Teil arbeitet nach internationalen medizinischen Standards, beschäftigt zertifizierte Chirurgen und veröffentlicht transparente Ergebnisse. Dieser Leitfaden erklärt, was die beste Haartransplantationsklinik in der Türkei von den anderen unterscheidet und warum Patienten aus den Vereinigten Staaten, dem Vereinigten Königreich, Deutschland, den Niederlanden, dem Golf und darüber hinaus konsequent die Grafta Clinic Istanbul wählen.",
+      "stats": [
+        { "value": "10.000+", "label": "Internationale Patienten" },
+        { "value": "60+", "label": "Bediente Länder" },
+        { "value": "98%", "label": "Patientenzufriedenheit" },
+        { "value": "15+", "label": "Jahre Erfahrung" }
+      ]
+    },
+    "whyTurkey": {
+      "title": "Warum eine Haartransplantation in der Türkei weniger kostet — ohne Qualitätseinbußen",
+      "subtitle": "Patienten fragen oft, ob der Preisunterschied zwischen den USA, Großbritannien und der Türkei einen Qualitätsunterschied widerspiegelt. Tut er nicht. Der Preisunterschied spiegelt die lokale Kostenstruktur wider: niedrigere Klinikbetriebskosten, niedrigerer ärztlicher Aufwand, ein wettbewerbsfähiger Medizintourismusmarkt und staatliche Anreize für akkreditierte Anbieter im Gesundheitstourismus. Die tatsächliche Technologie, die Techniken und die Ausbildung der Chirurgen sind dieselben — und in vielen Fällen besser — als in New York, Miami, Los Angeles, London oder Berlin.",
+      "comparison": {
+        "title": "Kostenvergleich Haartransplantation · 5.000 Grafts (typisch Norwood 5)",
+        "rows": [
+          { "country": "USA (NYC, Miami, LA)", "price": "15.000 – 25.000 $", "note": "Häufig vom Techniker durchgeführt; Beteiligung des Chirurgen variiert" },
+          { "country": "Vereinigtes Königreich (London)", "price": "10.000 – 18.000 £", "note": "Lange Wartelisten, begrenzte Graft-Kapazität pro Sitzung" },
+          { "country": "Deutschland / Niederlande", "price": "8.000 – 15.000 €", "note": "Hohe Versicherungskosten im Preis enthalten" },
+          { "country": "Türkei · Grafta Clinic Istanbul", "price": "2.950 – 4.500 $", "note": "Vom Chirurgen geleitet, all-inclusive (Hotel + Transfer + Dolmetscher)" }
+        ],
+        "note": "Preise spiegeln Durchschnittswerte aus 2025 von öffentlich gelisteten Kliniken in jeder Region wider. Die Preise der Grafta Clinic beinhalten Hotelunterkunft, VIP-Flughafentransfer, Dolmetscherdienst, alle Medikamente und eine schriftliche Garantie."
+      }
+    },
+    "whyGrafta": {
+      "title": "Was die Grafta Clinic zur besten Haartransplantationsklinik in Istanbul macht",
+      "subtitle": "Acht nicht verhandelbare Standards, die uns von Massenkliniken unterscheiden.",
+      "items": [
+        {
+          "title": "Vom Chirurgen geleiteter Eingriff — niemals nur durch Techniker",
+          "description": "Ihre Haarlinienzeichnung, Kanalöffnung und Graft-Entnahme werden persönlich von einem zertifizierten Chirurgen durchgeführt. Viele Kliniken in der Türkei delegieren den gesamten Eingriff an Techniker; wir nicht. Unsere Chirurgen sind Mitglieder der ISHRS und FUE Europe."
+        },
+        {
+          "title": "Maximal 1 Patient pro Chirurg pro Tag",
+          "description": "Wir beschränken uns bewusst auf eine Operation pro Chirurg pro Tag. Das garantiert volle Aufmerksamkeit, keine eilig durchgeführte Graft-Behandlung und die niedrigstmögliche Schadensrate der Follikel (unter 5 % im Vergleich zum Branchendurchschnitt von 15-25 %)."
+        },
+        {
+          "title": "FUE, DHI und Saphir-FUE — für Sie gewählt, nicht für uns",
+          "description": "Wir bieten alle drei Techniken an. Wir empfehlen die, die zu Ihrem Haarlinienmuster, Spenderbereich und Ihren Zielen passt — niemals die mit der höchsten Marge für die Klinik."
+        },
+        {
+          "title": "ISO 9001-zertifizierte Einrichtung, JCI-konforme Protokolle",
+          "description": "Operationssäle in Krankenhausqualität, Einweg-Medizininstrumente, mikrobiologische Audits, ausschließlich CE/FDA-zugelassene Geräte. Wir veröffentlichen unsere Zertifikatsnummern; viele Wettbewerber nicht."
+        },
+        {
+          "title": "Zertifizierter Anbieter im Gesundheitstourismus",
+          "description": "Offiziell beim türkischen Gesundheitsministerium für die internationale Patientenversorgung registriert (Lizenznummer wird bei der Beratung mitgeteilt). Dies ist ein regulierter Status mit auditierter Compliance."
+        },
+        {
+          "title": "Schriftliche Garantie mit Klausel zur kostenlosen Revision",
+          "description": "Wenn Ihre Graft-Überlebensrate im Monat 12 unter den vereinbarten Schwellenwert fällt, führen wir eine kostenlose Revisionssitzung durch. Die Garantie ist vertraglich, kein Marketingslogan."
+        },
+        {
+          "title": "Lebenslange Nachsorge — durch Ihren Chirurgen, nicht durch ein Callcenter",
+          "description": "Kostenlose Kontrollen in Monat 1, 3, 6 und 12. Danach jahrelanger direkter WhatsApp-Zugang zu Ihrem Chirurgen. Die meisten internationalen Kliniken brechen den Kontakt nach Woche 2 ab."
+        },
+        {
+          "title": "Transparente Preise — keine Aufschläge am Tag der Operation",
+          "description": "Der in Ihrer kostenlosen Beratung angegebene Preis ist der Preis, den Sie zahlen. Wir 'entdecken' am Operationstag nicht, dass Sie mehr Grafts benötigen — eine Taktik, für die einige Istanbuler Kliniken bekannt sind."
+        }
+      ]
+    },
+    "techniques": {
+      "title": "Von uns angebotene Haartransplantationstechniken",
+      "subtitle": "Alle drei modernen Techniken werden im Haus durchgeführt. Die richtige Wahl hängt von Ihrem Spenderbereich, Ihrem Haarlinienziel und Ihren Lebensstilpräferenzen ab.",
+      "items": [
+        {
+          "name": "Saphir-FUE",
+          "tagline": "Höchste Dichte, schnellste Genesung",
+          "description": "Kanäle werden mit Saphir-Klingen statt mit Stahl geöffnet. Kleinere Inzisionen, dichtere Packung und schnellere Heilung — typischerweise die beste Wahl für Patienten, die maximale Dichte in der vorderen Haarlinie suchen."
+        },
+        {
+          "name": "DHI (Direct Hair Implantation)",
+          "tagline": "Keine Rasur erforderlich für Frauen und unrasierte Fälle",
+          "description": "Choi-Implanter-Stifte setzen jeden Graft direkt ohne vorher geöffnete Kanäle ein. Ideal für Frauen, mittlere Dichteverfeinerung und Patienten, die den Empfängerbereich nicht rasieren möchten."
+        },
+        {
+          "name": "Klassische FUE",
+          "tagline": "Höchster Graft-Ertrag in einer einzigen Sitzung",
+          "description": "Die bewährte Standardtechnik. Ideal für große Sitzungen (4.500-6.000 Grafts), Norwood-5-7-Muster und Patienten, die Graft-Volumen über Erholungsgeschwindigkeit stellen."
+        },
+        {
+          "name": "Afro-Haartransplantation",
+          "tagline": "Spezialtechnik für lockiges/krauses Haar",
+          "description": "Afro- und lockiges Haar hat Follikel, die sich unter der Haut krümmen — sie ohne Transektion zu entfernen erfordert spezielle Werkzeuge und chirurgische Erfahrung. Wir haben ein dediziertes Afro-Haarprotokoll mit dokumentierten Ergebnissen für schwarze Männer und Frauen."
+        },
+        {
+          "name": "Haartransplantation für Frauen",
+          "tagline": "Diffuser Haarausfall, FPHL, Traktionsalopezie",
+          "description": "Die weibliche Haarrestauration erfordert eine andere Planung: diffuse Ausdünnungsmuster, hormonelle Bewertung und unrasierte DHI, um die Würde während der Genesung zu wahren. Unser Frauen-Patientenprotokoll umfasst auf Wunsch eine spezialisierte Chirurgin."
+        },
+        {
+          "name": "HIV+ freundliches Protokoll",
+          "tagline": "Operation am selben Tag, keine Diskriminierung",
+          "description": "Wir akzeptieren HIV-positive Patienten mit kontrollierter Viruslast und befolgen universelle sterile Vorsichtsmaßnahmen, die mit denen für jeden Patienten identisch sind. Viele türkische Kliniken weigern sich stillschweigend — wir nicht. Diskretion garantiert."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Haartransplantation Türkei — transparente Preise",
+      "subtitle": "Alle Pakete sind All-inclusive. Die Zahl, die Sie sehen, ist die Zahl, die Sie zahlen.",
+      "disclaimer": "Der endgültige Preis wird nach einer kostenlosen Vorbeurteilung (Foto oder Video) bestätigt. Die Graft-Anzahl wird durch die Dichte Ihres Spenderbereichs und die Größe des Empfängerbereichs bestimmt — nicht durch einen Aufpreis in der Klinik.",
+      "tiers": [
+        {
+          "name": "Essential FUE",
+          "price": "ab 1.950 $",
+          "grafts": "bis zu 3.500 Grafts",
+          "includes": [
+            "Vom Chirurgen geleitete FUE-Prozedur",
+            "2 Nächte im 4-Sterne-Partnerhotel",
+            "VIP-Transfers Flughafen ↔ Hotel ↔ Klinik",
+            "Englisch / Deutsch / Arabisch Dolmetscher",
+            "1 PRP-Sitzung",
+            "12 Monate schriftliche Garantie",
+            "Genesungskit (Shampoo, Lotion, Schaum)"
+          ]
+        },
+        {
+          "name": "Premium Saphir-FUE / DHI",
+          "price": "ab 2.950 $",
+          "grafts": "bis zu 5.000 Grafts",
+          "includes": [
+            "Vom Chirurgen geleitete Saphir-FUE oder DHI",
+            "3 Nächte im 5-Sterne-Partnerhotel",
+            "VIP-Transfers Flughafen ↔ Hotel ↔ Klinik",
+            "Mehrsprachiger Dolmetscher (24/7 WhatsApp)",
+            "2 PRP-Sitzungen",
+            "12 Monate schriftliche Garantie",
+            "Genesungskit + Nahrungsergänzungsmittel",
+            "4 Post-OP-Videoberatungen"
+          ],
+          "highlight": "Am häufigsten gewählt"
+        },
+        {
+          "name": "Signature (Afro / Frauen / Mega-Sitzung)",
+          "price": "individuelles Angebot",
+          "grafts": "bis zu 6.000 Grafts",
+          "includes": [
+            "Spezialisierte Chirurgin/Chirurg (Afro / Frauen / Mega-Sitzung)",
+            "5-Sterne-Hotel · 4 Nächte",
+            "Private VIP-Transfers + Concierge",
+            "Persönlicher Fallmanager",
+            "3 PRP + 1 Exosomen-Sitzung",
+            "Lebenslange Garantie auf Graft-Überlebensfähigkeit",
+            "Premium-Genesungskit",
+            "Vierteljährliche Video-Nachsorge für 24 Monate"
+          ]
+        }
+      ]
+    },
+    "package": {
+      "title": "Ihr All-inclusive Istanbul-Paket",
+      "subtitle": "Die meisten internationalen Patienten kommen am Dienstagmorgen an und fliegen am Freitagnachmittag heim. Hier ist, was wir für Sie übernehmen.",
+      "items": [
+        { "title": "VIP-Flughafentransfer", "description": "Fahrer wartet mit Ihrem Namen am Ankunftsbereich. Mercedes Vito, englischsprachig. Kein Taxi, keine Apps, keine Überraschungen." },
+        { "title": "4- oder 5-Sterne-Hotel", "description": "Ruhig, sauber, fußläufig zur Klinik. Frühstück inklusive. Zimmer steht von Ankunft bis Abreise zur Verfügung." },
+        { "title": "Mehrsprachiger Dolmetscher", "description": "Englisch, Deutsch, Arabisch, Russisch, Französisch. Bei der Beratung, dem Eingriffsbriefing und 24/7 auf WhatsApp dabei." },
+        { "title": "Beratung durch den Chirurgen", "description": "Vor-OP-Videoanruf vor Ihrem Flug. Persönliche Beurteilung bei Ankunft. Der Chirurg — nicht ein Vertriebsmitarbeiter — beantwortet Ihre Fragen." },
+        { "title": "Komfort am Operationstag", "description": "Komfortsuite, Mittagessen, Musik, Pausen alle 90 Minuten. Der Eingriff dauert 6-8 Stunden; wir lassen ihn kürzer wirken." },
+        { "title": "Post-OP-Pflegebesuch", "description": "Wäsche und Kontrolle am nächsten Tag in der Klinik. Genesungskit übergeben, jeder Schritt persönlich gezeigt." },
+        { "title": "12-monatige Nachsorge", "description": "Foto-Reviews in Monat 1, 3, 6, 12. Direkte WhatsApp-Leitung zu Ihrem Chirurgen. Kostenlose Revision, falls die Garantiekriterien nicht erfüllt werden." },
+        { "title": "Optional: Begleiter willkommen", "description": "Bringen Sie einen Freund oder Partner mit. Begleiter bleibt im selben Hotel kostenlos; Transfers sind inbegriffen." }
+      ]
+    },
+    "journey": {
+      "title": "Ihre Haartransplantationsreise, Tag für Tag",
+      "steps": [
+        { "day": "Vor dem Flug", "title": "Kostenlose Vorbeurteilung", "description": "Senden Sie 4 Fotos via WhatsApp. Der Chirurg prüft sie persönlich und antwortet meist innerhalb von 24 Stunden mit einer Graft-Schätzung, Technikempfehlung und Gesamtkosten. Keine Anzahlung, kein Druck." },
+        { "day": "Tag 1 · Ankunft", "title": "Begrüßung und persönliche Beratung", "description": "Fahrer empfängt Sie am Flughafen Istanbul. Kurze Erholung im Hotel, dann persönliche Beratung in der Klinik: Haarliniendesign, Spenderbereichsbewertung, Bluttests. Auf Wunsch kostenlose Abendessenreservierung." },
+        { "day": "Tag 2 · Operation", "title": "Der Eingriff", "description": "9.00 Uhr Beginn. Lokalanästhesie, Graft-Entnahme, Kanalöffnung, Implantation. 6-8 Stunden mit Pausen. Mittagessen serviert. Sie verlassen die Klinik auf eigenen Beinen, mit verbundenem Kopf. Fahrer wartet, um Sie zurückzubringen." },
+        { "day": "Tag 3 · Wäsche und Abreise", "title": "Erste Wäsche und Pflegebriefing", "description": "Rückkehr zur Klinik für die erste medizinische Wäsche, Fotodokumentation und Übergabe des Genesungskits. Der Chirurg erklärt jeden Schritt der häuslichen Pflege. Fahrer zum Flughafen. Sie sind zum Abendessen zu Hause." },
+        { "day": "Monate 1 – 12", "title": "Genesung und Endergebnis", "description": "Ausfallphase in Monat 1 (normal). Neues Wachstum ab Monat 3-4. Dichte sichtbar in Monat 6. Endergebnis in Monat 12. Foto-Kontrollen unterwegs; Revision bei Bedarf verfügbar." }
+      ]
+    },
+    "patientGroups": {
+      "title": "Spezialisierte Haartransplantationsbetreuung — für jeden Patienten",
+      "subtitle": "Wir haben dedizierte Protokolle für die Patientengruppen, die in Hochvolumenkliniken am häufigsten abgewiesen oder unzureichend versorgt werden.",
+      "items": [
+        { "title": "Afro-Haartransplantation in der Türkei", "description": "Lockige und krause Follikel erfordern spezielle Entnahmewerkzeuge und chirurgische Erfahrung, um Transektion zu vermeiden. Unser Afro-Haarchirurg verfügt über ein dokumentiertes Portfolio mit schwarzen Männern und Frauen, einschließlich Norwood-6-7-Fällen. Kostenlose Visualisierung der Haarlinie inbegriffen." },
+        { "title": "Haartransplantation für Frauen", "description": "Weiblicher Haarausfallmuster (FPHL) erfordert hormonelles Screening, diffuse Musterplanung und unrasierte DHI. Wir weisen eine weibliche Fallmanagerin zu und bieten auf Wunsch eine Chirurgin an. Diskretes, würdevolles Protokoll." },
+        { "title": "Haartransplantation für schwarze Männer", "description": "Über Afro-Haarspezifika hinaus — umfassende Haarlinienästhetik für schwarze Männer, einschließlich Schläfenrestauration und Bartransplantation für Hautfade-Kompatibilität." },
+        { "title": "HIV-positive Patienten", "description": "Wir akzeptieren HIV+ Patienten mit kontrollierter Viruslast. Universelle Vorsichtsmaßnahmen werden bereits bei jedem Patienten angewendet, daher ist kein anderes Protokoll erforderlich. Vertraulichkeit ist nach türkischem Patientendatenschutzrecht garantiert." },
+        { "title": "Reparatur / Zweite-Verfahren-Fälle", "description": "Misslungene Haarlinien anderer Kliniken, unnatürliches Plug-Aussehen, Niedrigdichte-Transplantationen. Wir restaurieren — und sagen Ihnen ehrlich, wann eine Revision realistisch ist und wann nicht." },
+        { "title": "Norwood 6-7 Mega-Sitzungen", "description": "Bis zu 6.000 Grafts an einem Tag mit Zwei-Chirurgen-Teams, wenn der Spenderbereich es zulässt. Maximale Abdeckung in einer Reise." }
+      ]
+    },
+    "results": {
+      "title": "Echte Vorher-Nachher-Ergebnisse internationaler Patienten",
+      "subtitle": "Ergebnisse veröffentlicht mit schriftlicher Patienteneinwilligung. Das Ergebnis jedes Patienten spiegelt seine eigene Spenderdichte, sein Haarlinienziel und seine Genesung wider — keine zwei Reisen sind identisch.",
+      "cta": "Vollständige Ergebnisgalerie ansehen"
+    },
+    "reviews": {
+      "title": "Was Patienten aus aller Welt sagen",
+      "subtitle": "Unabhängige Bewertungen auf Trustpilot, Google und Reddit. Wir filtern, bearbeiten oder bezahlen keine Bewertungen."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen zur Haartransplantation in der Türkei",
+      "items": [
+        { "question": "Ist eine Haartransplantation in der Türkei sicher?", "answer": "In lizenzierten Kliniken — ja. Achten Sie auf: Zertifikat des Gesundheitsministeriums für Gesundheitstourismus, ISO 9001-Zertifizierung, vom Chirurgen geleitete Eingriffe (nicht nur durch Techniker) und schriftliche Garantien. Die Grafta Clinic verfügt über alle vier. Vermeiden Sie Kliniken, die ihre Lizenznummer nicht teilen oder 8-10 Patienten pro Chirurg pro Tag durchführen." },
+        { "question": "Was kostet eine Haartransplantation in der Türkei im Vergleich zu USA/UK?", "answer": "Eine 5.000-Graft-Saphir-FUE kostet in der Grafta Clinic Istanbul all-inclusive 2.950 – 4.500 $, gegenüber 15.000 – 25.000 $ in den USA (NYC, Miami, LA) und 10.000 – 18.000 £ in Großbritannien. Der Preisunterschied spiegelt niedrigere lokale Gemeinkosten und einen wettbewerbsfähigen Medizintourismusmarkt wider — keine niedrigere Qualität." },
+        { "question": "Welche ist die beste Haartransplantationstechnik — FUE, DHI oder Saphir-FUE?", "answer": "Es gibt keine einzelne beste Technik. Saphir-FUE bietet die höchste Dichte und schnellste Genesung für vordere Haarlinien. DHI ist am besten für Frauen und unrasierte Fälle. Klassische FUE liefert den höchsten Graft-Ertrag in einer einzigen Sitzung für Norwood 5-7. Die richtige Wahl hängt von Ihrem Spenderbereich, Ihren Zielen und Ihrem Lebensstil ab." },
+        { "question": "Wie lange muss ich in Istanbul bleiben?", "answer": "3 Tage reichen für die meisten Patienten: Ankunft an Tag 1, Operation an Tag 2, erste Wäsche und Abreise an Tag 3. Manche Patienten fügen einen 4. Tag für Sightseeing hinzu." },
+        { "question": "Was ist im All-inclusive-Paket enthalten?", "answer": "VIP-Flughafentransfer (Hin- und Rückfahrt), 2-3 Nächte im 4- oder 5-Sterne-Hotel, mehrsprachiger Dolmetscher, alle Medikamente, PRP-Sitzungen, Genesungskit, schriftliche 12-Monats-Garantie und Post-OP-WhatsApp-Zugang zu Ihrem Chirurgen. Keine versteckten Kosten." },
+        { "question": "Wann sehe ich das Endergebnis?", "answer": "Erstes Ausfallen in Monat 1 ist normal. Neues Wachstum beginnt in Monat 3-4. Dichte wird in Monat 6 sichtbar. Das Endergebnis — einschließlich Haarfarbe, -textur und voller Dichte — erscheint in Monat 12." },
+        { "question": "Akzeptieren Sie HIV-positive Patienten?", "answer": "Ja. Mit kontrollierter Viruslast und aktuellem Blutbild akzeptieren wir HIV+ Patienten ohne Einschränkung. Universelle sterile Vorsichtsmaßnahmen werden auf jeden Patienten unabhängig vom Status angewendet. Strenge Vertraulichkeit ist nach türkischem Patientendatenschutzrecht garantiert." },
+        { "question": "Können Sie Afro-Haartransplantation durchführen?", "answer": "Ja — wir haben einen spezialisierten Afro-Haarchirurgen mit dokumentiertem Portfolio. Lockige und krause Follikel benötigen spezifische Entnahmewerkzeuge und chirurgische Erfahrung, um Transektion zu vermeiden. Wir behandeln schwarze Männer und Frauen einschließlich Norwood-6-7-Fällen." },
+        { "question": "Bieten Sie Haartransplantation für Frauen an?", "answer": "Ja. Die weibliche Haarrestauration ist ein dediziertes Protokoll: hormonelles Screening, diffuse Musterplanung, unrasierte DHI und eine weibliche Fallmanagerin. Eine Chirurgin ist auf Anfrage verfügbar." },
+        { "question": "Woher weiß ich, welche Klinik in der Türkei die beste ist?", "answer": "Überprüfbare Signale: Lizenz des Gesundheitsministeriums, ISO 9001-Zertifizierung, ISHRS-Mitgliedschaft des Chirurgen, vom Chirurgen geleitete (nicht nur durch Techniker) Eingriffe, ≤ 2 Patienten pro Chirurg pro Tag, transparente Preise ohne Aufschläge am Operationstag, schriftliche Garantie und 12-monatiges Nachsorgeprogramm. Seien Sie vorsichtig bei Kliniken, die in '#1 in der Türkei'-Listen erscheinen, für die sie bezahlt haben — prüfen Sie unabhängige Trustpilot-, Google- und Reddit-Bewertungen." },
+        { "question": "Wie sieht es mit Reddit- und Trustpilot-Bewertungen aus?", "answer": "Wir werden offen auf Trustpilot, Google und Reddits r/HairTransplants bewertet. Wir filtern, bezahlen oder entfernen keine Bewertungen. Wir ermutigen jeden Patienten, seine ehrliche Erfahrung zu veröffentlichen." },
+        { "question": "Was ist, wenn das Ergebnis nicht wie erwartet ausfällt?", "answer": "Unsere schriftliche Garantie deckt die Graft-Überlebensrate in Monat 12 ab. Wenn sie unter den vereinbarten Schwellenwert fällt, führen wir eine kostenlose Revisionssitzung durch. Reise und Unterkunft für die Revision sind im Premium-Paket ebenfalls abgedeckt." },
+        { "question": "Wie buche ich eine kostenlose Beratung?", "answer": "Senden Sie 4 Fotos (oben, seitlich, hinten, vordere Haarlinie) via WhatsApp an +90 507 647 34 34. Ihr Chirurg wird innerhalb von 24 Stunden mit einer Graft-Schätzung, Technikempfehlung und vollständigen Kosten antworten — keine Anzahlung, kein Druck." }
+      ]
+    },
+    "cta": {
+      "title": "Holen Sie sich heute Ihre kostenlose Haartransplantationsbeurteilung",
+      "subtitle": "Senden Sie 4 Fotos auf WhatsApp und Ihr Chirurg — nicht ein Vertriebsmitarbeiter — wird innerhalb von 24 Stunden mit einer Graft-Schätzung, Technikempfehlung und endgültigen All-inclusive-Kosten antworten. Keine Anzahlung, kein Druck.",
+      "primary": "Auf WhatsApp schreiben",
+      "secondary": "Jetzt anrufen"
     }
   }
 }

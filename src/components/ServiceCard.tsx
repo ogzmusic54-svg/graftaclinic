@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { SmartImage } from "./SmartImage";
 import type { Service } from "@/config/services";
 
 export function ServiceCard({ service }: { service: Service }) {
@@ -14,7 +14,7 @@ export function ServiceCard({ service }: { service: Service }) {
       className="card group flex flex-col"
     >
       <div className="relative aspect-[4/3] overflow-hidden">
-        <SmartImage
+        <Image
           src={service.image}
           alt={title}
           fill

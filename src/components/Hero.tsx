@@ -1,8 +1,8 @@
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import type { Locale } from "@/i18n/routing";
 import { buildWhatsAppUrl, buildTelLink, siteConfig } from "@/config/site";
-import { SmartImage } from "./SmartImage";
 
 export function Hero() {
   const t = useTranslations("home.hero");
@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <SmartImage
+        <Image
           src="/images/hero.jpg"
           alt={siteConfig.name}
           fill

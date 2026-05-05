@@ -1,11 +1,7 @@
-"use client";
-
-import { useLocale } from "next-intl";
 import type { Locale } from "@/i18n/routing";
 import { buildWhatsAppUrl } from "@/config/site";
 
-export function WhatsAppFloat() {
-  const locale = useLocale() as Locale;
+export function WhatsAppFloat({ locale }: { locale: Locale }) {
   return (
     <a
       href={buildWhatsAppUrl(locale)}

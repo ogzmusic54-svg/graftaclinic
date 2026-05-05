@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { SmartImage } from "./SmartImage";
 
 interface Item { service: string; months: string; image: string }
 
@@ -35,10 +35,11 @@ export function BeforeAfterTeaser() {
           {items.map((item, i) => (
             <article key={i} className="card group">
               <div className="relative aspect-square overflow-hidden">
-                <SmartImage
+                <Image
                   src={item.image}
                   alt={`${item.service} — ${t("beforeAfter")}`}
                   fill
+                  loading="lazy"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />

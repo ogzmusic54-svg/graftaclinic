@@ -48,7 +48,7 @@ Slug listesi: `hair-transplant`, `beard-transplant`, `eyebrow-transplant`,
 
 ### 4) Domain — `src/config/site.ts`
 
-`url` alanını gerçek üretim domaininizle (ör. `https://www.graftaclinic.com`)
+`url` alanını gerçek üretim domaininizle (ör. `https://graftaclinic.com`)
 değiştirin. Sitemap, hreflang ve OpenGraph URL'leri buradan üretilir.
 
 ## Çeviri Düzenleme

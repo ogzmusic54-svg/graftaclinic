@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Newsreader, Manrope } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, type AbstractIntlMessages } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -106,12 +106,24 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "common" });
-  const messages = await getMessages();
+  const allMessages = await getMessages();
+  // Sadece client component'lerin kullandığı namespace'leri taşı (Header, LanguageSwitcher).
+  // Sayfa içeriği (home, about, services içerikleri vb.) sunucu tarafında render edilir.
+  const servicesNs = (allMessages.services ?? {}) as Record<string, { title?: string }>;
+  const servicesTitles: Record<string, { title: string }> = {};
+  for (const [slug, value] of Object.entries(servicesNs)) {
+    servicesTitles[slug] = { title: value.title ?? "" };
+  }
+  const clientMessages: AbstractIntlMessages = {
+    nav: allMessages.nav as AbstractIntlMessages,
+    common: allMessages.common as AbstractIntlMessages,
+    services: servicesTitles,
+  };
 
   return (
     <html lang={locale} className={`${newsreader.variable} ${manrope.variable}`}>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <a
             href="#main"
             className="absolute -top-12 left-4 z-50 rounded bg-[var(--color-primary)] px-4 py-2 text-white focus:top-4"
@@ -123,7 +135,7 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
-          <WhatsAppFloat />
+          <WhatsAppFloat locale={locale as Locale} />
           <OrganizationSchema locale={locale as Locale} />
           <WebSiteSchema locale={locale as Locale} />
         </NextIntlClientProvider>

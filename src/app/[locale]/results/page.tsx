@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
 import { routing, hasLocale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
-import { SmartImage } from "@/components/SmartImage";
 import { CtaSection } from "@/components/CtaSection";
 
 export function generateStaticParams() {
@@ -75,10 +75,11 @@ export default async function ResultsPage({
               return (
                 <article key={i} className="card group">
                   <div className="relative aspect-square overflow-hidden">
-                    <SmartImage
+                    <Image
                       src={`/images/results/result-${(i % 7) + 1}.jpg`}
                       alt={`${serviceTitle} — ${tCommon("beforeAfter")}`}
                       fill
+                      loading={i < 3 ? "eager" : "lazy"}
                       sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />

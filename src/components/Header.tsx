@@ -44,8 +44,9 @@ export function Header() {
           <Image
             src={siteConfig.brand.logoLight}
             alt={siteConfig.name}
-            width={400}
-            height={200}
+            width={256}
+            height={128}
+            sizes="(min-width: 768px) 128px, 112px"
             priority
             className="h-14 w-auto md:h-16"
           />

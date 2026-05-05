@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
 import { routing, hasLocale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
-import { SmartImage } from "@/components/SmartImage";
 import { TrustStats } from "@/components/TrustStats";
 import { TrustBadges } from "@/components/TrustBadges";
 import { CtaSection } from "@/components/CtaSection";
@@ -50,7 +50,7 @@ export default async function AboutPage({
     <>
       <section className="relative overflow-hidden bg-[var(--color-primary-deep)] text-white">
         <div className="absolute inset-0 -z-10">
-          <SmartImage
+          <Image
             src="/images/clinic-interior.jpg"
             alt={siteConfig.name}
             fill
@@ -70,7 +70,7 @@ export default async function AboutPage({
       <section className="section">
         <div className="container-content grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
-            <SmartImage
+            <Image
               src="/images/clinic-team.jpg"
               alt={t("story.title")}
               fill

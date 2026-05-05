@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
 import { Link, routing, hasLocale } from "@/i18n/routing";
 import { services, getService } from "@/config/services";
 import { siteConfig, buildWhatsAppUrl, buildTelLink } from "@/config/site";
-import { SmartImage } from "@/components/SmartImage";
 import { CtaSection } from "@/components/CtaSection";
 
 interface PageProps {
@@ -123,7 +123,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
     <>
       <section className="relative overflow-hidden bg-[var(--color-primary-deep)] text-white">
         <div className="absolute inset-0 -z-10">
-          <SmartImage
+          <Image
             src={service.heroImage ?? service.image}
             alt={t("heroTitle")}
             fill

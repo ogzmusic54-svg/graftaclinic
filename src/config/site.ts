@@ -18,7 +18,7 @@ export const siteConfig = {
   },
 
   // Üretim domaini — sitemap, hreflang ve OpenGraph URL'leri buradan üretilir
-  url: "https://www.graftaclinic.com",
+  url: "https://graftaclinic.com",
 
   // ───── İletişim — bu üç alanı doldurun ─────
   contact: {

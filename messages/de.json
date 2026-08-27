@@ -863,7 +863,7 @@
   "hivPositive": {
     "meta": {
       "title": "HIV-positive Haartransplantation in der Türkei — Vertraulich, Diskriminierungsfrei | Grafta Clinic",
-      "description": "Ja, wir führen Haartransplantationen für HIV-positive Patienten in Istanbul durch. Gleicher Chirurg, gleicher OP, gleicher All-inclusive-Preis — mit absoluter Vertraulichkeit. ISHRS-konformes Protokoll, keine Zusatzkosten, keine markierte Akte. Kostenlose, diskrete Beratung.",
+      "description": "Ja, wir führen Haartransplantationen für HIV-positive Patienten in Istanbul durch. Gleicher Chirurg, gleicher OP, gleicher All-inclusive-Preis — mit absoluter Vertraulichkeit. Gleiches Protokoll für alle Patienten, keine Zusatzkosten, keine markierte Akte. Kostenlose, diskrete Beratung.",
       "keywords": "hiv positive haartransplantation türkei, hiv haartransplantation istanbul, hiv-freundliche haarklinik, haartransplantation für hiv-patienten, diskrete haartransplantation türkei"
     },
     "hero": {
@@ -877,13 +877,13 @@
         "Keine Zusatzkosten",
         "Gleicher Chirurg, gleicher OP",
         "Keine Offenlegung gegenüber Personal",
-        "ISHRS-konformes Protokoll",
+        "Gleiches Protokoll für alle Patienten",
         "Schriftliche Vertraulichkeit"
       ]
     },
     "intro": {
       "title": "Warum so viele türkische Kliniken stillschweigend ablehnen — und warum wir das nicht tun",
-      "body": "Viele internationale Patienten, die mit HIV leben, berichten, dass sie offen abgelehnt oder 'aus der Nachsorge verloren' werden, sobald sie ihren Status einer türkischen Haartransplantationsklinik mitteilen. Die genannten Gründe rahmen HIV meist als 'Personal-Sicherheits-' oder 'Sterilisations-' Bedenken. Beides ist medizinisch und rechtlich falsch. Moderne Haartransplantationsverfahren verwenden bereits Einweg-Punches, Einweg-Nadeln und universelle Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. Einer Person, die mit HIV lebt, die Versorgung zu verweigern, verstößt gegen die türkischen medizinethischen Vorschriften. In der Grafta Clinic wenden wir den von der ISHRS und dem türkischen Gesundheitsministerium empfohlenen Versorgungsstandard an: HIV-positive Patienten mit kontrollierter Viruslast werden identisch wie jeder andere Patient behandelt — kein separater Raum, kein separater Tag, keine Zusatzkosten, keine markierte Akte."
+      "body": "Viele internationale Patienten, die mit HIV leben, berichten, dass sie offen abgelehnt oder 'aus der Nachsorge verloren' werden, sobald sie ihren Status einer türkischen Haartransplantationsklinik mitteilen. Die genannten Gründe rahmen HIV meist als 'Personal-Sicherheits-' oder 'Sterilisations-' Bedenken. Beides ist medizinisch und rechtlich falsch. Moderne Haartransplantationsverfahren verwenden bereits Einweg-Punches, Einweg-Nadeln und universelle Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. Einer Person, die mit HIV lebt, die Versorgung zu verweigern, verstößt gegen die türkischen medizinethischen Vorschriften. In der Grafta Clinic wenden wir denselben Versorgungsstandard an wie bei jedem anderen Patienten: HIV-positive Patienten mit kontrollierter Viruslast werden identisch wie jeder andere Patient behandelt — kein separater Raum, kein separater Tag, keine Zusatzkosten, keine markierte Akte."
     },
     "medicalReality": {
       "title": "Die medizinische Realität: HIV ändert das Haartransplantationsprotokoll nicht",
@@ -960,7 +960,7 @@
       "items": [
         { "question": "Werde ich extra berechnet, weil ich HIV-positiv bin?", "answer": "Nein. Eine Mehrkosten-Berechnung wäre Diskriminierung. Unsere Preise sind identisch mit denen jedes anderen Patienten: ab 2.950 $ all-inclusive für Saphir-FUE, ab 1.950 $ für Essential FUE." },
         { "question": "Muss ich meinen Status dem Hotel, Fahrer oder Dolmetscher offenlegen?", "answer": "Nein. Ihr Status ist medizinische Information und wird nur mit Ihrem Chirurgen und Anästhesisten auf Need-to-know-Basis geteilt. Das Hotel sieht Namen und Reservierung; der Fahrer sieht eine Abholung; der Dolmetscher sieht eine Beratung. Keiner von ihnen hat Zugriff auf Ihre medizinische Akte." },
-        { "question": "Welche CD4-Zahl und Viruslast sind erforderlich?", "answer": "Wir folgen den ISHRS-Leitlinien: CD4 ≥ 350 und nicht nachweisbare Viruslast unter stabiler antiretroviraler Therapie für mindestens 3 Monate. Patienten außerhalb dieser Schwellenwerte erhalten eine individuelle chirurgische Überprüfung — eine pauschale Ablehnung ist nicht unser Standard." },
+        { "question": "Welche CD4-Zahl und Viruslast sind erforderlich?", "answer": "Wir orientieren uns an den international üblichen Kriterien: CD4 ≥ 350 und nicht nachweisbare Viruslast unter stabiler antiretroviraler Therapie für mindestens 3 Monate. Patienten außerhalb dieser Schwellenwerte erhalten eine individuelle chirurgische Überprüfung — eine pauschale Ablehnung ist nicht unser Standard." },
         { "question": "Wird das chirurgische Team meinen Status kennen?", "answer": "Ja — Ihr Chirurg und Anästhesist sehen Ihre vollständige medizinische Akte. Dies ist für eine sichere Versorgung verbindlich. Sie sind durch das türkische ärztliche Schweigepflichtgesetz und unsere interne Vertraulichkeitsvereinbarung gebunden. Niemand sonst in der Klinikkette hat Zugriff." },
         { "question": "Gibt es höhere Komplikationsrisiken?", "answer": "Peer-Review-Belege zeigen keinen statistisch signifikanten Unterschied bei Graft-Überleben, Infektionsrate oder Heilungszeit für HIV-positive Patienten unter stabiler ART. Wir verfolgen dies direkt in unserem Ergebnis-Audit." },
         { "question": "Was, wenn ich auch HBV- oder HCV-positiv bin?", "answer": "Gleiche Antwort: Universelle Vorsichtsmaßnahmen decken alle blutübertragenen Erreger ab. Wir akzeptieren HBV- und HCV-positive Patienten zu denselben Bedingungen. Ko-Infektionen erfordern eine engere präoperative Überprüfung der Leberfunktion." },

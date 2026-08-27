@@ -863,7 +863,7 @@
   "hivPositive": {
     "meta": {
       "title": "Türkiye'de HIV Pozitif Saç Ekimi — Gizli, Ayrımcılıksız | Grafta Clinic",
-      "description": "Evet, İstanbul'da HIV pozitif hastalara saç ekimi uyguluyoruz. Aynı cerrah, aynı ameliyathane, aynı her şey dahil fiyat — mutlak gizlilik ile. ISHRS uyumlu protokol, ek ücret yok, işaretli dosya yok. Ücretsiz, gizli konsültasyon.",
+      "description": "Evet, İstanbul'da HIV pozitif hastalara saç ekimi uyguluyoruz. Aynı cerrah, aynı ameliyathane, aynı her şey dahil fiyat — mutlak gizlilik ile. Her hastaya aynı protokol, ek ücret yok, işaretli dosya yok. Ücretsiz, gizli konsültasyon.",
       "keywords": "hiv pozitif saç ekimi türkiye, hiv saç ekimi istanbul, hiv dostu saç ekimi kliniği, hiv hastaları için saç ekimi, gizli saç ekimi türkiye"
     },
     "hero": {
@@ -877,13 +877,13 @@
         "Ek ücret yok",
         "Aynı cerrah, aynı ameliyathane",
         "Personele ifşa yok",
-        "ISHRS uyumlu protokol",
+        "Her hastaya aynı protokol",
         "Yazılı gizlilik"
       ]
     },
     "intro": {
       "title": "Türkiye'deki birçok klinik neden sessizce 'hayır' diyor — ve biz neden demiyoruz",
-      "body": "HIV ile yaşayan birçok uluslararası hasta, durumlarını bir Türk saç ekimi kliniğine açıkladıktan sonra ya açıkça reddedildiklerini ya da 'takipten düştüklerini' bildiriyor. Genellikle gerekçe olarak HIV bir 'personel güvenliği' veya 'sterilizasyon' endişesi olarak sunuluyor. Her ikisi de tıbben ve hukuken yanlıştır. Modern saç ekimi prosedürleri zaten her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel önlemler kullanır — viral durumdan bağımsız olarak. HIV ile yaşayan bir kişiye bakım vermeyi reddetmek Türk tıbbi etik mevzuatını ihlal eder. Grafta Clinic'te ISHRS ve Türkiye Sağlık Bakanlığı'nın önerdiği bakım standardını uyguluyoruz: kontrollü viral yüke sahip HIV pozitif hastalar her hasta gibi tedavi edilir — ayrı oda, ayrı gün, ek ücret veya işaretli dosya yoktur."
+      "body": "HIV ile yaşayan birçok uluslararası hasta, durumlarını bir Türk saç ekimi kliniğine açıkladıktan sonra ya açıkça reddedildiklerini ya da 'takipten düştüklerini' bildiriyor. Genellikle gerekçe olarak HIV bir 'personel güvenliği' veya 'sterilizasyon' endişesi olarak sunuluyor. Her ikisi de tıbben ve hukuken yanlıştır. Modern saç ekimi prosedürleri zaten her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel önlemler kullanır — viral durumdan bağımsız olarak. HIV ile yaşayan bir kişiye bakım vermeyi reddetmek Türk tıbbi etik mevzuatını ihlal eder. Grafta Clinic'te her hastaya uyguladığımız bakım standardının aynısını uyguluyoruz: kontrollü viral yüke sahip HIV pozitif hastalar her hasta gibi tedavi edilir — ayrı oda, ayrı gün, ek ücret veya işaretli dosya yoktur."
     },
     "medicalReality": {
       "title": "Tıbbi gerçek: HIV saç ekimi protokolünü değiştirmez",
@@ -960,7 +960,7 @@
       "items": [
         { "question": "HIV pozitif olduğum için ek ücret alınacak mı?", "answer": "Hayır. Ek ücret almak ayrımcılık olur. Fiyatlandırmamız her hastayla aynıdır: Safir FUE için her şey dahil 2.950 $'dan, Essential FUE için 1.950 $'dan başlar." },
         { "question": "Otele, şoföre veya tercümana durumumu açıklamam gerekiyor mu?", "answer": "Hayır. Durumunuz tıbbi bilgidir ve yalnızca bilmeleri gereken cerrahınız ve anestezistinizle paylaşılır. Otel bir isim ve rezervasyon görür; şoför bir alış görür; tercüman bir konsültasyon görür. Hiçbiri tıbbi dosyanıza erişemez." },
-        { "question": "Hangi CD4 sayımı ve viral yük gerekli?", "answer": "ISHRS rehberini izliyoruz: CD4 ≥ 350 ve en az 3 aydır stabil antiretroviral tedavi altında saptanamayan viral yük. Bu eşiklerin dışındaki hastalar bireysel cerrah incelemesinden geçer — toptan ret bizim varsayılanımız değildir." },
+        { "question": "Hangi CD4 sayımı ve viral yük gerekli?", "answer": "Uluslararası yaygın kriterleri esas alıyoruz: CD4 ≥ 350 ve en az 3 aydır stabil antiretroviral tedavi altında saptanamayan viral yük. Bu eşiklerin dışındaki hastalar bireysel cerrah incelemesinden geçer — toptan ret bizim varsayılanımız değildir." },
         { "question": "Cerrahi ekip durumumu bilecek mi?", "answer": "Evet — cerrahınız ve anestezistiniz tam tıbbi dosyanızı görür. Bu güvenli bakım için zorunludur. Türk tıbbi gizlilik yasası ve iç gizlilik sözleşmemizle bağlıdırlar. Klinik zincirindeki başka hiç kimsenin erişimi yoktur." },
         { "question": "Daha yüksek komplikasyon riski var mı?", "answer": "Hakemli kanıtlar, stabil ART altındaki HIV pozitif hastalar için greft sağkalımı, enfeksiyon oranı veya iyileşme süresinde istatistiksel olarak anlamlı bir fark olmadığını gösterir. Bunu sonuç denetimimizde doğrudan takip ediyoruz." },
         { "question": "HBV veya HCV pozitif de isem?", "answer": "Aynı yanıt: evrensel önlemler tüm kan yoluyla bulaşan patojenleri kapsar. HBV ve HCV pozitif hastaları aynı koşullarda kabul ediyoruz. Ko-enfeksiyonlar karaciğer fonksiyonunun daha yakın op-öncesi incelemesini gerektirir." },

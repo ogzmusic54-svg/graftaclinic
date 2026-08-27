@@ -863,7 +863,7 @@
   "hivPositive": {
     "meta": {
       "title": "HIV-Positive Hair Transplant in Turkey — Confidential, Discrimination-Free | Grafta Clinic",
-      "description": "Yes, we perform hair transplants for HIV-positive patients in Istanbul. Same surgeon, same theatre, same all-inclusive price — with absolute confidentiality. ISHRS-aligned protocol, no extra cost, no marked file. Free, discreet consultation.",
+      "description": "Yes, we perform hair transplants for HIV-positive patients in Istanbul. Same surgeon, same theatre, same all-inclusive price — with absolute confidentiality. Same protocol for every patient, no extra cost, no marked file. Free, discreet consultation.",
       "keywords": "hiv positive hair transplant turkey, hiv hair transplant istanbul, hiv friendly hair transplant clinic, hair transplant for hiv patients, discreet hair transplant turkey"
     },
     "hero": {
@@ -877,13 +877,13 @@
         "No additional cost",
         "Same surgeon, same theatre",
         "No staff disclosure",
-        "ISHRS-aligned protocol",
+        "Same protocol for every patient",
         "Written confidentiality"
       ]
     },
     "intro": {
       "title": "Why so many Turkish clinics quietly say no — and why we don't",
-      "body": "Many international patients living with HIV report being either openly refused or 'lost in follow-up' once they disclose their status to a Turkish hair transplant clinic. The reasons cited usually frame HIV as a 'staff safety' or 'sterilization' concern. Both are medically and legally inaccurate. Modern hair transplant procedures already use single-use punches, single-use needles and universal precautions for every patient — irrespective of viral status. Refusing care to a person living with HIV violates Turkish medical ethics regulations. At Grafta Clinic we apply the standard of care recommended by the ISHRS and the Turkish Ministry of Health: HIV-positive patients with controlled viral load are treated identically to any other patient — no separate room, no separate day, no extra cost, no marked file."
+      "body": "Many international patients living with HIV report being either openly refused or 'lost in follow-up' once they disclose their status to a Turkish hair transplant clinic. The reasons cited usually frame HIV as a 'staff safety' or 'sterilization' concern. Both are medically and legally inaccurate. Modern hair transplant procedures already use single-use punches, single-use needles and universal precautions for every patient — irrespective of viral status. Refusing care to a person living with HIV violates Turkish medical ethics regulations. At Grafta Clinic we apply the same standard of care as for any other patient: HIV-positive patients with controlled viral load are treated identically to any other patient — no separate room, no separate day, no extra cost, no marked file."
     },
     "medicalReality": {
       "title": "The medical reality: HIV does not change the hair transplant protocol",
@@ -960,7 +960,7 @@
       "items": [
         { "question": "Will I be charged extra because I'm HIV-positive?", "answer": "No. Charging extra would be discrimination. Our pricing is identical to every other patient: from $2,950 all-inclusive for Sapphire FUE, from $1,950 for Essential FUE." },
         { "question": "Do I need to disclose my status to the hotel, driver or interpreter?", "answer": "No. Your status is medical information and is shared only with your surgeon and anaesthetist on a need-to-know basis. The hotel sees a name and reservation; the driver sees a pickup; the interpreter sees a consultation. None of them have access to your medical file." },
-        { "question": "What CD4 count and viral load are required?", "answer": "We follow ISHRS guidance: CD4 ≥ 350 and an undetectable viral load on stable antiretroviral therapy for at least 3 months. Patients outside these thresholds receive an individual surgeon review — outright refusal is not our default." },
+        { "question": "What CD4 count and viral load are required?", "answer": "We apply the internationally accepted criteria: CD4 ≥ 350 and an undetectable viral load on stable antiretroviral therapy for at least 3 months. Patients outside these thresholds receive an individual surgeon review — outright refusal is not our default." },
         { "question": "Will the surgical team know my status?", "answer": "Yes — your surgeon and anaesthetist see your full medical file. This is mandatory for safe care. They are bound by Turkish medical confidentiality law and our internal NDA. No one else in the clinic chain has access." },
         { "question": "Are there higher complication risks?", "answer": "Peer-reviewed evidence shows no statistically significant difference in graft survival, infection rate or healing time for HIV-positive patients on stable ART. We track this directly in our outcomes audit." },
         { "question": "What if I'm also HBV or HCV positive?", "answer": "Same answer: universal precautions cover all bloodborne pathogens. We accept HBV and HCV positive patients on the same terms. Co-infections require closer pre-op review of liver function." },

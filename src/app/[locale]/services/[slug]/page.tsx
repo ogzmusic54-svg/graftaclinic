@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { hreflangFor } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -30,10 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const t = await getTranslations({ locale, namespace: `services.${slug}` });
 
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${siteConfig.url}/${l}/services/${slug}`;
-  }
+  const languages = hreflangFor(`/services/${slug}`);
 
   return {
     title: t("metaTitle"),

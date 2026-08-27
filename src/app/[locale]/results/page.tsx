@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { routing, hasLocale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
+import { hreflangFor } from "@/lib/seo";
 import { SmartImage } from "@/components/SmartImage";
 import { CtaSection } from "@/components/CtaSection";
 
@@ -20,10 +21,7 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "results" });
 
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${siteConfig.url}/${l}/results`;
-  }
+  const languages = hreflangFor("/results");
 
   return {
     title: t("metaTitle"),

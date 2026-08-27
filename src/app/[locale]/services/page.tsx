@@ -7,6 +7,7 @@ import { categoryOrder, getServicesByCategory } from "@/config/services";
 import { ServiceCard } from "@/components/ServiceCard";
 import { CtaSection } from "@/components/CtaSection";
 import { siteConfig } from "@/config/site";
+import { hreflangFor } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -17,10 +18,7 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "services.indexMeta" });
 
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${siteConfig.url}/${l}/services`;
-  }
+  const languages = hreflangFor("/services");
 
   return {
     title: t("title"),

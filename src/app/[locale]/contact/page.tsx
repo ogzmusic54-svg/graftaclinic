@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { hreflangFor } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -19,10 +20,7 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "contact.meta" });
 
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${siteConfig.url}/${l}/contact`;
-  }
+  const languages = hreflangFor("/contact");
 
   return {
     title: t("title"),
@@ -161,11 +159,17 @@ export default async function ContactPage({
                 title={siteConfig.name}
               />
             ) : (
+              // Harita embed'i tanımlı değilken ziyaretçiye konum bilgisi
+              // gösterilir. Buraya geliştirici notu yazılmaz — canlıda görünür.
               <div className="grid h-full w-full place-items-center bg-[var(--color-primary-deep)] text-white p-8 text-center">
                 <div>
                   <p className="font-serif text-2xl mb-3">{siteConfig.name}</p>
-                  <p className="text-sm text-white/70 max-w-xs">
-                    Google Maps embed kodunu <code className="px-1 py-0.5 bg-white/10 rounded">src/config/site.ts</code> içindeki <code className="px-1 py-0.5 bg-white/10 rounded">mapsEmbedSrc</code> alanına ekleyin.
+                  <p className="text-lg text-white/90">
+                    {siteConfig.contact.address.district}
+                  </p>
+                  <p className="text-sm text-white/70">
+                    {siteConfig.contact.address.city} ·{" "}
+                    {siteConfig.contact.address.country}
                   </p>
                 </div>
               </div>

@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 
 import { routing, hasLocale, type Locale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
+import { hreflangFor } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
@@ -44,10 +45,16 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "home.meta" });
   const tagline = siteConfig.brand.tagline[locale as Locale];
 
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${siteConfig.url}/${l}`;
-  }
+  const languages = hreflangFor();
+
+  // Almanca için de_DE seçildi: hedef pazarın ağırlığı Almanya (Avusturya ve
+  // İsviçre de aynı etiketi okur). İngilizce için en_GB — kitle Avrupa,
+  // ABD değil.
+  const OG_LOCALE: Record<Locale, string> = {
+    tr: "tr_TR",
+    en: "en_GB",
+    de: "de_DE",
+  };
 
   return {
     metadataBase: new URL(siteConfig.url),
@@ -64,7 +71,12 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "website",
-      locale,
+      // Open Graph, ISO dil kodunu değil `dil_ÜLKE` biçimini bekler.
+      // Yalın "de" geçersiz sayılır; paylaşımlarda dil eşleşmesi kaybolur.
+      locale: OG_LOCALE[locale as Locale],
+      alternateLocale: routing.locales
+        .filter((l) => l !== locale)
+        .map((l) => OG_LOCALE[l]),
       url: `${siteConfig.url}/${locale}`,
       siteName: siteConfig.name,
       title: t("title"),

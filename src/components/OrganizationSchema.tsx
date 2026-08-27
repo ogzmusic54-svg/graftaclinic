@@ -4,7 +4,9 @@ import type { Locale } from "@/i18n/routing";
 export function OrganizationSchema({ locale }: { locale: Locale }) {
   const data = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    // MedicalClinic, MedicalBusiness'ın alt tipi ve daha spesifik.
+    // İkisini birden vermek arama motorlarına en dar sınıflandırmayı sağlar.
+    "@type": ["MedicalClinic", "MedicalBusiness"],
     "@id": `${siteConfig.url}/#organization`,
     name: siteConfig.name,
     legalName: siteConfig.brand.legalName,
@@ -31,12 +33,20 @@ export function OrganizationSchema({ locale }: { locale: Locale }) {
       "Aesthetic Medicine",
     ],
     knowsLanguage: ["tr", "en", "de"],
+    currenciesAccepted: "EUR",
+    // Hedef kitle Avrupa. ABD kaldırıldı — o pazara hizmet vermiyoruz ve
+    // alakasız ülke listelemek konu sinyalini zayıflatıyor.
     areaServed: [
-      { "@type": "Country", name: "Türkiye" },
-      { "@type": "Country", name: "Germany" },
-      { "@type": "Country", name: "United Kingdom" },
-      { "@type": "Country", name: "United States" },
       { "@type": "Place", name: "Europe" },
+      { "@type": "Country", name: "Germany" },
+      { "@type": "Country", name: "Austria" },
+      { "@type": "Country", name: "Switzerland" },
+      { "@type": "Country", name: "Netherlands" },
+      { "@type": "Country", name: "Belgium" },
+      { "@type": "Country", name: "France" },
+      { "@type": "Country", name: "Ireland" },
+      { "@type": "Country", name: "Luxembourg" },
+      { "@type": "Country", name: "United Kingdom" },
     ],
     openingHoursSpecification: [
       {
@@ -59,8 +69,8 @@ export function OrganizationSchema({ locale }: { locale: Locale }) {
         telephone: siteConfig.contact.phone,
         email: siteConfig.contact.email,
         contactType: "customer service",
-        availableLanguage: ["Turkish", "English", "German"],
-        areaServed: ["TR", "DE", "GB", "US"],
+        availableLanguage: ["English", "German", "Turkish"],
+        areaServed: ["DE", "AT", "CH", "NL", "BE", "FR", "IE", "LU", "GB"],
       },
     ],
   };

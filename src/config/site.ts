@@ -37,9 +37,10 @@ export const siteConfig = {
     email: "info@graftaclinic.com",
 
     // TODO: Müşteriden adres gelince bu dört satırı güncelle
+    // Sokak/bina bilgisi geldiğinde `street` güncellenecek.
     address: {
-      street: "Adres bilgisi yakında",
-      district: "",
+      street: "Eyüpsultan",
+      district: "Eyüpsultan",
       city: "İstanbul",
       country: "Türkiye",
       postalCode: "",

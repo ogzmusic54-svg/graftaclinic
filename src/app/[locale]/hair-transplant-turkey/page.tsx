@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { hreflangFor } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -22,10 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const t = await getTranslations({ locale, namespace: "hairTransplantTurkey.meta" });
 
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${siteConfig.url}/${l}/${SLUG}`;
-  }
+  const languages = hreflangFor(`/${SLUG}`);
 
   return {
     title: t("title"),

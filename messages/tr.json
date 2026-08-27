@@ -978,5 +978,13 @@
       "primary": "WhatsApp'tan Yaz",
       "secondary": "Diskret E-posta Gönder"
     }
+  },
+
+  "consent": {
+    "title": "Gizlilik tercihleri",
+    "body": "Çerezleri yalnızca reklamlarımızın erişimini ölçmek için kullanıyoruz. Onayınız olmadan hiçbir çerez yazılmaz ve reklam platformlarına hiçbir veri gönderilmez.",
+    "sensitiveNote": "Bu sayfada reklam izleyicileri tercihinizden bağımsız olarak tamamen devre dışıdır.",
+    "accept": "Kabul et",
+    "reject": "Reddet"
   }
 }

@@ -978,5 +978,13 @@
       "primary": "Auf WhatsApp schreiben",
       "secondary": "Diskrete E-Mail senden"
     }
+  },
+
+  "consent": {
+    "title": "Datenschutz-Einstellungen",
+    "body": "Wir verwenden Cookies nur für Reichweitenmessung unserer Werbung. Ohne Ihre Zustimmung wird nichts gesetzt und nichts an Werbeplattformen übermittelt.",
+    "sensitiveNote": "Auf dieser Seite sind Werbe-Tracker grundsätzlich deaktiviert — unabhängig von Ihrer Auswahl.",
+    "accept": "Zustimmen",
+    "reject": "Ablehnen"
   }
 }

@@ -978,5 +978,13 @@
       "primary": "Message on WhatsApp",
       "secondary": "Send Discreet Email"
     }
+  },
+
+  "consent": {
+    "title": "Privacy settings",
+    "body": "We use cookies only to measure the reach of our advertising. Nothing is set and nothing is sent to advertising platforms without your consent.",
+    "sensitiveNote": "On this page advertising trackers are disabled entirely — regardless of your choice.",
+    "accept": "Accept",
+    "reject": "Decline"
   }
 }

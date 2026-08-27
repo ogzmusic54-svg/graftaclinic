@@ -13,6 +13,8 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { OrganizationSchema } from "@/components/OrganizationSchema";
 import { WebSiteSchema } from "@/components/WebSiteSchema";
+import { ConsentBanner } from "@/components/ConsentBanner";
+import { Analytics } from "@/components/Analytics";
 
 import "../globals.css";
 
@@ -122,6 +124,36 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${newsreader.variable} ${manrope.variable}`}>
+      <head>
+        {/*
+          Google Consent Mode v2 — varsayılan olarak HER ŞEY reddedilmiş.
+          Bu betik diğer tüm etiketlerden ÖNCE çalışmak zorunda; bu yüzden
+          next/script değil ham <script> ve <head> içinde.
+
+          ad_user_data ve ad_personalization v2 ile gelen zorunlu alanlar;
+          eksik olursa AEA'da Google Ads dönüşüm ve kitle verisi bozulur.
+        */}
+        <script
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: `
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments)}
+window.gtag=gtag;
+gtag('consent','default',{
+ 'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied',
+ 'analytics_storage':'denied','functionality_storage':'granted',
+ 'security_storage':'granted','wait_for_update':500});
+gtag('set','ads_data_redaction',true);
+gtag('set','url_passthrough',true);
+try{var c=localStorage.getItem('grafta-consent');
+if(c==='granted'){gtag('consent','update',{'ad_storage':'granted',
+'ad_user_data':'granted','ad_personalization':'granted',
+'analytics_storage':'granted'})}}catch(e){}
+            `.trim(),
+          }}
+        />
+      </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <a
@@ -136,6 +168,8 @@ export default async function LocaleLayout({
           </main>
           <Footer />
           <WhatsAppFloat />
+          <ConsentBanner />
+          <Analytics />
           <OrganizationSchema locale={locale as Locale} />
           <WebSiteSchema locale={locale as Locale} />
         </NextIntlClientProvider>

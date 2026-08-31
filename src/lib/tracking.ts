@@ -19,6 +19,12 @@ export const SENSITIVE_PATH_SEGMENTS = [
   // "hepatitis-hair-transplant", "diabetes-hair-transplant", ...
 ] as const;
 
+// Bilerek burada DEĞİL: "vertrauliche-beurteilung".
+// Reklam iniş sayfasının adresinde tanı adı geçmez, bu yüzden hassas değildir
+// ve pixel orada çalışır — dönüşümün ölçülebildiği tek yer orası.
+// Adresi nötr kaldığı sürece HIV içeriği sayfanın gövdesinde durabilir;
+// pixel'e giden veri adres ve başlıktır, gövde değil.
+
 /**
  * Bir yolun hassas olup olmadığını söyler.
  * Locale önekinden bağımsız çalışır (/de/... , /en/... , /tr/...).

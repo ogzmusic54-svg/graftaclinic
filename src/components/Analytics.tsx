@@ -43,10 +43,51 @@ export function Analytics() {
   const sensitive = isSensitivePath(pathname);
   const allowed = consent === "granted" && !sensitive && Boolean(META_PIXEL_ID);
 
-  // Rota değişiminde PageView — sadece izin verilen sayfalarda.
+  /**
+   * WhatsApp tıklaması = dönüşüm. Sayfada beş ayrı wa.me bağlantısı var
+   * (header, hero, kanal kartı, footer, yüzen buton); her birine ayrı ayrı
+   * olay bağlamak yerine tek bir delege dinleyici kullanılıyor — böylece
+   * ileride eklenen bir bağlantı da kendiliğinden ölçülür.
+   */
   useEffect(() => {
-    if (!allowed || typeof window.fbq !== "function") return;
-    window.fbq("track", "PageView");
+    if (!allowed) return;
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as Element | null;
+      if (target?.closest?.('a[href*="wa.me"], a[href^="tel:"]')) {
+        trackEvent("Contact");
+      }
+    };
+    document.addEventListener("click", onClick, true);
+    return () => document.removeEventListener("click", onClick, true);
+  }, [allowed]);
+
+  /**
+   * PageView — izin verilen her sayfa görüntülemesi için **tam bir kez.**
+   *
+   * PageView'i kod parçacığının içinden çıkardık: hem parçacık hem bu effect
+   * ateşlediğinde ilk görüntüleme iki kez sayılıyor, bu da Meta'nın optimize
+   * ettiği tabanı bozuyordu. Artık tek kaynak burası.
+   *
+   * `fbq` parçacık çalışır çalışmaz tanımlanır ve çağrıları kuyruğa alır;
+   * yine de `afterInteractive` yüklemesi effect'ten sonraya kalabildiği için
+   * kısa bir bekleme var.
+   */
+  useEffect(() => {
+    if (!allowed) return;
+    let cancelled = false;
+    let tries = 0;
+    const fire = () => {
+      if (cancelled) return;
+      if (typeof window.fbq === "function") {
+        window.fbq("track", "PageView");
+      } else if (tries++ < 50) {
+        setTimeout(fire, 100);
+      }
+    };
+    fire();
+    return () => {
+      cancelled = true;
+    };
   }, [allowed, pathname]);
 
   if (!allowed) return null;
@@ -61,7 +102,6 @@ t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '${META_PIXEL_ID}');
-fbq('track', 'PageView');
       `}
     </Script>
   );

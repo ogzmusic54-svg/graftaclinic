@@ -72,7 +72,6 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
   const steps = t.raw("steps.items") as StepItem[];
   const privacyItems = t.raw("privacy.items") as string[];
   const hivItems = t.raw("hiv.items") as FaqItem[];
-  const whatsappPoints = t.raw("channels.whatsappPoints") as string[];
   const faqItems = t.raw("faq.items") as FaqItem[];
 
   const url = `${siteConfig.url}/${locale}/${SLUG}`;
@@ -275,6 +274,62 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
         </div>
       </section>
 
+      {/* İLETİŞİM GEÇİDİ — brif §5, 03. blok.
+          Form birincil ve ÖNCE geliyor; WhatsApp yanında ikincil duruyor.
+          Mobilde de form önce render edilir (grid sırası kaynak sırasıdır). */}
+      <section id="anfrage" className="section scroll-mt-24">
+        <div className="container-content">
+          <div className="max-w-3xl">
+            <span className="gold-rule" />
+            <h2 className="font-serif">{t("channels.title")}</h2>
+            <p className="mt-4 text-lg text-[var(--color-text-muted)]">{t("channels.subtitle")}</p>
+          </div>
+
+          <div className="mt-12 grid items-start gap-8 lg:grid-cols-[1.35fr_1fr]">
+            {/* Birincil: form */}
+            <AnfrageForm />
+
+            {/* İkincil: WhatsApp. Kart görsel olarak daha küçük ve daha sakin —
+                kabul kriteri 4: formdan baskın olmayacak. */}
+            <aside className="card bg-[var(--color-surface-elevated)] p-6">
+              <p className="label-caps text-[var(--color-text-muted)]">
+                {t("channels.whatsappOptional")}
+              </p>
+              <h3 className="mt-2 font-serif text-xl text-[var(--color-text-strong)]">
+                {t("channels.whatsappTitle")}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-[var(--color-text-muted)]">
+                {t("channels.whatsappBody")}
+              </p>
+              <p className="mt-4 rounded-lg border border-[var(--color-border-subtle)] bg-white p-3 text-sm leading-relaxed text-[var(--color-text-muted)]">
+                {t("channels.whatsappCaveat")}
+              </p>
+              <a
+                href={buildWhatsAppUrl(PAGE_LOCALE)}
+                target="_blank"
+                rel="noopener"
+                className="btn btn-ghost mt-5 w-full"
+              >
+                {t("channels.whatsappCta")}
+              </a>
+              <p className="mt-4 text-sm text-[var(--color-text-muted)]">
+                {siteConfig.contact.hours.de}
+              </p>
+            </aside>
+          </div>
+
+          {/* 05. blok — tıbbi ikinci aşama */}
+          <div className="mt-10 max-w-3xl rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-surface-clinical)] p-6">
+            <h3 className="font-serif text-xl text-[var(--color-text-strong)]">
+              {t("secondStage.title")}
+            </h3>
+            <p className="mt-3 leading-relaxed text-[var(--color-text-muted)]">
+              {t("secondStage.body")}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* HIV — ACIK BILGI BOLUMU
           Sayfanin adresi ve basligi notr kaldigi surece bu icerik burada
           durabilir: pixel'e giden veri adres, baslik ve referrer'dir, govde
@@ -353,64 +408,6 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* ZWEI WEGE + FORMULAR */}
-      <section id="anfrage" className="section scroll-mt-24">
-        <div className="container-content">
-          <div className="max-w-3xl">
-            <span className="gold-rule" />
-            <h2 className="font-serif">{t("channels.title")}</h2>
-            <p className="mt-4 text-lg text-[var(--color-text-muted)]">{t("channels.subtitle")}</p>
-          </div>
-
-          {/* items-stretch (varsayılan): iki kanal aynı yükseklikte durur.
-              WhatsApp kartı formun yanında küçük kalırsa "asıl yol form"
-              sinyali verir — oysa ikisi eşit seçenek. */}
-          <div className="mt-12 grid gap-8 lg:grid-cols-2">
-            {/* WhatsApp — formla eşit ağırlıkta */}
-            <div className="card flex h-full flex-col bg-[var(--color-surface-elevated)] p-6 md:p-8">
-              <h3 className="font-serif text-2xl text-[var(--color-text-strong)]">
-                {t("channels.whatsappTitle")}
-              </h3>
-              <p className="mt-3 leading-relaxed text-[var(--color-text-muted)]">
-                {t("channels.whatsappBody")}
-              </p>
-              <p className="mt-4 rounded-lg border border-[var(--color-border-subtle)] bg-white p-4 text-sm leading-relaxed text-[var(--color-text-muted)]">
-                {t("channels.whatsappCaveat")}
-              </p>
-
-              <p className="mt-6 label-caps text-[var(--color-accent-deep)]">
-                {t("channels.whatsappPointsTitle")}
-              </p>
-              <ul className="mt-3 space-y-2.5">
-                {whatsappPoints.map((point) => (
-                  <li key={point} className="flex gap-3 text-[var(--color-text-muted)]">
-                    <svg width="18" height="18" viewBox="0 0 20 20" className="mt-1 shrink-0 text-[var(--color-accent-deep)]" aria-hidden="true">
-                      <path d="M4 10l4 4 8-8" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <span className="leading-relaxed">{point}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-auto pt-6">
-                <a
-                  href={buildWhatsAppUrl(PAGE_LOCALE)}
-                  target="_blank"
-                  rel="noopener"
-                  className="btn btn-accent w-full"
-                >
-                  {t("channels.whatsappCta")}
-                </a>
-              </div>
-              <p className="mt-4 text-sm text-[var(--color-text-muted)]">
-                {siteConfig.contact.hours.de}
-              </p>
-            </div>
-
-            <AnfrageForm />
-          </div>
         </div>
       </section>
 

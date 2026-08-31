@@ -1116,6 +1116,10 @@
       "disclaimer": "Diese Seite ersetzt keine ärztliche Beratung. Fragen zu Ihrer Therapie gehören zu Ihrer behandelnden Ärztin oder Ihrem behandelnden Arzt.",
       "sources": "Quellen: Robert Koch-Institut, „Hygiene bei der Behandlung von Patienten mit blutübertragbaren Erregern (z. B. HIV, HBV oder HCV)\", Stand 09.10.2025 · Bundesarbeitsgericht, Urteil vom 19.12.2013 – 6 AZR 190/12. Stand dieser Seite: 21.08.2026."
     },
+    "secondStage": {
+      "title": "Der medizinische Teil ist getrennt",
+      "body": "Gesundheitsbezogene Angaben erheben wir erst nach Ihrer ausdrücklichen Einwilligung — über ein separates, gesichertes System. In diesem Bereich sind Werbe- und Analyse-Skripte vollständig deaktiviert. Ihre Angaben sehen ausschließlich ärztliches und medizinisches Personal."
+    },
     "privacy": {
       "title": "Was mit Ihren Angaben passiert",
       "items": [
@@ -1128,52 +1132,48 @@
       ]
     },
     "channels": {
-      "title": "Zwei Wege — beide gleichwertig",
-      "subtitle": "Wählen Sie den Weg, bei dem Sie sich wohler fühlen. Beide führen zur selben Prüfung.",
+      "title": "So erreichen Sie uns",
+      "subtitle": "Das Formular ist der einfachste Weg — ohne Telefonnummer. WhatsApp steht zusätzlich zur Verfügung, wenn Sie das lieber möchten.",
       "whatsappTitle": "WhatsApp",
-      "whatsappBody": "Schnell und direkt. Antwort in der Regel am selben Tag, auf Deutsch.",
-      "whatsappCaveat": "Ehrlich gesagt: WhatsApp ist bequem, aber nicht anonym — Ihre Telefonnummer ist für uns sichtbar. Wenn Sie das nicht möchten, nehmen Sie das Formular.",
-      "whatsappPointsTitle": "Was in die erste Nachricht gehört",
-      "whatsappPoints": [
-        "Land, Altersgruppe, ungefährer Zeitrahmen.",
-        "Keine Unterlagen, keine Befunde, keine Fotos.",
-        "Eine Frage genügt — Sie müssen nichts begründen."
-      ],
+      "whatsappBody": "Optional. Schnell und direkt, Antwort in der Regel am selben Tag, auf Deutsch.",
+      "whatsappCaveat": "Bei WhatsApp ist Ihre Telefonnummer für uns sichtbar. Wenn Sie das nicht möchten, nutzen Sie das Formular — dafür genügt eine E-Mail-Adresse.",
+      "whatsappOptional": "Optional",
       "whatsappCta": "Nachricht senden",
       "formTitle": "Formular",
-      "formBody": "Eine E-Mail-Adresse genügt. Keine Telefonnummer, kein Konto, keine Unterlagen.",
+      "formBody": "Der empfohlene Weg. Eine E-Mail-Adresse genügt — keine Telefonnummer, kein Konto, keine Unterlagen.",
       "formCaveat": "Antwort per E-Mail, in der Regel innerhalb eines Werktags.",
       "formCta": "Zum Formular"
     },
     "form": {
       "title": "Vertrauliche Anfrage",
       "logoAlt": "Grafta Clinic",
-      "subtitle": "Bitte tragen Sie hier keine Befunde, Diagnosen oder Gesundheitsdaten ein. Das klären wir später, über einen gesicherten Weg und erst nach Ihrer Einwilligung.",
-      "name": "Vorname oder Kürzel",
-      "namePlaceholder": "Optional",
+      "subtitle": "Bitte übermitteln Sie in diesem ersten Kontaktformular keine Diagnosen, Laborwerte, Medikamentenlisten oder medizinischen Unterlagen.",
+      "name": "Name oder Kürzel",
+      "namePlaceholder": "Optional – ein Kürzel genügt",
+      "contactPreference": "Wie dürfen wir antworten?",
+      "contactPreferenceOptions": ["E-Mail", "WhatsApp", "Rückruf"],
       "email": "E-Mail-Adresse",
-      "emailPlaceholder": "Pflichtfeld",
-      "country": "Land",
-      "countryOptions": ["Deutschland", "Österreich", "Schweiz", "Anderes Land"],
-      "ageGroup": "Altersgruppe",
-      "ageOptions": ["18–29", "30–39", "40–49", "50–59", "60+"],
-      "timeframe": "Zeitrahmen",
-      "timeframeOptions": [
-        "So bald wie möglich",
-        "In den nächsten 3 Monaten",
-        "In den nächsten 6 Monaten",
-        "Noch offen — ich informiere mich zuerst"
-      ],
+      "emailPlaceholder": "Pflichtfeld bei Antwort per E-Mail",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "Nur nötig, wenn Sie WhatsApp oder Rückruf wählen",
+      "language": "Sprache",
+      "languageOptions": ["Deutsch", "Englisch", "Andere"],
       "message": "Ihre Frage (optional)",
-      "messagePlaceholder": "Zum Beispiel: was Sie bisher versucht haben, oder was Sie wissen möchten. Bitte keine Gesundheitsdaten.",
-      "consent": "Ich bin damit einverstanden, dass die Grafta Clinic mich zu meiner Anfrage kontaktiert. Ich kann diese Einwilligung jederzeit widerrufen.",
+      "messagePlaceholder": "Bitte keine Diagnosen, Laborwerte oder Unterlagen.",
+      "consent": "Ich bin damit einverstanden, dass die Grafta Clinic mich zu meiner Anfrage über den von mir gewählten Weg kontaktiert. Ich kann diese Einwilligung jederzeit widerrufen.",
       "submit": "Anfrage senden",
       "sending": "Wird gesendet …",
       "successTitle": "Ihre Anfrage ist angekommen.",
-      "successBody": "Wir melden uns per E-Mail, in der Regel innerhalb eines Werktags. Sie müssen nichts weiter tun.",
+      "successBody": "Wir melden uns auf dem von Ihnen gewählten Weg, in der Regel innerhalb eines Werktags. Sie müssen nichts weiter tun.",
       "errorTitle": "Das Formular konnte nicht gesendet werden.",
-      "errorBody": "Bitte schreiben Sie uns direkt — per WhatsApp oder an info@graftaclinic.com.",
-      "requiredError": "Bitte geben Sie eine gültige E-Mail-Adresse an und bestätigen Sie die Einwilligung."
+      "errorBody": "Bitte schreiben Sie uns direkt – per WhatsApp oder an info@graftaclinic.com.",
+      "errPreference": "Bitte wählen Sie, wie wir antworten dürfen.",
+      "errEmailMissing": "Für eine Antwort per E-Mail brauchen wir Ihre E-Mail-Adresse.",
+      "errEmailInvalid": "Diese E-Mail-Adresse scheint nicht vollständig zu sein.",
+      "errPhoneMissing": "Für WhatsApp oder einen Rückruf brauchen wir eine Telefonnummer.",
+      "errPhoneInvalid": "Bitte prüfen Sie die Telefonnummer.",
+      "errLanguage": "Bitte wählen Sie eine Sprache.",
+      "errConsent": "Ohne Ihre Einwilligung dürfen wir Ihnen leider nicht antworten."
     },
     "faq": {
       "title": "Häufige Fragen",

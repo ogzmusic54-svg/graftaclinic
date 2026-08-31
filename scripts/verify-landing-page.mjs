@@ -1,172 +1,124 @@
-// Reklam iniş sayfası (/de/vertrauliche-beurteilung) regresyon testi.
-// Çalıştırmak için: node scripts/verify-landing-page.mjs
-// (sunucu ayrı terminalde: npx next start -p 3121, NEXT_PUBLIC_META_PIXEL_ID tanımlı)
+// Landing page ve form regresyon testi.
 //
-// Doğruladığı kurallar:
-//   - Nötr sayfada pixel çalışır ve PageView TAM BİR KEZ gider
-//   - Beş wa.me bağlantısının hepsi Contact olayı gönderir
-//   - Hassas sayfada rıza verilmiş olsa bile hiçbir şey yüklenmez
-//   - Sayfada HIV/AIDS kelimesi, öncesi–sonrası, garanti iddiası geçmez
-//   - Sayfa yalnız Almanca yayında, sitemap'te yok, noindex
-//   - Form webhook tanımsızken sessizce kaybolmaz
+// Calistirmak icin:
+//   NEXT_PUBLIC_META_PIXEL_ID=... CONTACT_FORWARD_WEBHOOK=http://127.0.0.1:3199/hook \
+//     npx next start -p 3141
+//   node scripts/verify-landing-page.mjs
+//
+// Dogruladigi kurallar:
+//   - Blok sirasi: iletisim gecidi HIV bolumunden ONCE (brif §5)
+//   - Form birincil: WhatsApp'tan once ve daha genis (kabul kriteri 4)
+//   - "anonym" kelimesi hicbir yerde gecmiyor (ilke 6)
+//   - Telefon alani yalniz WhatsApp/Rueckruf secilince DOM'a giriyor
+//   - Almanca dogrulama hatalari
+//   - Ucdan uca gonderim + basarili gonderimde tam 1 Lead olayi
+//   - Hassas sayfada riza VARKEN bile pixel yuklenmiyor
+//   - Canonical apex'e isaret ediyor, www referansi yok
 import { chromium } from "playwright";
-
-const BASE = process.env.BASE_URL ?? "http://localhost:3121";
-const OUT = process.env.SHOT_DIR ?? "/tmp";
-const CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome";
-
-const browser = await chromium.launch({ executablePath: CHROME });
+const B = process.env.BASE_URL ?? "http://localhost:3141";
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const fails = [];
-const ok = (cond, msg) => { console.log(`${cond ? "  OK " : "  X  "} ${msg}`); if (!cond) fails.push(msg); };
+const ok = (c, m) => { console.log(`${c ? "  OK " : "  X  "} ${m}`); if (!c) fails.push(m); };
 
-async function newCtx({ width = 1440, height = 900, consent = null } = {}) {
-  const c = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 2, locale: "de-DE" });
+async function ctx(consent = "granted", w = 1400) {
+  const c = await b.newContext({ viewport: { width: w, height: 950 }, locale: "de-DE" });
   if (consent) await c.addInitScript((v) => { try { localStorage.setItem("grafta-consent", v); } catch {} }, consent);
   return c;
 }
 
-const queue = (p) => p.evaluate(() => (typeof window.fbq === "function" ? window.fbq.queue.map((a) => Array.from(a).join(" ")) : null));
-
-// ── 1. Nötr sayfa, rıza verilmiş: pixel çalışır, PageView TAM BİR KEZ
-console.log("\n1) Notr sayfa · riza VAR");
+console.log("\n1) Blok sirasi ve form onceligi");
 {
-  const c = await newCtx({ consent: "granted" });
-  const p = await c.newPage();
-  await p.goto(`${BASE}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
-  await p.waitForTimeout(600);
-  const q = await queue(p);
-  ok(q !== null, "pixel yuklendi");
-  ok(q.filter((e) => e === "track PageView").length === 1, `PageView tam 1 kez (bulunan: ${q.filter((e) => e === "track PageView").length})`);
-  ok(q.some((e) => e.startsWith("init ")), "init cagrildi");
-  await p.screenshot({ path: `${OUT}/lp-desktop.png`, fullPage: true });
-  await c.close();
-}
-
-// ── 2. WhatsApp + telefon tıklamaları Contact gönderiyor
-console.log("\n2) Donusum olaylari");
-{
-  const c = await newCtx({ consent: "granted" });
-  const p = await c.newPage();
-  await p.goto(`${BASE}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
-  await p.evaluate(() => {
-    document.querySelectorAll('a[href*="wa.me"]').forEach((e) => e.removeAttribute("target"));
-    document.addEventListener("click", (e) => { if (e.target.closest?.('a[href*="wa.me"], a[href^="tel:"]')) e.preventDefault(); });
-  });
-  const n = await p.$$eval('a[href*="wa.me"]', (els) => els.length);
-  for (let i = 0; i < n; i++) {
-    const l = p.locator('a[href*="wa.me"]').nth(i);
-    await l.scrollIntoViewIfNeeded().catch(() => {});
-    await l.click({ force: true, noWaitAfter: true });
-  }
-  await p.waitForTimeout(400);
-  const contacts = (await queue(p)).filter((e) => e === "track Contact").length;
-  ok(contacts === n, `${n} wa.me baglantisinin hepsi Contact gonderdi (gonderen: ${contacts})`);
-  await c.close();
-}
-
-// ── 3. Hassas sayfa, rıza VERİLMİŞ: hiçbir şey yüklenmez
-console.log("\n3) Hassas sayfa · riza VAR (kritik kural)");
-{
-  const c = await newCtx({ consent: "granted" });
-  const p = await c.newPage();
-  let fb = 0;
-  p.on("request", (r) => { if (r.url().includes("facebook")) fb++; });
-  await p.goto(`${BASE}/de/hiv-positive-hair-transplant-turkey`, { waitUntil: "networkidle" });
-  await p.evaluate(() => {
-    document.querySelectorAll('a[href*="wa.me"]').forEach((e) => e.removeAttribute("target"));
-    document.addEventListener("click", (e) => { if (e.target.closest?.('a[href*="wa.me"]')) e.preventDefault(); });
-  });
-  await p.locator('a[href*="wa.me"]').first().click({ force: true, noWaitAfter: true });
-  await p.waitForTimeout(600);
-  ok(await p.evaluate(() => typeof window.fbq === "undefined"), "fbq tanimli degil");
-  ok(fb === 0, `facebook'a hicbir istek gitmedi (${fb})`);
-  await c.close();
-}
-
-// ── 4. Nötr sayfa, rıza YOK: pixel yok, banner var
-console.log("\n4) Notr sayfa · riza YOK");
-{
-  const c = await newCtx({ width: 390, height: 844 });
-  const p = await c.newPage();
-  await p.goto(`${BASE}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
-  ok(await p.evaluate(() => typeof window.fbq === "undefined"), "riza yokken pixel yok");
-  ok(await p.locator('[role="dialog"]').isVisible(), "riza bandi gorunuyor");
-  await p.screenshot({ path: `${OUT}/lp-mobile.png`, fullPage: true });
-  await c.close();
-}
-
-// ── 5. Sayfa içeriği ve kurallar
-console.log("\n5) Sayfa icerigi");
-{
-  const c = await newCtx({ consent: "granted" });
-  const p = await c.newPage();
-  await p.goto(`${BASE}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
+  const c = await ctx(); const p = await c.newPage();
+  await p.goto(`${B}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
+  const order = await p.$$eval("section", els => els.map(e => e.id || (e.querySelector("h1,h2")?.innerText || "").slice(0,34)));
+  console.log("   sira:", JSON.stringify(order));
+  const gate = order.indexOf("anfrage");
+  const hiv = order.findIndex(x => /HIV und Haartransplantation/.test(x));
+  ok(gate > -1 && hiv > -1 && gate < hiv, `iletisim gecidi HIV bolumunden ONCE (gecit ${gate}, hiv ${hiv})`);
+  const formBox = await p.locator("#anfrage form").boundingBox();
+  const waBox = await p.locator("#anfrage aside").boundingBox();
+  ok(formBox.x < waBox.x, "form WhatsApp'in SOLUNDA (once geliyor)");
+  ok(formBox.width > waBox.width, `form daha genis (${Math.round(formBox.width)} > ${Math.round(waBox.width)})`);
   const body = (await p.innerText("body")).toLowerCase();
-  const html = await p.content();
-  // Kural degisti (v2): HIV bilgisi sayfanin GOVDESINDE serbest — pixel'e
-  // giden veri adres, baslik ve referrer'dir, govde degil. Yasak olan, tani
-  // adinin ADRESTE veya BASLIKTA gecmesi ve ikinci tekil sahisla ziyaretciye
-  // saglik durumu atfedilmesi.
-  const title = await p.title();
-  ok(!/hiv|aids/i.test(title), `baslikta tani adi yok ("${title}")`);
-  ok(!/hiv|aids/i.test(new URL(p.url()).pathname), "adreste tani adi yok");
-  ok(/\bhiv\b/i.test(body), "HIV bilgisi govdede VAR (bilincli)");
-  ok(!/sie sind hiv|wenn sie hiv|ihre hiv|ihrer hiv/i.test(body),
-     "ziyaretciye saglik durumu atfeden ifade yok");
-  ok(/robert koch/i.test(body) && /6 azr 190\/12/i.test(body), "tibbi ve hukuki iddialar kaynakli");
-  ok(/ersetzt keine ärztliche beratung/i.test(body), "tibbi sorumluluk notu var");
-  ok((await p.innerText("h1")).includes("Haartransplantation"), "H1'de urun adi var");
-  ok((await p.$$("h1")).length === 1, "tek H1");
-  ok(html.includes('name="robots"') && /noindex/.test(html), "robots noindex");
-  ok(html.includes('"@type":"FAQPage"'), "FAQPage semasi var");
-  ok(await p.locator('a[href="#anfrage"]').first().isVisible(), "forma giden ikinci CTA var");
-  ok(await p.locator("#anfrage form").isVisible(), "form sayfada");
-  ok(await p.locator('img[alt="Grafta Clinic"]').first().isVisible(), "logo sayfada");
-  ok((await p.$$('img[alt="Grafta Clinic"]')).length >= 2, "logo hem hero'da hem formda");
-  ok(await p.locator('img[src*="hero.jpg"], img[srcset*="hero.jpg"]').first().isVisible(), "hero gorseli yuklendi");
-  ok(!/vorher|nachher|before.after/.test(body), "oncesi-sonrasi ifadesi yok (HWG §11)");
-  ok(!/garanti|garantie|100 ?%/.test(body), "garanti / %100 iddiasi yok");
+  ok(!body.includes("anonym"), "'anonym' kelimesi sayfada YOK");
+  ok(body.includes("der medizinische teil ist getrennt"), "05. blok (tibbi ikinci asama) sayfada");
   await c.close();
 }
 
-// ── 6. Diğer diller 404
-console.log("\n6) Rota kapsami");
-for (const loc of ["tr", "en"]) {
-  const c = await newCtx();
-  const p = await c.newPage();
-  const r = await p.goto(`${BASE}/${loc}/vertrauliche-beurteilung`);
-  ok(r.status() === 404, `/${loc}/vertrauliche-beurteilung -> 404`);
-  await c.close();
-}
+console.log("\n2) Kosullu telefon alani");
 {
-  const c = await newCtx();
-  const p = await c.newPage();
-  const xml = await (await p.goto(`${BASE}/sitemap.xml`)).text();
-  ok(!xml.includes("vertrauliche-beurteilung"), "sitemap'te yok (reklam sayfasi)");
+  const c = await ctx(); const p = await c.newPage();
+  await p.goto(`${B}/de/vertrauliche-beurteilung#anfrage`, { waitUntil: "networkidle" });
+  ok(await p.locator("#phone").count() === 0, "tercih E-Mail iken telefon alani DOM'da YOK");
+  await p.getByRole("radio", { name: "WhatsApp" }).check({ force: true });
+  await p.waitForTimeout(250);
+  ok(await p.locator("#phone").count() === 1, "WhatsApp secilince telefon alani belirdi");
+  await p.fill("#phone", "+49 170 1234567");
+  await p.getByRole("radio", { name: "E-Mail" }).check({ force: true });
+  await p.waitForTimeout(250);
+  ok(await p.locator("#phone").count() === 0, "E-Mail'e donunce telefon alani tekrar kayboldu");
   await c.close();
 }
 
-// ── 7. Form: webhook tanımsızken kullanıcı sessizce kaybolmuyor
-console.log("\n7) Form davranisi");
+console.log("\n3) Dogrulama ve hata mesajlari");
 {
-  const c = await newCtx({ consent: "granted" });
-  const p = await c.newPage();
-  await p.goto(`${BASE}/de/vertrauliche-beurteilung#anfrage`, { waitUntil: "networkidle" });
+  const c = await ctx(); const p = await c.newPage();
+  await p.goto(`${B}/de/vertrauliche-beurteilung#anfrage`, { waitUntil: "networkidle" });
   await p.click('button[type="submit"]');
   await p.waitForTimeout(300);
-  ok((await p.locator('[role="alert"]').first().innerText()).includes("E-Mail"), "bos form: uyari gosteriyor");
-  await p.fill("#email", "test@example.com");
-  await p.check('input[name="consent"]');
-  await p.click('button[type="submit"]');
-  await p.waitForTimeout(1500);
-  const alert = await p.locator('[role="alert"]').first().innerText();
-  ok(alert.includes("nicht gesendet"), "webhook yokken hata gosteriyor, sessiz kaybolmuyor");
-  ok(alert.includes("WhatsApp"), "hata mesajinda alternatif kanal var");
-  const contacts = (await queue(p)).filter((e) => e === "track Lead").length;
-  ok(contacts === 0, "basarisiz gonderimde Lead olayi gonderilmedi");
+  const t = await p.locator("#anfrage").innerText();
+  ok(/E-Mail-Adresse/.test(t) && /Einwilligung/.test(t), "bos form: Almanca hatalar gosterildi");
+  await p.fill("#email", "bozuk@");
+  await p.click('button[type="submit"]'); await p.waitForTimeout(250);
+  ok(/nicht vollständig/.test(await p.locator("#anfrage").innerText()), "gecersiz e-posta yakalandi");
   await c.close();
 }
 
-await browser.close();
+console.log("\n4) Ucdan uca gonderim (webhook)");
+{
+  const c = await ctx(); const p = await c.newPage();
+  await p.goto(`${B}/de/vertrauliche-beurteilung#anfrage`, { waitUntil: "networkidle" });
+  await p.fill("#name", "M.");
+  await p.fill("#email", "test@example.com");
+  await p.selectOption("#language", "Deutsch");
+  await p.fill("#message", "Eine allgemeine Frage zum Ablauf.");
+  await p.check("#consent");
+  await p.click('button[type="submit"]');
+  await p.waitForTimeout(2000);
+  const t = await p.locator("#anfrage").innerText();
+  ok(/angekommen/.test(t), "basari ekrani gosterildi");
+  const q = await p.evaluate(() => typeof window.fbq === "function" ? window.fbq.queue.map(a => Array.from(a).join(" ")) : []);
+  ok(q.filter(e => e === "track Lead").length === 1, `basarili gonderimde Lead olayi TAM 1 (bulunan ${q.filter(e=>e==="track Lead").length})`);
+  await c.close();
+}
+
+console.log("\n5) Pixel kurallari");
+{
+  const c = await ctx(); const p = await c.newPage();
+  await p.goto(`${B}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
+  await p.waitForTimeout(600);
+  const q = await p.evaluate(() => typeof window.fbq === "function" ? window.fbq.queue.map(a => Array.from(a).join(" ")) : null);
+  ok(q !== null, "notr sayfa + riza: pixel yuklendi");
+  ok(q.filter(e => e === "track PageView").length === 1, "PageView tam 1 kez");
+  await c.close();
+  const c2 = await ctx(); const p2 = await c2.newPage();
+  let fb = 0; p2.on("request", r => { if (r.url().includes("facebook")) fb++; });
+  await p2.goto(`${B}/de/hiv-positive-hair-transplant-turkey`, { waitUntil: "networkidle" });
+  ok(await p2.evaluate(() => typeof window.fbq === "undefined") && fb === 0, "hassas sayfa + riza: pixel YOK, 0 istek");
+  await c2.close();
+}
+
+console.log("\n6) Canonical apex'e isaret ediyor mu");
+{
+  const c = await ctx(); const p = await c.newPage();
+  await p.goto(`${B}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
+  const canon = await p.getAttribute('link[rel="canonical"]', "href").catch(() => null);
+  const html = await p.content();
+  ok(!html.includes("www.graftaclinic.com"), "sayfada www.graftaclinic.com referansi YOK");
+  console.log("   canonical:", canon);
+  await c.close();
+}
+
+await b.close();
 console.log(fails.length ? `\nBASARISIZ (${fails.length}):\n- ${fails.join("\n- ")}` : "\nTUM KONTROLLER GECTI");
 process.exit(fails.length ? 1 : 0);

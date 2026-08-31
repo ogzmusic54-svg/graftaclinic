@@ -26,10 +26,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
     "/hair-transplant-turkey",
     "/hiv-positive-hair-transplant-turkey",
+    "/impressum",
+    "/datenschutz",
   ];
 
   const priorityFor = (path: string) => {
     if (path === "") return 1;
+    // Hukuki sayfalar taranmalı ama arama sonucunda öne çıkmamalı.
+    if (path === "/impressum" || path === "/datenschutz") return 0.3;
     if (path === "/hair-transplant-turkey") return 0.9;
     if (path === "/hiv-positive-hair-transplant-turkey") return 0.85;
     return 0.8;

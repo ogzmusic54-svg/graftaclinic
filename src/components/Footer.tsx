@@ -111,6 +111,26 @@ export function Footer() {
           <p className="text-xs text-white/60">
             © {year} {siteConfig.brand.legalName}. {t("footer.rights")}
           </p>
+
+          {/*
+            Künye ve gizlilik bağlantısı: Alman pazarına yönelik her sayfadan
+            tek tıkla ulaşılabilir olmak zorunda (§ 5 DDG "leicht erkennbar,
+            unmittelbar erreichbar"). Bu yüzden footer'ın alt şeridinde,
+            her sayfada.
+          */}
+          <ul className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
+            <li>
+              <Link href="/impressum" className="text-white/70 hover:text-white">
+                {t("footer.impressum")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/datenschutz" className="text-white/70 hover:text-white">
+                {t("footer.privacy")}
+              </Link>
+            </li>
+          </ul>
+
           <p className="text-xs text-white/40 max-w-xl">{t("footer.disclaimer")}</p>
         </div>
       </div>

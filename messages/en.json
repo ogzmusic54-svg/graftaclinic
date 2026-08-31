@@ -108,9 +108,18 @@
       "beforeAfter": "before and after",
       "disclaimer": "Results vary from person to person. The images above have been shared with our patients' written consent and do not constitute a treatment guarantee.",
       "items": [
-        { "service": "Hair Transplant · 3500 grafts", "months": "9 months later" },
-        { "service": "Hair Transplant · 4500 grafts", "months": "12 months later" },
-        { "service": "Hair Transplant · 5200 grafts", "months": "12 months later" }
+        {
+          "service": "Hair Transplant · 3500 grafts",
+          "months": "9 months later"
+        },
+        {
+          "service": "Hair Transplant · 4500 grafts",
+          "months": "12 months later"
+        },
+        {
+          "service": "Hair Transplant · 5200 grafts",
+          "months": "12 months later"
+        }
       ]
     },
     "testimonials": {
@@ -170,17 +179,50 @@
       "subtitle": "We host patients from 60+ countries. Every detail is taken care of — from airport to clinic to hotel — so you can focus only on your recovery.",
       "cta": "Ask About the International Package",
       "stats": [
-        { "value": "60+", "label": "Countries" },
-        { "value": "10K+", "label": "International Patients" },
-        { "value": "98%", "label": "Satisfaction" }
+        {
+          "value": "60+",
+          "label": "Countries"
+        },
+        {
+          "value": "10K+",
+          "label": "International Patients"
+        },
+        {
+          "value": "98%",
+          "label": "Satisfaction"
+        }
       ],
       "items": [
-        { "key": "translator", "title": "24/7 Interpreter", "description": "Specialist team speaking English, German, Arabic, Russian. Message us in your language on WhatsApp." },
-        { "key": "transfer", "title": "Airport Transfer", "description": "VIP transfers between airport, hotel and clinic — all included. Welcome at the lobby." },
-        { "key": "hotel", "title": "Hotel Accommodation", "description": "Discounted stays at our partnered 4-5 star hotels. Comfortable days for you and a companion." },
-        { "key": "vip", "title": "VIP Welcome", "description": "Private reception at the clinic, recovery suite, one-on-one consultation with your doctor." },
-        { "key": "consultation", "title": "Online Pre-Evaluation", "description": "Video call + photo analysis before you travel. Everything cleared up before the journey." },
-        { "key": "warranty", "title": "Written Guarantee", "description": "All procedures come with an official guarantee certificate. Your doctor is available during your follow-up trips." }
+        {
+          "key": "translator",
+          "title": "24/7 Interpreter",
+          "description": "Specialist team speaking English, German, Arabic, Russian. Message us in your language on WhatsApp."
+        },
+        {
+          "key": "transfer",
+          "title": "Airport Transfer",
+          "description": "VIP transfers between airport, hotel and clinic — all included. Welcome at the lobby."
+        },
+        {
+          "key": "hotel",
+          "title": "Hotel Accommodation",
+          "description": "Discounted stays at our partnered 4-5 star hotels. Comfortable days for you and a companion."
+        },
+        {
+          "key": "vip",
+          "title": "VIP Welcome",
+          "description": "Private reception at the clinic, recovery suite, one-on-one consultation with your doctor."
+        },
+        {
+          "key": "consultation",
+          "title": "Online Pre-Evaluation",
+          "description": "Video call + photo analysis before you travel. Everything cleared up before the journey."
+        },
+        {
+          "key": "warranty",
+          "title": "Written Guarantee",
+          "description": "All procedures come with an official guarantee certificate. Your doctor is available during your follow-up trips."
+        }
       ]
     },
     "faq": {
@@ -226,10 +268,22 @@
     "trust": {
       "title": "Grafta Clinic in numbers",
       "stats": [
-        { "value": "10K+", "label": "Happy Patients" },
-        { "value": "15+", "label": "Years of Experience" },
-        { "value": "60+", "label": "Countries Served" },
-        { "value": "98%", "label": "Patient Satisfaction" }
+        {
+          "value": "10K+",
+          "label": "Happy Patients"
+        },
+        {
+          "value": "15+",
+          "label": "Years of Experience"
+        },
+        {
+          "value": "60+",
+          "label": "Countries Served"
+        },
+        {
+          "value": "98%",
+          "label": "Patient Satisfaction"
+        }
       ]
     },
     "servicesSection": {
@@ -334,7 +388,8 @@
     "rights": "All rights reserved.",
     "disclaimer": "This site is for informational purposes only and does not substitute medical advice. An in-person consultation is required prior to any treatment.",
     "kvkk": "Data Privacy Notice",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "impressum": "Legal Notice"
   },
   "results": {
     "metaTitle": "Patient Results — Before and After | Grafta Clinic",
@@ -377,18 +432,48 @@
         "Quick return to social life"
       ],
       "process": [
-        { "step": "Consultation & analysis", "description": "Hairline design, donor area assessment and technique selection." },
-        { "step": "Preparation & anaesthesia", "description": "Local anaesthesia and donor area preparation." },
-        { "step": "Graft extraction", "description": "Follicles harvested one by one with a micromotor." },
-        { "step": "Channel opening", "description": "Micro-channels created with the natural direction and angle." },
-        { "step": "Graft placement", "description": "Follicles implanted with a DHI pen or implanter." },
-        { "step": "Follow-up", "description": "Long-term follow-up at month 1, 3, 6 and 12." }
+        {
+          "step": "Consultation & analysis",
+          "description": "Hairline design, donor area assessment and technique selection."
+        },
+        {
+          "step": "Preparation & anaesthesia",
+          "description": "Local anaesthesia and donor area preparation."
+        },
+        {
+          "step": "Graft extraction",
+          "description": "Follicles harvested one by one with a micromotor."
+        },
+        {
+          "step": "Channel opening",
+          "description": "Micro-channels created with the natural direction and angle."
+        },
+        {
+          "step": "Graft placement",
+          "description": "Follicles implanted with a DHI pen or implanter."
+        },
+        {
+          "step": "Follow-up",
+          "description": "Long-term follow-up at month 1, 3, 6 and 12."
+        }
       ],
       "faq": [
-        { "question": "Will there be visible scars?", "answer": "FUE and DHI techniques do not leave a visible scar. Pinpoint marks in the donor area fade quickly." },
-        { "question": "When will results show?", "answer": "New hair starts growing from month 3-4; final result becomes visible by month 12." },
-        { "question": "Will the transplanted hair fall out?", "answer": "Grafts taken from genetically resistant areas are permanent; the initial 'shock loss' in the first weeks is normal." },
-        { "question": "How long does the operation take?", "answer": "Typically 6-8 hours, depending on the number of grafts." }
+        {
+          "question": "Will there be visible scars?",
+          "answer": "FUE and DHI techniques do not leave a visible scar. Pinpoint marks in the donor area fade quickly."
+        },
+        {
+          "question": "When will results show?",
+          "answer": "New hair starts growing from month 3-4; final result becomes visible by month 12."
+        },
+        {
+          "question": "Will the transplanted hair fall out?",
+          "answer": "Grafts taken from genetically resistant areas are permanent; the initial 'shock loss' in the first weeks is normal."
+        },
+        {
+          "question": "How long does the operation take?",
+          "answer": "Typically 6-8 hours, depending on the number of grafts."
+        }
       ]
     },
     "beard-transplant": {
@@ -407,16 +492,40 @@
         "Permanent outcome"
       ],
       "process": [
-        { "step": "Design", "description": "Beard line drawn following facial proportions." },
-        { "step": "Donor preparation", "description": "Suitable grafts selected from the donor area." },
-        { "step": "Graft extraction", "description": "Follicles harvested with a micromotor." },
-        { "step": "Placement", "description": "Each follicle placed at the natural angle." },
-        { "step": "Care", "description": "Aftercare and follow-up in the first week." }
+        {
+          "step": "Design",
+          "description": "Beard line drawn following facial proportions."
+        },
+        {
+          "step": "Donor preparation",
+          "description": "Suitable grafts selected from the donor area."
+        },
+        {
+          "step": "Graft extraction",
+          "description": "Follicles harvested with a micromotor."
+        },
+        {
+          "step": "Placement",
+          "description": "Each follicle placed at the natural angle."
+        },
+        {
+          "step": "Care",
+          "description": "Aftercare and follow-up in the first week."
+        }
       ],
       "faq": [
-        { "question": "Can I shave after a beard transplant?", "answer": "Yes, transplanted hairs can be shaved comfortably from month 6." },
-        { "question": "Is it painful?", "answer": "The procedure is painless under local anaesthesia." },
-        { "question": "When will I see the final result?", "answer": "Final density and naturalness appear at months 8-12." }
+        {
+          "question": "Can I shave after a beard transplant?",
+          "answer": "Yes, transplanted hairs can be shaved comfortably from month 6."
+        },
+        {
+          "question": "Is it painful?",
+          "answer": "The procedure is painless under local anaesthesia."
+        },
+        {
+          "question": "When will I see the final result?",
+          "answer": "Final density and naturalness appear at months 8-12."
+        }
       ]
     },
     "eyebrow-transplant": {
@@ -434,14 +543,32 @@
         "Scarless FUE/DHI technique"
       ],
       "process": [
-        { "step": "Design", "description": "Drawing aligned with facial proportions and approval." },
-        { "step": "Donor harvest", "description": "Single follicles collected." },
-        { "step": "Placement", "description": "Implantation observing direction and angle." },
-        { "step": "Follow-up", "description": "Reviews at month 1, 3 and 6." }
+        {
+          "step": "Design",
+          "description": "Drawing aligned with facial proportions and approval."
+        },
+        {
+          "step": "Donor harvest",
+          "description": "Single follicles collected."
+        },
+        {
+          "step": "Placement",
+          "description": "Implantation observing direction and angle."
+        },
+        {
+          "step": "Follow-up",
+          "description": "Reviews at month 1, 3 and 6."
+        }
       ],
       "faq": [
-        { "question": "Will the eyebrow hairs grow?", "answer": "Yes, since they originate from the donor area; they grow like hair and need regular trimming." },
-        { "question": "How many follicles are needed?", "answer": "Usually 200-400 follicles for both brows." }
+        {
+          "question": "Will the eyebrow hairs grow?",
+          "answer": "Yes, since they originate from the donor area; they grow like hair and need regular trimming."
+        },
+        {
+          "question": "How many follicles are needed?",
+          "answer": "Usually 200-400 follicles for both brows."
+        }
       ]
     },
     "alopecia-treatment": {
@@ -459,14 +586,32 @@
         "Long-term follow-up"
       ],
       "process": [
-        { "step": "Examination", "description": "Dermoscopy and laboratory tests where needed." },
-        { "step": "Diagnosis", "description": "Subtype classification (areata, totalis, universalis)." },
-        { "step": "Treatment plan", "description": "Selection of intralesional or topical therapy." },
-        { "step": "Follow-up", "description": "Monthly reviews with plan adjustments." }
+        {
+          "step": "Examination",
+          "description": "Dermoscopy and laboratory tests where needed."
+        },
+        {
+          "step": "Diagnosis",
+          "description": "Subtype classification (areata, totalis, universalis)."
+        },
+        {
+          "step": "Treatment plan",
+          "description": "Selection of intralesional or topical therapy."
+        },
+        {
+          "step": "Follow-up",
+          "description": "Monthly reviews with plan adjustments."
+        }
       ],
       "faq": [
-        { "question": "Does alopecia come back?", "answer": "With the right treatment, regrowth is achieved in most patients; recurrences are possible in some cases." },
-        { "question": "How long does the treatment take?", "answer": "Typically 3-12 months depending on the subtype." }
+        {
+          "question": "Does alopecia come back?",
+          "answer": "With the right treatment, regrowth is achieved in most patients; recurrences are possible in some cases."
+        },
+        {
+          "question": "How long does the treatment take?",
+          "answer": "Typically 3-12 months depending on the subtype."
+        }
       ]
     },
     "prp-therapy": {
@@ -484,14 +629,32 @@
         "Short session duration"
       ],
       "process": [
-        { "step": "Blood draw", "description": "A small blood sample is taken." },
-        { "step": "Centrifugation", "description": "Plasma is separated from the platelets." },
-        { "step": "Application", "description": "Microinjections into the scalp or skin." },
-        { "step": "Repeat", "description": "Usually 3-4 sessions, then maintenance." }
+        {
+          "step": "Blood draw",
+          "description": "A small blood sample is taken."
+        },
+        {
+          "step": "Centrifugation",
+          "description": "Plasma is separated from the platelets."
+        },
+        {
+          "step": "Application",
+          "description": "Microinjections into the scalp or skin."
+        },
+        {
+          "step": "Repeat",
+          "description": "Usually 3-4 sessions, then maintenance."
+        }
       ],
       "faq": [
-        { "question": "Is PRP painful?", "answer": "Discomfort is minimal with topical anaesthesia." },
-        { "question": "How often is it needed?", "answer": "Initially 3-4 sessions every 2-4 weeks, then a refresher every 6 months." }
+        {
+          "question": "Is PRP painful?",
+          "answer": "Discomfort is minimal with topical anaesthesia."
+        },
+        {
+          "question": "How often is it needed?",
+          "answer": "Initially 3-4 sessions every 2-4 weeks, then a refresher every 6 months."
+        }
       ]
     },
     "mesotherapy": {
@@ -509,13 +672,28 @@
         "Adjunct support for hair loss"
       ],
       "process": [
-        { "step": "Assessment", "description": "Cocktail selection based on skin/hair analysis." },
-        { "step": "Application", "description": "Superficial injections via micro-needles." },
-        { "step": "Series", "description": "Typically once a week, 4-6 sessions." }
+        {
+          "step": "Assessment",
+          "description": "Cocktail selection based on skin/hair analysis."
+        },
+        {
+          "step": "Application",
+          "description": "Superficial injections via micro-needles."
+        },
+        {
+          "step": "Series",
+          "description": "Typically once a week, 4-6 sessions."
+        }
       ],
       "faq": [
-        { "question": "Are there side effects?", "answer": "Apart from temporary redness, side effects are rare." },
-        { "question": "When will results appear?", "answer": "After 1-2 sessions for skin, after 4-6 sessions for hair." }
+        {
+          "question": "Are there side effects?",
+          "answer": "Apart from temporary redness, side effects are rare."
+        },
+        {
+          "question": "When will results appear?",
+          "answer": "After 1-2 sessions for skin, after 4-6 sessions for hair."
+        }
       ]
     },
     "fillers-botox": {
@@ -533,13 +711,28 @@
         "Possibility for staged planning"
       ],
       "process": [
-        { "step": "Consultation", "description": "Facial analysis and treatment map." },
-        { "step": "Application", "description": "Precise injection with fine-tip needles." },
-        { "step": "Follow-up", "description": "Day 10-14 review with optional touch-ups." }
+        {
+          "step": "Consultation",
+          "description": "Facial analysis and treatment map."
+        },
+        {
+          "step": "Application",
+          "description": "Precise injection with fine-tip needles."
+        },
+        {
+          "step": "Follow-up",
+          "description": "Day 10-14 review with optional touch-ups."
+        }
       ],
       "faq": [
-        { "question": "How long does Botox last?", "answer": "Typically 4-6 months, after which it can be repeated." },
-        { "question": "Are fillers permanent?", "answer": "Hyaluronic acid fillers are absorbed by the body within 6-18 months." }
+        {
+          "question": "How long does Botox last?",
+          "answer": "Typically 4-6 months, after which it can be repeated."
+        },
+        {
+          "question": "Are fillers permanent?",
+          "answer": "Hyaluronic acid fillers are absorbed by the body within 6-18 months."
+        }
       ]
     },
     "youth-vaccine": {
@@ -557,13 +750,28 @@
         "Effective on neck and hands as well"
       ],
       "process": [
-        { "step": "Analysis", "description": "Assessing the skin's age and needs." },
-        { "step": "Application", "description": "Microinjections distributed on the surface." },
-        { "step": "Repeat", "description": "Typically two sessions, four weeks apart." }
+        {
+          "step": "Analysis",
+          "description": "Assessing the skin's age and needs."
+        },
+        {
+          "step": "Application",
+          "description": "Microinjections distributed on the surface."
+        },
+        {
+          "step": "Repeat",
+          "description": "Typically two sessions, four weeks apart."
+        }
       ],
       "faq": [
-        { "question": "How long does it last?", "answer": "The first series lasts 6-9 months; an annual maintenance is recommended." },
-        { "question": "Who is it suitable for?", "answer": "From the late twenties onward, anyone wishing to maintain skin elasticity." }
+        {
+          "question": "How long does it last?",
+          "answer": "The first series lasts 6-9 months; an annual maintenance is recommended."
+        },
+        {
+          "question": "Who is it suitable for?",
+          "answer": "From the late twenties onward, anyone wishing to maintain skin elasticity."
+        }
       ]
     },
     "rhinoplasty": {
@@ -581,16 +789,40 @@
         "Permanent outcome"
       ],
       "process": [
-        { "step": "Consultation", "description": "3D analysis and assessment of facial proportions." },
-        { "step": "Planning", "description": "Choosing open/closed technique, aligning expectations." },
-        { "step": "Surgery", "description": "General anaesthesia, 2-3 hour procedure." },
-        { "step": "Recovery", "description": "Splint for the first week, social return in 7-10 days." },
-        { "step": "Follow-up", "description": "Reviews at month 1, 3, 6 and 12." }
+        {
+          "step": "Consultation",
+          "description": "3D analysis and assessment of facial proportions."
+        },
+        {
+          "step": "Planning",
+          "description": "Choosing open/closed technique, aligning expectations."
+        },
+        {
+          "step": "Surgery",
+          "description": "General anaesthesia, 2-3 hour procedure."
+        },
+        {
+          "step": "Recovery",
+          "description": "Splint for the first week, social return in 7-10 days."
+        },
+        {
+          "step": "Follow-up",
+          "description": "Reviews at month 1, 3, 6 and 12."
+        }
       ],
       "faq": [
-        { "question": "When are the results final?", "answer": "Visible improvement in 1 month; final result by month 12." },
-        { "question": "What is the recovery time?", "answer": "Social life in 7-10 days; sports in 4-6 weeks." },
-        { "question": "Are both techniques permanent?", "answer": "Yes, both techniques deliver permanent results." }
+        {
+          "question": "When are the results final?",
+          "answer": "Visible improvement in 1 month; final result by month 12."
+        },
+        {
+          "question": "What is the recovery time?",
+          "answer": "Social life in 7-10 days; sports in 4-6 weeks."
+        },
+        {
+          "question": "Are both techniques permanent?",
+          "answer": "Yes, both techniques deliver permanent results."
+        }
       ]
     },
     "breast-aesthetics": {
@@ -608,14 +840,32 @@
         "Comfortable recovery"
       ],
       "process": [
-        { "step": "Consultation", "description": "Anatomical measurements and goal setting." },
-        { "step": "Planning", "description": "Selection of implant type/shape/placement." },
-        { "step": "Surgery", "description": "1-3 hour operation under general anaesthesia." },
-        { "step": "Recovery", "description": "Support bra and follow-ups for the first 6 weeks." }
+        {
+          "step": "Consultation",
+          "description": "Anatomical measurements and goal setting."
+        },
+        {
+          "step": "Planning",
+          "description": "Selection of implant type/shape/placement."
+        },
+        {
+          "step": "Surgery",
+          "description": "1-3 hour operation under general anaesthesia."
+        },
+        {
+          "step": "Recovery",
+          "description": "Support bra and follow-ups for the first 6 weeks."
+        }
       ],
       "faq": [
-        { "question": "How long do implants last?", "answer": "Modern implants can last 10-15 years or longer; routine check-ups are advised." },
-        { "question": "Will it affect breastfeeding?", "answer": "When the right technique is chosen, breastfeeding is generally not affected." }
+        {
+          "question": "How long do implants last?",
+          "answer": "Modern implants can last 10-15 years or longer; routine check-ups are advised."
+        },
+        {
+          "question": "Will it affect breastfeeding?",
+          "answer": "When the right technique is chosen, breastfeeding is generally not affected."
+        }
       ]
     }
   },
@@ -644,10 +894,22 @@
       "title": "Why Turkey is the world's #1 destination for hair transplant",
       "body": "Every year more than 750,000 international patients travel to Turkey for hair restoration. Istanbul alone hosts hundreds of clinics — but only a small fraction operate to international medical standards, employ board-certified surgeons, and publish transparent results. This guide explains what separates the best hair transplant clinic in Turkey from the rest, and why patients from the United States, United Kingdom, Germany, the Netherlands, the Gulf and beyond consistently choose Grafta Clinic Istanbul.",
       "stats": [
-        { "value": "10,000+", "label": "International patients" },
-        { "value": "60+", "label": "Countries served" },
-        { "value": "98%", "label": "Patient satisfaction" },
-        { "value": "15+", "label": "Years of experience" }
+        {
+          "value": "10,000+",
+          "label": "International patients"
+        },
+        {
+          "value": "60+",
+          "label": "Countries served"
+        },
+        {
+          "value": "98%",
+          "label": "Patient satisfaction"
+        },
+        {
+          "value": "15+",
+          "label": "Years of experience"
+        }
       ]
     },
     "whyTurkey": {
@@ -656,10 +918,26 @@
       "comparison": {
         "title": "Hair transplant cost comparison · 5,000 grafts (typical Norwood 5)",
         "rows": [
-          { "country": "United States (NYC, Miami, LA)", "price": "$15,000 – $25,000", "note": "Often technician-performed; surgeon involvement varies" },
-          { "country": "United Kingdom (London)", "price": "£10,000 – £18,000", "note": "Long waiting lists, limited graft capacity per session" },
-          { "country": "Germany / Netherlands", "price": "€8,000 – €15,000", "note": "High insurance overhead reflected in price" },
-          { "country": "Turkey · Grafta Clinic Istanbul", "price": "$2,950 – $4,500", "note": "Surgeon-led, all-inclusive (hotel + transfer + interpreter)" }
+          {
+            "country": "United States (NYC, Miami, LA)",
+            "price": "$15,000 – $25,000",
+            "note": "Often technician-performed; surgeon involvement varies"
+          },
+          {
+            "country": "United Kingdom (London)",
+            "price": "£10,000 – £18,000",
+            "note": "Long waiting lists, limited graft capacity per session"
+          },
+          {
+            "country": "Germany / Netherlands",
+            "price": "€8,000 – €15,000",
+            "note": "High insurance overhead reflected in price"
+          },
+          {
+            "country": "Turkey · Grafta Clinic Istanbul",
+            "price": "$2,950 – $4,500",
+            "note": "Surgeon-led, all-inclusive (hotel + transfer + interpreter)"
+          }
         ],
         "note": "Prices reflect 2025 averages from publicly listed clinics in each region. Grafta Clinic prices include hotel accommodation, VIP airport transfer, interpreter services, all medications and a written guarantee."
       }
@@ -794,36 +1072,98 @@
       "title": "Your all-inclusive Istanbul package",
       "subtitle": "Most international patients arrive on a Tuesday morning and fly home on Friday afternoon. Here is what is handled for you.",
       "items": [
-        { "title": "VIP airport transfer", "description": "Driver waits at arrivals with your name. Mercedes Vito, English-speaking. No taxi, no apps, no surprises." },
-        { "title": "4 or 5-star hotel", "description": "Quiet, clean, walking distance to clinic. Breakfast included. Room is yours from arrival to departure." },
-        { "title": "Multilingual interpreter", "description": "English, German, Arabic, Russian, French. With you at the consultation, the procedure briefing and on WhatsApp 24/7." },
-        { "title": "Surgeon consultation", "description": "Pre-op video call before you fly. In-person assessment on arrival. The surgeon — not a sales rep — answers your questions." },
-        { "title": "Operation day comfort", "description": "Comfort suite, lunch, music, breaks every 90 minutes. The procedure takes 6-8 hours; we make it feel shorter." },
-        { "title": "Post-op care visit", "description": "Wash and check-up the next day at the clinic. Recovery kit handed over, every step shown to you in person." },
-        { "title": "12-month follow-up", "description": "Photo reviews at month 1, 3, 6, 12. Direct WhatsApp line to your surgeon. Free revision if guarantee criteria are not met." },
-        { "title": "Optional: companion friendly", "description": "Bring a friend or partner. Companion stays at the same hotel free; transfers included." }
+        {
+          "title": "VIP airport transfer",
+          "description": "Driver waits at arrivals with your name. Mercedes Vito, English-speaking. No taxi, no apps, no surprises."
+        },
+        {
+          "title": "4 or 5-star hotel",
+          "description": "Quiet, clean, walking distance to clinic. Breakfast included. Room is yours from arrival to departure."
+        },
+        {
+          "title": "Multilingual interpreter",
+          "description": "English, German, Arabic, Russian, French. With you at the consultation, the procedure briefing and on WhatsApp 24/7."
+        },
+        {
+          "title": "Surgeon consultation",
+          "description": "Pre-op video call before you fly. In-person assessment on arrival. The surgeon — not a sales rep — answers your questions."
+        },
+        {
+          "title": "Operation day comfort",
+          "description": "Comfort suite, lunch, music, breaks every 90 minutes. The procedure takes 6-8 hours; we make it feel shorter."
+        },
+        {
+          "title": "Post-op care visit",
+          "description": "Wash and check-up the next day at the clinic. Recovery kit handed over, every step shown to you in person."
+        },
+        {
+          "title": "12-month follow-up",
+          "description": "Photo reviews at month 1, 3, 6, 12. Direct WhatsApp line to your surgeon. Free revision if guarantee criteria are not met."
+        },
+        {
+          "title": "Optional: companion friendly",
+          "description": "Bring a friend or partner. Companion stays at the same hotel free; transfers included."
+        }
       ]
     },
     "journey": {
       "title": "Your hair transplant journey, day by day",
       "steps": [
-        { "day": "Before you fly", "title": "Free pre-evaluation", "description": "Send 4 photos via WhatsApp. The surgeon reviews them personally and replies with a graft estimate, technique recommendation and total cost — usually within 24 hours. No deposit, no pressure." },
-        { "day": "Day 1 · Arrival", "title": "Welcome & in-person consultation", "description": "Driver meets you at Istanbul airport. Quick rest at the hotel, then in-person consultation at the clinic: hairline design, donor area assessment, blood tests. Free dinner reservation if you'd like." },
-        { "day": "Day 2 · Operation", "title": "The procedure", "description": "9:00 AM start. Local anaesthesia, graft extraction, channel opening, implantation. 6-8 hours with breaks. Lunch served. You leave the clinic on your own feet, head bandaged. Driver waits to take you back." },
-        { "day": "Day 3 · Wash & departure", "title": "First wash and aftercare briefing", "description": "Return to the clinic for the first medical wash, photo documentation and recovery kit handover. The surgeon explains every step of home care. Driver to airport. You're home for dinner." },
-        { "day": "Months 1 – 12", "title": "Recovery and final result", "description": "Shedding phase at month 1 (normal). New growth from month 3-4. Density visible by month 6. Final result by month 12. Photo check-ups along the way; revision available if needed." }
+        {
+          "day": "Before you fly",
+          "title": "Free pre-evaluation",
+          "description": "Send 4 photos via WhatsApp. The surgeon reviews them personally and replies with a graft estimate, technique recommendation and total cost — usually within 24 hours. No deposit, no pressure."
+        },
+        {
+          "day": "Day 1 · Arrival",
+          "title": "Welcome & in-person consultation",
+          "description": "Driver meets you at Istanbul airport. Quick rest at the hotel, then in-person consultation at the clinic: hairline design, donor area assessment, blood tests. Free dinner reservation if you'd like."
+        },
+        {
+          "day": "Day 2 · Operation",
+          "title": "The procedure",
+          "description": "9:00 AM start. Local anaesthesia, graft extraction, channel opening, implantation. 6-8 hours with breaks. Lunch served. You leave the clinic on your own feet, head bandaged. Driver waits to take you back."
+        },
+        {
+          "day": "Day 3 · Wash & departure",
+          "title": "First wash and aftercare briefing",
+          "description": "Return to the clinic for the first medical wash, photo documentation and recovery kit handover. The surgeon explains every step of home care. Driver to airport. You're home for dinner."
+        },
+        {
+          "day": "Months 1 – 12",
+          "title": "Recovery and final result",
+          "description": "Shedding phase at month 1 (normal). New growth from month 3-4. Density visible by month 6. Final result by month 12. Photo check-ups along the way; revision available if needed."
+        }
       ]
     },
     "patientGroups": {
       "title": "Specialist hair transplant care — for every patient",
       "subtitle": "We have dedicated protocols for the patient groups most often turned away or under-served by high-volume clinics.",
       "items": [
-        { "title": "Afro hair transplant in Turkey", "description": "Curly and coiled follicles require specialist extraction tools and surgeon experience to avoid transection. Our afro hair surgeon has a documented portfolio with Black men and women, including Norwood 6-7 cases. Free hairline visualisation included." },
-        { "title": "Hair transplant for women", "description": "Female pattern hair loss (FPHL) needs hormonal screening, diffuse-pattern planning and unshaven DHI. We assign a female case manager and offer a female surgeon on request. Discreet, dignity-first protocol." },
-        { "title": "Hair transplant for Black men", "description": "Beyond afro hair specifics — broader hairline aesthetics for Black men, including temple restoration and beard transplant for skin-fade compatibility." },
-        { "title": "HIV-positive patients", "description": "We accept HIV+ patients with controlled viral load. Universal precautions are applied to every patient already, so no different protocol is needed. Confidentiality guaranteed under Turkish patient privacy law." },
-        { "title": "Repair / second-procedure cases", "description": "Botched hairlines from other clinics, unnatural plug appearance, low-density transplants. We restore — and we tell you honestly when revision is or isn't realistic." },
-        { "title": "Norwood 6-7 mega-sessions", "description": "Up to 6,000 grafts in a single day with two-surgeon teams when the donor area allows. Maximum coverage in one trip." }
+        {
+          "title": "Afro hair transplant in Turkey",
+          "description": "Curly and coiled follicles require specialist extraction tools and surgeon experience to avoid transection. Our afro hair surgeon has a documented portfolio with Black men and women, including Norwood 6-7 cases. Free hairline visualisation included."
+        },
+        {
+          "title": "Hair transplant for women",
+          "description": "Female pattern hair loss (FPHL) needs hormonal screening, diffuse-pattern planning and unshaven DHI. We assign a female case manager and offer a female surgeon on request. Discreet, dignity-first protocol."
+        },
+        {
+          "title": "Hair transplant for Black men",
+          "description": "Beyond afro hair specifics — broader hairline aesthetics for Black men, including temple restoration and beard transplant for skin-fade compatibility."
+        },
+        {
+          "title": "HIV-positive patients",
+          "description": "We accept HIV+ patients with controlled viral load. Universal precautions are applied to every patient already, so no different protocol is needed. Confidentiality guaranteed under Turkish patient privacy law."
+        },
+        {
+          "title": "Repair / second-procedure cases",
+          "description": "Botched hairlines from other clinics, unnatural plug appearance, low-density transplants. We restore — and we tell you honestly when revision is or isn't realistic."
+        },
+        {
+          "title": "Norwood 6-7 mega-sessions",
+          "description": "Up to 6,000 grafts in a single day with two-surgeon teams when the donor area allows. Maximum coverage in one trip."
+        }
       ]
     },
     "results": {
@@ -838,19 +1178,58 @@
     "faq": {
       "title": "Frequently asked questions about hair transplant in Turkey",
       "items": [
-        { "question": "Is hair transplant in Turkey safe?", "answer": "At licensed clinics — yes. Look for: Ministry of Health health-tourism license, ISO 9001 certification, surgeon-led procedures (not technician-only), and written guarantees. Grafta Clinic holds all four. Avoid clinics that refuse to share their license number or perform 8-10 patients per surgeon per day." },
-        { "question": "How much does a hair transplant cost in Turkey vs the US/UK?", "answer": "A 5,000-graft Sapphire FUE costs $2,950 – $4,500 all-inclusive at Grafta Clinic Istanbul, vs $15,000 – $25,000 in the US (NYC, Miami, LA) and £10,000 – £18,000 in the UK. The price gap reflects lower local overhead and a competitive medical-tourism market — not lower quality." },
-        { "question": "Which is the best hair transplant technique — FUE, DHI or Sapphire FUE?", "answer": "There is no single best technique. Sapphire FUE gives the highest density and fastest recovery for frontal hairlines. DHI is best for women and unshaven cases. Classic FUE delivers the highest single-session graft yield for Norwood 5-7. The right choice depends on your donor area, goals and lifestyle." },
-        { "question": "How long do I need to stay in Istanbul?", "answer": "3 days is enough for most patients: arrival on day 1, operation on day 2, first wash and departure on day 3. Some patients add a 4th day for sightseeing." },
-        { "question": "What is included in the all-inclusive package?", "answer": "VIP airport transfer (round-trip), 2-3 nights at a 4 or 5-star hotel, multilingual interpreter, all medications, PRP sessions, recovery kit, written 12-month guarantee and post-op WhatsApp access to your surgeon. No hidden fees." },
-        { "question": "When will I see the final result?", "answer": "Initial shedding at month 1 is normal. New growth starts at month 3-4. Density becomes visible by month 6. The final result — including hair colour, texture and full density — appears at month 12." },
-        { "question": "Do you accept HIV-positive patients?", "answer": "Yes. With a controlled viral load and current bloodwork we accept HIV+ patients without restriction. Universal sterile precautions are applied to every patient regardless of status. Strict confidentiality is guaranteed under Turkish patient privacy law." },
-        { "question": "Can you do afro hair transplant?", "answer": "Yes — we have a specialist afro hair surgeon with a documented portfolio. Curly and coiled follicles need specific extraction tools and surgical experience to avoid transection. We treat Black men and women including Norwood 6-7 cases." },
-        { "question": "Do you offer hair transplant for women?", "answer": "Yes. Female hair restoration is a dedicated protocol: hormonal screening, diffuse-pattern planning, unshaven DHI, and a female case manager. A female surgeon is available on request." },
-        { "question": "How do I know which clinic is the best in Turkey?", "answer": "Verifiable signals: Ministry of Health license, ISO 9001 certification, ISHRS surgeon membership, surgeon-led (not technician-only) procedures, ≤2 patients per surgeon per day, transparent pricing without day-of upsells, written guarantee, and a 12-month follow-up programme. Be cautious of clinics ranking on '#1 in Turkey' lists they paid for — check independent Trustpilot, Google and Reddit reviews." },
-        { "question": "What about Reddit and Trustpilot reviews?", "answer": "We are reviewed openly on Trustpilot, Google and Reddit's r/HairTransplants. We do not filter, pay for, or remove reviews. We encourage every patient to publish their honest experience." },
-        { "question": "What if the result is not as expected?", "answer": "Our written guarantee covers graft survival rate at month 12. If it falls below the agreed threshold, we perform a free revision session. Travel and accommodation for revision are also covered under the premium package." },
-        { "question": "How do I book a free consultation?", "answer": "Send 4 photos (top, sides, back, front hairline) via WhatsApp to +90 507 647 34 34. Your surgeon will reply within 24 hours with a graft estimate, technique recommendation and full cost — no deposit, no pressure." }
+        {
+          "question": "Is hair transplant in Turkey safe?",
+          "answer": "At licensed clinics — yes. Look for: Ministry of Health health-tourism license, ISO 9001 certification, surgeon-led procedures (not technician-only), and written guarantees. Grafta Clinic holds all four. Avoid clinics that refuse to share their license number or perform 8-10 patients per surgeon per day."
+        },
+        {
+          "question": "How much does a hair transplant cost in Turkey vs the US/UK?",
+          "answer": "A 5,000-graft Sapphire FUE costs $2,950 – $4,500 all-inclusive at Grafta Clinic Istanbul, vs $15,000 – $25,000 in the US (NYC, Miami, LA) and £10,000 – £18,000 in the UK. The price gap reflects lower local overhead and a competitive medical-tourism market — not lower quality."
+        },
+        {
+          "question": "Which is the best hair transplant technique — FUE, DHI or Sapphire FUE?",
+          "answer": "There is no single best technique. Sapphire FUE gives the highest density and fastest recovery for frontal hairlines. DHI is best for women and unshaven cases. Classic FUE delivers the highest single-session graft yield for Norwood 5-7. The right choice depends on your donor area, goals and lifestyle."
+        },
+        {
+          "question": "How long do I need to stay in Istanbul?",
+          "answer": "3 days is enough for most patients: arrival on day 1, operation on day 2, first wash and departure on day 3. Some patients add a 4th day for sightseeing."
+        },
+        {
+          "question": "What is included in the all-inclusive package?",
+          "answer": "VIP airport transfer (round-trip), 2-3 nights at a 4 or 5-star hotel, multilingual interpreter, all medications, PRP sessions, recovery kit, written 12-month guarantee and post-op WhatsApp access to your surgeon. No hidden fees."
+        },
+        {
+          "question": "When will I see the final result?",
+          "answer": "Initial shedding at month 1 is normal. New growth starts at month 3-4. Density becomes visible by month 6. The final result — including hair colour, texture and full density — appears at month 12."
+        },
+        {
+          "question": "Do you accept HIV-positive patients?",
+          "answer": "Yes. With a controlled viral load and current bloodwork we accept HIV+ patients without restriction. Universal sterile precautions are applied to every patient regardless of status. Strict confidentiality is guaranteed under Turkish patient privacy law."
+        },
+        {
+          "question": "Can you do afro hair transplant?",
+          "answer": "Yes — we have a specialist afro hair surgeon with a documented portfolio. Curly and coiled follicles need specific extraction tools and surgical experience to avoid transection. We treat Black men and women including Norwood 6-7 cases."
+        },
+        {
+          "question": "Do you offer hair transplant for women?",
+          "answer": "Yes. Female hair restoration is a dedicated protocol: hormonal screening, diffuse-pattern planning, unshaven DHI, and a female case manager. A female surgeon is available on request."
+        },
+        {
+          "question": "How do I know which clinic is the best in Turkey?",
+          "answer": "Verifiable signals: Ministry of Health license, ISO 9001 certification, ISHRS surgeon membership, surgeon-led (not technician-only) procedures, ≤2 patients per surgeon per day, transparent pricing without day-of upsells, written guarantee, and a 12-month follow-up programme. Be cautious of clinics ranking on '#1 in Turkey' lists they paid for — check independent Trustpilot, Google and Reddit reviews."
+        },
+        {
+          "question": "What about Reddit and Trustpilot reviews?",
+          "answer": "We are reviewed openly on Trustpilot, Google and Reddit's r/HairTransplants. We do not filter, pay for, or remove reviews. We encourage every patient to publish their honest experience."
+        },
+        {
+          "question": "What if the result is not as expected?",
+          "answer": "Our written guarantee covers graft survival rate at month 12. If it falls below the agreed threshold, we perform a free revision session. Travel and accommodation for revision are also covered under the premium package."
+        },
+        {
+          "question": "How do I book a free consultation?",
+          "answer": "Send 4 photos (top, sides, back, front hairline) via WhatsApp to +90 507 647 34 34. Your surgeon will reply within 24 hours with a graft estimate, technique recommendation and full cost — no deposit, no pressure."
+        }
       ]
     },
     "cta": {
@@ -948,28 +1327,84 @@
     "journey": {
       "title": "Your journey, step by step",
       "steps": [
-        { "day": "Step 1", "title": "Confidential pre-evaluation", "description": "Send your photos and recent bloodwork (CD4 count, viral load) via your preferred secure channel. Reviewed personally by the surgeon — never by an admin or sales rep." },
-        { "day": "Step 2", "title": "Surgeon video call", "description": "Direct video call with your surgeon to discuss hairline goals, technique selection (FUE / DHI / Sapphire), and any specific concerns about discretion or recovery." },
-        { "day": "Step 3", "title": "All-inclusive package booked discreetly", "description": "Hotel, transfer and interpreter — booked with no medical context. Your reservation simply says 'aesthetic procedure'. Companion welcome." },
-        { "day": "Step 4", "title": "Day of surgery", "description": "Same operating theatre, same surgeon, same protocol as every patient. 6-8 hour FUE / DHI / Sapphire procedure. Your file is accessible only to your surgical team." },
-        { "day": "Step 5", "title": "Recovery & 12-month follow-up", "description": "Discreet follow-up at month 1, 3, 6 and 12. Free revision under guarantee criteria. The same standard of care extended to every patient." }
+        {
+          "day": "Step 1",
+          "title": "Confidential pre-evaluation",
+          "description": "Send your photos and recent bloodwork (CD4 count, viral load) via your preferred secure channel. Reviewed personally by the surgeon — never by an admin or sales rep."
+        },
+        {
+          "day": "Step 2",
+          "title": "Surgeon video call",
+          "description": "Direct video call with your surgeon to discuss hairline goals, technique selection (FUE / DHI / Sapphire), and any specific concerns about discretion or recovery."
+        },
+        {
+          "day": "Step 3",
+          "title": "All-inclusive package booked discreetly",
+          "description": "Hotel, transfer and interpreter — booked with no medical context. Your reservation simply says 'aesthetic procedure'. Companion welcome."
+        },
+        {
+          "day": "Step 4",
+          "title": "Day of surgery",
+          "description": "Same operating theatre, same surgeon, same protocol as every patient. 6-8 hour FUE / DHI / Sapphire procedure. Your file is accessible only to your surgical team."
+        },
+        {
+          "day": "Step 5",
+          "title": "Recovery & 12-month follow-up",
+          "description": "Discreet follow-up at month 1, 3, 6 and 12. Free revision under guarantee criteria. The same standard of care extended to every patient."
+        }
       ]
     },
     "faq": {
       "title": "FAQ — HIV+ hair transplant in Turkey",
       "items": [
-        { "question": "Will I be charged extra because I'm HIV-positive?", "answer": "No. Charging extra would be discrimination. Our pricing is identical to every other patient: from $2,950 all-inclusive for Sapphire FUE, from $1,950 for Essential FUE." },
-        { "question": "Do I need to disclose my status to the hotel, driver or interpreter?", "answer": "No. Your status is medical information and is shared only with your surgeon and anaesthetist on a need-to-know basis. The hotel sees a name and reservation; the driver sees a pickup; the interpreter sees a consultation. None of them have access to your medical file." },
-        { "question": "What CD4 count and viral load are required?", "answer": "We apply the internationally accepted criteria: CD4 ≥ 350 and an undetectable viral load on stable antiretroviral therapy for at least 3 months. Patients outside these thresholds receive an individual surgeon review — outright refusal is not our default." },
-        { "question": "Will the surgical team know my status?", "answer": "Yes — your surgeon and anaesthetist see your full medical file. This is mandatory for safe care. They are bound by Turkish medical confidentiality law and our internal NDA. No one else in the clinic chain has access." },
-        { "question": "Are there higher complication risks?", "answer": "Peer-reviewed evidence shows no statistically significant difference in graft survival, infection rate or healing time for HIV-positive patients on stable ART. We track this directly in our outcomes audit." },
-        { "question": "What if I'm also HBV or HCV positive?", "answer": "Same answer: universal precautions cover all bloodborne pathogens. We accept HBV and HCV positive patients on the same terms. Co-infections require closer pre-op review of liver function." },
-        { "question": "Can I pay discreetly?", "answer": "Bank transfer, credit card and cash are all available. Invoice line items can be labeled 'aesthetic procedure' rather than 'hair transplant' on request. We do not require travel insurance disclosure." },
-        { "question": "Is this even legal in Turkey?", "answer": "Yes — explicitly. Refusing care because of HIV status is unlawful under Turkish Patient Rights Regulation and Medical Deontology Regulation. Performing the procedure with proper precautions and informed consent is fully legal." },
-        { "question": "What if my partner or family doesn't know my status?", "answer": "They do not need to know. You can travel alone, or with a companion who is told only the cosmetic context. We have full experience caring for patients who maintain privacy from family or partners." },
-        { "question": "How long until I see results?", "answer": "Identical timeline: shedding at month 1, new growth from month 3-4, density visible by month 6, final result by month 12. HIV status does not change recovery." },
-        { "question": "Why don't more clinics in Turkey accept HIV+ patients?", "answer": "Mostly outdated training and unfounded staff anxiety. The medical reality has been settled for over two decades; many clinics simply have not updated their internal policies. We made the conscious decision to follow current evidence and Turkish law." },
-        { "question": "How do I start the conversation?", "answer": "Send a message via your preferred channel. State only what you choose to state — even just 'I have an immune condition I'd like to discuss' is enough to begin. Our intake team is trained to respect your pace of disclosure." }
+        {
+          "question": "Will I be charged extra because I'm HIV-positive?",
+          "answer": "No. Charging extra would be discrimination. Our pricing is identical to every other patient: from $2,950 all-inclusive for Sapphire FUE, from $1,950 for Essential FUE."
+        },
+        {
+          "question": "Do I need to disclose my status to the hotel, driver or interpreter?",
+          "answer": "No. Your status is medical information and is shared only with your surgeon and anaesthetist on a need-to-know basis. The hotel sees a name and reservation; the driver sees a pickup; the interpreter sees a consultation. None of them have access to your medical file."
+        },
+        {
+          "question": "What CD4 count and viral load are required?",
+          "answer": "We apply the internationally accepted criteria: CD4 ≥ 350 and an undetectable viral load on stable antiretroviral therapy for at least 3 months. Patients outside these thresholds receive an individual surgeon review — outright refusal is not our default."
+        },
+        {
+          "question": "Will the surgical team know my status?",
+          "answer": "Yes — your surgeon and anaesthetist see your full medical file. This is mandatory for safe care. They are bound by Turkish medical confidentiality law and our internal NDA. No one else in the clinic chain has access."
+        },
+        {
+          "question": "Are there higher complication risks?",
+          "answer": "Peer-reviewed evidence shows no statistically significant difference in graft survival, infection rate or healing time for HIV-positive patients on stable ART. We track this directly in our outcomes audit."
+        },
+        {
+          "question": "What if I'm also HBV or HCV positive?",
+          "answer": "Same answer: universal precautions cover all bloodborne pathogens. We accept HBV and HCV positive patients on the same terms. Co-infections require closer pre-op review of liver function."
+        },
+        {
+          "question": "Can I pay discreetly?",
+          "answer": "Bank transfer, credit card and cash are all available. Invoice line items can be labeled 'aesthetic procedure' rather than 'hair transplant' on request. We do not require travel insurance disclosure."
+        },
+        {
+          "question": "Is this even legal in Turkey?",
+          "answer": "Yes — explicitly. Refusing care because of HIV status is unlawful under Turkish Patient Rights Regulation and Medical Deontology Regulation. Performing the procedure with proper precautions and informed consent is fully legal."
+        },
+        {
+          "question": "What if my partner or family doesn't know my status?",
+          "answer": "They do not need to know. You can travel alone, or with a companion who is told only the cosmetic context. We have full experience caring for patients who maintain privacy from family or partners."
+        },
+        {
+          "question": "How long until I see results?",
+          "answer": "Identical timeline: shedding at month 1, new growth from month 3-4, density visible by month 6, final result by month 12. HIV status does not change recovery."
+        },
+        {
+          "question": "Why don't more clinics in Turkey accept HIV+ patients?",
+          "answer": "Mostly outdated training and unfounded staff anxiety. The medical reality has been settled for over two decades; many clinics simply have not updated their internal policies. We made the conscious decision to follow current evidence and Turkish law."
+        },
+        {
+          "question": "How do I start the conversation?",
+          "answer": "Send a message via your preferred channel. State only what you choose to state — even just 'I have an immune condition I'd like to discuss' is enough to begin. Our intake team is trained to respect your pace of disclosure."
+        }
       ]
     },
     "cta": {
@@ -979,7 +1414,6 @@
       "secondary": "Send Discreet Email"
     }
   },
-
   "consent": {
     "title": "Privacy settings",
     "body": "We use cookies only to measure the reach of our advertising. Nothing is set and nothing is sent to advertising platforms without your consent.",

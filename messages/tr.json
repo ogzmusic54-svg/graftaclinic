@@ -108,9 +108,18 @@
       "beforeAfter": "önce ve sonra",
       "disclaimer": "Sonuçlar kişiden kişiye değişiklik gösterir. Yukarıdaki görseller hastalarımızın yazılı izniyle paylaşılmıştır ve tedavi sözleşmesi niteliği taşımaz.",
       "items": [
-        { "service": "Saç Ekimi · 3500 greft", "months": "9 ay sonrası" },
-        { "service": "Saç Ekimi · 4500 greft", "months": "12 ay sonrası" },
-        { "service": "Saç Ekimi · 5200 greft", "months": "12 ay sonrası" }
+        {
+          "service": "Saç Ekimi · 3500 greft",
+          "months": "9 ay sonrası"
+        },
+        {
+          "service": "Saç Ekimi · 4500 greft",
+          "months": "12 ay sonrası"
+        },
+        {
+          "service": "Saç Ekimi · 5200 greft",
+          "months": "12 ay sonrası"
+        }
       ]
     },
     "testimonials": {
@@ -170,17 +179,50 @@
       "subtitle": "60'tan fazla ülkeden hasta ağırlıyoruz. Havalimanından kliniğe, oteline kadar her detay düşünülmüş — siz sadece iyileşmeye odaklanın.",
       "cta": "Yurt Dışı Paketi Hakkında Bilgi Al",
       "stats": [
-        { "value": "60+", "label": "Ülke" },
-        { "value": "10K+", "label": "Yabancı Hasta" },
-        { "value": "98%", "label": "Memnuniyet" }
+        {
+          "value": "60+",
+          "label": "Ülke"
+        },
+        {
+          "value": "10K+",
+          "label": "Yabancı Hasta"
+        },
+        {
+          "value": "98%",
+          "label": "Memnuniyet"
+        }
       ],
       "items": [
-        { "key": "translator", "title": "7/24 Tercüman", "description": "İngilizce, Almanca, Arapça, Rusça konuşan uzman ekip. WhatsApp'ta kendi dilinizde yazın." },
-        { "key": "transfer", "title": "Havalimanı Transferi", "description": "VIP araçla havalimanı-otel-klinik arası tüm transferler dahil. Karşılama lobide." },
-        { "key": "hotel", "title": "Otel Konaklaması", "description": "Anlaşmalı 4-5 yıldızlı otellerde indirimli konaklama. Refakatçinizle birlikte rahat günler." },
-        { "key": "vip", "title": "VIP Karşılama", "description": "Klinikte özel resepsiyon, dinlenme suiti, doktorunuzla baş başa görüşme." },
-        { "key": "consultation", "title": "Online Ön Değerlendirme", "description": "Gelmeden önce video görüşme + foto analiz. Yolculuk öncesi her şeyi netleştirin." },
-        { "key": "warranty", "title": "Garanti Belgesi", "description": "Tüm operasyonlarımız resmi garanti belgesiyle. Kontrol gezilerinize doktorunuz hazır." }
+        {
+          "key": "translator",
+          "title": "7/24 Tercüman",
+          "description": "İngilizce, Almanca, Arapça, Rusça konuşan uzman ekip. WhatsApp'ta kendi dilinizde yazın."
+        },
+        {
+          "key": "transfer",
+          "title": "Havalimanı Transferi",
+          "description": "VIP araçla havalimanı-otel-klinik arası tüm transferler dahil. Karşılama lobide."
+        },
+        {
+          "key": "hotel",
+          "title": "Otel Konaklaması",
+          "description": "Anlaşmalı 4-5 yıldızlı otellerde indirimli konaklama. Refakatçinizle birlikte rahat günler."
+        },
+        {
+          "key": "vip",
+          "title": "VIP Karşılama",
+          "description": "Klinikte özel resepsiyon, dinlenme suiti, doktorunuzla baş başa görüşme."
+        },
+        {
+          "key": "consultation",
+          "title": "Online Ön Değerlendirme",
+          "description": "Gelmeden önce video görüşme + foto analiz. Yolculuk öncesi her şeyi netleştirin."
+        },
+        {
+          "key": "warranty",
+          "title": "Garanti Belgesi",
+          "description": "Tüm operasyonlarımız resmi garanti belgesiyle. Kontrol gezilerinize doktorunuz hazır."
+        }
       ]
     },
     "faq": {
@@ -226,10 +268,22 @@
     "trust": {
       "title": "Sayılarla Grafta Clinic",
       "stats": [
-        { "value": "10K+", "label": "Mutlu Hasta" },
-        { "value": "15+", "label": "Yıllık Deneyim" },
-        { "value": "60+", "label": "Ülkeden Hasta" },
-        { "value": "98%", "label": "Memnuniyet Oranı" }
+        {
+          "value": "10K+",
+          "label": "Mutlu Hasta"
+        },
+        {
+          "value": "15+",
+          "label": "Yıllık Deneyim"
+        },
+        {
+          "value": "60+",
+          "label": "Ülkeden Hasta"
+        },
+        {
+          "value": "98%",
+          "label": "Memnuniyet Oranı"
+        }
       ]
     },
     "servicesSection": {
@@ -334,7 +388,8 @@
     "rights": "Tüm hakları saklıdır.",
     "disclaimer": "Bu site bilgi amaçlıdır ve tıbbi tavsiye yerine geçmez. Her tedavi öncesi yüz yüze konsültasyon zorunludur.",
     "kvkk": "KVKK Aydınlatma Metni",
-    "privacy": "Gizlilik Politikası"
+    "privacy": "Gizlilik Bildirimi",
+    "impressum": "Künye"
   },
   "results": {
     "metaTitle": "Hasta Sonuçları — Önce ve Sonra | Grafta Clinic",
@@ -377,18 +432,48 @@
         "Hızlı sosyal hayata dönüş"
       ],
       "process": [
-        { "step": "Konsültasyon ve analiz", "description": "Saç çizgisi tasarımı, donör alan değerlendirmesi ve teknik seçimi." },
-        { "step": "Hazırlık ve anestezi", "description": "Lokal anestezi, donör alanın hazırlanması." },
-        { "step": "Greft alımı", "description": "Mikro motorla foliküllerin tek tek toplanması." },
-        { "step": "Kanal açma", "description": "Doğal yön ve açıyla mikro kanalların oluşturulması." },
-        { "step": "Greft yerleştirme", "description": "Foliküllerin DHI kalemi ya da implanter ile yerleştirilmesi." },
-        { "step": "Takip ve bakım", "description": "1, 3, 6 ve 12. ay kontrolleri ile uzun vadeli takip." }
+        {
+          "step": "Konsültasyon ve analiz",
+          "description": "Saç çizgisi tasarımı, donör alan değerlendirmesi ve teknik seçimi."
+        },
+        {
+          "step": "Hazırlık ve anestezi",
+          "description": "Lokal anestezi, donör alanın hazırlanması."
+        },
+        {
+          "step": "Greft alımı",
+          "description": "Mikro motorla foliküllerin tek tek toplanması."
+        },
+        {
+          "step": "Kanal açma",
+          "description": "Doğal yön ve açıyla mikro kanalların oluşturulması."
+        },
+        {
+          "step": "Greft yerleştirme",
+          "description": "Foliküllerin DHI kalemi ya da implanter ile yerleştirilmesi."
+        },
+        {
+          "step": "Takip ve bakım",
+          "description": "1, 3, 6 ve 12. ay kontrolleri ile uzun vadeli takip."
+        }
       ],
       "faq": [
-        { "question": "Saç ekimi sonrası iz kalır mı?", "answer": "FUE ve DHI tekniklerinde belirgin bir iz oluşmaz. Donör alandaki mikro noktasal izler kısa sürede kaybolur." },
-        { "question": "Sonuçlar ne zaman görülür?", "answer": "Yeni saçlar 3-4. aydan itibaren çıkmaya başlar; nihai sonuç 12. ayda netleşir." },
-        { "question": "Ekilen saçlar dökülür mü?", "answer": "Kalıcı genetik yapıdaki köklerden alınan greftler dökülmez; ancak işlem sonrası ilk haftalardaki şok dökülme normaldir." },
-        { "question": "Operasyon ne kadar sürer?", "answer": "Greft sayısına göre değişmekle birlikte ortalama 6-8 saattir." }
+        {
+          "question": "Saç ekimi sonrası iz kalır mı?",
+          "answer": "FUE ve DHI tekniklerinde belirgin bir iz oluşmaz. Donör alandaki mikro noktasal izler kısa sürede kaybolur."
+        },
+        {
+          "question": "Sonuçlar ne zaman görülür?",
+          "answer": "Yeni saçlar 3-4. aydan itibaren çıkmaya başlar; nihai sonuç 12. ayda netleşir."
+        },
+        {
+          "question": "Ekilen saçlar dökülür mü?",
+          "answer": "Kalıcı genetik yapıdaki köklerden alınan greftler dökülmez; ancak işlem sonrası ilk haftalardaki şok dökülme normaldir."
+        },
+        {
+          "question": "Operasyon ne kadar sürer?",
+          "answer": "Greft sayısına göre değişmekle birlikte ortalama 6-8 saattir."
+        }
       ]
     },
     "beard-transplant": {
@@ -407,16 +492,40 @@
         "Kalıcı sonuç"
       ],
       "process": [
-        { "step": "Tasarım", "description": "Yüz oranlarına göre sakal hattı çizimi." },
-        { "step": "Donör hazırlık", "description": "Ense bölgesinden uygun greftlerin seçilmesi." },
-        { "step": "Greft alımı", "description": "Mikro motorla folikül toplama." },
-        { "step": "Yerleştirme", "description": "Doğal açı ile her bir folikülün yerleştirilmesi." },
-        { "step": "Bakım", "description": "İlk hafta yıkama protokolü ve kontroller." }
+        {
+          "step": "Tasarım",
+          "description": "Yüz oranlarına göre sakal hattı çizimi."
+        },
+        {
+          "step": "Donör hazırlık",
+          "description": "Ense bölgesinden uygun greftlerin seçilmesi."
+        },
+        {
+          "step": "Greft alımı",
+          "description": "Mikro motorla folikül toplama."
+        },
+        {
+          "step": "Yerleştirme",
+          "description": "Doğal açı ile her bir folikülün yerleştirilmesi."
+        },
+        {
+          "step": "Bakım",
+          "description": "İlk hafta yıkama protokolü ve kontroller."
+        }
       ],
       "faq": [
-        { "question": "Sakal ekimi sonrası traş olabilir miyim?", "answer": "Evet, ekilen kıllar 6. aydan itibaren rahatlıkla traş edilebilir." },
-        { "question": "Acı verir mi?", "answer": "Lokal anestezi sayesinde işlem ağrısızdır." },
-        { "question": "Ne zaman tam sonuç görürüm?", "answer": "8-12. ayda nihai yoğunluk ve doğallık ortaya çıkar." }
+        {
+          "question": "Sakal ekimi sonrası traş olabilir miyim?",
+          "answer": "Evet, ekilen kıllar 6. aydan itibaren rahatlıkla traş edilebilir."
+        },
+        {
+          "question": "Acı verir mi?",
+          "answer": "Lokal anestezi sayesinde işlem ağrısızdır."
+        },
+        {
+          "question": "Ne zaman tam sonuç görürüm?",
+          "answer": "8-12. ayda nihai yoğunluk ve doğallık ortaya çıkar."
+        }
       ]
     },
     "eyebrow-transplant": {
@@ -434,14 +543,32 @@
         "İzsiz FUE/DHI tekniği"
       ],
       "process": [
-        { "step": "Tasarım", "description": "Yüz oranlarına göre çizim ve onay." },
-        { "step": "Donör alımı", "description": "Tek tel foliküllerin toplanması." },
-        { "step": "Yerleştirme", "description": "Açı ve yön gözetilerek nakil." },
-        { "step": "Takip", "description": "1, 3 ve 6. ay kontrolleri." }
+        {
+          "step": "Tasarım",
+          "description": "Yüz oranlarına göre çizim ve onay."
+        },
+        {
+          "step": "Donör alımı",
+          "description": "Tek tel foliküllerin toplanması."
+        },
+        {
+          "step": "Yerleştirme",
+          "description": "Açı ve yön gözetilerek nakil."
+        },
+        {
+          "step": "Takip",
+          "description": "1, 3 ve 6. ay kontrolleri."
+        }
       ],
       "faq": [
-        { "question": "Kaş kılları uzar mı?", "answer": "Evet, ense bölgesinden alındığı için saç gibi uzar. Düzenli olarak kesilmesi gerekir." },
-        { "question": "Kaç tel folikül gerekir?", "answer": "Genellikle iki kaş için 200-400 tel arasında değişir." }
+        {
+          "question": "Kaş kılları uzar mı?",
+          "answer": "Evet, ense bölgesinden alındığı için saç gibi uzar. Düzenli olarak kesilmesi gerekir."
+        },
+        {
+          "question": "Kaç tel folikül gerekir?",
+          "answer": "Genellikle iki kaş için 200-400 tel arasında değişir."
+        }
       ]
     },
     "alopecia-treatment": {
@@ -459,14 +586,32 @@
         "Uzun vadeli takip"
       ],
       "process": [
-        { "step": "Muayene", "description": "Dermoskopi ve gerekirse laboratuvar testleri." },
-        { "step": "Tanı", "description": "Türün belirlenmesi (areata, totalis, universalis)." },
-        { "step": "Tedavi planı", "description": "İntralezyonel veya topikal tedavi seçimi." },
-        { "step": "Takip", "description": "Aylık kontroller, plan revizyonu." }
+        {
+          "step": "Muayene",
+          "description": "Dermoskopi ve gerekirse laboratuvar testleri."
+        },
+        {
+          "step": "Tanı",
+          "description": "Türün belirlenmesi (areata, totalis, universalis)."
+        },
+        {
+          "step": "Tedavi planı",
+          "description": "İntralezyonel veya topikal tedavi seçimi."
+        },
+        {
+          "step": "Takip",
+          "description": "Aylık kontroller, plan revizyonu."
+        }
       ],
       "faq": [
-        { "question": "Alopecia geri döner mi?", "answer": "Doğru tedavi ile çoğu hastada saç çıkışı sağlanır; bazı vakalarda nüks gözlenebilir." },
-        { "question": "Tedavi süresi ne kadardır?", "answer": "Vakanın türüne göre 3-12 ay arasında değişir." }
+        {
+          "question": "Alopecia geri döner mi?",
+          "answer": "Doğru tedavi ile çoğu hastada saç çıkışı sağlanır; bazı vakalarda nüks gözlenebilir."
+        },
+        {
+          "question": "Tedavi süresi ne kadardır?",
+          "answer": "Vakanın türüne göre 3-12 ay arasında değişir."
+        }
       ]
     },
     "prp-therapy": {
@@ -484,14 +629,32 @@
         "Kısa seans süresi"
       ],
       "process": [
-        { "step": "Kan alımı", "description": "Az miktarda kan örneği alınır." },
-        { "step": "Santrifüj", "description": "Plazma trombositlerden ayrıştırılır." },
-        { "step": "Uygulama", "description": "Mikro iğnelerle saçlı deri ya da cilde enjeksiyon." },
-        { "step": "Tekrar", "description": "Genellikle 3-4 seans, ardından bakım seansları." }
+        {
+          "step": "Kan alımı",
+          "description": "Az miktarda kan örneği alınır."
+        },
+        {
+          "step": "Santrifüj",
+          "description": "Plazma trombositlerden ayrıştırılır."
+        },
+        {
+          "step": "Uygulama",
+          "description": "Mikro iğnelerle saçlı deri ya da cilde enjeksiyon."
+        },
+        {
+          "step": "Tekrar",
+          "description": "Genellikle 3-4 seans, ardından bakım seansları."
+        }
       ],
       "faq": [
-        { "question": "PRP ağrılı mıdır?", "answer": "Topikal anestezi ile rahatsızlık minimumdur." },
-        { "question": "Ne sıklıkla yapılmalıdır?", "answer": "İlk dönemde 2-4 hafta arayla 3-4 seans, sonra 6 ayda bir hatırlatma seansı." }
+        {
+          "question": "PRP ağrılı mıdır?",
+          "answer": "Topikal anestezi ile rahatsızlık minimumdur."
+        },
+        {
+          "question": "Ne sıklıkla yapılmalıdır?",
+          "answer": "İlk dönemde 2-4 hafta arayla 3-4 seans, sonra 6 ayda bir hatırlatma seansı."
+        }
       ]
     },
     "mesotherapy": {
@@ -509,13 +672,28 @@
         "Saç dökülmesinde destek tedavi"
       ],
       "process": [
-        { "step": "Değerlendirme", "description": "Cilt/saç analizine göre kokteyl seçimi." },
-        { "step": "Uygulama", "description": "Mikro iğnelerle yüzeysel enjeksiyon." },
-        { "step": "Seri seans", "description": "Genellikle haftada 1, 4-6 seans." }
+        {
+          "step": "Değerlendirme",
+          "description": "Cilt/saç analizine göre kokteyl seçimi."
+        },
+        {
+          "step": "Uygulama",
+          "description": "Mikro iğnelerle yüzeysel enjeksiyon."
+        },
+        {
+          "step": "Seri seans",
+          "description": "Genellikle haftada 1, 4-6 seans."
+        }
       ],
       "faq": [
-        { "question": "Yan etkisi var mı?", "answer": "Geçici kızarıklık dışında belirgin yan etkisi nadirdir." },
-        { "question": "Etkisi ne zaman görülür?", "answer": "Cilt için 1-2 seans sonrası, saç için 4-6 seans sonrası." }
+        {
+          "question": "Yan etkisi var mı?",
+          "answer": "Geçici kızarıklık dışında belirgin yan etkisi nadirdir."
+        },
+        {
+          "question": "Etkisi ne zaman görülür?",
+          "answer": "Cilt için 1-2 seans sonrası, saç için 4-6 seans sonrası."
+        }
       ]
     },
     "fillers-botox": {
@@ -533,13 +711,28 @@
         "Kademeli planlama imkânı"
       ],
       "process": [
-        { "step": "Konsültasyon", "description": "Yüz analizi ve uygulama haritası." },
-        { "step": "Uygulama", "description": "İnce uçlu iğnelerle hassas enjeksiyon." },
-        { "step": "Takip", "description": "10-14. gün kontrolü, gerekirse rötuş." }
+        {
+          "step": "Konsültasyon",
+          "description": "Yüz analizi ve uygulama haritası."
+        },
+        {
+          "step": "Uygulama",
+          "description": "İnce uçlu iğnelerle hassas enjeksiyon."
+        },
+        {
+          "step": "Takip",
+          "description": "10-14. gün kontrolü, gerekirse rötuş."
+        }
       ],
       "faq": [
-        { "question": "Botox kaç ay etkili?", "answer": "Genellikle 4-6 ay etkili kalır, sonrasında tekrar uygulanabilir." },
-        { "question": "Dolgu kalıcı mı?", "answer": "Hyalüronik asit dolgular 6-18 ay arasında vücut tarafından emilir." }
+        {
+          "question": "Botox kaç ay etkili?",
+          "answer": "Genellikle 4-6 ay etkili kalır, sonrasında tekrar uygulanabilir."
+        },
+        {
+          "question": "Dolgu kalıcı mı?",
+          "answer": "Hyalüronik asit dolgular 6-18 ay arasında vücut tarafından emilir."
+        }
       ]
     },
     "youth-vaccine": {
@@ -557,13 +750,28 @@
         "Boyun ve el bölgesinde de etkili"
       ],
       "process": [
-        { "step": "Analiz", "description": "Cilt yaşının ve ihtiyacının değerlendirilmesi." },
-        { "step": "Uygulama", "description": "Mikro enjeksiyonlarla yüzeye yayılım." },
-        { "step": "Tekrar", "description": "Genellikle 4 hafta arayla 2 seans." }
+        {
+          "step": "Analiz",
+          "description": "Cilt yaşının ve ihtiyacının değerlendirilmesi."
+        },
+        {
+          "step": "Uygulama",
+          "description": "Mikro enjeksiyonlarla yüzeye yayılım."
+        },
+        {
+          "step": "Tekrar",
+          "description": "Genellikle 4 hafta arayla 2 seans."
+        }
       ],
       "faq": [
-        { "question": "Etkisi ne kadar sürer?", "answer": "İlk seri 6-9 ay etkili olur, ardından yıllık bakım önerilir." },
-        { "question": "Kimlere uygundur?", "answer": "20'li yaşların sonundan itibaren, cilt elastikiyetini korumak isteyen herkes için uygundur." }
+        {
+          "question": "Etkisi ne kadar sürer?",
+          "answer": "İlk seri 6-9 ay etkili olur, ardından yıllık bakım önerilir."
+        },
+        {
+          "question": "Kimlere uygundur?",
+          "answer": "20'li yaşların sonundan itibaren, cilt elastikiyetini korumak isteyen herkes için uygundur."
+        }
       ]
     },
     "rhinoplasty": {
@@ -581,16 +789,40 @@
         "Kalıcı sonuç"
       ],
       "process": [
-        { "step": "Konsültasyon", "description": "3D analiz, yüz oranlarının değerlendirilmesi." },
-        { "step": "Planlama", "description": "Açık/kapalı teknik kararı, beklentilerin netleştirilmesi." },
-        { "step": "Operasyon", "description": "Genel anestezi, 2-3 saatlik cerrahi." },
-        { "step": "İyileşme", "description": "İlk hafta atel, 7-10 gün sonra sosyal hayat." },
-        { "step": "Takip", "description": "1, 3, 6 ve 12. ay kontrolleri." }
+        {
+          "step": "Konsültasyon",
+          "description": "3D analiz, yüz oranlarının değerlendirilmesi."
+        },
+        {
+          "step": "Planlama",
+          "description": "Açık/kapalı teknik kararı, beklentilerin netleştirilmesi."
+        },
+        {
+          "step": "Operasyon",
+          "description": "Genel anestezi, 2-3 saatlik cerrahi."
+        },
+        {
+          "step": "İyileşme",
+          "description": "İlk hafta atel, 7-10 gün sonra sosyal hayat."
+        },
+        {
+          "step": "Takip",
+          "description": "1, 3, 6 ve 12. ay kontrolleri."
+        }
       ],
       "faq": [
-        { "question": "Sonuçlar ne zaman tam görülür?", "answer": "Belirgin görüntü 1 ay içinde, nihai sonuç 12. ayda netleşir." },
-        { "question": "İyileşme süresi nedir?", "answer": "Sosyal hayata 7-10 gün, sportif aktivitelere 4-6 hafta." },
-        { "question": "Her iki teknik de kalıcı mı?", "answer": "Evet, her iki teknik de kalıcı sonuç verir." }
+        {
+          "question": "Sonuçlar ne zaman tam görülür?",
+          "answer": "Belirgin görüntü 1 ay içinde, nihai sonuç 12. ayda netleşir."
+        },
+        {
+          "question": "İyileşme süresi nedir?",
+          "answer": "Sosyal hayata 7-10 gün, sportif aktivitelere 4-6 hafta."
+        },
+        {
+          "question": "Her iki teknik de kalıcı mı?",
+          "answer": "Evet, her iki teknik de kalıcı sonuç verir."
+        }
       ]
     },
     "breast-aesthetics": {
@@ -608,14 +840,32 @@
         "Konforlu iyileşme süreci"
       ],
       "process": [
-        { "step": "Konsültasyon", "description": "Anatomik ölçümler ve hedef belirleme." },
-        { "step": "Planlama", "description": "İmplant tipi/şekli/yerleşimi seçimi." },
-        { "step": "Operasyon", "description": "Genel anestezi altında 1-3 saatlik cerrahi." },
-        { "step": "İyileşme", "description": "İlk 6 hafta destek sütyeni ve takip." }
+        {
+          "step": "Konsültasyon",
+          "description": "Anatomik ölçümler ve hedef belirleme."
+        },
+        {
+          "step": "Planlama",
+          "description": "İmplant tipi/şekli/yerleşimi seçimi."
+        },
+        {
+          "step": "Operasyon",
+          "description": "Genel anestezi altında 1-3 saatlik cerrahi."
+        },
+        {
+          "step": "İyileşme",
+          "description": "İlk 6 hafta destek sütyeni ve takip."
+        }
       ],
       "faq": [
-        { "question": "İmplantların ömrü nedir?", "answer": "Modern implantlar 10-15 yıl ya da daha uzun süre kullanılabilir; düzenli kontrol önerilir." },
-        { "question": "Emzirmeyi etkiler mi?", "answer": "Doğru teknik seçildiğinde emzirme genellikle etkilenmez." }
+        {
+          "question": "İmplantların ömrü nedir?",
+          "answer": "Modern implantlar 10-15 yıl ya da daha uzun süre kullanılabilir; düzenli kontrol önerilir."
+        },
+        {
+          "question": "Emzirmeyi etkiler mi?",
+          "answer": "Doğru teknik seçildiğinde emzirme genellikle etkilenmez."
+        }
       ]
     }
   },
@@ -644,10 +894,22 @@
       "title": "Saç ekiminde Türkiye neden dünyanın 1 numaralı destinasyonu?",
       "body": "Her yıl 750.000'den fazla uluslararası hasta saç ekimi için Türkiye'ye geliyor. Yalnız İstanbul'da yüzlerce klinik faaliyet gösteriyor — ancak yalnızca küçük bir kısmı uluslararası tıbbi standartlara uyuyor, sertifikalı cerrahlarla çalışıyor ve sonuçlarını şeffaf biçimde paylaşıyor. Bu rehber, Türkiye'nin en iyi saç ekimi kliniğini diğerlerinden ayıran kriterleri ve ABD, İngiltere, Almanya, Hollanda, Körfez ve daha birçok ülkeden hastaların neden Grafta Clinic İstanbul'u tercih ettiğini açıklıyor.",
       "stats": [
-        { "value": "10.000+", "label": "Uluslararası hasta" },
-        { "value": "60+", "label": "Hizmet verilen ülke" },
-        { "value": "%98", "label": "Hasta memnuniyeti" },
-        { "value": "15+", "label": "Yıllık tecrübe" }
+        {
+          "value": "10.000+",
+          "label": "Uluslararası hasta"
+        },
+        {
+          "value": "60+",
+          "label": "Hizmet verilen ülke"
+        },
+        {
+          "value": "%98",
+          "label": "Hasta memnuniyeti"
+        },
+        {
+          "value": "15+",
+          "label": "Yıllık tecrübe"
+        }
       ]
     },
     "whyTurkey": {
@@ -656,10 +918,26 @@
       "comparison": {
         "title": "Saç ekimi fiyat karşılaştırması · 5.000 greft (tipik Norwood 5)",
         "rows": [
-          { "country": "ABD (NYC, Miami, LA)", "price": "15.000 – 25.000 $", "note": "Sıklıkla teknisyen uygular; cerrah katılımı değişkendir" },
-          { "country": "İngiltere (Londra)", "price": "10.000 – 18.000 £", "note": "Uzun bekleme listeleri, seans başına sınırlı greft kapasitesi" },
-          { "country": "Almanya / Hollanda", "price": "8.000 – 15.000 €", "note": "Yüksek sigorta yükü fiyata yansıyor" },
-          { "country": "Türkiye · Grafta Clinic İstanbul", "price": "2.950 – 4.500 $", "note": "Cerrah uygular, her şey dahil (otel + transfer + tercüman)" }
+          {
+            "country": "ABD (NYC, Miami, LA)",
+            "price": "15.000 – 25.000 $",
+            "note": "Sıklıkla teknisyen uygular; cerrah katılımı değişkendir"
+          },
+          {
+            "country": "İngiltere (Londra)",
+            "price": "10.000 – 18.000 £",
+            "note": "Uzun bekleme listeleri, seans başına sınırlı greft kapasitesi"
+          },
+          {
+            "country": "Almanya / Hollanda",
+            "price": "8.000 – 15.000 €",
+            "note": "Yüksek sigorta yükü fiyata yansıyor"
+          },
+          {
+            "country": "Türkiye · Grafta Clinic İstanbul",
+            "price": "2.950 – 4.500 $",
+            "note": "Cerrah uygular, her şey dahil (otel + transfer + tercüman)"
+          }
         ],
         "note": "Fiyatlar 2025 yılı için her bölgedeki kamuya açık klinik ortalamalarını yansıtır. Grafta Clinic fiyatlarına otel konaklaması, VIP havalimanı transferi, tercüman hizmeti, tüm ilaçlar ve yazılı garanti dahildir."
       }
@@ -794,36 +1072,98 @@
       "title": "Her şey dahil İstanbul paketiniz",
       "subtitle": "Çoğu uluslararası hasta Salı sabahı geliyor, Cuma öğleden sonra dönüyor. Bizim halletmemiz gerekenler şunlar.",
       "items": [
-        { "title": "VIP havalimanı transferi", "description": "Şoför, isminizle gelişlerde bekler. Mercedes Vito, İngilizce konuşan. Taksi yok, uygulama yok, sürpriz yok." },
-        { "title": "4 veya 5 yıldızlı otel", "description": "Sessiz, temiz, kliniğe yürüme mesafesinde. Kahvaltı dahil. Oda geliş-gidişiniz boyunca sizin." },
-        { "title": "Çok dilli tercüman", "description": "İngilizce, Almanca, Arapça, Rusça, Fransızca. Konsültasyonda, prosedür brifinginde ve 7/24 WhatsApp'ta yanınızda." },
-        { "title": "Cerrah konsültasyonu", "description": "Uçuştan önce ön op video görüşmesi. Geliş günü yüz yüze değerlendirme. Sorularınızı cerrah cevaplar — satış temsilcisi değil." },
-        { "title": "Operasyon günü konforu", "description": "Konfor süiti, öğle yemeği, müzik, 90 dakikada bir mola. Prosedür 6-8 saat sürer; biz daha kısa hissettiririz." },
-        { "title": "Op sonrası bakım ziyareti", "description": "Ertesi gün klinikte yıkama ve kontrol. İyileşme kiti elden teslim, her adım yüz yüze gösterilir." },
-        { "title": "12 ay takip", "description": "1, 3, 6, 12. ayda fotoğraf incelemeleri. Cerrahınıza doğrudan WhatsApp hattı. Garanti kriterleri karşılanmazsa ücretsiz revizyon." },
-        { "title": "Opsiyonel: refakatçi dostu", "description": "Bir arkadaş veya partner getirin. Refakatçi aynı otelde ücretsiz konaklar; transferler dahildir." }
+        {
+          "title": "VIP havalimanı transferi",
+          "description": "Şoför, isminizle gelişlerde bekler. Mercedes Vito, İngilizce konuşan. Taksi yok, uygulama yok, sürpriz yok."
+        },
+        {
+          "title": "4 veya 5 yıldızlı otel",
+          "description": "Sessiz, temiz, kliniğe yürüme mesafesinde. Kahvaltı dahil. Oda geliş-gidişiniz boyunca sizin."
+        },
+        {
+          "title": "Çok dilli tercüman",
+          "description": "İngilizce, Almanca, Arapça, Rusça, Fransızca. Konsültasyonda, prosedür brifinginde ve 7/24 WhatsApp'ta yanınızda."
+        },
+        {
+          "title": "Cerrah konsültasyonu",
+          "description": "Uçuştan önce ön op video görüşmesi. Geliş günü yüz yüze değerlendirme. Sorularınızı cerrah cevaplar — satış temsilcisi değil."
+        },
+        {
+          "title": "Operasyon günü konforu",
+          "description": "Konfor süiti, öğle yemeği, müzik, 90 dakikada bir mola. Prosedür 6-8 saat sürer; biz daha kısa hissettiririz."
+        },
+        {
+          "title": "Op sonrası bakım ziyareti",
+          "description": "Ertesi gün klinikte yıkama ve kontrol. İyileşme kiti elden teslim, her adım yüz yüze gösterilir."
+        },
+        {
+          "title": "12 ay takip",
+          "description": "1, 3, 6, 12. ayda fotoğraf incelemeleri. Cerrahınıza doğrudan WhatsApp hattı. Garanti kriterleri karşılanmazsa ücretsiz revizyon."
+        },
+        {
+          "title": "Opsiyonel: refakatçi dostu",
+          "description": "Bir arkadaş veya partner getirin. Refakatçi aynı otelde ücretsiz konaklar; transferler dahildir."
+        }
       ]
     },
     "journey": {
       "title": "Saç ekimi yolculuğunuz, gün gün",
       "steps": [
-        { "day": "Uçuştan önce", "title": "Ücretsiz ön değerlendirme", "description": "WhatsApp'tan 4 fotoğraf gönderin. Cerrah bunları bizzat inceler ve genellikle 24 saat içinde greft tahmini, teknik önerisi ve toplam maliyetle döner. Depozito yok, baskı yok." },
-        { "day": "1. Gün · Geliş", "title": "Karşılama ve yüz yüze konsültasyon", "description": "Şoför sizi İstanbul havalimanında karşılar. Otelde kısa dinlenme, ardından klinikte yüz yüze konsültasyon: saç çizgisi tasarımı, donör bölge değerlendirmesi, kan tahlilleri. İsterseniz ücretsiz akşam yemeği rezervasyonu." },
-        { "day": "2. Gün · Operasyon", "title": "Prosedür", "description": "09.00 başlangıç. Lokal anestezi, greft alma, kanal açma, yerleştirme. Molalarla 6-8 saat. Öğle yemeği servis edilir. Klinikten kendi ayaklarınızla, sargılı şekilde çıkarsınız. Şoför sizi bekler." },
-        { "day": "3. Gün · Yıkama ve dönüş", "title": "İlk yıkama ve bakım brifingi", "description": "İlk tıbbi yıkama, fotoğraf belgeleme ve iyileşme kitinin teslimi için kliniğe dönüş. Cerrah ev bakımının her adımını anlatır. Havalimanına şoför. Akşam yemeğine evdesiniz." },
-        { "day": "1 – 12. ay", "title": "İyileşme ve nihai sonuç", "description": "1. ayda dökülme fazı (normal). 3-4. aydan itibaren yeni çıkış. 6. ayda yoğunluk görünür hale gelir. Nihai sonuç 12. ayda. Yol boyunca fotoğraf kontrolleri; gerekirse revizyon mevcuttur." }
+        {
+          "day": "Uçuştan önce",
+          "title": "Ücretsiz ön değerlendirme",
+          "description": "WhatsApp'tan 4 fotoğraf gönderin. Cerrah bunları bizzat inceler ve genellikle 24 saat içinde greft tahmini, teknik önerisi ve toplam maliyetle döner. Depozito yok, baskı yok."
+        },
+        {
+          "day": "1. Gün · Geliş",
+          "title": "Karşılama ve yüz yüze konsültasyon",
+          "description": "Şoför sizi İstanbul havalimanında karşılar. Otelde kısa dinlenme, ardından klinikte yüz yüze konsültasyon: saç çizgisi tasarımı, donör bölge değerlendirmesi, kan tahlilleri. İsterseniz ücretsiz akşam yemeği rezervasyonu."
+        },
+        {
+          "day": "2. Gün · Operasyon",
+          "title": "Prosedür",
+          "description": "09.00 başlangıç. Lokal anestezi, greft alma, kanal açma, yerleştirme. Molalarla 6-8 saat. Öğle yemeği servis edilir. Klinikten kendi ayaklarınızla, sargılı şekilde çıkarsınız. Şoför sizi bekler."
+        },
+        {
+          "day": "3. Gün · Yıkama ve dönüş",
+          "title": "İlk yıkama ve bakım brifingi",
+          "description": "İlk tıbbi yıkama, fotoğraf belgeleme ve iyileşme kitinin teslimi için kliniğe dönüş. Cerrah ev bakımının her adımını anlatır. Havalimanına şoför. Akşam yemeğine evdesiniz."
+        },
+        {
+          "day": "1 – 12. ay",
+          "title": "İyileşme ve nihai sonuç",
+          "description": "1. ayda dökülme fazı (normal). 3-4. aydan itibaren yeni çıkış. 6. ayda yoğunluk görünür hale gelir. Nihai sonuç 12. ayda. Yol boyunca fotoğraf kontrolleri; gerekirse revizyon mevcuttur."
+        }
       ]
     },
     "patientGroups": {
       "title": "Uzman saç ekimi bakımı — her hasta için",
       "subtitle": "Yüksek hacimli kliniklerde sıklıkla geri çevrilen veya yeterince ilgilenilmeyen hasta grupları için özel protokollerimiz var.",
       "items": [
-        { "title": "Türkiye'de afro saç ekimi", "description": "Kıvırcık ve buklemli folliküller, transeksiyon olmadan çıkarılması için özel ekipman ve cerrah deneyimi gerektirir. Afro saç cerrahımızın siyahi erkek ve kadın hastalarla, Norwood 6-7 vakaları dahil belgelenmiş portföyü vardır. Saç çizgisi görselleştirmesi ücretsizdir." },
-        { "title": "Kadınlar için saç ekimi", "description": "Kadın tipi saç dökülmesi (FPHL) hormonal tarama, diffüz patern planlaması ve tıraşsız DHI gerektirir. Kadın vaka yöneticisi atıyoruz ve talep halinde kadın cerrah sunuyoruz. Mahremiyet öncelikli, gizli protokol." },
-        { "title": "Siyahi erkekler için saç ekimi", "description": "Afro saç özelliklerinin ötesinde — şakak restorasyonu ve cilt-fade uyumluluğu için sakal ekimi dahil siyahi erkekler için geniş saç çizgisi estetiği." },
-        { "title": "HIV pozitif hastalar", "description": "Kontrollü viral yüke sahip HIV+ hastaları kabul ediyoruz. Evrensel önlemler her hastaya zaten uygulanıyor; farklı bir protokole ihtiyaç yok. Türkiye hasta gizlilik mevzuatı uyarınca gizlilik garantilidir." },
-        { "title": "Onarım / ikinci operasyon vakaları", "description": "Diğer kliniklerden kötü sonuçlanmış saç çizgileri, doğal olmayan plug görünümü, düşük yoğunluklu nakiller. Restore ediyoruz — ve revizyonun gerçekçi olup olmadığını dürüstçe söylüyoruz." },
-        { "title": "Norwood 6-7 mega-seansları", "description": "Donör bölge izin verdiğinde, iki cerrahlı ekiplerle tek günde 6.000 grefte kadar. Tek seyahatte maksimum kapsama." }
+        {
+          "title": "Türkiye'de afro saç ekimi",
+          "description": "Kıvırcık ve buklemli folliküller, transeksiyon olmadan çıkarılması için özel ekipman ve cerrah deneyimi gerektirir. Afro saç cerrahımızın siyahi erkek ve kadın hastalarla, Norwood 6-7 vakaları dahil belgelenmiş portföyü vardır. Saç çizgisi görselleştirmesi ücretsizdir."
+        },
+        {
+          "title": "Kadınlar için saç ekimi",
+          "description": "Kadın tipi saç dökülmesi (FPHL) hormonal tarama, diffüz patern planlaması ve tıraşsız DHI gerektirir. Kadın vaka yöneticisi atıyoruz ve talep halinde kadın cerrah sunuyoruz. Mahremiyet öncelikli, gizli protokol."
+        },
+        {
+          "title": "Siyahi erkekler için saç ekimi",
+          "description": "Afro saç özelliklerinin ötesinde — şakak restorasyonu ve cilt-fade uyumluluğu için sakal ekimi dahil siyahi erkekler için geniş saç çizgisi estetiği."
+        },
+        {
+          "title": "HIV pozitif hastalar",
+          "description": "Kontrollü viral yüke sahip HIV+ hastaları kabul ediyoruz. Evrensel önlemler her hastaya zaten uygulanıyor; farklı bir protokole ihtiyaç yok. Türkiye hasta gizlilik mevzuatı uyarınca gizlilik garantilidir."
+        },
+        {
+          "title": "Onarım / ikinci operasyon vakaları",
+          "description": "Diğer kliniklerden kötü sonuçlanmış saç çizgileri, doğal olmayan plug görünümü, düşük yoğunluklu nakiller. Restore ediyoruz — ve revizyonun gerçekçi olup olmadığını dürüstçe söylüyoruz."
+        },
+        {
+          "title": "Norwood 6-7 mega-seansları",
+          "description": "Donör bölge izin verdiğinde, iki cerrahlı ekiplerle tek günde 6.000 grefte kadar. Tek seyahatte maksimum kapsama."
+        }
       ]
     },
     "results": {
@@ -838,19 +1178,58 @@
     "faq": {
       "title": "Türkiye'de saç ekimi hakkında sıkça sorulan sorular",
       "items": [
-        { "question": "Türkiye'de saç ekimi güvenli mi?", "answer": "Lisanslı kliniklerde — evet. Şunlara bakın: Sağlık Bakanlığı sağlık turizmi yetki belgesi, ISO 9001 sertifikası, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler ve yazılı garantiler. Grafta Clinic'te dördü de mevcuttur. Lisans numarasını paylaşmayı reddeden veya cerrah başına günde 8-10 hasta uygulayan kliniklerden kaçının." },
-        { "question": "ABD/İngiltere'ye kıyasla Türkiye'de saç ekimi ne kadar?", "answer": "5.000 greftlik Safir FUE, Grafta Clinic İstanbul'da her şey dahil 2.950 – 4.500 $ iken ABD'de (NYC, Miami, LA) 15.000 – 25.000 $ ve İngiltere'de 10.000 – 18.000 £ aralığındadır. Fiyat farkı düşük yerel maliyetler ve rekabetçi medikal turizm pazarından kaynaklanır — düşük kaliteden değil." },
-        { "question": "En iyi saç ekimi tekniği hangisi — FUE, DHI yoksa Safir FUE?", "answer": "Tek bir 'en iyi' teknik yoktur. Safir FUE ön saç çizgisinde en yüksek yoğunluğu ve en hızlı iyileşmeyi sağlar. DHI kadınlar ve tıraşsız vakalar için en iyisidir. Klasik FUE Norwood 5-7 için tek seansta en yüksek greft verimini sunar. Doğru seçim donör bölgenize, hedeflerinize ve yaşam tarzınıza bağlıdır." },
-        { "question": "İstanbul'da ne kadar kalmam gerekiyor?", "answer": "Çoğu hasta için 3 gün yeterli: 1. gün geliş, 2. gün operasyon, 3. gün ilk yıkama ve dönüş. Bazı hastalar şehir gezisi için 4. günü ekler." },
-        { "question": "Her şey dahil pakete neler dahil?", "answer": "VIP havalimanı transferi (gidiş-dönüş), 4 veya 5 yıldızlı otelde 2-3 gece, çok dilli tercüman, tüm ilaçlar, PRP seansları, iyileşme kiti, 12 ay yazılı garanti ve op sonrası cerrahınıza WhatsApp erişimi. Gizli ücret yoktur." },
-        { "question": "Nihai sonucu ne zaman göreceğim?", "answer": "1. ayda ilk dökülme normaldir. 3-4. ayda yeni çıkış başlar. 6. ayda yoğunluk görünür hale gelir. Nihai sonuç — saç rengi, dokusu ve tam yoğunluk dahil — 12. ayda ortaya çıkar." },
-        { "question": "HIV pozitif hastaları kabul ediyor musunuz?", "answer": "Evet. Kontrollü viral yük ve güncel kan tahlilleriyle HIV+ hastaları kısıtlamasız kabul ediyoruz. Statüsünden bağımsız olarak her hastaya evrensel steril önlemler uygulanır. Türkiye hasta gizlilik mevzuatı uyarınca tam gizlilik garantilidir." },
-        { "question": "Afro saç ekimi yapıyor musunuz?", "answer": "Evet — belgelenmiş portföye sahip uzman bir afro saç cerrahımız var. Kıvırcık ve buklemli folliküller, transeksiyondan kaçınmak için özel ekipman ve cerrahi deneyim gerektirir. Norwood 6-7 vakaları dahil siyahi erkek ve kadın hastaları tedavi ediyoruz." },
-        { "question": "Kadınlar için saç ekimi sunuyor musunuz?", "answer": "Evet. Kadın saç restorasyonu özel bir protokoldür: hormonal tarama, diffüz patern planlaması, tıraşsız DHI ve kadın vaka yöneticisi. Talep halinde kadın cerrah mevcuttur." },
-        { "question": "Türkiye'de hangi kliniğin en iyi olduğunu nasıl anlarım?", "answer": "Doğrulanabilir göstergeler: Sağlık Bakanlığı yetki belgesi, ISO 9001 sertifikası, ISHRS cerrah üyeliği, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler, cerrah başına günde ≤2 hasta, gün-ek-satışı olmayan şeffaf fiyatlandırma, yazılı garanti ve 12 ay takip programı. Para vererek girdikleri 'Türkiye'de #1' listelerinde sıralanan kliniklere dikkat — bağımsız Trustpilot, Google ve Reddit yorumlarını kontrol edin." },
-        { "question": "Reddit ve Trustpilot yorumları ne durumda?", "answer": "Trustpilot, Google ve Reddit'in r/HairTransplants topluluğunda açıkça değerlendiriliyoruz. Yorumları filtrelemiyor, bunun için ödeme yapmıyor veya kaldırmıyoruz. Her hastayı dürüst deneyimini paylaşmaya teşvik ediyoruz." },
-        { "question": "Sonuç beklendiği gibi olmazsa ne olur?", "answer": "Yazılı garantimiz 12. ayda greft tutma oranını kapsar. Anlaşılan eşiğin altına düşerse ücretsiz revizyon seansı uygularız. Premium pakette revizyon için seyahat ve konaklama da dahildir." },
-        { "question": "Ücretsiz konsültasyonu nasıl ayırtırım?", "answer": "WhatsApp üzerinden +90 507 647 34 34 numaraya 4 fotoğraf gönderin (üst, yan, arka, ön saç çizgisi). Cerrahınız 24 saat içinde greft tahmini, teknik önerisi ve tam maliyetle yanıtlar — depozito ve baskı yoktur." }
+        {
+          "question": "Türkiye'de saç ekimi güvenli mi?",
+          "answer": "Lisanslı kliniklerde — evet. Şunlara bakın: Sağlık Bakanlığı sağlık turizmi yetki belgesi, ISO 9001 sertifikası, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler ve yazılı garantiler. Grafta Clinic'te dördü de mevcuttur. Lisans numarasını paylaşmayı reddeden veya cerrah başına günde 8-10 hasta uygulayan kliniklerden kaçının."
+        },
+        {
+          "question": "ABD/İngiltere'ye kıyasla Türkiye'de saç ekimi ne kadar?",
+          "answer": "5.000 greftlik Safir FUE, Grafta Clinic İstanbul'da her şey dahil 2.950 – 4.500 $ iken ABD'de (NYC, Miami, LA) 15.000 – 25.000 $ ve İngiltere'de 10.000 – 18.000 £ aralığındadır. Fiyat farkı düşük yerel maliyetler ve rekabetçi medikal turizm pazarından kaynaklanır — düşük kaliteden değil."
+        },
+        {
+          "question": "En iyi saç ekimi tekniği hangisi — FUE, DHI yoksa Safir FUE?",
+          "answer": "Tek bir 'en iyi' teknik yoktur. Safir FUE ön saç çizgisinde en yüksek yoğunluğu ve en hızlı iyileşmeyi sağlar. DHI kadınlar ve tıraşsız vakalar için en iyisidir. Klasik FUE Norwood 5-7 için tek seansta en yüksek greft verimini sunar. Doğru seçim donör bölgenize, hedeflerinize ve yaşam tarzınıza bağlıdır."
+        },
+        {
+          "question": "İstanbul'da ne kadar kalmam gerekiyor?",
+          "answer": "Çoğu hasta için 3 gün yeterli: 1. gün geliş, 2. gün operasyon, 3. gün ilk yıkama ve dönüş. Bazı hastalar şehir gezisi için 4. günü ekler."
+        },
+        {
+          "question": "Her şey dahil pakete neler dahil?",
+          "answer": "VIP havalimanı transferi (gidiş-dönüş), 4 veya 5 yıldızlı otelde 2-3 gece, çok dilli tercüman, tüm ilaçlar, PRP seansları, iyileşme kiti, 12 ay yazılı garanti ve op sonrası cerrahınıza WhatsApp erişimi. Gizli ücret yoktur."
+        },
+        {
+          "question": "Nihai sonucu ne zaman göreceğim?",
+          "answer": "1. ayda ilk dökülme normaldir. 3-4. ayda yeni çıkış başlar. 6. ayda yoğunluk görünür hale gelir. Nihai sonuç — saç rengi, dokusu ve tam yoğunluk dahil — 12. ayda ortaya çıkar."
+        },
+        {
+          "question": "HIV pozitif hastaları kabul ediyor musunuz?",
+          "answer": "Evet. Kontrollü viral yük ve güncel kan tahlilleriyle HIV+ hastaları kısıtlamasız kabul ediyoruz. Statüsünden bağımsız olarak her hastaya evrensel steril önlemler uygulanır. Türkiye hasta gizlilik mevzuatı uyarınca tam gizlilik garantilidir."
+        },
+        {
+          "question": "Afro saç ekimi yapıyor musunuz?",
+          "answer": "Evet — belgelenmiş portföye sahip uzman bir afro saç cerrahımız var. Kıvırcık ve buklemli folliküller, transeksiyondan kaçınmak için özel ekipman ve cerrahi deneyim gerektirir. Norwood 6-7 vakaları dahil siyahi erkek ve kadın hastaları tedavi ediyoruz."
+        },
+        {
+          "question": "Kadınlar için saç ekimi sunuyor musunuz?",
+          "answer": "Evet. Kadın saç restorasyonu özel bir protokoldür: hormonal tarama, diffüz patern planlaması, tıraşsız DHI ve kadın vaka yöneticisi. Talep halinde kadın cerrah mevcuttur."
+        },
+        {
+          "question": "Türkiye'de hangi kliniğin en iyi olduğunu nasıl anlarım?",
+          "answer": "Doğrulanabilir göstergeler: Sağlık Bakanlığı yetki belgesi, ISO 9001 sertifikası, ISHRS cerrah üyeliği, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler, cerrah başına günde ≤2 hasta, gün-ek-satışı olmayan şeffaf fiyatlandırma, yazılı garanti ve 12 ay takip programı. Para vererek girdikleri 'Türkiye'de #1' listelerinde sıralanan kliniklere dikkat — bağımsız Trustpilot, Google ve Reddit yorumlarını kontrol edin."
+        },
+        {
+          "question": "Reddit ve Trustpilot yorumları ne durumda?",
+          "answer": "Trustpilot, Google ve Reddit'in r/HairTransplants topluluğunda açıkça değerlendiriliyoruz. Yorumları filtrelemiyor, bunun için ödeme yapmıyor veya kaldırmıyoruz. Her hastayı dürüst deneyimini paylaşmaya teşvik ediyoruz."
+        },
+        {
+          "question": "Sonuç beklendiği gibi olmazsa ne olur?",
+          "answer": "Yazılı garantimiz 12. ayda greft tutma oranını kapsar. Anlaşılan eşiğin altına düşerse ücretsiz revizyon seansı uygularız. Premium pakette revizyon için seyahat ve konaklama da dahildir."
+        },
+        {
+          "question": "Ücretsiz konsültasyonu nasıl ayırtırım?",
+          "answer": "WhatsApp üzerinden +90 507 647 34 34 numaraya 4 fotoğraf gönderin (üst, yan, arka, ön saç çizgisi). Cerrahınız 24 saat içinde greft tahmini, teknik önerisi ve tam maliyetle yanıtlar — depozito ve baskı yoktur."
+        }
       ]
     },
     "cta": {
@@ -948,28 +1327,84 @@
     "journey": {
       "title": "Yolculuğunuz, adım adım",
       "steps": [
-        { "day": "1. Adım", "title": "Gizli ön değerlendirme", "description": "Tercih ettiğiniz güvenli kanal üzerinden fotoğraflarınızı ve son kan tahlillerinizi (CD4 sayımı, viral yük) gönderin. Cerrah tarafından bizzat incelenir — asla bir yönetici veya satış temsilcisi tarafından değil." },
-        { "day": "2. Adım", "title": "Cerrah video görüşmesi", "description": "Saç çizgisi hedeflerini, teknik seçimini (FUE / DHI / Safir) ve diskret olma veya iyileşmeyle ilgili tüm özel endişeleri tartışmak için cerrahınızla doğrudan video görüşme." },
-        { "day": "3. Adım", "title": "Diskret olarak rezerve edilen her şey dahil paket", "description": "Otel, transfer ve tercüman — tıbbi bağlam olmadan rezerve edilir. Rezervasyonunuzda yalnızca 'estetik prosedür' yazar. Refakatçi memnuniyetle ağırlanır." },
-        { "day": "4. Adım", "title": "Operasyon günü", "description": "Her hasta gibi aynı ameliyathane, aynı cerrah, aynı protokol. 6-8 saatlik FUE / DHI / Safir prosedür. Dosyanıza yalnızca cerrahi ekibiniz erişebilir." },
-        { "day": "5. Adım", "title": "İyileşme ve 12 ay takip", "description": "1, 3, 6 ve 12. ayda diskret takip. Garanti kriterleri çerçevesinde ücretsiz revizyon. Her hastaya sunulan aynı bakım standardı." }
+        {
+          "day": "1. Adım",
+          "title": "Gizli ön değerlendirme",
+          "description": "Tercih ettiğiniz güvenli kanal üzerinden fotoğraflarınızı ve son kan tahlillerinizi (CD4 sayımı, viral yük) gönderin. Cerrah tarafından bizzat incelenir — asla bir yönetici veya satış temsilcisi tarafından değil."
+        },
+        {
+          "day": "2. Adım",
+          "title": "Cerrah video görüşmesi",
+          "description": "Saç çizgisi hedeflerini, teknik seçimini (FUE / DHI / Safir) ve diskret olma veya iyileşmeyle ilgili tüm özel endişeleri tartışmak için cerrahınızla doğrudan video görüşme."
+        },
+        {
+          "day": "3. Adım",
+          "title": "Diskret olarak rezerve edilen her şey dahil paket",
+          "description": "Otel, transfer ve tercüman — tıbbi bağlam olmadan rezerve edilir. Rezervasyonunuzda yalnızca 'estetik prosedür' yazar. Refakatçi memnuniyetle ağırlanır."
+        },
+        {
+          "day": "4. Adım",
+          "title": "Operasyon günü",
+          "description": "Her hasta gibi aynı ameliyathane, aynı cerrah, aynı protokol. 6-8 saatlik FUE / DHI / Safir prosedür. Dosyanıza yalnızca cerrahi ekibiniz erişebilir."
+        },
+        {
+          "day": "5. Adım",
+          "title": "İyileşme ve 12 ay takip",
+          "description": "1, 3, 6 ve 12. ayda diskret takip. Garanti kriterleri çerçevesinde ücretsiz revizyon. Her hastaya sunulan aynı bakım standardı."
+        }
       ]
     },
     "faq": {
       "title": "SSS — Türkiye'de HIV+ saç ekimi",
       "items": [
-        { "question": "HIV pozitif olduğum için ek ücret alınacak mı?", "answer": "Hayır. Ek ücret almak ayrımcılık olur. Fiyatlandırmamız her hastayla aynıdır: Safir FUE için her şey dahil 2.950 $'dan, Essential FUE için 1.950 $'dan başlar." },
-        { "question": "Otele, şoföre veya tercümana durumumu açıklamam gerekiyor mu?", "answer": "Hayır. Durumunuz tıbbi bilgidir ve yalnızca bilmeleri gereken cerrahınız ve anestezistinizle paylaşılır. Otel bir isim ve rezervasyon görür; şoför bir alış görür; tercüman bir konsültasyon görür. Hiçbiri tıbbi dosyanıza erişemez." },
-        { "question": "Hangi CD4 sayımı ve viral yük gerekli?", "answer": "Uluslararası yaygın kriterleri esas alıyoruz: CD4 ≥ 350 ve en az 3 aydır stabil antiretroviral tedavi altında saptanamayan viral yük. Bu eşiklerin dışındaki hastalar bireysel cerrah incelemesinden geçer — toptan ret bizim varsayılanımız değildir." },
-        { "question": "Cerrahi ekip durumumu bilecek mi?", "answer": "Evet — cerrahınız ve anestezistiniz tam tıbbi dosyanızı görür. Bu güvenli bakım için zorunludur. Türk tıbbi gizlilik yasası ve iç gizlilik sözleşmemizle bağlıdırlar. Klinik zincirindeki başka hiç kimsenin erişimi yoktur." },
-        { "question": "Daha yüksek komplikasyon riski var mı?", "answer": "Hakemli kanıtlar, stabil ART altındaki HIV pozitif hastalar için greft sağkalımı, enfeksiyon oranı veya iyileşme süresinde istatistiksel olarak anlamlı bir fark olmadığını gösterir. Bunu sonuç denetimimizde doğrudan takip ediyoruz." },
-        { "question": "HBV veya HCV pozitif de isem?", "answer": "Aynı yanıt: evrensel önlemler tüm kan yoluyla bulaşan patojenleri kapsar. HBV ve HCV pozitif hastaları aynı koşullarda kabul ediyoruz. Ko-enfeksiyonlar karaciğer fonksiyonunun daha yakın op-öncesi incelemesini gerektirir." },
-        { "question": "Diskret ödeme yapabilir miyim?", "answer": "Banka havalesi, kredi kartı ve nakit mevcuttur. Talep halinde fatura kalemleri 'saç ekimi' yerine 'estetik prosedür' olarak etiketlenebilir. Seyahat sigortası ifşası talep etmiyoruz." },
-        { "question": "Bu Türkiye'de yasal mı?", "answer": "Evet — açıkça. Türk Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi uyarınca HIV durumu nedeniyle bakımı reddetmek yasadışıdır. Uygun önlemler ve aydınlatılmış onamla prosedürün gerçekleştirilmesi tamamen yasaldır." },
-        { "question": "Partnerim veya ailem durumumu bilmiyorsa?", "answer": "Bilmek zorunda değiller. Tek başınıza seyahat edebilir veya yalnızca kozmetik bağlamı bildirilen bir refakatçiyle gelebilirsiniz. Aile veya partnerlerden gizliliği koruyan hastalara bakma konusunda tam deneyimimiz var." },
-        { "question": "Sonuçları ne zaman göreceğim?", "answer": "Aynı zaman çizelgesi: 1. ayda dökülme, 3-4. aydan itibaren yeni çıkış, 6. ayda yoğunluk görünür, 12. ayda nihai sonuç. HIV durumu iyileşmeyi değiştirmez." },
-        { "question": "Türkiye'deki neden daha fazla klinik HIV+ hastaları kabul etmiyor?", "answer": "Çoğunlukla güncel olmayan eğitim ve temelsiz personel kaygısı. Tıbbi gerçek yirmi yılı aşkın süredir yerleşmiş durumda; pek çok klinik iç politikalarını basitçe güncellememiş. Biz güncel kanıtları ve Türk hukukunu izleme bilinçli kararını verdik." },
-        { "question": "Konuşmaya nasıl başlarım?", "answer": "Tercih ettiğiniz kanal üzerinden mesaj gönderin. Yalnızca söylemeyi seçtiğiniz şeyi söyleyin — sadece 'görüşmek istediğim bir bağışıklık durumum var' bile başlamak için yeterlidir. Kabul ekibimiz ifşa hızınıza saygı göstermek üzere eğitimlidir." }
+        {
+          "question": "HIV pozitif olduğum için ek ücret alınacak mı?",
+          "answer": "Hayır. Ek ücret almak ayrımcılık olur. Fiyatlandırmamız her hastayla aynıdır: Safir FUE için her şey dahil 2.950 $'dan, Essential FUE için 1.950 $'dan başlar."
+        },
+        {
+          "question": "Otele, şoföre veya tercümana durumumu açıklamam gerekiyor mu?",
+          "answer": "Hayır. Durumunuz tıbbi bilgidir ve yalnızca bilmeleri gereken cerrahınız ve anestezistinizle paylaşılır. Otel bir isim ve rezervasyon görür; şoför bir alış görür; tercüman bir konsültasyon görür. Hiçbiri tıbbi dosyanıza erişemez."
+        },
+        {
+          "question": "Hangi CD4 sayımı ve viral yük gerekli?",
+          "answer": "Uluslararası yaygın kriterleri esas alıyoruz: CD4 ≥ 350 ve en az 3 aydır stabil antiretroviral tedavi altında saptanamayan viral yük. Bu eşiklerin dışındaki hastalar bireysel cerrah incelemesinden geçer — toptan ret bizim varsayılanımız değildir."
+        },
+        {
+          "question": "Cerrahi ekip durumumu bilecek mi?",
+          "answer": "Evet — cerrahınız ve anestezistiniz tam tıbbi dosyanızı görür. Bu güvenli bakım için zorunludur. Türk tıbbi gizlilik yasası ve iç gizlilik sözleşmemizle bağlıdırlar. Klinik zincirindeki başka hiç kimsenin erişimi yoktur."
+        },
+        {
+          "question": "Daha yüksek komplikasyon riski var mı?",
+          "answer": "Hakemli kanıtlar, stabil ART altındaki HIV pozitif hastalar için greft sağkalımı, enfeksiyon oranı veya iyileşme süresinde istatistiksel olarak anlamlı bir fark olmadığını gösterir. Bunu sonuç denetimimizde doğrudan takip ediyoruz."
+        },
+        {
+          "question": "HBV veya HCV pozitif de isem?",
+          "answer": "Aynı yanıt: evrensel önlemler tüm kan yoluyla bulaşan patojenleri kapsar. HBV ve HCV pozitif hastaları aynı koşullarda kabul ediyoruz. Ko-enfeksiyonlar karaciğer fonksiyonunun daha yakın op-öncesi incelemesini gerektirir."
+        },
+        {
+          "question": "Diskret ödeme yapabilir miyim?",
+          "answer": "Banka havalesi, kredi kartı ve nakit mevcuttur. Talep halinde fatura kalemleri 'saç ekimi' yerine 'estetik prosedür' olarak etiketlenebilir. Seyahat sigortası ifşası talep etmiyoruz."
+        },
+        {
+          "question": "Bu Türkiye'de yasal mı?",
+          "answer": "Evet — açıkça. Türk Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi uyarınca HIV durumu nedeniyle bakımı reddetmek yasadışıdır. Uygun önlemler ve aydınlatılmış onamla prosedürün gerçekleştirilmesi tamamen yasaldır."
+        },
+        {
+          "question": "Partnerim veya ailem durumumu bilmiyorsa?",
+          "answer": "Bilmek zorunda değiller. Tek başınıza seyahat edebilir veya yalnızca kozmetik bağlamı bildirilen bir refakatçiyle gelebilirsiniz. Aile veya partnerlerden gizliliği koruyan hastalara bakma konusunda tam deneyimimiz var."
+        },
+        {
+          "question": "Sonuçları ne zaman göreceğim?",
+          "answer": "Aynı zaman çizelgesi: 1. ayda dökülme, 3-4. aydan itibaren yeni çıkış, 6. ayda yoğunluk görünür, 12. ayda nihai sonuç. HIV durumu iyileşmeyi değiştirmez."
+        },
+        {
+          "question": "Türkiye'deki neden daha fazla klinik HIV+ hastaları kabul etmiyor?",
+          "answer": "Çoğunlukla güncel olmayan eğitim ve temelsiz personel kaygısı. Tıbbi gerçek yirmi yılı aşkın süredir yerleşmiş durumda; pek çok klinik iç politikalarını basitçe güncellememiş. Biz güncel kanıtları ve Türk hukukunu izleme bilinçli kararını verdik."
+        },
+        {
+          "question": "Konuşmaya nasıl başlarım?",
+          "answer": "Tercih ettiğiniz kanal üzerinden mesaj gönderin. Yalnızca söylemeyi seçtiğiniz şeyi söyleyin — sadece 'görüşmek istediğim bir bağışıklık durumum var' bile başlamak için yeterlidir. Kabul ekibimiz ifşa hızınıza saygı göstermek üzere eğitimlidir."
+        }
       ]
     },
     "cta": {
@@ -979,7 +1414,6 @@
       "secondary": "Diskret E-posta Gönder"
     }
   },
-
   "consent": {
     "title": "Gizlilik tercihleri",
     "body": "Çerezleri yalnızca reklamlarımızın erişimini ölçmek için kullanıyoruz. Onayınız olmadan hiçbir çerez yazılmaz ve reklam platformlarına hiçbir veri gönderilmez.",

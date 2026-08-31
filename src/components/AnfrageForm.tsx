@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { trackEvent } from "@/components/Analytics";
 import { SmartImage } from "@/components/SmartImage";
-import { siteConfig } from "@/config/site";
+import { siteConfig, buildWhatsAppUrl } from "@/config/site";
 
 /**
  * Nötr adresli sayfadaki iletişim formu — Aşama 1.
@@ -29,6 +29,9 @@ export function AnfrageForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [preference, setPreference] = useState<Preference>("E-Mail");
   const [errors, setErrors] = useState<Record<string, string>>({});
+  // Sunucu iletemezse basvuru kaybolmasin: kullanicinin yazdiklariyla
+  // hazirlanmis bir mailto baglantisi gosterilir.
+  const [mailtoUrl, setMailtoUrl] = useState<string>("");
 
   const preferenceOptions = t.raw("contactPreferenceOptions") as Preference[];
   const languageOptions = t.raw("languageOptions") as string[];
@@ -90,6 +93,23 @@ export function AnfrageForm() {
       trackEvent("Lead");
       form.reset();
     } catch {
+      // Iletim yapilandirilmamis ya da hedef ulasilamaz. Kullaniciyi bos
+      // birakmiyoruz: yazdiklarini iceren bir e-posta taslagi hazirlaniyor.
+      const govde = [
+        `${t("contactPreference")}: ${preference}`,
+        `${t("name")}: ${String(data.get("name") ?? "").trim() || "-"}`,
+        `${t("email")}: ${email || "-"}`,
+        `${t("phone")}: ${phone || "-"}`,
+        `${t("language")}: ${language}`,
+        "",
+        `${t("message")}:`,
+        String(data.get("message") ?? "").trim() || "-",
+      ].join("\n");
+      setMailtoUrl(
+        `mailto:${siteConfig.contact.email}` +
+          `?subject=${encodeURIComponent(t("errorMailSubject"))}` +
+          `&body=${encodeURIComponent(govde)}`,
+      );
       setStatus("error");
     }
   }
@@ -240,6 +260,21 @@ export function AnfrageForm() {
         <div role="alert" className="mt-4 rounded-lg bg-[var(--color-accent)]/10 px-4 py-3 text-sm text-[var(--color-text-strong)]">
           <strong className="block">{t("errorTitle")}</strong>
           <span className="text-[var(--color-text-muted)]">{t("errorBody")}</span>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {mailtoUrl && (
+              <a href={mailtoUrl} className="btn btn-accent !py-2 !text-sm">
+                {t("errorMailCta")}
+              </a>
+            )}
+            <a
+              href={buildWhatsAppUrl("de")}
+              target="_blank"
+              rel="noopener"
+              className="btn btn-ghost !py-2 !text-sm"
+            >
+              WhatsApp
+            </a>
+          </div>
         </div>
       )}
 

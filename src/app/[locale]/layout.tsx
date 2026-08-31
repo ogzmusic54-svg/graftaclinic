@@ -105,6 +105,33 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+
+    // Meta domain doğrulaması. Business Manager → Brand Safety → Domains
+    // ekranından alınan kod ortam değişkenine girilir, etiket her sayfada
+    // görünür.
+    //
+    // ⚠️ İki tuzak birden vardı:
+    //  1. Değişken `.env.example`'da yazılıydı ama **onu okuyan kod yoktu** —
+    //     kod girilse bile etiket hiç render edilmiyordu.
+    //  2. Adı `NEXT_PUBLIC_` ile başlıyordu. O önek değeri **build sırasında**
+    //     gömer; sonradan girilen değerin hiçbir etkisi olmaz ve bu sessizce
+    //     olur. Pixel ID'yi de tam olarak bu bozmuştu.
+    //
+    // Bu blok sunucuda çalıştığı için `NEXT_PUBLIC_` öneki gereksiz;
+    // `META_DOMAIN_VERIFICATION` yeterli. Eski ad geriye dönük uyumluluk
+    // için hâlâ kabul ediliyor.
+    //
+    // ⚠️ Sayfalar statik üretildiği (SSG) için metadata **build sırasında**
+    // pişer: değişken Coolify'a girildikten sonra **redeploy şart.**
+    // Aksi hâlde etiket görünmez ve bu sessizce olur.
+    ...(() => {
+      const kod = (
+        process.env.META_DOMAIN_VERIFICATION ??
+        process.env.NEXT_PUBLIC_META_DOMAIN_VERIFICATION ??
+        ""
+      ).trim();
+      return kod ? { other: { "facebook-domain-verification": kod } } : {};
+    })(),
   };
 }
 

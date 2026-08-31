@@ -17,8 +17,17 @@ export const siteConfig = {
     logoDark: "/images/graftalogo.png",
   },
 
-  // Üretim domaini — sitemap, hreflang ve OpenGraph URL'leri buradan üretilir
-  url: "https://www.graftaclinic.com",
+  // Üretim domaini — sitemap, hreflang, canonical ve OpenGraph URL'leri buradan üretilir.
+  //
+  // ⚠️ 31.08.2026'da `www.graftaclinic.com` ADRESİ ÇALIŞMIYOR:
+  // TLS sertifikası geçersiz (self-signed) ve sunucu 503 dönüyor. Buna karşın
+  // canonical, sitemap ve hreflang'lar www'ye işaret ediyordu — yani Google'a
+  // her sayfanın "asıl adresi" olarak çalışmayan bir host gösteriliyordu.
+  // Apex (www'suz) sağlıklı çalıştığı için kanonik host apex'e alındı.
+  //
+  // Hosting tarafında www düzeltilir ve apex'e yönlendirilirse burası
+  // değiştirilmeden kalabilir — tek kanonik host apex olsun.
+  url: "https://graftaclinic.com",
 
   // ───── İletişim — bu üç alanı doldurun ─────
   contact: {

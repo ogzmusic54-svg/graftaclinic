@@ -986,5 +986,225 @@
     "sensitiveNote": "Auf dieser Seite sind Werbe-Tracker grundsätzlich deaktiviert — unabhängig von Ihrer Auswahl.",
     "accept": "Zustimmen",
     "reject": "Ablehnen"
+  },
+
+  "vertraulich": {
+    "meta": {
+      "title": "Vertrauliche Beurteilung — Haartransplantation",
+      "description": "Jede Anfrage für eine Haartransplantation wird einzeln geprüft. Sie erhalten eine schriftliche Entscheidung — auch ein Nein, mit Begründung, vor jeder Buchung."
+    },
+    "hero": {
+      "kicker": "Vertrauliche Beurteilung",
+      "logoAlt": "Grafta Clinic",
+      "imageAlt": "Ärztliche Untersuchung der Haarlinie in der Grafta Clinic",
+      "title": "Haartransplantation: Jede Anfrage wird einzeln geprüft.",
+      "subtitle": "Manche Kliniken antworten nicht mehr, sobald die Unterlagen da sind. Das ist keine ärztliche Entscheidung — das ist Schweigen. Bei uns bekommen Sie eine Antwort. Auch ein Nein: schriftlich, mit Begründung, bevor Sie reisen.",
+      "chips": [
+        "Erste Nachricht ohne Unterlagen",
+        "Beratung auf Deutsch",
+        "Ärztliche Prüfung erst nach Ihrer Einwilligung",
+        "Schriftliche Entscheidung vor der Buchung"
+      ],
+      "primaryCta": "Auf WhatsApp schreiben",
+      "secondaryCta": "Formular ausfüllen",
+      "note": "Für die erste Nachricht brauchen Sie keine Befunde und keine Unterlagen."
+    },
+    "intro": {
+      "title": "Worum es auf dieser Seite geht",
+      "body": "Wenn eine Anfrage für eine Haartransplantation abgelehnt wurde oder unbeantwortet blieb, ist die Ursache selten ein medizinischer Befund. Häufiger ist es eine Organisationsentscheidung: eine interne Richtlinie, die nie aktualisiert wurde. Diese Seite erklärt, wie bei uns geprüft wird, wer Ihre Angaben sieht und wann die Entscheidung fällt.",
+      "body2": "Es geht hier nicht darum, was in Ihren Unterlagen steht. Es geht darum, dass Sie überhaupt eine Antwort bekommen."
+    },
+    "reasons": {
+      "title": "Warum Anfragen abgelehnt werden",
+      "subtitle": "Drei Gründe, die in der Praxis hinter einer Absage stehen — keiner davon ist eine Diagnose.",
+      "items": [
+        {
+          "title": "Fehlendes Protokoll",
+          "description": "Die Klinik hat keinen festgelegten Ablauf für die Prüfung und entscheidet deshalb pauschal. Eine pauschale Entscheidung ist keine ärztliche Entscheidung."
+        },
+        {
+          "title": "Ablauf und Kapazität",
+          "description": "Eine Einzelfallprüfung kostet ärztliche Zeit. Wo im Akkord operiert wird, ist dafür kein Platz vorgesehen — die Anfrage bleibt einfach liegen."
+        },
+        {
+          "title": "Veraltete Information",
+          "description": "Interne Richtlinien werden selten überarbeitet. Manche stammen aus einer Zeit, in der der medizinische Kenntnisstand ein anderer war."
+        }
+      ],
+      "closing": "Deshalb gilt bei uns: Jede Anfrage wird von einem Arzt einzeln geprüft, und die Begründung wird Ihnen genannt."
+    },
+    "protocol": {
+      "title": "Unser Standardprotokoll",
+      "subtitle": "Was in Ihren Unterlagen steht, ändert unser Protokoll nicht. Es ändert nur, wer Sie behandelt.",
+      "items": [
+        {
+          "title": "Einwegmaterial",
+          "description": "Punches, Kanülen und Einmalartikel werden pro Eingriff neu geöffnet und danach entsorgt — bei jedem Patienten."
+        },
+        {
+          "title": "Instrumentenaufbereitung",
+          "description": "Wiederverwendbare Instrumente durchlaufen einen dokumentierten Aufbereitungszyklus. Der Zyklus ist für alle Eingriffe derselbe."
+        },
+        {
+          "title": "Schutzmaßnahmen",
+          "description": "Handschuhe, Handhygiene und Schutzausrüstung folgen einem festen Standard, der nicht vom einzelnen Patienten abhängt."
+        },
+        {
+          "title": "Gleiche Reihenfolge für alle",
+          "description": "Es gibt keine gesonderte Terminlage und keine besondere Kennzeichnung. Ein Standardprotokoll heißt: für alle gleich. Sonst wäre es kein Standard."
+        }
+      ],
+      "credentials": "ISO 9001 · Vom türkischen Gesundheitsministerium zugelassenes Zentrum für Gesundheitstourismus"
+    },
+    "steps": {
+      "title": "Der Ablauf — vier Schritte",
+      "items": [
+        {
+          "step": "Schritt 1",
+          "title": "Erste Nachricht",
+          "description": "Land, Altersgruppe, ungefährer Zeitrahmen. Keine Unterlagen, keine Befunde, keine Fotos."
+        },
+        {
+          "step": "Schritt 2",
+          "title": "Rückfragen auf Deutsch",
+          "description": "Ein deutschsprachiger Ansprechpartner klärt mit Ihnen, was für die ärztliche Prüfung nötig ist — und was nicht."
+        },
+        {
+          "step": "Schritt 3",
+          "title": "Ärztliche Prüfung",
+          "description": "Erst nach Ihrer ausdrücklichen Einwilligung und über einen gesicherten Weg. Getrennt vom Rest der Website."
+        },
+        {
+          "step": "Schritt 4",
+          "title": "Schriftliche Entscheidung",
+          "description": "Vor jeder Buchung und vor jeder Zahlung. Auch eine Absage erhalten Sie schriftlich und mit Begründung."
+        }
+      ],
+      "closing": "Niemand sollte für eine Absage erst fliegen müssen."
+    },
+    "hiv": {
+      "kicker": "Offen gesagt",
+      "title": "HIV und Haartransplantation — die Fragen, die selten beantwortet werden",
+      "intro": "Diese Seite spricht niemanden auf seinen Gesundheitszustand an. Aber wer bis hierher gelesen hat, sucht wahrscheinlich eine klare Auskunft. Hier ist sie, mit Quellen.",
+      "imageAlt": "Detailaufnahme einer Haarlinie nach einer Haartransplantation",
+      "items": [
+        {
+          "question": "Ist eine Haartransplantation möglich, wenn man mit HIV lebt?",
+          "answer": "Die Eignung wird individuell geprüft — Haarsituation, Gesundheitszustand, laufende Therapie. Genau wie bei allen anderen auch. Eine pauschale Antwort, ob ja oder nein, wäre unseriös; deshalb geben wir sie nicht, sondern prüfen."
+        },
+        {
+          "question": "Warum lehnen Kliniken dann ab?",
+          "answer": "Meist mit Verweis auf den Schutz des Personals. Das Robert Koch-Institut ist an dieser Stelle eindeutig: Nach der Behandlung eines Patienten mit HIV-Infektion genügen die routinemäßig erforderlichen Hygienemaßnahmen — Desinfektion der patientennahen Flächen und sachgerechte Aufbereitung der Medizinprodukte. Standardhygiene gilt ohnehin bei jedem Patienten, gerade weil niemand jeden Befund kennt."
+        },
+        {
+          "question": "Ändert sich am Ablauf etwas?",
+          "answer": "Am Hygieneprotokoll nichts — es ist für alle dasselbe. Was sich ändern kann, ist die ärztliche Beurteilung des Einzelfalls: dafür fragt der Arzt nach aktuellen Werten und der laufenden Therapie. Diese Fragen stellt der Arzt, nicht das Empfangsteam."
+        },
+        {
+          "question": "Wer erfährt davon?",
+          "answer": "Der deutschsprachige Ansprechpartner und der behandelnde Arzt. Keine Kennzeichnung am Behandlungstag, keine gesonderte Terminlage, keine Weitergabe an Dritte."
+        },
+        {
+          "question": "Und rechtlich?",
+          "answer": "Das Bundesarbeitsgericht hat 2013 entschieden, dass eine symptomlose HIV-Infektion eine Behinderung im Sinne des AGG darstellt — begründet nicht mit dem Krankheitsbild, sondern mit der Stigmatisierung und dem daraus folgenden Ausweichverhalten. Das beschreibt ziemlich genau, worum es bei einer Absage meistens geht."
+        },
+        {
+          "question": "Was passiert, wenn die Prüfung negativ ausfällt?",
+          "answer": "Sie erhalten eine schriftliche Absage mit Begründung — vor jeder Buchung und vor jeder Zahlung. Niemand soll für eine Absage erst reisen müssen."
+        }
+      ],
+      "disclaimer": "Diese Seite ersetzt keine ärztliche Beratung. Fragen zu Ihrer Therapie gehören zu Ihrer behandelnden Ärztin oder Ihrem behandelnden Arzt.",
+      "sources": "Quellen: Robert Koch-Institut, „Hygiene bei der Behandlung von Patienten mit blutübertragbaren Erregern (z. B. HIV, HBV oder HCV)\", Stand 09.10.2025 · Bundesarbeitsgericht, Urteil vom 19.12.2013 – 6 AZR 190/12. Stand dieser Seite: 21.08.2026."
+    },
+    "secondStage": {
+      "title": "Der medizinische Teil ist getrennt",
+      "body": "Gesundheitsbezogene Angaben erheben wir erst nach Ihrer ausdrücklichen Einwilligung — über ein separates, gesichertes System. In diesem Bereich sind Werbe- und Analyse-Skripte vollständig deaktiviert. Ihre Angaben sehen ausschließlich ärztliches und medizinisches Personal."
+    },
+    "privacy": {
+      "title": "Was mit Ihren Angaben passiert",
+      "items": [
+        "Für die erste Nachricht benötigen wir keine medizinischen Unterlagen.",
+        "Gesundheitsbezogene Angaben werden erst nach Ihrer ausdrücklichen Einwilligung erhoben (DSGVO Art. 9 Abs. 2 lit. a).",
+        "Auf unseren krankheitsbezogenen Informationsseiten sind Werbe- und Analyse-Skripte vollständig deaktiviert — unabhängig davon, ob Sie zugestimmt haben.",
+        "Auf dieser Seite läuft Reichweitenmessung nur mit Ihrer Zustimmung. Übermittelt werden dabei Seitenadresse und Seitentitel, niemals der Inhalt Ihrer Anfrage.",
+        "Ihre Angaben werden nicht an Dritte weitergegeben und nicht für Werbezwecke verwendet.",
+        "Sie können jederzeit Auskunft und Löschung verlangen."
+      ]
+    },
+    "channels": {
+      "title": "So erreichen Sie uns",
+      "subtitle": "Das Formular ist der einfachste Weg — ohne Telefonnummer. WhatsApp steht zusätzlich zur Verfügung, wenn Sie das lieber möchten.",
+      "whatsappTitle": "WhatsApp",
+      "whatsappBody": "Optional. Schnell und direkt, Antwort in der Regel am selben Tag, auf Deutsch.",
+      "whatsappCaveat": "Bei WhatsApp ist Ihre Telefonnummer für uns sichtbar. Wenn Sie das nicht möchten, nutzen Sie das Formular — dafür genügt eine E-Mail-Adresse.",
+      "whatsappOptional": "Optional",
+      "whatsappCta": "Nachricht senden",
+      "formTitle": "Formular",
+      "formBody": "Der empfohlene Weg. Eine E-Mail-Adresse genügt — keine Telefonnummer, kein Konto, keine Unterlagen.",
+      "formCaveat": "Antwort per E-Mail, in der Regel innerhalb eines Werktags.",
+      "formCta": "Zum Formular"
+    },
+    "form": {
+      "title": "Vertrauliche Anfrage",
+      "logoAlt": "Grafta Clinic",
+      "subtitle": "Bitte übermitteln Sie in diesem ersten Kontaktformular keine Diagnosen, Laborwerte, Medikamentenlisten oder medizinischen Unterlagen.",
+      "name": "Name oder Kürzel",
+      "namePlaceholder": "Optional – ein Kürzel genügt",
+      "contactPreference": "Wie dürfen wir antworten?",
+      "contactPreferenceOptions": ["E-Mail", "WhatsApp", "Rückruf"],
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "Pflichtfeld bei Antwort per E-Mail",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "Nur nötig, wenn Sie WhatsApp oder Rückruf wählen",
+      "language": "Sprache",
+      "languageOptions": ["Deutsch", "Englisch", "Andere"],
+      "message": "Ihre Frage (optional)",
+      "messagePlaceholder": "Bitte keine Diagnosen, Laborwerte oder Unterlagen.",
+      "consent": "Ich bin damit einverstanden, dass die Grafta Clinic mich zu meiner Anfrage über den von mir gewählten Weg kontaktiert. Ich kann diese Einwilligung jederzeit widerrufen.",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet …",
+      "successTitle": "Ihre Anfrage ist angekommen.",
+      "successBody": "Wir melden uns auf dem von Ihnen gewählten Weg, in der Regel innerhalb eines Werktags. Sie müssen nichts weiter tun.",
+      "errorTitle": "Das Formular konnte nicht gesendet werden.",
+      "errorBody": "Ihre Angaben gehen nicht verloren. Senden Sie sie mit einem Klick als E-Mail — oder schreiben Sie uns über WhatsApp.",
+      "errorMailCta": "Als E-Mail senden",
+      "errorMailSubject": "Vertrauliche Anfrage — Haartransplantation",
+      "errPreference": "Bitte wählen Sie, wie wir antworten dürfen.",
+      "errEmailMissing": "Für eine Antwort per E-Mail brauchen wir Ihre E-Mail-Adresse.",
+      "errEmailInvalid": "Diese E-Mail-Adresse scheint nicht vollständig zu sein.",
+      "errPhoneMissing": "Für WhatsApp oder einen Rückruf brauchen wir eine Telefonnummer.",
+      "errPhoneInvalid": "Bitte prüfen Sie die Telefonnummer.",
+      "errLanguage": "Bitte wählen Sie eine Sprache.",
+      "errConsent": "Ohne Ihre Einwilligung dürfen wir Ihnen leider nicht antworten."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "items": [
+        {
+          "question": "Muss ich in der ersten Nachricht Unterlagen schicken?",
+          "answer": "Nein. Land, Altersgruppe und Zeitrahmen genügen. Alles Weitere besprechen wir erst, wenn Sie es möchten."
+        },
+        {
+          "question": "Wer sieht meine Angaben?",
+          "answer": "Der deutschsprachige Ansprechpartner und der prüfende Arzt. Sonst niemand. Ihre Angaben werden nicht an Dritte weitergegeben."
+        },
+        {
+          "question": "Wann fällt die Entscheidung?",
+          "answer": "Vor der Anreise. Sie erhalten sie schriftlich, vor jeder Buchung und vor jeder Zahlung."
+        },
+        {
+          "question": "Und wenn ich nicht geeignet bin?",
+          "answer": "Dann erhalten Sie eine schriftliche Absage mit Begründung — bevor Sie gebucht, bezahlt oder gereist sind."
+        },
+        {
+          "question": "In welcher Sprache läuft die Beratung?",
+          "answer": "Auf Deutsch. Die Klinikleitung spricht Deutsch und begleitet den Kontakt selbst."
+        },
+        {
+          "question": "Was ist im Aufenthalt enthalten?",
+          "answer": "Abholung vom Flughafen, Transfers und Hotel werden organisiert. Die Einzelheiten nennen wir Ihnen zusammen mit der schriftlichen Entscheidung."
+        }
+      ]
+    }
   }
 }

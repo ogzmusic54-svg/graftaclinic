@@ -19,6 +19,12 @@ export const SENSITIVE_PATH_SEGMENTS = [
   // "hepatitis-hair-transplant", "diabetes-hair-transplant", ...
 ] as const;
 
+// Bilerek burada DEĞİL: "vertrauliche-beurteilung".
+// Reklam iniş sayfasının adresinde tanı adı geçmez, bu yüzden hassas değildir
+// ve pixel orada çalışır — dönüşümün ölçülebildiği tek yer orası.
+// Adresi nötr kaldığı sürece HIV içeriği sayfanın gövdesinde durabilir;
+// pixel'e giden veri adres ve başlıktır, gövde değil.
+
 /**
  * Bir yolun hassas olup olmadığını söyler.
  * Locale önekinden bağımsız çalışır (/de/... , /en/... , /tr/...).
@@ -53,5 +59,18 @@ export function writeStoredConsent(value: ConsentValue): void {
   }
 }
 
-/** Meta Pixel ID — tanımlı değilse pixel hiç yüklenmez. */
-export const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID ?? "";
+/**
+ * Meta Pixel ID.
+ *
+ * Varsayılan **koda gömülüdür.** Sebebi: bu değer gizli değil — pixel ID her
+ * ziyaretçinin sayfa kaynağında görünür, `NEXT_PUBLIC_` öneki de bunu zaten
+ * ilan eder. Ortam değişkenine bağlı bırakıldığında tek bir eksik satır
+ * yüzünden pixel sessizce hiç yüklenmiyordu ve bu 31.08.2026'da canlıda
+ * fiilen böyleydi: kod yayındaydı, ID yoktu, hiçbir dönüşüm ölçülmüyordu.
+ *
+ * Ortam değişkeni hâlâ önceliklidir — test hesabına geçmek için yeterli.
+ */
+const VARSAYILAN_PIXEL_ID = "1058153717222133";
+
+export const META_PIXEL_ID =
+  process.env.NEXT_PUBLIC_META_PIXEL_ID?.trim() || VARSAYILAN_PIXEL_ID;

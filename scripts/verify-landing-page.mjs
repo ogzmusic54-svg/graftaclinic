@@ -103,13 +103,27 @@ console.log("\n5) Sayfa icerigi");
   await p.goto(`${BASE}/de/vertrauliche-beurteilung`, { waitUntil: "networkidle" });
   const body = (await p.innerText("body")).toLowerCase();
   const html = await p.content();
-  ok(!/\bhiv\b|\baids\b|hiv-positiv/.test(body), "sayfada HIV/AIDS kelimesi gecmiyor");
+  // Kural degisti (v2): HIV bilgisi sayfanin GOVDESINDE serbest — pixel'e
+  // giden veri adres, baslik ve referrer'dir, govde degil. Yasak olan, tani
+  // adinin ADRESTE veya BASLIKTA gecmesi ve ikinci tekil sahisla ziyaretciye
+  // saglik durumu atfedilmesi.
+  const title = await p.title();
+  ok(!/hiv|aids/i.test(title), `baslikta tani adi yok ("${title}")`);
+  ok(!/hiv|aids/i.test(new URL(p.url()).pathname), "adreste tani adi yok");
+  ok(/\bhiv\b/i.test(body), "HIV bilgisi govdede VAR (bilincli)");
+  ok(!/sie sind hiv|wenn sie hiv|ihre hiv|ihrer hiv/i.test(body),
+     "ziyaretciye saglik durumu atfeden ifade yok");
+  ok(/robert koch/i.test(body) && /6 azr 190\/12/i.test(body), "tibbi ve hukuki iddialar kaynakli");
+  ok(/ersetzt keine ärztliche beratung/i.test(body), "tibbi sorumluluk notu var");
   ok((await p.innerText("h1")).includes("Haartransplantation"), "H1'de urun adi var");
   ok((await p.$$("h1")).length === 1, "tek H1");
   ok(html.includes('name="robots"') && /noindex/.test(html), "robots noindex");
   ok(html.includes('"@type":"FAQPage"'), "FAQPage semasi var");
   ok(await p.locator('a[href="#anfrage"]').first().isVisible(), "forma giden ikinci CTA var");
   ok(await p.locator("#anfrage form").isVisible(), "form sayfada");
+  ok(await p.locator('img[alt="Grafta Clinic"]').first().isVisible(), "logo sayfada");
+  ok((await p.$$('img[alt="Grafta Clinic"]')).length >= 2, "logo hem hero'da hem formda");
+  ok(await p.locator('img[src*="hero.jpg"], img[srcset*="hero.jpg"]').first().isVisible(), "hero gorseli yuklendi");
   ok(!/vorher|nachher|before.after/.test(body), "oncesi-sonrasi ifadesi yok (HWG §11)");
   ok(!/garanti|garantie|100 ?%/.test(body), "garanti / %100 iddiasi yok");
   await c.close();

@@ -995,6 +995,8 @@
     },
     "hero": {
       "kicker": "Vertrauliche Beurteilung",
+      "logoAlt": "Grafta Clinic",
+      "imageAlt": "Ärztliche Untersuchung der Haarlinie in der Grafta Clinic",
       "title": "Haartransplantation: Jede Anfrage wird einzeln geprüft.",
       "subtitle": "Manche Kliniken antworten nicht mehr, sobald die Unterlagen da sind. Das ist keine ärztliche Entscheidung — das ist Schweigen. Bei uns bekommen Sie eine Antwort. Auch ein Nein: schriftlich, mit Begründung, bevor Sie reisen.",
       "chips": [
@@ -1080,6 +1082,40 @@
       ],
       "closing": "Niemand sollte für eine Absage erst fliegen müssen."
     },
+    "hiv": {
+      "kicker": "Offen gesagt",
+      "title": "HIV und Haartransplantation — die Fragen, die selten beantwortet werden",
+      "intro": "Diese Seite spricht niemanden auf seinen Gesundheitszustand an. Aber wer bis hierher gelesen hat, sucht wahrscheinlich eine klare Auskunft. Hier ist sie, mit Quellen.",
+      "imageAlt": "Detailaufnahme einer Haarlinie nach einer Haartransplantation",
+      "items": [
+        {
+          "question": "Ist eine Haartransplantation möglich, wenn man mit HIV lebt?",
+          "answer": "Die Eignung wird individuell geprüft — Haarsituation, Gesundheitszustand, laufende Therapie. Genau wie bei allen anderen auch. Eine pauschale Antwort, ob ja oder nein, wäre unseriös; deshalb geben wir sie nicht, sondern prüfen."
+        },
+        {
+          "question": "Warum lehnen Kliniken dann ab?",
+          "answer": "Meist mit Verweis auf den Schutz des Personals. Das Robert Koch-Institut ist an dieser Stelle eindeutig: Nach der Behandlung eines Patienten mit HIV-Infektion genügen die routinemäßig erforderlichen Hygienemaßnahmen — Desinfektion der patientennahen Flächen und sachgerechte Aufbereitung der Medizinprodukte. Standardhygiene gilt ohnehin bei jedem Patienten, gerade weil niemand jeden Befund kennt."
+        },
+        {
+          "question": "Ändert sich am Ablauf etwas?",
+          "answer": "Am Hygieneprotokoll nichts — es ist für alle dasselbe. Was sich ändern kann, ist die ärztliche Beurteilung des Einzelfalls: dafür fragt der Arzt nach aktuellen Werten und der laufenden Therapie. Diese Fragen stellt der Arzt, nicht das Empfangsteam."
+        },
+        {
+          "question": "Wer erfährt davon?",
+          "answer": "Der deutschsprachige Ansprechpartner und der behandelnde Arzt. Keine Kennzeichnung am Behandlungstag, keine gesonderte Terminlage, keine Weitergabe an Dritte."
+        },
+        {
+          "question": "Und rechtlich?",
+          "answer": "Das Bundesarbeitsgericht hat 2013 entschieden, dass eine symptomlose HIV-Infektion eine Behinderung im Sinne des AGG darstellt — begründet nicht mit dem Krankheitsbild, sondern mit der Stigmatisierung und dem daraus folgenden Ausweichverhalten. Das beschreibt ziemlich genau, worum es bei einer Absage meistens geht."
+        },
+        {
+          "question": "Was passiert, wenn die Prüfung negativ ausfällt?",
+          "answer": "Sie erhalten eine schriftliche Absage mit Begründung — vor jeder Buchung und vor jeder Zahlung. Niemand soll für eine Absage erst reisen müssen."
+        }
+      ],
+      "disclaimer": "Diese Seite ersetzt keine ärztliche Beratung. Fragen zu Ihrer Therapie gehören zu Ihrer behandelnden Ärztin oder Ihrem behandelnden Arzt.",
+      "sources": "Quellen: Robert Koch-Institut, „Hygiene bei der Behandlung von Patienten mit blutübertragbaren Erregern (z. B. HIV, HBV oder HCV)\", Stand 09.10.2025 · Bundesarbeitsgericht, Urteil vom 19.12.2013 – 6 AZR 190/12. Stand dieser Seite: 31.08.2026."
+    },
     "privacy": {
       "title": "Was mit Ihren Angaben passiert",
       "items": [
@@ -1111,6 +1147,7 @@
     },
     "form": {
       "title": "Vertrauliche Anfrage",
+      "logoAlt": "Grafta Clinic",
       "subtitle": "Bitte tragen Sie hier keine Befunde, Diagnosen oder Gesundheitsdaten ein. Das klären wir später, über einen gesicherten Weg und erst nach Ihrer Einwilligung.",
       "name": "Vorname oder Kürzel",
       "namePlaceholder": "Optional",

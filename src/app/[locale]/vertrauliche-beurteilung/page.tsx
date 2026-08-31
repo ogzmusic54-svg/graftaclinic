@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { routing, hasLocale, type Locale } from "@/i18n/routing";
 import { siteConfig, buildWhatsAppUrl } from "@/config/site";
 import { AnfrageForm } from "@/components/AnfrageForm";
+import { SmartImage } from "@/components/SmartImage";
 
 /**
  * Reklam iniş sayfası — NÖTR ADRES.
@@ -70,6 +71,7 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
   const protocolItems = t.raw("protocol.items") as NamedItem[];
   const steps = t.raw("steps.items") as StepItem[];
   const privacyItems = t.raw("privacy.items") as string[];
+  const hivItems = t.raw("hiv.items") as FaqItem[];
   const whatsappPoints = t.raw("channels.whatsappPoints") as string[];
   const faqItems = t.raw("faq.items") as FaqItem[];
 
@@ -104,7 +106,8 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
         <div className="absolute inset-0 -z-10 opacity-20">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--color-accent-deep)_0%,_transparent_55%)]" />
         </div>
-        <div className="container-content py-20 md:py-28">
+        <div className="container-content grid items-center gap-12 py-20 md:py-28 lg:grid-cols-[1.15fr_1fr]">
+          <div>
           <p className="label-caps text-[var(--color-accent-soft)] mb-3">{t("hero.kicker")}</p>
           <h1 className="font-serif text-white max-w-4xl">{t("hero.title")}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-relaxed text-white/85 md:text-xl">
@@ -139,6 +142,31 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
               </li>
             ))}
           </ul>
+          </div>
+
+          {/* Görsel: hekim elleri, saç çizgisi muayenesi. Yüz yok, öncesi–sonrası
+              yok — § 11 HWG. Kategoriyi ilk bakışta okutan tek kare. */}
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+            <SmartImage
+              src="/images/hero.jpg"
+              alt={t("hero.imageAlt")}
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 40vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary-deep)] via-[var(--color-primary-deep)]/25 to-transparent" />
+            {/* Marka işareti görselin içinde: header'daki logoyla yan yana
+                tekrar etmiyor, imzalanmış bir kare gibi duruyor. */}
+            <SmartImage
+              src={siteConfig.brand.logoDark}
+              alt={t("hero.logoAlt")}
+              width={150}
+              height={54}
+              priority
+              className="absolute bottom-6 left-6 h-11 w-auto drop-shadow-lg"
+            />
+          </div>
         </div>
       </section>
 
@@ -244,6 +272,54 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
           <p className="mt-10 font-serif text-2xl text-[var(--color-text-strong)]">
             {t("steps.closing")}
           </p>
+        </div>
+      </section>
+
+      {/* HIV — ACIK BILGI BOLUMU
+          Sayfanin adresi ve basligi notr kaldigi surece bu icerik burada
+          durabilir: pixel'e giden veri adres, baslik ve referrer'dir, govde
+          degil. Dil ucuncu sahis — hicbir cumle ziyaretciye saglik durumu
+          atfetmiyor. Her tibbi iddianin yaninda kaynak var. */}
+      <section className="section">
+        <div className="container-content grid gap-12 lg:grid-cols-[1fr_360px]">
+          <div>
+            <span className="gold-rule" />
+            <p className="label-caps mt-3 text-[var(--color-accent-deep)]">{t("hiv.kicker")}</p>
+            <h2 className="mt-2 font-serif">{t("hiv.title")}</h2>
+            <p className="mt-4 max-w-2xl text-lg text-[var(--color-text-muted)]">{t("hiv.intro")}</p>
+
+            <dl className="mt-10 space-y-7">
+              {hivItems.map((item) => (
+                <div key={item.question} className="border-l-2 border-[var(--color-accent)]/40 pl-5">
+                  <dt className="font-serif text-xl text-[var(--color-text-strong)]">
+                    {item.question}
+                  </dt>
+                  <dd className="mt-2 leading-relaxed text-[var(--color-text-muted)]">
+                    {item.answer}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+
+            <p className="mt-10 rounded-lg border border-[var(--color-border-subtle)] bg-[var(--color-surface-elevated)] p-4 text-sm leading-relaxed text-[var(--color-text-muted)]">
+              {t("hiv.disclaimer")}
+            </p>
+            <p className="mt-4 text-xs leading-relaxed text-[var(--color-text-muted)]">
+              {t("hiv.sources")}
+            </p>
+          </div>
+
+          {/* Sac cizgisi detayi — kategoriyi gosteren ikinci kare.
+              Tek gorsel, karsilastirma degil (§ 11 HWG). */}
+          <div className="relative hidden aspect-[3/4] self-start overflow-hidden rounded-2xl border border-[var(--color-border-subtle)] shadow-lg lg:sticky lg:top-28 lg:block">
+            <SmartImage
+              src="/images/services/hair-transplant.jpg"
+              alt={t("hiv.imageAlt")}
+              fill
+              sizes="360px"
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 

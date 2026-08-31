@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { trackEvent } from "@/components/Analytics";
+import { SmartImage } from "@/components/SmartImage";
+import { siteConfig } from "@/config/site";
 
 /**
  * Nötr adresli sayfadaki iletişim formu — WhatsApp'ın eşit ağırlıklı alternatifi.
@@ -72,6 +74,13 @@ export function AnfrageForm() {
         role="status"
         aria-live="polite"
       >
+        <SmartImage
+          src={siteConfig.brand.logoLight}
+          alt={t("logoAlt")}
+          width={132}
+          height={48}
+          className="mx-auto mb-6 h-10 w-auto"
+        />
         <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-primary-deep)]">
           <svg width="22" height="22" viewBox="0 0 20 20" className="text-[var(--color-accent)]" aria-hidden="true">
             <path d="M4 10l4 4 8-8" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
@@ -91,6 +100,13 @@ export function AnfrageForm() {
 
   return (
     <form onSubmit={onSubmit} noValidate className="card bg-white p-6 md:p-8">
+      <SmartImage
+        src={siteConfig.brand.logoLight}
+        alt={t("logoAlt")}
+        width={132}
+        height={48}
+        className="mb-5 h-10 w-auto"
+      />
       <h3 className="font-serif text-2xl text-[var(--color-text-strong)]">{t("title")}</h3>
       <p className="mt-3 text-sm leading-relaxed text-[var(--color-text-muted)]">
         {t("subtitle")}

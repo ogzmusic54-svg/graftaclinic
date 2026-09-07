@@ -140,6 +140,33 @@
     }
   }
 
+  /* Marka kilidi: amblem + canlı yazılan marka adı.
+     Yazı görselin içine gömülü olduğunda küçük boyutta okunmuyordu; artık
+     gerçek metin olarak yazılıyor ve her çözünürlükte net görünüyor. */
+  .brand-lockup {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .brand-lockup__name {
+    font-family: var(--font-serif);
+    font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    line-height: 1;
+    white-space: nowrap;
+    background-image: linear-gradient(135deg, #c9922b 0%, #f0c85a 45%, #c9922b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .brand-lockup__name--light {
+    /* Yalnızca görseli değiştir: `background` kısayolu background-clip'i
+       sıfırlayıp yazıyı dolu bloğa çevirdiği için `background-image` kullanılır. */
+    background-image: linear-gradient(135deg, #e0b455 0%, #f7dea0 45%, #e0b455 100%);
+  }
+
   /* Marka fontunda (serif) büyük hero şapka yazısı — logo estetiğiyle uyumlu */
   .brand-kicker {
     font-family: var(--font-serif);

@@ -291,28 +291,6 @@
       "title": "Her ihtiyaca, klinik kalitede çözüm",
       "subtitle": "Saç restorasyonu, dermatolojik tedaviler, medikal estetik ve plastik cerrahi alanlarında bütüncül bir hizmet sunuyoruz."
     },
-    "doctors": {
-      "kicker": "Uzman Kadro",
-      "title": "Tecrübeli ekibinizle tanışın",
-      "subtitle": "Her biri kendi alanında uzun yıllar deneyime sahip, sertifikalı doktorlarımızla güvenli bir tedavi süreci.",
-      "team": [
-        {
-          "name": "Op. Dr. — Ad Soyad",
-          "specialty": "Plastik, Rekonstrüktif ve Estetik Cerrahi",
-          "bio": "15+ yıl uluslararası deneyim. Yüz, burun ve göğüs estetiği alanında uzmanlaşmıştır."
-        },
-        {
-          "name": "Dr. — Ad Soyad",
-          "specialty": "Saç Restorasyonu Uzmanı",
-          "bio": "FUE, DHI ve Saphir teknikleri konusunda referans gösterilen uzman hekim."
-        },
-        {
-          "name": "Dr. — Ad Soyad",
-          "specialty": "Dermatoloji & Medikal Estetik",
-          "bio": "PRP, mezoterapi ve enjeksiyonel tedavilerde 10+ yıl klinik deneyim."
-        }
-      ]
-    },
     "trustBadges": {
       "title": "Uluslararası Standartlar",
       "subtitle": "ISO sertifikalı klinik, TC Sağlık Bakanlığı yetkili sağlık turizmi merkezi."
@@ -363,7 +341,7 @@
   },
   "contact": {
     "meta": {
-      "title": "İletişim — Grafta Clinic | Randevu & Konsültasyon",
+      "title": "İletişim | Randevu & Konsültasyon",
       "description": "Grafta Clinic'e ulaşın: telefon, WhatsApp ve adres bilgileri. Ücretsiz konsültasyon için bizi arayın veya WhatsApp'tan yazın."
     },
     "hero": {
@@ -392,7 +370,7 @@
     "impressum": "Künye"
   },
   "results": {
-    "metaTitle": "Hasta Sonuçları — Önce ve Sonra | Grafta Clinic",
+    "metaTitle": "Hasta Sonuçları — Önce ve Sonra",
     "metaDescription": "Grafta Clinic hastalarının yazılı izniyle paylaşılan saç ekimi, plastik cerrahi ve estetik tedavi öncesi-sonrası fotoğrafları.",
     "kicker": "Önce ve Sonra",
     "title": "Gerçek hastalar, gerçek sonuçlar",
@@ -419,7 +397,7 @@
     "hair-transplant": {
       "title": "Saç Ekimi",
       "shortDescription": "FUE, DHI ve Saphir teknikleriyle doğal görünümlü saç restorasyonu.",
-      "metaTitle": "Saç Ekimi (FUE, DHI, Safir) — Grafta Clinic İstanbul",
+      "metaTitle": "Saç Ekimi (FUE, DHI, Safir) — İstanbul",
       "metaDescription": "Saç ekiminde FUE, DHI ve Safir FUE teknikleriyle doğal sonuçlar. Uzman ekip, sertifikalı klinik. Ücretsiz konsültasyon için Grafta Clinic.",
       "heroTitle": "Saç Ekimi",
       "heroSubtitle": "Saç dökülmesinin önüne geçin: FUE, DHI ve Safir FUE teknikleriyle, kendi köklerinizden doğal ve kalıcı saç hattı.",
@@ -479,7 +457,7 @@
     "beard-transplant": {
       "title": "Sakal Ekimi",
       "shortDescription": "Seyrek ya da bölgesel sakal kayıplarına FUE ile kalıcı çözüm.",
-      "metaTitle": "Sakal Ekimi — Grafta Clinic",
+      "metaTitle": "Sakal Ekimi",
       "metaDescription": "Sakal ekimi ile seyrek bölgelere doğal yoğunluk. FUE tekniği, uzman cerrah, kalıcı sonuç. Grafta Clinic ücretsiz konsültasyon.",
       "heroTitle": "Sakal Ekimi",
       "heroSubtitle": "Genetik veya yaralanmaya bağlı seyrek sakal alanlarına, doğal yön ve sıklıkta kalıcı çözüm.",
@@ -531,7 +509,7 @@
     "eyebrow-transplant": {
       "title": "Kaş Ekimi",
       "shortDescription": "Yüz ifadesine doğal yoğunluk: kalıcı kaş restorasyonu.",
-      "metaTitle": "Kaş Ekimi — Grafta Clinic",
+      "metaTitle": "Kaş Ekimi",
       "metaDescription": "Kaş ekimi ile dökülen, seyrek ya da yara izli kaşlara doğal ve kalıcı çözüm. Mikro tasarım, uzman cerrah. Grafta Clinic.",
       "heroTitle": "Kaş Ekimi",
       "heroSubtitle": "Genetik, travma ya da yıllarca alma sonucu kaybedilen kaşlara doğal yön ve sıklıkta kalıcı çözüm.",
@@ -574,7 +552,7 @@
     "alopecia-treatment": {
       "title": "Saç Kıran (Alopesi) Tedavisi",
       "shortDescription": "Bölgesel saç kayıplarına dermatolojik ve medikal yaklaşım.",
-      "metaTitle": "Saç Kıran (Alopecia) Tedavisi — Grafta Clinic",
+      "metaTitle": "Saç Kıran (Alopecia) Tedavisi",
       "metaDescription": "Alopecia areata tedavisinde dermatolojik bakım, intralezyonel enjeksiyonlar ve kombinasyon protokolleri. Uzman dermatolog kontrolünde.",
       "heroTitle": "Saç Kıran (Alopesi) Tedavisi",
       "heroSubtitle": "Bağışıklık sistemi kaynaklı bölgesel saç kayıplarına bilimsel ve kişiye özel tedavi protokolleri.",
@@ -617,7 +595,7 @@
     "prp-therapy": {
       "title": "PRP Tedavisi",
       "shortDescription": "Kendi kanınızdan elde edilen plazma ile saç ve cilt yenilenmesi.",
-      "metaTitle": "PRP Tedavisi (Saç & Cilt) — Grafta Clinic",
+      "metaTitle": "PRP Tedavisi (Saç & Cilt)",
       "metaDescription": "PRP ile saç dökülmesini durdurun, cildi yenileyin. Kendi kanınızdan elde edilen büyüme faktörleri. Uzman doktor kontrolünde.",
       "heroTitle": "PRP Tedavisi",
       "heroSubtitle": "Kendi kanınızdan elde edilen trombosit zengin plazma ile saç köklerini ve cilt dokusunu güçlendirin.",
@@ -660,7 +638,7 @@
     "mesotherapy": {
       "title": "Mezoterapi",
       "shortDescription": "Saç ve cilt için besleyici vitamin/mineral karışımları.",
-      "metaTitle": "Mezoterapi (Saç & Cilt) — Grafta Clinic",
+      "metaTitle": "Mezoterapi (Saç & Cilt)",
       "metaDescription": "Mezoterapi ile saç dökülmesi ve cilt yenilenmesi için kişiye özel vitamin/aminoasit karışımları. Grafta Clinic uzman kadrosu.",
       "heroTitle": "Mezoterapi",
       "heroSubtitle": "Saç köklerini ve cildi besleyen vitamin, aminoasit ve hyalüronik asit kombinasyonları.",
@@ -699,7 +677,7 @@
     "fillers-botox": {
       "title": "Dolgu & Botox",
       "shortDescription": "Çizgileri yumuşatmak ve hacim kazandırmak için enjeksiyonel uygulamalar.",
-      "metaTitle": "Botox ve Dolgu Uygulamaları — Grafta Clinic",
+      "metaTitle": "Botox ve Dolgu Uygulamaları",
       "metaDescription": "Botox ile mimik çizgilerini yumuşatın, dolgu ile yüze hacim kazandırın. Doğal sonuçlar, uzman doktor. Grafta Clinic İstanbul.",
       "heroTitle": "Dolgu & Botox",
       "heroSubtitle": "Mimik çizgileri ve hacim kayıpları için, doğal görünümü koruyan medikal estetik enjeksiyonları.",
@@ -738,7 +716,7 @@
     "youth-vaccine": {
       "title": "Gençlik Aşısı",
       "shortDescription": "Cilt elastikiyeti ve parlaklığı için biyo-rejeneratif tedavi.",
-      "metaTitle": "Gençlik Aşısı (Profhilo / NCTF) — Grafta Clinic",
+      "metaTitle": "Gençlik Aşısı (Profhilo / NCTF)",
       "metaDescription": "Gençlik aşısı ile cilt yapısını içeriden onarın. Profhilo ve benzer biyo-rejeneratif uygulamalar. Grafta Clinic.",
       "heroTitle": "Gençlik Aşısı",
       "heroSubtitle": "Cildin kendi kollajen üretimini destekleyen biyo-rejeneratif uygulamalarla içeriden bakım.",
@@ -777,7 +755,7 @@
     "rhinoplasty": {
       "title": "Burun Estetiği",
       "shortDescription": "Yüzünüzle uyumlu, doğal bir burun için cerrahi planlama.",
-      "metaTitle": "Burun Estetiği (Rinoplasti) — Grafta Clinic",
+      "metaTitle": "Burun Estetiği (Rinoplasti)",
       "metaDescription": "Burun estetiği (rinoplasti) ile fonksiyonel ve estetik mükemmellik. Açık ve kapalı teknik, uzman plastik cerrah. Grafta Clinic.",
       "heroTitle": "Burun Estetiği",
       "heroSubtitle": "Yüz hatlarınıza uyumlu, doğal sonuçlar veren rinoplasti — fonksiyon ve estetik bir arada.",
@@ -828,7 +806,7 @@
     "breast-aesthetics": {
       "title": "Göğüs Estetiği",
       "shortDescription": "Büyütme, küçültme ve dikleştirme operasyonlarında uzman cerrahi.",
-      "metaTitle": "Göğüs Estetiği (Büyütme, Küçültme, Dikleştirme) — Grafta Clinic",
+      "metaTitle": "Göğüs Estetiği (Büyütme, Küçültme, Dikleştirme)",
       "metaDescription": "Göğüs estetiğinde büyütme, küçültme ve dikleştirme. Sertifikalı implantlar, uzman plastik cerrah. Grafta Clinic.",
       "heroTitle": "Göğüs Estetiği",
       "heroSubtitle": "Büyütme, küçültme ve dikleştirme operasyonlarında bedeninizle uyumlu, doğal sonuçlar.",
@@ -871,7 +849,7 @@
   },
   "hairTransplantTurkey": {
     "meta": {
-      "title": "Türkiye'nin En İyi Saç Ekimi Kliniği 2025 — Grafta Clinic İstanbul",
+      "title": "Türkiye'nin En İyi Saç Ekimi Kliniği 2025 — İstanbul",
       "description": "Türkiye'de saç ekimi mi düşünüyorsunuz? Grafta Clinic İstanbul'da FUE, DHI ve Safir FUE teknikleri, her şey dahil paketlerle. Sağlık turizmi yetki belgeli, ISO sertifikalı, ömür boyu takip. Ücretsiz konsültasyon.",
       "keywords": "türkiye en iyi saç ekimi kliniği, istanbul saç ekimi, türkiye saç ekimi 2025, türkiye saç ekimi fiyat, fue dhi safir türkiye, afro saç ekimi türkiye, kadın saç ekimi türkiye"
     },

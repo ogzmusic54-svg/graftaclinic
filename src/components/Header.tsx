@@ -40,15 +40,17 @@ export function Header() {
       }`}
     >
       <div className="container-content flex h-24 items-center justify-between gap-6">
-        <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
+        <Link href="/" className="brand-lockup" aria-label={siteConfig.name}>
           <Image
-            src={siteConfig.brand.logoLight}
-            alt={siteConfig.name}
-            width={400}
-            height={200}
+            src={siteConfig.brand.logoMark}
+            alt=""
+            aria-hidden
+            width={464}
+            height={624}
             priority
-            className="h-[4.5rem] w-auto md:h-20"
+            className="h-14 w-auto md:h-16"
           />
+          <span className="brand-lockup__name">Grafta Clinic</span>
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">

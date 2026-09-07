@@ -14,14 +14,16 @@ export function Footer() {
     <footer className="mt-12 bg-[var(--color-primary-deep)] text-white">
       <div className="container-content section grid gap-12 lg:grid-cols-4">
         <div className="space-y-4 lg:col-span-1">
-          <Link href="/" className="inline-block" aria-label={siteConfig.name}>
+          <Link href="/" className="brand-lockup" aria-label={siteConfig.name}>
             <Image
-              src={siteConfig.brand.logoLight}
-              alt={siteConfig.name}
-              width={400}
-              height={200}
-              className="h-16 w-auto"
+              src={siteConfig.brand.logoMark}
+              alt=""
+              aria-hidden
+              width={464}
+              height={624}
+              className="h-12 w-auto"
             />
+            <span className="brand-lockup__name brand-lockup__name--light">Grafta Clinic</span>
           </Link>
           <p className="text-sm leading-relaxed text-white/70">{t("footer.tagline")}</p>
           <div className="flex gap-3">

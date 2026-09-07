@@ -9,7 +9,8 @@ import { NextResponse } from "next/server";
  *
  * ── İletim yolları (en az biri tanımlı olmalı) ───────────────────────────
  *   1. CONTACT_FORWARD_WEBHOOK   HTTPS uç noktası (Make, Zapier, n8n, CRM…)
- *   2. RESEND_API_KEY + CONTACT_TO_EMAIL   doğrudan e-posta
+ *   2. SMTP_HOST + SMTP_USER + SMTP_PASS + CONTACT_TO_EMAIL   klasik posta kutusu
+ *   3. RESEND_API_KEY + CONTACT_TO_EMAIL   Resend üzerinden e-posta
  *
  * İkisi de tanımlıysa önce webhook denenir; webhook başarısız olursa
  * **e-postaya düşülür** — bozuk bir entegrasyon yüzünden başvuru kaybolmaz.
@@ -67,6 +68,38 @@ async function webhookGonder(url: string, p: Basvuru): Promise<void> {
     signal: AbortSignal.timeout(10_000),
   });
   if (!res.ok) throw new Error(`webhook ${res.status}`);
+}
+
+function smtpHazir(): boolean {
+  return Boolean(
+    process.env.SMTP_HOST && process.env.SMTP_USER &&
+    process.env.SMTP_PASS && process.env.CONTACT_TO_EMAIL,
+  );
+}
+
+/** Klasik posta kutusu (Hostinger, Google Workspace, Yandex…) üzerinden gönderim. */
+async function smtpGonder(p: Basvuru): Promise<void> {
+  const host = process.env.SMTP_HOST!;
+  const port = Number(process.env.SMTP_PORT ?? 465);
+  const to = process.env.CONTACT_TO_EMAIL!;
+  const user = process.env.SMTP_USER!;
+  const from = process.env.CONTACT_FROM_EMAIL ?? `Grafta Website <${user}>`;
+
+  const { createTransport } = await import("nodemailer");
+  const transport = createTransport({
+    host,
+    port,
+    secure: port === 465,
+    auth: { user, pass: process.env.SMTP_PASS! },
+  });
+
+  await transport.sendMail({
+    from,
+    to: to.split(",").map((x) => x.trim()).filter(Boolean),
+    ...(p.email ? { replyTo: p.email } : {}),
+    subject: `Website Anfrage — ${p.kontaktweg}`,
+    text: metin(p),
+  });
 }
 
 async function epostaGonder(p: Basvuru): Promise<void> {
@@ -136,12 +169,13 @@ export async function POST(request: Request) {
   };
 
   const webhook = process.env.CONTACT_FORWARD_WEBHOOK;
+  const smtpVar = smtpHazir();
   const epostaHazir = Boolean(process.env.RESEND_API_KEY && process.env.CONTACT_TO_EMAIL);
 
-  if (!webhook && !epostaHazir) {
+  if (!webhook && !smtpVar && !epostaHazir) {
     console.error(
       "[anfrage] Iletim yapilandirilmamis: CONTACT_FORWARD_WEBHOOK veya " +
-        "RESEND_API_KEY + CONTACT_TO_EMAIL tanimlanmali. Basvuru iletilemedi.",
+        "SMTP_* veya RESEND_API_KEY + CONTACT_TO_EMAIL tanimlanmali. Basvuru iletilemedi.",
     );
     return NextResponse.json({ error: "not_configured" }, { status: 503 });
   }
@@ -155,6 +189,16 @@ export async function POST(request: Request) {
     } catch (e) {
       // Başvurunun içeriği loglanmaz — yalnız hata tipi.
       hatalar.push(`webhook: ${e instanceof Error ? e.message : String(e)}`);
+    }
+  }
+
+  if (smtpVar) {
+    try {
+      await smtpGonder(payload);
+      if (hatalar.length) console.warn("[anfrage] webhook basarisiz, smtp'ye dusuldu:", hatalar.join(" | "));
+      return NextResponse.json({ ok: true, via: "smtp" });
+    } catch (e) {
+      hatalar.push(`smtp: ${e instanceof Error ? e.message : String(e)}`);
     }
   }
 

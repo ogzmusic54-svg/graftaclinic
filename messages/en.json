@@ -291,28 +291,6 @@
       "title": "Clinical-grade solutions for every need",
       "subtitle": "We offer comprehensive care across hair restoration, dermatological treatments, medical aesthetics, and plastic surgery."
     },
-    "doctors": {
-      "kicker": "Expert Team",
-      "title": "Meet your experienced team",
-      "subtitle": "Certified specialists with years of dedicated experience in their respective fields, ensuring a safe treatment journey.",
-      "team": [
-        {
-          "name": "Op. Dr. — Full Name",
-          "specialty": "Plastic, Reconstructive and Aesthetic Surgery",
-          "bio": "15+ years of international experience, specialised in facial, rhinoplasty and breast aesthetics."
-        },
-        {
-          "name": "Dr. — Full Name",
-          "specialty": "Hair Restoration Specialist",
-          "bio": "A reference name for FUE, DHI and Sapphire techniques."
-        },
-        {
-          "name": "Dr. — Full Name",
-          "specialty": "Dermatology & Medical Aesthetics",
-          "bio": "10+ years of clinical experience in PRP, mesotherapy and injectables."
-        }
-      ]
-    },
     "trustBadges": {
       "title": "International Standards",
       "subtitle": "ISO-certified clinic, authorized health tourism centre by the Republic of Türkiye Ministry of Health."
@@ -363,7 +341,7 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact — Grafta Clinic | Appointment & Consultation",
+      "title": "Contact | Appointment & Consultation",
       "description": "Reach Grafta Clinic by phone, WhatsApp or in person. Book your free consultation in 30 seconds."
     },
     "hero": {
@@ -392,7 +370,7 @@
     "impressum": "Legal Notice"
   },
   "results": {
-    "metaTitle": "Patient Results — Before and After | Grafta Clinic",
+    "metaTitle": "Patient Results — Before and After",
     "metaDescription": "Before-and-after photos of hair transplant, plastic surgery and aesthetic treatments at Grafta Clinic, shared with patients' written consent.",
     "kicker": "Before and After",
     "title": "Real patients, real results",
@@ -419,7 +397,7 @@
     "hair-transplant": {
       "title": "Hair Transplant",
       "shortDescription": "Natural-looking hair restoration with FUE, DHI and Sapphire techniques.",
-      "metaTitle": "Hair Transplant (FUE, DHI, Sapphire) — Grafta Clinic Istanbul",
+      "metaTitle": "Hair Transplant (FUE, DHI, Sapphire) — Istanbul",
       "metaDescription": "Natural results in hair transplant with FUE, DHI and Sapphire FUE techniques. Expert team, certified clinic. Free consultation at Grafta Clinic.",
       "heroTitle": "Hair Transplant",
       "heroSubtitle": "Stop hair loss with FUE, DHI and Sapphire FUE techniques. A natural, permanent hairline using your own follicles.",
@@ -479,7 +457,7 @@
     "beard-transplant": {
       "title": "Beard Transplant",
       "shortDescription": "A permanent solution for sparse or patchy beard areas via FUE.",
-      "metaTitle": "Beard Transplant — Grafta Clinic",
+      "metaTitle": "Beard Transplant",
       "metaDescription": "Beard transplant for sparse areas with natural density. FUE technique, expert surgeon, lasting result. Free consultation at Grafta Clinic.",
       "heroTitle": "Beard Transplant",
       "heroSubtitle": "A permanent solution with natural direction and density for genetic or scar-related sparse beard areas.",
@@ -531,7 +509,7 @@
     "eyebrow-transplant": {
       "title": "Eyebrow Transplant",
       "shortDescription": "Natural density for the brow line: a permanent restoration.",
-      "metaTitle": "Eyebrow Transplant — Grafta Clinic",
+      "metaTitle": "Eyebrow Transplant",
       "metaDescription": "Eyebrow transplant for thin, sparse or scar-affected brows. Micro-design, expert surgeon, permanent result. Grafta Clinic.",
       "heroTitle": "Eyebrow Transplant",
       "heroSubtitle": "Permanent restoration with natural direction and density for brows lost to genetics, trauma or over-plucking.",
@@ -574,7 +552,7 @@
     "alopecia-treatment": {
       "title": "Alopecia Treatment",
       "shortDescription": "A dermatological and medical approach to localised hair loss.",
-      "metaTitle": "Alopecia Areata Treatment — Grafta Clinic",
+      "metaTitle": "Alopecia Areata Treatment",
       "metaDescription": "Dermatological care, intralesional injections and combination protocols for alopecia areata. Under specialist supervision.",
       "heroTitle": "Alopecia Treatment",
       "heroSubtitle": "Scientific, individually tailored treatment protocols for autoimmune-related localised hair loss.",
@@ -617,7 +595,7 @@
     "prp-therapy": {
       "title": "PRP Therapy",
       "shortDescription": "Hair and skin rejuvenation with plasma derived from your own blood.",
-      "metaTitle": "PRP Therapy (Hair & Skin) — Grafta Clinic",
+      "metaTitle": "PRP Therapy (Hair & Skin)",
       "metaDescription": "Stop hair loss and renew your skin with PRP. Growth factors derived from your own blood. Specialist supervision.",
       "heroTitle": "PRP Therapy",
       "heroSubtitle": "Strengthen hair follicles and skin with platelet-rich plasma obtained from your own blood.",
@@ -660,7 +638,7 @@
     "mesotherapy": {
       "title": "Mesotherapy",
       "shortDescription": "Nourishing vitamin/mineral cocktails for hair and skin.",
-      "metaTitle": "Mesotherapy (Hair & Skin) — Grafta Clinic",
+      "metaTitle": "Mesotherapy (Hair & Skin)",
       "metaDescription": "Personalised vitamin/amino acid cocktails for hair loss and skin renewal via mesotherapy. Grafta Clinic specialists.",
       "heroTitle": "Mesotherapy",
       "heroSubtitle": "Combinations of vitamins, amino acids and hyaluronic acid that nourish hair follicles and skin.",
@@ -699,7 +677,7 @@
     "fillers-botox": {
       "title": "Fillers & Botox",
       "shortDescription": "Injectables that smooth lines and restore volume.",
-      "metaTitle": "Botox and Filler Treatments — Grafta Clinic",
+      "metaTitle": "Botox and Filler Treatments",
       "metaDescription": "Soften expression lines with Botox, restore volume with fillers. Natural results, expert specialist. Grafta Clinic Istanbul.",
       "heroTitle": "Fillers & Botox",
       "heroSubtitle": "Medical aesthetic injectables that preserve a natural look while addressing expression lines and volume loss.",
@@ -738,7 +716,7 @@
     "youth-vaccine": {
       "title": "Youth Vaccine",
       "shortDescription": "A bio-regenerative treatment for skin elasticity and glow.",
-      "metaTitle": "Youth Vaccine (Profhilo / NCTF) — Grafta Clinic",
+      "metaTitle": "Youth Vaccine (Profhilo / NCTF)",
       "metaDescription": "Restore skin structure from within with the youth vaccine. Profhilo and similar bio-regenerative applications. Grafta Clinic.",
       "heroTitle": "Youth Vaccine",
       "heroSubtitle": "Bio-regenerative treatments that support the skin's own collagen production from within.",
@@ -777,7 +755,7 @@
     "rhinoplasty": {
       "title": "Rhinoplasty",
       "shortDescription": "A surgical plan for a natural nose in harmony with your face.",
-      "metaTitle": "Rhinoplasty (Nose Job) — Grafta Clinic",
+      "metaTitle": "Rhinoplasty (Nose Job)",
       "metaDescription": "Functional and aesthetic excellence with rhinoplasty. Open and closed techniques, expert plastic surgeon. Grafta Clinic.",
       "heroTitle": "Rhinoplasty",
       "heroSubtitle": "Natural, harmonious results in line with your facial features — function and aesthetics together.",
@@ -828,7 +806,7 @@
     "breast-aesthetics": {
       "title": "Breast Aesthetics",
       "shortDescription": "Expert surgery for augmentation, reduction and lift.",
-      "metaTitle": "Breast Aesthetics (Augmentation, Reduction, Lift) — Grafta Clinic",
+      "metaTitle": "Breast Aesthetics (Augmentation, Reduction, Lift)",
       "metaDescription": "Augmentation, reduction and lift for breast aesthetics. CE/FDA-certified implants, expert plastic surgeon. Grafta Clinic.",
       "heroTitle": "Breast Aesthetics",
       "heroSubtitle": "Natural results in harmony with your body for augmentation, reduction and lift surgeries.",
@@ -871,7 +849,7 @@
   },
   "hairTransplantTurkey": {
     "meta": {
-      "title": "Best Hair Transplant Clinic in Turkey 2025 — Grafta Clinic Istanbul",
+      "title": "Best Hair Transplant Clinic in Turkey 2025 — Istanbul",
       "description": "Choosing a hair transplant clinic in Turkey? Grafta Clinic Istanbul offers FUE, DHI and Sapphire FUE with all-inclusive packages. Health-tourism authorized, ISO-certified, lifetime follow-up. Free consultation.",
       "keywords": "best hair transplant clinic in turkey, hair transplant istanbul, hair transplant turkey 2025, hair transplant turkey price, fue dhi sapphire turkey, afro hair transplant turkey, hair transplant clinic for women turkey"
     },

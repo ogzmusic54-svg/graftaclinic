@@ -15,6 +15,9 @@ export const siteConfig = {
     },
     logoLight: "/images/graftalogo.png",
     logoDark: "/images/graftalogo.png",
+    /** Yalnızca amblem (yazısız). Marka adı canlı metin olarak yazılır — her
+     *  ekran çözünürlüğünde net görünür. */
+    logoMark: "/images/logo-mark.png",
   },
 
   // Üretim domaini — sitemap, hreflang, canonical ve OpenGraph URL'leri buradan üretilir.

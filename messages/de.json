@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ freundliches Protokoll",
           "tagline": "Operation am selben Tag, keine Diskriminierung",
-          "description": "Wir akzeptieren Patienten mit kontrollierter Viruslast und befolgen dieselben universellen sterilen Vorsichtsmaßnahmen wie bei jedem Patienten. Diskretion ist selbstverständlich."
+          "description": "Wir akzeptieren HIV-positive Patienten mit kontrollierter Viruslast und befolgen dieselben universellen sterilen Vorsichtsmaßnahmen wie bei jedem Patienten. Diskretion ist selbstverständlich."
         }
       ]
     },
@@ -1261,8 +1261,8 @@
       ]
     },
     "intro": {
-      "title": "Die gleiche Sorgfalt für jeden Patienten, in voller Vertraulichkeit",
-      "body": "Moderne Haartransplantationsverfahren verwenden Einweg-Punches, Einweg-Nadeln und universelle sterile Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. In der Grafta Clinic erhalten Patienten mit kontrollierter Viruslast denselben Versorgungsstandard wie jeder andere Patient, in voller Vertraulichkeit. Die Preisgestaltung wird in der Beratung entsprechend den für Ihren Fall erforderlichen zusätzlichen Untersuchungen und Vorbereitungen geplant und kann variieren."
+      "title": "Die gleiche Sorgfalt für HIV-positive Patienten, in voller Vertraulichkeit",
+      "body": "Moderne Haartransplantationsverfahren verwenden Einweg-Punches, Einweg-Nadeln und universelle sterile Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. In der Grafta Clinic erhalten HIV-positive Patienten mit kontrollierter Viruslast denselben Versorgungsstandard wie jeder andere Patient, in voller Vertraulichkeit. Die Preisgestaltung wird in der Beratung entsprechend den für Ihren Fall erforderlichen zusätzlichen Untersuchungen und Vorbereitungen geplant und kann variieren."
     },
     "medicalReality": {
       "title": "Die medizinische Realität: HIV ändert das Haartransplantationsprotokoll nicht",

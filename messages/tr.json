@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ Dostu Protokol",
           "tagline": "Aynı gün operasyon, ayrımcılık yok",
-          "description": "Kontrollü viral yüke sahip hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemlerin aynısını uygularız. Gizlilik esastır."
+          "description": "Kontrollü viral yüke sahip HIV pozitif hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemlerin aynısını uygularız. Gizlilik esastır."
         }
       ]
     },
@@ -1261,8 +1261,8 @@
       ]
     },
     "intro": {
-      "title": "Her hastaya aynı özen, tam gizlilik",
-      "body": "Modern saç ekimi prosedürleri her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel steril önlemler kullanır — viral durumdan bağımsız olarak. Grafta Clinic'te, kontrollü viral yüke sahip hastalarımıza her hastamıza uyguladığımız bakım standardının aynısını, tam gizlilik içinde sunuyoruz. Ücretlendirme, vakanın gerektirdiği ek tetkik ve hazırlık süreçlerine göre konsültasyonda planlanır ve farklılık gösterebilir."
+      "title": "HIV pozitif hastalar için aynı özen, tam gizlilik",
+      "body": "Modern saç ekimi prosedürleri her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel steril önlemler kullanır — viral durumdan bağımsız olarak. Grafta Clinic'te, kontrollü viral yüke sahip HIV pozitif hastalarımıza her hastamıza uyguladığımız bakım standardının aynısını, tam gizlilik içinde sunuyoruz. Ücretlendirme, vakanın gerektirdiği ek tetkik ve hazırlık süreçlerine göre konsültasyonda planlanır ve farklılık gösterebilir."
     },
     "medicalReality": {
       "title": "Tıbbi gerçek: HIV saç ekimi protokolünü değiştirmez",

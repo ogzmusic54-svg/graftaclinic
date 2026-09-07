@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ Friendly Protocol",
           "tagline": "Same-day surgery, no discrimination",
-          "description": "We accept patients with a controlled viral load and follow the same universal sterile precautions we use for every patient. Discretion assured."
+          "description": "We accept HIV-positive patients with a controlled viral load and follow the same universal sterile precautions we use for every patient. Discretion assured."
         }
       ]
     },
@@ -1261,8 +1261,8 @@
       ]
     },
     "intro": {
-      "title": "The same care for every patient, in full confidentiality",
-      "body": "Modern hair transplant procedures use single-use punches, single-use needles and universal sterile precautions for every patient — irrespective of viral status. At Grafta Clinic, patients with a controlled viral load receive the same standard of care we extend to every patient, in full confidentiality. Pricing is planned during your consultation according to the additional testing and preparation your case requires, and may vary."
+      "title": "The same care for HIV-positive patients, in full confidentiality",
+      "body": "Modern hair transplant procedures use single-use punches, single-use needles and universal sterile precautions for every patient — irrespective of viral status. At Grafta Clinic, HIV-positive patients with a controlled viral load receive the same standard of care we extend to every patient, in full confidentiality. Pricing is planned during your consultation according to the additional testing and preparation your case requires, and may vary."
     },
     "medicalReality": {
       "title": "The medical reality: HIV does not change the hair transplant protocol",

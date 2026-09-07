@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ freundliches Protokoll",
           "tagline": "Operation am selben Tag, keine Diskriminierung",
-          "description": "Wir akzeptieren HIV-positive Patienten mit kontrollierter Viruslast und befolgen universelle sterile Vorsichtsmaßnahmen, die mit denen für jeden Patienten identisch sind. Viele türkische Kliniken weigern sich stillschweigend — wir nicht. Diskretion ist selbstverständlich."
+          "description": "Wir akzeptieren Patienten mit kontrollierter Viruslast und befolgen dieselben universellen sterilen Vorsichtsmaßnahmen wie bei jedem Patienten. Diskretion ist selbstverständlich."
         }
       ]
     },
@@ -1255,14 +1255,14 @@
       "trustChips": [
         "Kostenlose Vorbeurteilung",
         "Gleicher Chirurg, gleicher OP",
-        "Keine Offenlegung gegenüber Personal",
+        "Durchgängige Diskretion",
         "Gleiches Protokoll für alle Patienten",
         "Schriftliche Vertraulichkeit"
       ]
     },
     "intro": {
-      "title": "Warum so viele türkische Kliniken stillschweigend ablehnen — und warum wir das nicht tun",
-      "body": "Viele internationale Patienten, die mit HIV leben, berichten, dass sie offen abgelehnt oder 'aus der Nachsorge verloren' werden, sobald sie ihren Status einer türkischen Haartransplantationsklinik mitteilen. Die genannten Gründe rahmen HIV meist als 'Personal-Sicherheits-' oder 'Sterilisations-' Bedenken. Beides ist medizinisch und rechtlich falsch. Moderne Haartransplantationsverfahren verwenden bereits Einweg-Punches, Einweg-Nadeln und universelle Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. Einer Person, die mit HIV lebt, die Versorgung zu verweigern, verstößt gegen die türkischen medizinethischen Vorschriften. In der Grafta Clinic wenden wir denselben Versorgungsstandard an wie bei jedem anderen Patienten: HIV-positive Patienten mit kontrollierter Viruslast werden identisch wie jeder andere Patient behandelt — kein separater Raum, kein separater Tag, keine markierte Akte. Die Preisgestaltung wird in der Beratung entsprechend den für Ihren Fall erforderlichen zusätzlichen Untersuchungen und Vorbereitungen geplant und kann variieren."
+      "title": "Die gleiche Sorgfalt für jeden Patienten, in voller Vertraulichkeit",
+      "body": "Moderne Haartransplantationsverfahren verwenden Einweg-Punches, Einweg-Nadeln und universelle sterile Vorsichtsmaßnahmen für jeden Patienten — unabhängig vom Virusstatus. In der Grafta Clinic erhalten Patienten mit kontrollierter Viruslast denselben Versorgungsstandard wie jeder andere Patient, in voller Vertraulichkeit. Die Preisgestaltung wird in der Beratung entsprechend den für Ihren Fall erforderlichen zusätzlichen Untersuchungen und Vorbereitungen geplant und kann variieren."
     },
     "medicalReality": {
       "title": "Die medizinische Realität: HIV ändert das Haartransplantationsprotokoll nicht",
@@ -1277,8 +1277,8 @@
           "description": "Peer-Review-Belege zeigen durchgängig, dass Graft-Überleben, Heilungszeit und endgültige Dichte bei Patienten mit kontrolliertem HIV (CD4 über 350, nicht nachweisbare Viruslast unter stabiler antiretroviraler Therapie) statistisch identisch zu HIV-negativen Kohorten sind."
         },
         {
-          "title": "Die rechtliche Versorgungspflicht ist absolut",
-          "description": "Die türkische Patientenrechteverordnung und die Verordnung über die ärztliche Berufsethik verbieten ausdrücklich Diskriminierung aufgrund des Krankheitsstatus. Einer Person mit kontrolliertem HIV eine Haartransplantation zu verweigern, ist in der Türkei rechtswidrig."
+          "title": "Patientenrechte sind geschützt",
+          "description": "Die türkische Patientenrechteverordnung und die Verordnung über die ärztliche Berufsethik verbieten ausdrücklich Diskriminierung aufgrund des Krankheitsstatus und schützen die Patientenrechte."
         }
       ]
     },
@@ -1295,8 +1295,8 @@
           "description": "Sie werden nicht separat oder als letzter Patient des Tages eingeplant. Sie erhalten denselben Chirurgen, denselben OP-Saal und dieselben Instrumente wie jeder Patient — denn am Verfahren ändert sich nichts."
         },
         {
-          "title": "Keine markierte Akte, kein 'roter Aufkleber'",
-          "description": "Ihr Status wird nur in Ihrer verschlüsselten Patientenakte erfasst, auf die Ihr Chirurg und Anästhesist zugreifen können. Keine Markierung außerhalb des Raums. Empfang, Fahrer, Hotelpersonal und Dolmetscher sehen Ihre medizinische Akte niemals."
+          "title": "Volle Vertraulichkeit in den Patientenakten",
+          "description": "Ihr Status wird nur in Ihrer verschlüsselten Patientenakte erfasst, auf die Ihr Chirurg und Anästhesist zugreifen können; Ihre medizinischen Informationen werden nur mit Ihrem OP-Team geteilt."
         },
         {
           "title": "Diskrete Zahlungsoptionen",
@@ -1312,7 +1312,7 @@
       "title": "Vertraulichkeit, in der Praxis — nicht nur auf dem Papier",
       "items": [
         "Medizinische Aufzeichnungen verschlüsselt und nur Ihrem direkten chirurgischen Team zugänglich",
-        "Keine Statusoffenlegung gegenüber Fahrern, Hotel-Concierge oder Dolmetschern",
+        "Ihre medizinischen Informationen werden nur mit Ihrem OP-Team geteilt",
         "Foto-Dokumentation ohne identifizierende Metadaten gespeichert",
         "Rechnungen auf Wunsch als 'ästhetisches Verfahren' gekennzeichnet",
         "Keine Versicherungskorrespondenz, sofern Sie diese nicht ausdrücklich genehmigen",
@@ -1387,7 +1387,7 @@
         },
         {
           "question": "Ist das in der Türkei überhaupt legal?",
-          "answer": "Ja — ausdrücklich. Die Versorgung aufgrund des HIV-Status zu verweigern, ist nach der türkischen Patientenrechteverordnung und der Verordnung über die ärztliche Berufsethik rechtswidrig. Den Eingriff mit angemessenen Vorsichtsmaßnahmen und informierter Einwilligung durchzuführen, ist vollständig legal."
+          "answer": "Ja. Die türkische Patientenrechteverordnung und die Verordnung über die ärztliche Berufsethik schützen die Patientenrechte; den Eingriff mit angemessenen Vorsichtsmaßnahmen und informierter Einwilligung durchzuführen, ist vollständig legal."
         },
         {
           "question": "Was, wenn mein Partner oder meine Familie meinen Status nicht kennt?",

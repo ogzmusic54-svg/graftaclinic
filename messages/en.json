@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ Friendly Protocol",
           "tagline": "Same-day surgery, no discrimination",
-          "description": "We accept HIV-positive patients with controlled viral load and follow universal sterile precautions identical to those used for every patient. Many Turkish clinics quietly refuse — we do not. Discretion assured."
+          "description": "We accept patients with a controlled viral load and follow the same universal sterile precautions we use for every patient. Discretion assured."
         }
       ]
     },
@@ -1255,14 +1255,14 @@
       "trustChips": [
         "Free pre-assessment",
         "Same surgeon, same theatre",
-        "No staff disclosure",
+        "End-to-end discretion",
         "Same protocol for every patient",
         "Written confidentiality"
       ]
     },
     "intro": {
-      "title": "Why so many Turkish clinics quietly say no — and why we don't",
-      "body": "Many international patients living with HIV report being either openly refused or 'lost in follow-up' once they disclose their status to a Turkish hair transplant clinic. The reasons cited usually frame HIV as a 'staff safety' or 'sterilization' concern. Both are medically and legally inaccurate. Modern hair transplant procedures already use single-use punches, single-use needles and universal precautions for every patient — irrespective of viral status. Refusing care to a person living with HIV violates Turkish medical ethics regulations. At Grafta Clinic we apply the same standard of care as for any other patient: HIV-positive patients with controlled viral load are treated identically to any other patient — no separate room, no separate day, no marked file. Pricing is planned during your consultation according to the additional testing and preparation your case requires, and may vary."
+      "title": "The same care for every patient, in full confidentiality",
+      "body": "Modern hair transplant procedures use single-use punches, single-use needles and universal sterile precautions for every patient — irrespective of viral status. At Grafta Clinic, patients with a controlled viral load receive the same standard of care we extend to every patient, in full confidentiality. Pricing is planned during your consultation according to the additional testing and preparation your case requires, and may vary."
     },
     "medicalReality": {
       "title": "The medical reality: HIV does not change the hair transplant protocol",
@@ -1277,8 +1277,8 @@
           "description": "Peer-reviewed evidence consistently shows that graft survival, healing time and final density in patients with controlled HIV (CD4 above 350, undetectable viral load on stable antiretroviral therapy) are statistically identical to HIV-negative cohorts."
         },
         {
-          "title": "The legal duty of care is absolute",
-          "description": "Turkish Patient Rights Regulation and Medical Deontology Regulation explicitly prohibit discrimination on the basis of disease status. Refusing a hair transplant to a patient with controlled HIV is unlawful in Turkey."
+          "title": "Patient rights are protected",
+          "description": "The Turkish Patient Rights Regulation and Medical Deontology Regulation explicitly prohibit discrimination on the basis of disease status and safeguard patient rights."
         }
       ]
     },
@@ -1295,8 +1295,8 @@
           "description": "You are not scheduled separately or last in the day. You receive the same surgeon, the same operating theatre and the same instruments as every patient — because nothing about the procedure changes."
         },
         {
-          "title": "No marked file, no 'red sticker'",
-          "description": "Your status is recorded only in your encrypted patient file accessible to your surgeon and anaesthetist. No outside-of-room marking. Reception, drivers, hotel staff and interpreters never see your medical file."
+          "title": "Full confidentiality in medical records",
+          "description": "Your status is recorded only in your encrypted patient file, accessible to your surgeon and anaesthetist; your medical information is shared only with your surgical team."
         },
         {
           "title": "Discreet payment options",
@@ -1312,7 +1312,7 @@
       "title": "Confidentiality, in practice — not just on paper",
       "items": [
         "Medical records encrypted and accessible only to your direct surgical team",
-        "No status disclosure to drivers, hotel concierge or interpreters",
+        "Your medical information is shared only with your surgical team",
         "Photo documentation stored without identifying metadata",
         "Invoices labeled 'aesthetic procedure' on request",
         "No insurance correspondence unless you specifically authorize it",
@@ -1387,7 +1387,7 @@
         },
         {
           "question": "Is this even legal in Turkey?",
-          "answer": "Yes — explicitly. Refusing care because of HIV status is unlawful under Turkish Patient Rights Regulation and Medical Deontology Regulation. Performing the procedure with proper precautions and informed consent is fully legal."
+          "answer": "Yes. The Turkish Patient Rights Regulation and Medical Deontology Regulation safeguard patient rights; performing the procedure with proper precautions and informed consent is fully legal."
         },
         {
           "question": "What if my partner or family doesn't know my status?",

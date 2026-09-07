@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ Dostu Protokol",
           "tagline": "Aynı gün operasyon, ayrımcılık yok",
-          "description": "Kontrollü viral yüke sahip HIV pozitif hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemleri uyguluyoruz. Türkiye'deki birçok klinik sessizce reddeder — biz reddetmiyoruz. Gizlilik esastır."
+          "description": "Kontrollü viral yüke sahip hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemlerin aynısını uygularız. Gizlilik esastır."
         }
       ]
     },
@@ -1255,14 +1255,14 @@
       "trustChips": [
         "Ücretsiz ön değerlendirme",
         "Aynı cerrah, aynı ameliyathane",
-        "Personele ifşa yok",
+        "Uçtan uca gizlilik",
         "Her hastaya aynı protokol",
         "Yazılı gizlilik"
       ]
     },
     "intro": {
-      "title": "Türkiye'deki birçok klinik neden sessizce 'hayır' diyor — ve biz neden demiyoruz",
-      "body": "HIV ile yaşayan birçok uluslararası hasta, durumlarını bir Türk saç ekimi kliniğine açıkladıktan sonra ya açıkça reddedildiklerini ya da 'takipten düştüklerini' bildiriyor. Genellikle gerekçe olarak HIV bir 'personel güvenliği' veya 'sterilizasyon' endişesi olarak sunuluyor. Her ikisi de tıbben ve hukuken yanlıştır. Modern saç ekimi prosedürleri zaten her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel önlemler kullanır — viral durumdan bağımsız olarak. HIV ile yaşayan bir kişiye bakım vermeyi reddetmek Türk tıbbi etik mevzuatını ihlal eder. Grafta Clinic'te her hastaya uyguladığımız bakım standardının aynısını uyguluyoruz: kontrollü viral yüke sahip HIV pozitif hastalar her hasta gibi tedavi edilir — ayrı oda, ayrı gün veya işaretli dosya yoktur. Ücretlendirme, vakanın gerektirdiği ek tetkik ve hazırlık süreçlerine göre konsültasyonda planlanır ve farklılık gösterebilir."
+      "title": "Her hastaya aynı özen, tam gizlilik",
+      "body": "Modern saç ekimi prosedürleri her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel steril önlemler kullanır — viral durumdan bağımsız olarak. Grafta Clinic'te, kontrollü viral yüke sahip hastalarımıza her hastamıza uyguladığımız bakım standardının aynısını, tam gizlilik içinde sunuyoruz. Ücretlendirme, vakanın gerektirdiği ek tetkik ve hazırlık süreçlerine göre konsültasyonda planlanır ve farklılık gösterebilir."
     },
     "medicalReality": {
       "title": "Tıbbi gerçek: HIV saç ekimi protokolünü değiştirmez",
@@ -1277,8 +1277,8 @@
           "description": "Hakemli kanıtlar, kontrollü HIV'li (CD4 350'nin üzerinde, stabil antiretroviral tedavi altında saptanamayan viral yük) hastalarda greft sağkalımı, iyileşme süresi ve nihai yoğunluğun HIV negatif kohortlarla istatistiksel olarak aynı olduğunu tutarlı biçimde gösterir."
         },
         {
-          "title": "Yasal bakım yükümlülüğü mutlaktır",
-          "description": "Türkiye Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi, hastalık durumuna dayalı ayrımcılığı açıkça yasaklar. Kontrollü HIV'i olan bir hastaya saç ekimini reddetmek Türkiye'de yasadışıdır."
+          "title": "Hasta hakları güvence altındadır",
+          "description": "Türkiye Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi, hastalık durumuna dayalı ayrımcılığı açıkça yasaklar ve hasta haklarını güvence altına alır."
         }
       ]
     },
@@ -1295,8 +1295,8 @@
           "description": "Sizi ayrıca veya günün son vakası olarak planlamayız. Her hasta gibi aynı cerrahı, aynı ameliyathaneyi ve aynı aletleri alırsınız — çünkü prosedürle ilgili hiçbir şey değişmez."
         },
         {
-          "title": "İşaretli dosya yok, 'kırmızı sticker' yok",
-          "description": "Durumunuz yalnızca cerrahınızın ve anestezistinizin erişebildiği şifrelenmiş hasta dosyanızda kayıtlıdır. Oda dışında işaretleme yoktur. Resepsiyon, şoförler, otel personeli ve tercümanlar tıbbi dosyanızı asla görmez."
+          "title": "Tıbbi kayıtlarda tam gizlilik",
+          "description": "Durumunuz yalnızca cerrahınızın ve anestezistinizin erişebildiği şifrelenmiş hasta dosyanızda kayıtlıdır; tıbbi bilgileriniz yalnızca cerrahi ekibinizle paylaşılır."
         },
         {
           "title": "Diskret ödeme seçenekleri",
@@ -1312,7 +1312,7 @@
       "title": "Gizlilik, pratikte — sadece kâğıt üzerinde değil",
       "items": [
         "Tıbbi kayıtlar şifrelenmiş ve yalnızca doğrudan cerrahi ekibinize erişilebilir",
-        "Şoförlere, otel personeline veya tercümanlara durum ifşası yok",
+        "Tıbbi bilgileriniz yalnızca cerrahi ekibinizle paylaşılır",
         "Fotoğraf belgeleri kimlik tanımlayıcı meta veriler olmadan saklanır",
         "Talep halinde faturalar 'estetik prosedür' olarak etiketlenir",
         "Açıkça yetkilendirmediğiniz sürece sigorta yazışması yapılmaz",
@@ -1387,7 +1387,7 @@
         },
         {
           "question": "Bu Türkiye'de yasal mı?",
-          "answer": "Evet — açıkça. Türk Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi uyarınca HIV durumu nedeniyle bakımı reddetmek yasadışıdır. Uygun önlemler ve aydınlatılmış onamla prosedürün gerçekleştirilmesi tamamen yasaldır."
+          "answer": "Evet. Türk Hasta Hakları Yönetmeliği ve Tıbbi Deontoloji Nizamnamesi hasta haklarını güvence altına alır; uygun önlemler ve aydınlatılmış onamla prosedürün gerçekleştirilmesi tamamen yasaldır."
         },
         {
           "question": "Partnerim veya ailem durumumu bilmiyorsa?",

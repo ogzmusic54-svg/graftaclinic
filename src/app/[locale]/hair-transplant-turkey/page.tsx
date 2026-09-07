@@ -256,9 +256,9 @@ export default async function HairTransplantTurkeyPage({ params }: PageProps) {
             <table className="w-full text-left">
               <thead className="bg-[var(--color-surface-low)] text-xs uppercase tracking-wide text-[var(--color-text-muted)]">
                 <tr>
-                  <th className="px-6 py-3 font-medium">Country</th>
-                  <th className="px-6 py-3 font-medium">Price (5,000 grafts)</th>
-                  <th className="px-6 py-3 font-medium hidden md:table-cell">Notes</th>
+                  <th className="px-6 py-3 font-medium">{t("whyTurkey.comparison.labels.country")}</th>
+                  <th className="px-6 py-3 font-medium">{t("whyTurkey.comparison.labels.price")}</th>
+                  <th className="px-6 py-3 font-medium hidden md:table-cell">{t("whyTurkey.comparison.labels.notes")}</th>
                 </tr>
               </thead>
               <tbody>

@@ -939,7 +939,12 @@
             "note": "Vom Chirurgen geleitet, all-inclusive (Hotel + Transfer + Dolmetscher)"
           }
         ],
-        "note": "Der Vergleich ist ein allgemeiner Rahmen auf Basis öffentlich verfügbarer Klinikinformationen der jeweiligen Region. Die Pakete der Grafta Clinic beinhalten Hotelunterkunft, VIP-Flughafentransfer, Dolmetscherdienst, alle Medikamente und ein 12-monatiges Nachsorgeprogramm. Ein persönliches Angebot erhalten Sie nach der kostenlosen Beratung."
+        "note": "Der Vergleich ist ein allgemeiner Rahmen auf Basis öffentlich verfügbarer Klinikinformationen der jeweiligen Region. Die Pakete der Grafta Clinic beinhalten Hotelunterkunft, VIP-Flughafentransfer, Dolmetscherdienst, alle Medikamente und ein 12-monatiges Nachsorgeprogramm. Ein persönliches Angebot erhalten Sie nach der kostenlosen Beratung.",
+        "labels": {
+          "country": "Land",
+          "price": "Kostenniveau",
+          "notes": "Hinweise"
+        }
       }
     },
     "whyGrafta": {
@@ -1018,7 +1023,7 @@
     },
     "pricing": {
       "title": "Haartransplantation Türkei — transparente Preise",
-      "subtitle": "Alle Pakete sind All-inclusive. Die Zahl, die Sie sehen, ist die Zahl, die Sie zahlen.",
+      "subtitle": "Alle Pakete sind All-inclusive. Ihr persönliches Angebot erhalten Sie klar nach einer kostenlosen Vorbeurteilung.",
       "disclaimer": "Der endgültige Preis wird nach einer kostenlosen Vorbeurteilung (Foto oder Video) bestätigt. Die Graft-Anzahl wird durch die Dichte Ihres Spenderbereichs und die Größe des Empfängerbereichs bestimmt — nicht durch einen Aufpreis in der Klinik.",
       "tiers": [
         {
@@ -1053,7 +1058,7 @@
         },
         {
           "name": "Signature (Afro / Frauen / Mega-Sitzung)",
-          "price": "individuelles Angebot",
+          "price": "Individuelles Angebot",
           "grafts": "bis zu 6.000 Grafts",
           "includes": [
             "Spezialisierte Chirurgin/Chirurg (Afro / Frauen / Mega-Sitzung)",

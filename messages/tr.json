@@ -939,7 +939,12 @@
             "note": "Cerrah uygular, her şey dahil (otel + transfer + tercüman)"
           }
         ],
-        "note": "Karşılaştırma, her bölgedeki kamuya açık klinik bilgilerine dayalı genel bir çerçevedir. Grafta Clinic paketlerine otel konaklaması, VIP havalimanı transferi, tercüman hizmeti, tüm ilaçlar ve 12 ay takip programı dahildir. Net teklif ücretsiz konsültasyon sonrasında paylaşılır."
+        "note": "Karşılaştırma, her bölgedeki kamuya açık klinik bilgilerine dayalı genel bir çerçevedir. Grafta Clinic paketlerine otel konaklaması, VIP havalimanı transferi, tercüman hizmeti, tüm ilaçlar ve 12 ay takip programı dahildir. Net teklif ücretsiz konsültasyon sonrasında paylaşılır.",
+        "labels": {
+          "country": "Ülke",
+          "price": "Maliyet düzeyi",
+          "notes": "Notlar"
+        }
       }
     },
     "whyGrafta": {
@@ -1018,7 +1023,7 @@
     },
     "pricing": {
       "title": "Türkiye saç ekimi — şeffaf fiyatlandırma",
-      "subtitle": "Tüm paketler her şey dahildir. Gördüğünüz rakam ödediğiniz rakamdır.",
+      "subtitle": "Tüm paketler her şey dahildir. Size özel teklifinizi ücretsiz ön değerlendirme sonrasında net olarak paylaşırız.",
       "disclaimer": "Nihai fiyat, ücretsiz ön değerlendirme (fotoğraf veya video) sonrasında onaylanır. Greft sayısı donör bölge yoğunluğunuza ve alıcı bölge büyüklüğüne göre belirlenir — klinikteki ek satışla değil.",
       "tiers": [
         {
@@ -1053,7 +1058,7 @@
         },
         {
           "name": "Signature (Afro / Kadın / Mega-seans)",
-          "price": "kişiye özel teklif",
+          "price": "Kişiye özel teklif",
           "grafts": "6.000 grefte kadar",
           "includes": [
             "Uzman cerrah (afro / kadın / mega-seans)",

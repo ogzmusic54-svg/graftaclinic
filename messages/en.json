@@ -939,7 +939,12 @@
             "note": "Surgeon-led, all-inclusive (hotel + transfer + interpreter)"
           }
         ],
-        "note": "The comparison is a general framework based on publicly available clinic information in each region. Grafta Clinic packages include hotel accommodation, VIP airport transfer, interpreter services, all medications and a 12-month follow-up programme. A personal quote is shared after your free consultation."
+        "note": "The comparison is a general framework based on publicly available clinic information in each region. Grafta Clinic packages include hotel accommodation, VIP airport transfer, interpreter services, all medications and a 12-month follow-up programme. A personal quote is shared after your free consultation.",
+        "labels": {
+          "country": "Country",
+          "price": "Cost level",
+          "notes": "Notes"
+        }
       }
     },
     "whyGrafta": {
@@ -1018,7 +1023,7 @@
     },
     "pricing": {
       "title": "Hair transplant Turkey — transparent pricing",
-      "subtitle": "All packages are all-inclusive. The number you see is the number you pay.",
+      "subtitle": "All packages are all-inclusive. Your personal quote is shared clearly after a free pre-assessment.",
       "disclaimer": "Final pricing is confirmed after a free pre-evaluation (photo or video). Graft count is determined by your donor area density and recipient area size — not by an upsell at the clinic.",
       "tiers": [
         {
@@ -1053,7 +1058,7 @@
         },
         {
           "name": "Signature (Afro / Women / Mega-session)",
-          "price": "tailored quote",
+          "price": "Personal quote",
           "grafts": "up to 6,000 grafts",
           "includes": [
             "Specialist surgeon (afro / female / mega-session)",

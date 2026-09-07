@@ -39,7 +39,7 @@ export function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="container-content flex h-20 items-center justify-between gap-6">
+      <div className="container-content flex h-24 items-center justify-between gap-6">
         <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
           <Image
             src={siteConfig.brand.logoLight}
@@ -47,7 +47,7 @@ export function Header() {
             width={400}
             height={200}
             priority
-            className="h-14 w-auto md:h-16"
+            className="h-[4.5rem] w-auto md:h-20"
           />
         </Link>
 

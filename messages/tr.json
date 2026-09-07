@@ -43,7 +43,7 @@
       "secondaryCta": "Hizmetleri İncele",
       "badges": [
         "Ücretsiz konsültasyon",
-        "Garantili sonuç",
+        "Şeffaf süreç",
         "60+ ülkeden hasta",
         "7/24 tercüman desteği"
       ]
@@ -220,8 +220,8 @@
         },
         {
           "key": "warranty",
-          "title": "Garanti Belgesi",
-          "description": "Tüm operasyonlarımız resmi garanti belgesiyle. Kontrol gezilerinize doktorunuz hazır."
+          "title": "Uzun Dönem Takip",
+          "description": "Tüm operasyonlar yapılandırılmış takip programıyla desteklenir. Kontrol gezilerinize doktorunuz hazır."
         }
       ]
     },
@@ -248,8 +248,8 @@
           "answer": "Saç ekimi sonrası 7-10 gün içinde sosyal hayata dönülebilir. Plastik cerrahide 2-3 haftada belirgin iyileşme, tam toparlanma 4-6 hafta. Süreç boyunca doktorunuzla WhatsApp temasınız aktif."
         },
         {
-          "question": "Sonuç garantisi var mı?",
-          "answer": "Evet. Tüm operasyonlarımız yazılı garanti belgesiyle yapılır. Beklenen sonuç sağlanmazsa belirlenen koşullar altında ücretsiz revizyon yapılır."
+          "question": "Sonuç garantisi veriyor musunuz?",
+          "answer": "Tıbbi uygulamalarda sonuç kişiden kişiye değiştiği için sonuç garantisi vermiyoruz. Bunun yerine 12 aylık yapılandırılmış takip programı uygular, belirlenen koşullar sağlandığında ücretsiz revizyon imkânı sunarız."
         },
         {
           "question": "Hangi dillerde hizmet veriyorsunuz?",
@@ -872,7 +872,7 @@
   "hairTransplantTurkey": {
     "meta": {
       "title": "Türkiye'nin En İyi Saç Ekimi Kliniği 2025 — Grafta Clinic İstanbul",
-      "description": "Türkiye'de saç ekimi mi düşünüyorsunuz? Grafta Clinic İstanbul'da FUE, DHI ve Safir FUE teknikleri, her şey dahil paketlerle 1.950 $'dan başlayan fiyatlarla. Sağlık turizmi yetki belgeli, ISO sertifikalı, ömür boyu takip. Ücretsiz konsültasyon.",
+      "description": "Türkiye'de saç ekimi mi düşünüyorsunuz? Grafta Clinic İstanbul'da FUE, DHI ve Safir FUE teknikleri, her şey dahil paketlerle. Sağlık turizmi yetki belgeli, ISO sertifikalı, ömür boyu takip. Ücretsiz konsültasyon.",
       "keywords": "türkiye en iyi saç ekimi kliniği, istanbul saç ekimi, türkiye saç ekimi 2025, türkiye saç ekimi fiyat, fue dhi safir türkiye, afro saç ekimi türkiye, kadın saç ekimi türkiye"
     },
     "hero": {
@@ -883,10 +883,10 @@
       "primaryCta": "WhatsApp'tan Ücretsiz Konsültasyon",
       "secondaryCta": "Hemen Ara",
       "trustChips": [
-        "Her şey dahil 1.950 $'dan",
+        "Her şey dahil paketler",
         "ISO 9001 sertifikalı klinik",
         "ISHRS uyumlu cerrahlar",
-        "Yazılı garanti",
+        "12 ay takip programı",
         "Ömür boyu takip"
       ]
     },
@@ -920,26 +920,26 @@
         "rows": [
           {
             "country": "ABD (NYC, Miami, LA)",
-            "price": "15.000 – 25.000 $",
+            "price": "Yüksek maliyet bandı",
             "note": "Sıklıkla teknisyen uygular; cerrah katılımı değişkendir"
           },
           {
             "country": "İngiltere (Londra)",
-            "price": "10.000 – 18.000 £",
+            "price": "Yüksek maliyet bandı",
             "note": "Uzun bekleme listeleri, seans başına sınırlı greft kapasitesi"
           },
           {
             "country": "Almanya / Hollanda",
-            "price": "8.000 – 15.000 €",
+            "price": "Orta-yüksek maliyet bandı",
             "note": "Yüksek sigorta yükü fiyata yansıyor"
           },
           {
             "country": "Türkiye · Grafta Clinic İstanbul",
-            "price": "2.950 – 4.500 $",
+            "price": "Erişilebilir · her şey dahil",
             "note": "Cerrah uygular, her şey dahil (otel + transfer + tercüman)"
           }
         ],
-        "note": "Fiyatlar 2025 yılı için her bölgedeki kamuya açık klinik ortalamalarını yansıtır. Grafta Clinic fiyatlarına otel konaklaması, VIP havalimanı transferi, tercüman hizmeti, tüm ilaçlar ve yazılı garanti dahildir."
+        "note": "Karşılaştırma, her bölgedeki kamuya açık klinik bilgilerine dayalı genel bir çerçevedir. Grafta Clinic paketlerine otel konaklaması, VIP havalimanı transferi, tercüman hizmeti, tüm ilaçlar ve 12 ay takip programı dahildir. Net teklif ücretsiz konsültasyon sonrasında paylaşılır."
       }
     },
     "whyGrafta": {
@@ -967,8 +967,8 @@
           "description": "Türkiye Cumhuriyeti Sağlık Bakanlığı'nca uluslararası hasta bakımı için resmi olarak kayıtlıdır (lisans numarası konsültasyonda paylaşılır). Bu, denetimli uyumluluğa tabi düzenlenmiş bir statüdür."
         },
         {
-          "title": "Yazılı garanti ve ücretsiz revizyon hakkı",
-          "description": "12. ayda greft tutma oranınız anlaşılan eşiğin altına düşerse ücretsiz revizyon seansı uygularız. Garanti pazarlama sloganı değil; sözleşme şartıdır."
+          "title": "Ücretsiz revizyon hakkı",
+          "description": "12. ayda greft tutma oranınız anlaşılan eşiğin altına düşerse, belirlenen koşullar çerçevesinde ücretsiz revizyon seansı uygularız."
         },
         {
           "title": "Ömür boyu takip — cerrahınızla, çağrı merkeziyle değil",
@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ Dostu Protokol",
           "tagline": "Aynı gün operasyon, ayrımcılık yok",
-          "description": "Kontrollü viral yüke sahip HIV pozitif hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemleri uyguluyoruz. Türkiye'deki birçok klinik sessizce reddeder — biz reddetmiyoruz. Gizlilik garantilidir."
+          "description": "Kontrollü viral yüke sahip HIV pozitif hastaları kabul ediyoruz; her hasta için uyguladığımız evrensel steril önlemleri uyguluyoruz. Türkiye'deki birçok klinik sessizce reddeder — biz reddetmiyoruz. Gizlilik esastır."
         }
       ]
     },
@@ -1023,7 +1023,7 @@
       "tiers": [
         {
           "name": "Essential FUE",
-          "price": "1.950 $'dan",
+          "price": "Kişiye özel teklif",
           "grafts": "3.500 grefte kadar",
           "includes": [
             "Cerrah uygulamalı FUE",
@@ -1031,13 +1031,13 @@
             "VIP havalimanı ↔ otel ↔ klinik transferleri",
             "İngilizce / Almanca / Arapça tercüman",
             "1 PRP seansı",
-            "12 ay yazılı garanti",
+            "12 ay yapılandırılmış takip",
             "İyileşme kiti (şampuan, losyon, köpük)"
           ]
         },
         {
           "name": "Premium Safir FUE / DHI",
-          "price": "2.950 $'dan",
+          "price": "Kişiye özel teklif",
           "grafts": "5.000 grefte kadar",
           "includes": [
             "Cerrah uygulamalı Safir FUE veya DHI",
@@ -1045,7 +1045,7 @@
             "VIP havalimanı ↔ otel ↔ klinik transferleri",
             "Çok dilli tercüman (7/24 WhatsApp)",
             "2 PRP seansı",
-            "12 ay yazılı garanti",
+            "12 ay yapılandırılmış takip",
             "İyileşme kiti + diyet takviyeleri",
             "Op sonrası 4 video konsültasyon"
           ],
@@ -1061,7 +1061,7 @@
             "Özel VIP transferler + concierge",
             "Özel vaka yöneticisi",
             "3 PRP + 1 ekzosom seansı",
-            "Greft canlılığında ömür boyu garanti",
+            "Greft canlılığında ömür boyu takip",
             "Premium iyileşme kiti",
             "24 ay boyunca üç ayda bir video takip"
           ]
@@ -1098,7 +1098,7 @@
         },
         {
           "title": "12 ay takip",
-          "description": "1, 3, 6, 12. ayda fotoğraf incelemeleri. Cerrahınıza doğrudan WhatsApp hattı. Garanti kriterleri karşılanmazsa ücretsiz revizyon."
+          "description": "1, 3, 6, 12. ayda fotoğraf incelemeleri. Cerrahınıza doğrudan WhatsApp hattı. Belirlenen takip kriterleri karşılanmazsa ücretsiz revizyon."
         },
         {
           "title": "Opsiyonel: refakatçi dostu",
@@ -1154,7 +1154,7 @@
         },
         {
           "title": "HIV pozitif hastalar",
-          "description": "Kontrollü viral yüke sahip HIV+ hastaları kabul ediyoruz. Evrensel önlemler her hastaya zaten uygulanıyor; farklı bir protokole ihtiyaç yok. Türkiye hasta gizlilik mevzuatı uyarınca gizlilik garantilidir."
+          "description": "Kontrollü viral yüke sahip HIV+ hastaları kabul ediyoruz. Evrensel önlemler her hastaya zaten uygulanıyor; farklı bir protokole ihtiyaç yok. Türkiye hasta gizlilik mevzuatı uyarınca gizlilik esastır."
         },
         {
           "title": "Onarım / ikinci operasyon vakaları",
@@ -1180,11 +1180,11 @@
       "items": [
         {
           "question": "Türkiye'de saç ekimi güvenli mi?",
-          "answer": "Lisanslı kliniklerde — evet. Şunlara bakın: Sağlık Bakanlığı sağlık turizmi yetki belgesi, ISO 9001 sertifikası, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler ve yazılı garantiler. Grafta Clinic'te dördü de mevcuttur. Lisans numarasını paylaşmayı reddeden veya cerrah başına günde 8-10 hasta uygulayan kliniklerden kaçının."
+          "answer": "Lisanslı kliniklerde — evet. Şunlara bakın: Sağlık Bakanlığı sağlık turizmi yetki belgesi, ISO 9001 sertifikası, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler ve yapılandırılmış takip programları. Grafta Clinic'te dördü de mevcuttur. Lisans numarasını paylaşmayı reddeden veya cerrah başına günde 8-10 hasta uygulayan kliniklerden kaçının."
         },
         {
           "question": "ABD/İngiltere'ye kıyasla Türkiye'de saç ekimi ne kadar?",
-          "answer": "5.000 greftlik Safir FUE, Grafta Clinic İstanbul'da her şey dahil 2.950 – 4.500 $ iken ABD'de (NYC, Miami, LA) 15.000 – 25.000 $ ve İngiltere'de 10.000 – 18.000 £ aralığındadır. Fiyat farkı düşük yerel maliyetler ve rekabetçi medikal turizm pazarından kaynaklanır — düşük kaliteden değil."
+          "answer": "Türkiye'de maliyet, ABD ve İngiltere'ye kıyasla belirgin şekilde daha uygundur. Fark, daha düşük yerel işletme giderlerinden ve rekabetçi sağlık turizmi pazarından kaynaklanır — kalite farkından değil. Size özel teklif, ücretsiz ön değerlendirme sonrasında paylaşılır."
         },
         {
           "question": "En iyi saç ekimi tekniği hangisi — FUE, DHI yoksa Safir FUE?",
@@ -1196,7 +1196,7 @@
         },
         {
           "question": "Her şey dahil pakete neler dahil?",
-          "answer": "VIP havalimanı transferi (gidiş-dönüş), 4 veya 5 yıldızlı otelde 2-3 gece, çok dilli tercüman, tüm ilaçlar, PRP seansları, iyileşme kiti, 12 ay yazılı garanti ve op sonrası cerrahınıza WhatsApp erişimi. Gizli ücret yoktur."
+          "answer": "VIP havalimanı transferi (gidiş-dönüş), 4 veya 5 yıldızlı otelde 2-3 gece, çok dilli tercüman, tüm ilaçlar, PRP seansları, iyileşme kiti, 12 ay yapılandırılmış takip ve op sonrası cerrahınıza WhatsApp erişimi. Gizli ücret yoktur."
         },
         {
           "question": "Nihai sonucu ne zaman göreceğim?",
@@ -1204,7 +1204,7 @@
         },
         {
           "question": "HIV pozitif hastaları kabul ediyor musunuz?",
-          "answer": "Evet. Kontrollü viral yük ve güncel kan tahlilleriyle HIV+ hastaları kısıtlamasız kabul ediyoruz. Statüsünden bağımsız olarak her hastaya evrensel steril önlemler uygulanır. Türkiye hasta gizlilik mevzuatı uyarınca tam gizlilik garantilidir."
+          "answer": "Evet. Kontrollü viral yük ve güncel kan tahlilleriyle HIV+ hastaları kısıtlamasız kabul ediyoruz. Statüsünden bağımsız olarak her hastaya evrensel steril önlemler uygulanır. Türkiye hasta gizlilik mevzuatı uyarınca tam gizlilik esastır."
         },
         {
           "question": "Afro saç ekimi yapıyor musunuz?",
@@ -1216,7 +1216,7 @@
         },
         {
           "question": "Türkiye'de hangi kliniğin en iyi olduğunu nasıl anlarım?",
-          "answer": "Doğrulanabilir göstergeler: Sağlık Bakanlığı yetki belgesi, ISO 9001 sertifikası, ISHRS cerrah üyeliği, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler, cerrah başına günde ≤2 hasta, gün-ek-satışı olmayan şeffaf fiyatlandırma, yazılı garanti ve 12 ay takip programı. Para vererek girdikleri 'Türkiye'de #1' listelerinde sıralanan kliniklere dikkat — bağımsız Trustpilot, Google ve Reddit yorumlarını kontrol edin."
+          "answer": "Doğrulanabilir göstergeler: Sağlık Bakanlığı yetki belgesi, ISO 9001 sertifikası, ISHRS cerrah üyeliği, cerrah uygulamalı (yalnızca teknisyen değil) prosedürler, cerrah başına günde ≤2 hasta, ek satış içermeyen şeffaf süreç ve 12 ay takip programı. Para vererek girdikleri 'Türkiye'de #1' listelerinde sıralanan kliniklere dikkat — bağımsız Trustpilot, Google ve Reddit yorumlarını kontrol edin."
         },
         {
           "question": "Reddit ve Trustpilot yorumları ne durumda?",
@@ -1224,7 +1224,7 @@
         },
         {
           "question": "Sonuç beklendiği gibi olmazsa ne olur?",
-          "answer": "Yazılı garantimiz 12. ayda greft tutma oranını kapsar. Anlaşılan eşiğin altına düşerse ücretsiz revizyon seansı uygularız. Premium pakette revizyon için seyahat ve konaklama da dahildir."
+          "answer": "Takip programımız 12. ayda greft tutma oranını değerlendirir. Anlaşılan eşiğin altına düşerse belirlenen koşullar çerçevesinde ücretsiz revizyon seansı uygularız. Premium pakette revizyon için seyahat ve konaklama da dahildir."
         },
         {
           "question": "Ücretsiz konsültasyonu nasıl ayırtırım?",
@@ -1242,7 +1242,7 @@
   "hivPositive": {
     "meta": {
       "title": "Türkiye'de HIV Pozitif Saç Ekimi — Gizli, Ayrımcılıksız | Grafta Clinic",
-      "description": "Evet, İstanbul'da HIV pozitif hastalara saç ekimi uyguluyoruz. Aynı cerrah, aynı ameliyathane, aynı her şey dahil fiyat — mutlak gizlilik ile. Her hastaya aynı protokol, ek ücret yok, işaretli dosya yok. Ücretsiz, gizli konsültasyon.",
+      "description": "İstanbul'da HIV pozitif hastalara saç ekimi uyguluyoruz. Aynı cerrah, aynı ameliyathane, aynı bakım standardı — mutlak gizlilik ile. HIV pozitif vakalarda ücretlendirme, gereken ek tetkik ve hazırlık süreçlerine bağlı olarak farklılık gösterebilir; net bilgi ücretsiz ve gizli konsültasyonda paylaşılır.",
       "keywords": "hiv pozitif saç ekimi türkiye, hiv saç ekimi istanbul, hiv dostu saç ekimi kliniği, hiv hastaları için saç ekimi, gizli saç ekimi türkiye"
     },
     "hero": {
@@ -1253,7 +1253,7 @@
       "primaryCta": "Gizli WhatsApp",
       "secondaryCta": "Diskret E-posta",
       "trustChips": [
-        "Ek ücret yok",
+        "Ücretsiz ön değerlendirme",
         "Aynı cerrah, aynı ameliyathane",
         "Personele ifşa yok",
         "Her hastaya aynı protokol",
@@ -1262,7 +1262,7 @@
     },
     "intro": {
       "title": "Türkiye'deki birçok klinik neden sessizce 'hayır' diyor — ve biz neden demiyoruz",
-      "body": "HIV ile yaşayan birçok uluslararası hasta, durumlarını bir Türk saç ekimi kliniğine açıkladıktan sonra ya açıkça reddedildiklerini ya da 'takipten düştüklerini' bildiriyor. Genellikle gerekçe olarak HIV bir 'personel güvenliği' veya 'sterilizasyon' endişesi olarak sunuluyor. Her ikisi de tıbben ve hukuken yanlıştır. Modern saç ekimi prosedürleri zaten her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel önlemler kullanır — viral durumdan bağımsız olarak. HIV ile yaşayan bir kişiye bakım vermeyi reddetmek Türk tıbbi etik mevzuatını ihlal eder. Grafta Clinic'te her hastaya uyguladığımız bakım standardının aynısını uyguluyoruz: kontrollü viral yüke sahip HIV pozitif hastalar her hasta gibi tedavi edilir — ayrı oda, ayrı gün, ek ücret veya işaretli dosya yoktur."
+      "body": "HIV ile yaşayan birçok uluslararası hasta, durumlarını bir Türk saç ekimi kliniğine açıkladıktan sonra ya açıkça reddedildiklerini ya da 'takipten düştüklerini' bildiriyor. Genellikle gerekçe olarak HIV bir 'personel güvenliği' veya 'sterilizasyon' endişesi olarak sunuluyor. Her ikisi de tıbben ve hukuken yanlıştır. Modern saç ekimi prosedürleri zaten her hasta için tek kullanımlık punch'lar, tek kullanımlık iğneler ve evrensel önlemler kullanır — viral durumdan bağımsız olarak. HIV ile yaşayan bir kişiye bakım vermeyi reddetmek Türk tıbbi etik mevzuatını ihlal eder. Grafta Clinic'te her hastaya uyguladığımız bakım standardının aynısını uyguluyoruz: kontrollü viral yüke sahip HIV pozitif hastalar her hasta gibi tedavi edilir — ayrı oda, ayrı gün veya işaretli dosya yoktur. Ücretlendirme, vakanın gerektirdiği ek tetkik ve hazırlık süreçlerine göre konsültasyonda planlanır ve farklılık gösterebilir."
     },
     "medicalReality": {
       "title": "Tıbbi gerçek: HIV saç ekimi protokolünü değiştirmez",
@@ -1350,7 +1350,7 @@
         {
           "day": "5. Adım",
           "title": "İyileşme ve 12 ay takip",
-          "description": "1, 3, 6 ve 12. ayda diskret takip. Garanti kriterleri çerçevesinde ücretsiz revizyon. Her hastaya sunulan aynı bakım standardı."
+          "description": "1, 3, 6 ve 12. ayda diskret takip. Belirlenen kriterler çerçevesinde ücretsiz revizyon. Her hastaya sunulan aynı bakım standardı."
         }
       ]
     },
@@ -1359,7 +1359,7 @@
       "items": [
         {
           "question": "HIV pozitif olduğum için ek ücret alınacak mı?",
-          "answer": "Hayır. Ek ücret almak ayrımcılık olur. Fiyatlandırmamız her hastayla aynıdır: Safir FUE için her şey dahil 2.950 $'dan, Essential FUE için 1.950 $'dan başlar."
+          "answer": "HIV pozitif vakalarda ücretlendirme, gereken ek tetkik ve hazırlık süreçlerine bağlı olarak farklılık gösterebilir. Net bilgi, ücretsiz ve gizli ön değerlendirme sonrasında kişiye özel teklif olarak paylaşılır."
         },
         {
           "question": "Otele, şoföre veya tercümana durumumu açıklamam gerekiyor mu?",

@@ -43,7 +43,7 @@
       "secondaryCta": "Explore Services",
       "badges": [
         "Free consultation",
-        "Guaranteed results",
+        "Transparent process",
         "Patients from 60+ countries",
         "24/7 interpreter support"
       ]
@@ -220,8 +220,8 @@
         },
         {
           "key": "warranty",
-          "title": "Written Guarantee",
-          "description": "All procedures come with an official guarantee certificate. Your doctor is available during your follow-up trips."
+          "title": "Long-Term Follow-Up",
+          "description": "Every procedure is backed by a structured follow-up programme. Your doctor is available during your follow-up trips."
         }
       ]
     },
@@ -248,8 +248,8 @@
           "answer": "After hair transplant, social return in 7-10 days. After plastic surgery, visible recovery in 2-3 weeks, full recovery in 4-6 weeks. Your doctor stays in WhatsApp contact throughout."
         },
         {
-          "question": "Do you offer a guarantee?",
-          "answer": "Yes. All our procedures come with a written guarantee. If the expected result is not achieved, free revision applies under defined terms."
+          "question": "Do you guarantee results?",
+          "answer": "Because medical outcomes vary from person to person, we do not promise guaranteed results. Instead, we run a structured 12-month follow-up programme and offer a free revision when the defined criteria are met."
         },
         {
           "question": "Which languages do you support?",
@@ -872,7 +872,7 @@
   "hairTransplantTurkey": {
     "meta": {
       "title": "Best Hair Transplant Clinic in Turkey 2025 — Grafta Clinic Istanbul",
-      "description": "Choosing a hair transplant clinic in Turkey? Grafta Clinic Istanbul offers FUE, DHI and Sapphire FUE with all-inclusive packages from $1,950. Health-tourism authorized, ISO-certified, lifetime follow-up. Free consultation.",
+      "description": "Choosing a hair transplant clinic in Turkey? Grafta Clinic Istanbul offers FUE, DHI and Sapphire FUE with all-inclusive packages. Health-tourism authorized, ISO-certified, lifetime follow-up. Free consultation.",
       "keywords": "best hair transplant clinic in turkey, hair transplant istanbul, hair transplant turkey 2025, hair transplant turkey price, fue dhi sapphire turkey, afro hair transplant turkey, hair transplant clinic for women turkey"
     },
     "hero": {
@@ -883,10 +883,10 @@
       "primaryCta": "Get Free Consultation on WhatsApp",
       "secondaryCta": "Call Us Now",
       "trustChips": [
-        "All-inclusive from $1,950",
+        "All-inclusive packages",
         "ISO 9001 certified clinic",
         "ISHRS-aligned surgeons",
-        "Written guarantee",
+        "12-month follow-up",
         "Lifetime follow-up"
       ]
     },
@@ -920,26 +920,26 @@
         "rows": [
           {
             "country": "United States (NYC, Miami, LA)",
-            "price": "$15,000 – $25,000",
+            "price": "High cost band",
             "note": "Often technician-performed; surgeon involvement varies"
           },
           {
             "country": "United Kingdom (London)",
-            "price": "£10,000 – £18,000",
+            "price": "High cost band",
             "note": "Long waiting lists, limited graft capacity per session"
           },
           {
             "country": "Germany / Netherlands",
-            "price": "€8,000 – €15,000",
+            "price": "Mid-to-high cost band",
             "note": "High insurance overhead reflected in price"
           },
           {
             "country": "Turkey · Grafta Clinic Istanbul",
-            "price": "$2,950 – $4,500",
+            "price": "Accessible · all-inclusive",
             "note": "Surgeon-led, all-inclusive (hotel + transfer + interpreter)"
           }
         ],
-        "note": "Prices reflect 2025 averages from publicly listed clinics in each region. Grafta Clinic prices include hotel accommodation, VIP airport transfer, interpreter services, all medications and a written guarantee."
+        "note": "The comparison is a general framework based on publicly available clinic information in each region. Grafta Clinic packages include hotel accommodation, VIP airport transfer, interpreter services, all medications and a 12-month follow-up programme. A personal quote is shared after your free consultation."
       }
     },
     "whyGrafta": {
@@ -952,7 +952,7 @@
         },
         {
           "title": "Maximum 1 patient per surgeon per day",
-          "description": "We deliberately limit ourselves to one operation per surgeon per day. This guarantees full attention, no rushed graft handling, and the lowest possible follicle damage rate (under 5%, vs. industry average of 15-25%)."
+          "description": "We deliberately limit ourselves to one operation per surgeon per day. This ensures full attention, no rushed graft handling, and the lowest possible follicle damage rate (under 5%, vs. industry average of 15-25%)."
         },
         {
           "title": "FUE, DHI and Sapphire FUE — chosen for you, not for us",
@@ -967,8 +967,8 @@
           "description": "Officially registered with the Turkish Ministry of Health for international patient care (license number disclosed on consultation). This is a regulated status with audited compliance."
         },
         {
-          "title": "Written guarantee with free revision clause",
-          "description": "If your graft survival rate falls below the agreed threshold at month 12, we perform a free revision session. The guarantee is contractual, not a marketing slogan."
+          "title": "Free revision clause",
+          "description": "If your graft survival rate falls below the agreed threshold at month 12, we perform a free revision session under the defined terms."
         },
         {
           "title": "Lifetime follow-up — by your surgeon, not a call centre",
@@ -1012,7 +1012,7 @@
         {
           "name": "HIV+ Friendly Protocol",
           "tagline": "Same-day surgery, no discrimination",
-          "description": "We accept HIV-positive patients with controlled viral load and follow universal sterile precautions identical to those used for every patient. Many Turkish clinics quietly refuse — we do not. Discretion guaranteed."
+          "description": "We accept HIV-positive patients with controlled viral load and follow universal sterile precautions identical to those used for every patient. Many Turkish clinics quietly refuse — we do not. Discretion assured."
         }
       ]
     },
@@ -1023,7 +1023,7 @@
       "tiers": [
         {
           "name": "Essential FUE",
-          "price": "from $1,950",
+          "price": "Personal quote",
           "grafts": "up to 3,500 grafts",
           "includes": [
             "Surgeon-led FUE procedure",
@@ -1031,13 +1031,13 @@
             "VIP airport ↔ hotel ↔ clinic transfers",
             "English / German / Arabic interpreter",
             "PRP session × 1",
-            "12-month written guarantee",
+            "12-month structured follow-up",
             "Recovery kit (shampoo, lotion, foam)"
           ]
         },
         {
           "name": "Premium Sapphire FUE / DHI",
-          "price": "from $2,950",
+          "price": "Personal quote",
           "grafts": "up to 5,000 grafts",
           "includes": [
             "Surgeon-led Sapphire FUE or DHI",
@@ -1045,7 +1045,7 @@
             "VIP airport ↔ hotel ↔ clinic transfers",
             "Multilingual interpreter (24/7 WhatsApp)",
             "PRP session × 2",
-            "12-month written guarantee",
+            "12-month structured follow-up",
             "Recovery kit + dietary supplements",
             "Post-op video consultation × 4"
           ],
@@ -1061,7 +1061,7 @@
             "Private VIP transfers + concierge",
             "Dedicated case manager",
             "PRP × 3 + exosome session",
-            "Lifetime guarantee on graft viability",
+            "Lifetime follow-up on graft viability",
             "Premium recovery kit",
             "Quarterly video follow-ups for 24 months"
           ]
@@ -1098,7 +1098,7 @@
         },
         {
           "title": "12-month follow-up",
-          "description": "Photo reviews at month 1, 3, 6, 12. Direct WhatsApp line to your surgeon. Free revision if guarantee criteria are not met."
+          "description": "Photo reviews at month 1, 3, 6, 12. Direct WhatsApp line to your surgeon. Free revision if the defined follow-up criteria are not met."
         },
         {
           "title": "Optional: companion friendly",
@@ -1154,7 +1154,7 @@
         },
         {
           "title": "HIV-positive patients",
-          "description": "We accept HIV+ patients with controlled viral load. Universal precautions are applied to every patient already, so no different protocol is needed. Confidentiality guaranteed under Turkish patient privacy law."
+          "description": "We accept HIV+ patients with controlled viral load. Universal precautions are applied to every patient already, so no different protocol is needed. Confidentiality is protected under Turkish patient privacy law."
         },
         {
           "title": "Repair / second-procedure cases",
@@ -1180,11 +1180,11 @@
       "items": [
         {
           "question": "Is hair transplant in Turkey safe?",
-          "answer": "At licensed clinics — yes. Look for: Ministry of Health health-tourism license, ISO 9001 certification, surgeon-led procedures (not technician-only), and written guarantees. Grafta Clinic holds all four. Avoid clinics that refuse to share their license number or perform 8-10 patients per surgeon per day."
+          "answer": "At licensed clinics — yes. Look for: Ministry of Health health-tourism license, ISO 9001 certification, surgeon-led procedures (not technician-only), and structured follow-up programmes. Grafta Clinic holds all four. Avoid clinics that refuse to share their license number or perform 8-10 patients per surgeon per day."
         },
         {
           "question": "How much does a hair transplant cost in Turkey vs the US/UK?",
-          "answer": "A 5,000-graft Sapphire FUE costs $2,950 – $4,500 all-inclusive at Grafta Clinic Istanbul, vs $15,000 – $25,000 in the US (NYC, Miami, LA) and £10,000 – £18,000 in the UK. The price gap reflects lower local overhead and a competitive medical-tourism market — not lower quality."
+          "answer": "Costs in Turkey are significantly more accessible than in the US or the UK. The gap reflects lower local overhead and a competitive medical-tourism market — not lower quality. Your personal quote is shared after a free pre-assessment."
         },
         {
           "question": "Which is the best hair transplant technique — FUE, DHI or Sapphire FUE?",
@@ -1196,7 +1196,7 @@
         },
         {
           "question": "What is included in the all-inclusive package?",
-          "answer": "VIP airport transfer (round-trip), 2-3 nights at a 4 or 5-star hotel, multilingual interpreter, all medications, PRP sessions, recovery kit, written 12-month guarantee and post-op WhatsApp access to your surgeon. No hidden fees."
+          "answer": "VIP airport transfer (round-trip), 2-3 nights at a 4 or 5-star hotel, multilingual interpreter, all medications, PRP sessions, recovery kit, structured 12-month follow-up and post-op WhatsApp access to your surgeon. No hidden fees."
         },
         {
           "question": "When will I see the final result?",
@@ -1204,7 +1204,7 @@
         },
         {
           "question": "Do you accept HIV-positive patients?",
-          "answer": "Yes. With a controlled viral load and current bloodwork we accept HIV+ patients without restriction. Universal sterile precautions are applied to every patient regardless of status. Strict confidentiality is guaranteed under Turkish patient privacy law."
+          "answer": "Yes. With a controlled viral load and current bloodwork we accept HIV+ patients without restriction. Universal sterile precautions are applied to every patient regardless of status. Strict confidentiality is protected under Turkish patient privacy law."
         },
         {
           "question": "Can you do afro hair transplant?",
@@ -1216,7 +1216,7 @@
         },
         {
           "question": "How do I know which clinic is the best in Turkey?",
-          "answer": "Verifiable signals: Ministry of Health license, ISO 9001 certification, ISHRS surgeon membership, surgeon-led (not technician-only) procedures, ≤2 patients per surgeon per day, transparent pricing without day-of upsells, written guarantee, and a 12-month follow-up programme. Be cautious of clinics ranking on '#1 in Turkey' lists they paid for — check independent Trustpilot, Google and Reddit reviews."
+          "answer": "Verifiable signals: Ministry of Health license, ISO 9001 certification, ISHRS surgeon membership, surgeon-led (not technician-only) procedures, ≤2 patients per surgeon per day, a transparent process without day-of upsells, and a 12-month follow-up programme. Be cautious of clinics ranking on '#1 in Turkey' lists they paid for — check independent Trustpilot, Google and Reddit reviews."
         },
         {
           "question": "What about Reddit and Trustpilot reviews?",
@@ -1224,7 +1224,7 @@
         },
         {
           "question": "What if the result is not as expected?",
-          "answer": "Our written guarantee covers graft survival rate at month 12. If it falls below the agreed threshold, we perform a free revision session. Travel and accommodation for revision are also covered under the premium package."
+          "answer": "Our follow-up programme assesses graft survival at month 12. If it falls below the agreed threshold, we perform a free revision session under the defined terms. Travel and accommodation for revision are also covered under the premium package."
         },
         {
           "question": "How do I book a free consultation?",
@@ -1242,7 +1242,7 @@
   "hivPositive": {
     "meta": {
       "title": "HIV-Positive Hair Transplant in Turkey — Confidential, Discrimination-Free | Grafta Clinic",
-      "description": "Yes, we perform hair transplants for HIV-positive patients in Istanbul. Same surgeon, same theatre, same all-inclusive price — with absolute confidentiality. Same protocol for every patient, no extra cost, no marked file. Free, discreet consultation.",
+      "description": "We perform hair transplants for HIV-positive patients in Istanbul. Same surgeon, same theatre, same standard of care — with absolute confidentiality. For HIV-positive cases, pricing may vary depending on the additional testing and preparation required; details are shared in a free, discreet consultation.",
       "keywords": "hiv positive hair transplant turkey, hiv hair transplant istanbul, hiv friendly hair transplant clinic, hair transplant for hiv patients, discreet hair transplant turkey"
     },
     "hero": {
@@ -1253,7 +1253,7 @@
       "primaryCta": "Confidential WhatsApp",
       "secondaryCta": "Discreet Email",
       "trustChips": [
-        "No additional cost",
+        "Free pre-assessment",
         "Same surgeon, same theatre",
         "No staff disclosure",
         "Same protocol for every patient",
@@ -1262,7 +1262,7 @@
     },
     "intro": {
       "title": "Why so many Turkish clinics quietly say no — and why we don't",
-      "body": "Many international patients living with HIV report being either openly refused or 'lost in follow-up' once they disclose their status to a Turkish hair transplant clinic. The reasons cited usually frame HIV as a 'staff safety' or 'sterilization' concern. Both are medically and legally inaccurate. Modern hair transplant procedures already use single-use punches, single-use needles and universal precautions for every patient — irrespective of viral status. Refusing care to a person living with HIV violates Turkish medical ethics regulations. At Grafta Clinic we apply the same standard of care as for any other patient: HIV-positive patients with controlled viral load are treated identically to any other patient — no separate room, no separate day, no extra cost, no marked file."
+      "body": "Many international patients living with HIV report being either openly refused or 'lost in follow-up' once they disclose their status to a Turkish hair transplant clinic. The reasons cited usually frame HIV as a 'staff safety' or 'sterilization' concern. Both are medically and legally inaccurate. Modern hair transplant procedures already use single-use punches, single-use needles and universal precautions for every patient — irrespective of viral status. Refusing care to a person living with HIV violates Turkish medical ethics regulations. At Grafta Clinic we apply the same standard of care as for any other patient: HIV-positive patients with controlled viral load are treated identically to any other patient — no separate room, no separate day, no marked file. Pricing is planned during your consultation according to the additional testing and preparation your case requires, and may vary."
     },
     "medicalReality": {
       "title": "The medical reality: HIV does not change the hair transplant protocol",
@@ -1350,7 +1350,7 @@
         {
           "day": "Step 5",
           "title": "Recovery & 12-month follow-up",
-          "description": "Discreet follow-up at month 1, 3, 6 and 12. Free revision under guarantee criteria. The same standard of care extended to every patient."
+          "description": "Discreet follow-up at month 1, 3, 6 and 12. Free revision under the defined criteria. The same standard of care extended to every patient."
         }
       ]
     },
@@ -1359,7 +1359,7 @@
       "items": [
         {
           "question": "Will I be charged extra because I'm HIV-positive?",
-          "answer": "No. Charging extra would be discrimination. Our pricing is identical to every other patient: from $2,950 all-inclusive for Sapphire FUE, from $1,950 for Essential FUE."
+          "answer": "For HIV-positive cases, pricing may vary depending on the additional testing and preparation required. Exact details are shared as a personal quote after a free, discreet pre-assessment."
         },
         {
           "question": "Do I need to disclose my status to the hotel, driver or interpreter?",

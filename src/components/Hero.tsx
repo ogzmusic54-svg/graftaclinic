@@ -25,7 +25,7 @@ export function Hero() {
 
       <div className="container-content py-28 md:py-40 lg:py-48 text-white">
         <div className="max-w-3xl space-y-7">
-          <p className="label-caps text-[var(--color-accent-soft)]">{t("kicker")}</p>
+          <p className="brand-kicker text-[var(--color-accent-soft)]">{t("kicker")}</p>
           <h1 className="font-serif text-white whitespace-pre-line">{t("title")}</h1>
           <p className="text-lg md:text-xl text-white/85 leading-relaxed max-w-2xl">
             {t("subtitle")}

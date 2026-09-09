@@ -109,8 +109,13 @@ async function smtpGonder(p: Basvuru): Promise<void> {
     secure: port === 465,
     // Kimlik bilgisi yoksa yerel teslim denenir (aynı makinedeki posta sunucusu).
     ...(user && sifre ? { auth: { user, pass: sifre } } : {}),
-    // Yerel/otomatik sertifikalarda teslimi engellememek için.
-    tls: { rejectUnauthorized: false },
+    // Sertifika doğrulaması varsayılan olarak AÇIK: şifre relay'e (SMTP2GO)
+    // giderken bağlantının doğrulanmış olması gerekir. Yalnızca kendi
+    // sunucusundaki otomatik imzalı sertifikaya bağlanılıyorsa
+    // SMTP_INSECURE_TLS=true ile gevşetilebilir.
+    ...(process.env.SMTP_INSECURE_TLS === "true"
+      ? { tls: { rejectUnauthorized: false } }
+      : {}),
   });
 
   await transport.sendMail({

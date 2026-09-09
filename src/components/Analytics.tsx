@@ -52,7 +52,14 @@ export function Analytics() {
    */
   const izinliZemin = consent === "granted" && !sensitive;
   const allowed = izinliZemin && Boolean(META_PIXEL_ID);
-  const adsAllowed = izinliZemin && Boolean(GOOGLE_ADS_ID);
+
+  /**
+   * Google Ads: klinik kararıyla TÜM sayfalarda ölçülüyor — hassas sayfalar
+   * dahil. Tek şart rıza. Hassas sayfada dönüşüm sayılır ama Google'a giden
+   * sayfa adresi nötrlenir (aşağıdaki page_location), böylece dönüşüm
+   * kaybolmadan tanı bilgisi taşıyan URL reklam ekosistemine gitmez.
+   */
+  const adsAllowed = consent === "granted" && Boolean(GOOGLE_ADS_ID);
 
   /**
    * WhatsApp tıklaması = dönüşüm. Sayfada beş ayrı wa.me bağlantısı var
@@ -61,7 +68,7 @@ export function Analytics() {
    * ileride eklenen bir bağlantı da kendiliğinden ölçülür.
    */
   useEffect(() => {
-    if (!izinliZemin) return;
+    if (!izinliZemin && !adsAllowed) return;
     const onClick = (e: MouseEvent) => {
       const target = e.target as Element | null;
       if (target?.closest?.('a[href*="wa.me"], a[href^="tel:"]')) {
@@ -71,7 +78,7 @@ export function Analytics() {
     };
     document.addEventListener("click", onClick, true);
     return () => document.removeEventListener("click", onClick, true);
-  }, [izinliZemin]);
+  }, [izinliZemin, adsAllowed]);
 
   /**
    * PageView — izin verilen her sayfa görüntülemesi için **tam bir kez.**
@@ -121,7 +128,11 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 window.gtag = window.gtag || gtag;
 gtag('js', new Date());
-gtag('config', '${GOOGLE_ADS_ID}');
+gtag('config', '${GOOGLE_ADS_ID}'${
+              sensitive
+                ? `, { page_location: location.origin + '/', page_title: 'Grafta Clinic' }`
+                : ""
+            });
             `}
           </Script>
         </>
@@ -156,7 +167,8 @@ fbq('init', '${META_PIXEL_ID}');
  */
 export function trackAdsConversion(): void {
   if (typeof window === "undefined") return;
-  if (isSensitivePath(window.location.pathname)) return;
+  // Hassas sayfa kısıtı burada bilinçli olarak YOK: dönüşüm her sayfada
+  // sayılır. Sayfa adresi, etiket kurulurken zaten nötrlenmiş durumda.
   if (!GOOGLE_ADS_CONVERSION_LABEL) return;
   if (typeof window.gtag !== "function") return;
   window.gtag("event", "conversion", {

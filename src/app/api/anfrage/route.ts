@@ -70,10 +70,17 @@ async function webhookGonder(url: string, p: Basvuru): Promise<void> {
   if (!res.ok) throw new Error(`webhook ${res.status}`);
 }
 
+/** Şifre iki adla da okunur: SMTP_PASS ve SMTP_PASSWORD (diğer projelerde
+ *  ikincisi kullanılıyor; yanlış ad yüzünden formun sessizce çalışmaması
+ *  ihtimalini ortadan kaldırır). */
+function smtpSifre(): string {
+  return process.env.SMTP_PASS || process.env.SMTP_PASSWORD || "";
+}
+
 function smtpHazir(): boolean {
   return Boolean(
     process.env.SMTP_HOST && process.env.SMTP_USER &&
-    process.env.SMTP_PASS && process.env.CONTACT_TO_EMAIL,
+    smtpSifre() && process.env.CONTACT_TO_EMAIL,
   );
 }
 
@@ -90,7 +97,7 @@ async function smtpGonder(p: Basvuru): Promise<void> {
     host,
     port,
     secure: port === 465,
-    auth: { user, pass: process.env.SMTP_PASS! },
+    auth: { user, pass: smtpSifre() },
   });
 
   await transport.sendMail({

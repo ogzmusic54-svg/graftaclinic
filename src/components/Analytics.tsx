@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { usePathname } from "next/navigation";
 import {
+  GOOGLE_ADS_CONVERSION_CURRENCY,
   GOOGLE_ADS_CONVERSION_LABEL,
+  GOOGLE_ADS_CONVERSION_VALUE,
   GOOGLE_ADS_ID,
   META_PIXEL_ID,
   isSensitivePath,
@@ -159,6 +161,8 @@ export function trackAdsConversion(): void {
   if (typeof window.gtag !== "function") return;
   window.gtag("event", "conversion", {
     send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_CONVERSION_LABEL}`,
+    value: GOOGLE_ADS_CONVERSION_VALUE,
+    currency: GOOGLE_ADS_CONVERSION_CURRENCY,
   });
 }
 

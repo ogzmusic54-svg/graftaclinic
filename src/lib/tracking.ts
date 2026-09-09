@@ -97,5 +97,12 @@ export const GOOGLE_ADS_ID =
  * değilse dönüşüm gönderilmez — etiket yine sayfa görüntüleme ve yeniden
  * pazarlama için çalışır.
  */
+const VARSAYILAN_DONUSUM_ETIKETI = "RCOOCOups_IcELW0rtlE"; // "Giden tıklama (1)"
+
 export const GOOGLE_ADS_CONVERSION_LABEL =
-  process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL?.trim() || "";
+  process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL?.trim() ||
+  VARSAYILAN_DONUSUM_ETIKETI;
+
+/** Dönüşüm değeri — Google Ads panelinde tanımlanan değerle aynı olmalı. */
+export const GOOGLE_ADS_CONVERSION_VALUE = 1.0;
+export const GOOGLE_ADS_CONVERSION_CURRENCY = "TRY";

@@ -77,27 +77,40 @@ function smtpSifre(): string {
   return process.env.SMTP_PASS || process.env.SMTP_PASSWORD || "";
 }
 
+/**
+ * SMTP kullanılabilir mi?
+ *
+ * İki senaryo desteklenir:
+ *   a) Kimlik doğrulamalı gönderim — SMTP_USER + şifre tanımlı.
+ *   b) Kimlik doğrulamasız yerel teslim — site ile posta sunucusu aynı
+ *      makinede olduğunda (Mailcow), kendi alan adına gelen postayı 25.
+ *      porttan doğrudan teslim etmek için kullanıcı/şifre gerekmez.
+ *
+ * Her iki durumda da SMTP_HOST ve CONTACT_TO_EMAIL zorunludur.
+ */
 function smtpHazir(): boolean {
-  return Boolean(
-    process.env.SMTP_HOST && process.env.SMTP_USER &&
-    smtpSifre() && process.env.CONTACT_TO_EMAIL,
-  );
+  return Boolean(process.env.SMTP_HOST && process.env.CONTACT_TO_EMAIL);
 }
 
 /** Klasik posta kutusu (Hostinger, Google Workspace, Yandex…) üzerinden gönderim. */
 async function smtpGonder(p: Basvuru): Promise<void> {
   const host = process.env.SMTP_HOST!;
-  const port = Number(process.env.SMTP_PORT ?? 465);
+  const port = Number(process.env.SMTP_PORT ?? 587);
   const to = process.env.CONTACT_TO_EMAIL!;
-  const user = process.env.SMTP_USER!;
-  const from = process.env.CONTACT_FROM_EMAIL ?? `Grafta Website <${user}>`;
+  const user = process.env.SMTP_USER ?? "";
+  const sifre = smtpSifre();
+  const from =
+    process.env.CONTACT_FROM_EMAIL ?? `Grafta Website <${user || to}>`;
 
   const { createTransport } = await import("nodemailer");
   const transport = createTransport({
     host,
     port,
     secure: port === 465,
-    auth: { user, pass: smtpSifre() },
+    // Kimlik bilgisi yoksa yerel teslim denenir (aynı makinedeki posta sunucusu).
+    ...(user && sifre ? { auth: { user, pass: sifre } } : {}),
+    // Yerel/otomatik sertifikalarda teslimi engellememek için.
+    tls: { rejectUnauthorized: false },
   });
 
   await transport.sendMail({

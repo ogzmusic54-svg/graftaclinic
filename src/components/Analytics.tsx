@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { usePathname } from "next/navigation";
 import {
+  GOOGLE_ADS_CONVERSION_LABEL,
+  GOOGLE_ADS_ID,
   META_PIXEL_ID,
   isSensitivePath,
   readStoredConsent,
@@ -41,7 +43,14 @@ export function Analytics() {
   }, []);
 
   const sensitive = isSensitivePath(pathname);
-  const allowed = consent === "granted" && !sensitive && Boolean(META_PIXEL_ID);
+
+  /**
+   * Reklam etiketlerinin ortak zemini: rıza verilmiş VE sayfa hassas değil.
+   * Her etiket ayrıca kendi kimliğinin tanımlı olmasını şart koşar.
+   */
+  const izinliZemin = consent === "granted" && !sensitive;
+  const allowed = izinliZemin && Boolean(META_PIXEL_ID);
+  const adsAllowed = izinliZemin && Boolean(GOOGLE_ADS_ID);
 
   /**
    * WhatsApp tıklaması = dönüşüm. Sayfada beş ayrı wa.me bağlantısı var
@@ -50,16 +59,17 @@ export function Analytics() {
    * ileride eklenen bir bağlantı da kendiliğinden ölçülür.
    */
   useEffect(() => {
-    if (!allowed) return;
+    if (!izinliZemin) return;
     const onClick = (e: MouseEvent) => {
       const target = e.target as Element | null;
       if (target?.closest?.('a[href*="wa.me"], a[href^="tel:"]')) {
         trackEvent("Contact");
+        trackAdsConversion();
       }
     };
     document.addEventListener("click", onClick, true);
     return () => document.removeEventListener("click", onClick, true);
-  }, [allowed]);
+  }, [izinliZemin]);
 
   /**
    * PageView — izin verilen her sayfa görüntülemesi için **tam bir kez.**
@@ -90,9 +100,32 @@ export function Analytics() {
     };
   }, [allowed, pathname]);
 
-  if (!allowed) return null;
+  if (!allowed && !adsAllowed) return null;
 
   return (
+    <>
+      {adsAllowed && (
+        <>
+          {/* Google Ads (gtag.js) — rıza modu layout'taki parçacıkta kurulu;
+              varsayılan 'denied', rıza verilince 'granted'e güncelleniyor. */}
+          <Script
+            id="google-ads-js"
+            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads-config" strategy="afterInteractive">
+            {`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+window.gtag = window.gtag || gtag;
+gtag('js', new Date());
+gtag('config', '${GOOGLE_ADS_ID}');
+            `}
+          </Script>
+        </>
+      )}
+
+      {allowed && (
     <Script id="meta-pixel" strategy="afterInteractive">
       {`
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -104,6 +137,8 @@ s.parentNode.insertBefore(t,s)}(window,document,'script',
 fbq('init', '${META_PIXEL_ID}');
       `}
     </Script>
+      )}
+    </>
   );
 }
 
@@ -113,6 +148,20 @@ fbq('init', '${META_PIXEL_ID}');
  * `custom_data` bilerek desteklenmiyor: sağlık verisinin reklam ekosistemine
  * sızdığı yer tam olarak orasıdır.
  */
+/**
+ * Google Ads dönüşümü gönderir. Hassas sayfada veya etiket tanımsızsa
+ * hiçbir şey yapmaz. Meta tarafındaki `trackEvent` ile aynı kapılardan geçer.
+ */
+export function trackAdsConversion(): void {
+  if (typeof window === "undefined") return;
+  if (isSensitivePath(window.location.pathname)) return;
+  if (!GOOGLE_ADS_CONVERSION_LABEL) return;
+  if (typeof window.gtag !== "function") return;
+  window.gtag("event", "conversion", {
+    send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_CONVERSION_LABEL}`,
+  });
+}
+
 export function trackEvent(name: "Contact" | "Lead" | "Schedule"): void {
   if (typeof window === "undefined") return;
   if (isSensitivePath(window.location.pathname)) return;

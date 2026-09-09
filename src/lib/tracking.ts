@@ -74,3 +74,28 @@ const VARSAYILAN_PIXEL_ID = "1058153717222133";
 
 export const META_PIXEL_ID =
   process.env.NEXT_PUBLIC_META_PIXEL_ID?.trim() || VARSAYILAN_PIXEL_ID;
+
+/**
+ * Google Ads dönüşüm etiketi (gtag.js) kimliği.
+ *
+ * Meta Pixel ile aynı gerekçeyle koda gömülüdür: değer gizli değil, sayfa
+ * kaynağında zaten görünür ve ortam değişkenine bağlı bırakıldığında tek bir
+ * eksik satır yüzünden etiket sessizce hiç yüklenmez.
+ *
+ * Ortam değişkeni önceliklidir — test hesabına geçmek için yeterli.
+ */
+const VARSAYILAN_GOOGLE_ADS_ID = "AW-18441017909";
+
+export const GOOGLE_ADS_ID =
+  process.env.NEXT_PUBLIC_GOOGLE_ADS_ID?.trim() || VARSAYILAN_GOOGLE_ADS_ID;
+
+/**
+ * Google Ads dönüşüm etiketi (label).
+ *
+ * Google Ads panelinde "Dönüşümler → Yeni dönüşüm işlemi" ile oluşturulan
+ * etiketin `AW-XXXX/AbC-D_efG` biçimindeki ikinci parçasıdır. Tanımlı
+ * değilse dönüşüm gönderilmez — etiket yine sayfa görüntüleme ve yeniden
+ * pazarlama için çalışır.
+ */
+export const GOOGLE_ADS_CONVERSION_LABEL =
+  process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL?.trim() || "";

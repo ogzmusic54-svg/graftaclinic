@@ -24,7 +24,12 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 // En az 6 rakam; boşluk, +, -, / ve parantez serbest.
 const PHONE_RE = /^[+()\/\s-]*(?:\d[+()\/\s-]*){6,}$/;
 
-export function AnfrageForm() {
+interface AnfrageFormProps {
+  /** Hata durumundaki WhatsApp yedeği; verilmezse genel DE ön-metni kullanılır. */
+  whatsappUrl?: string;
+}
+
+export function AnfrageForm({ whatsappUrl = buildWhatsAppUrl("de") }: AnfrageFormProps = {}) {
   const t = useTranslations("vertraulich.form");
   const [status, setStatus] = useState<Status>("idle");
   const [preference, setPreference] = useState<Preference>("E-Mail");
@@ -267,7 +272,7 @@ export function AnfrageForm() {
               </a>
             )}
             <a
-              href={buildWhatsAppUrl("de")}
+              href={whatsappUrl}
               target="_blank"
               rel="noopener"
               className="btn btn-ghost !py-2 !text-sm"

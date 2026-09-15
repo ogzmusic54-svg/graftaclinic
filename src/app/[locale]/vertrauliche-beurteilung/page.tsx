@@ -22,6 +22,9 @@ import { SmartImage } from "@/components/SmartImage";
 
 const SLUG = "vertrauliche-beurteilung";
 const PAGE_LOCALE: Locale = "de";
+// Bu sayfanın WhatsApp butonları genel "bilgi almak istiyorum" metnini değil,
+// reklamın CTA'sıyla aynı talebi taşır. Bkz. siteConfig.contact.landingWhatsappMessage.
+const WHATSAPP_URL = buildWhatsAppUrl(PAGE_LOCALE, siteConfig.contact.landingWhatsappMessage);
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -115,7 +118,7 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href={buildWhatsAppUrl(PAGE_LOCALE)}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener"
               className="btn btn-accent"
@@ -287,7 +290,7 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
 
           <div className="mt-12 grid items-start gap-8 lg:grid-cols-[1.35fr_1fr]">
             {/* Birincil: form */}
-            <AnfrageForm />
+            <AnfrageForm whatsappUrl={WHATSAPP_URL} />
 
             {/* İkincil: WhatsApp. Kart görsel olarak daha küçük ve daha sakin —
                 kabul kriteri 4: formdan baskın olmayacak. */}
@@ -305,7 +308,7 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
                 {t("channels.whatsappCaveat")}
               </p>
               <a
-                href={buildWhatsAppUrl(PAGE_LOCALE)}
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener"
                 className="btn btn-ghost mt-5 w-full"

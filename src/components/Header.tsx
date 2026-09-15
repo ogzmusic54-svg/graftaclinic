@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 
 import { Link, usePathname } from "@/i18n/routing";
 import type { Locale } from "@/i18n/routing";
-import { siteConfig, buildWhatsAppUrl } from "@/config/site";
+import { siteConfig, buildWhatsAppUrlForPath } from "@/config/site";
 import { categoryOrder, getServicesByCategory } from "@/config/services";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -125,7 +125,7 @@ export function Header() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <LanguageSwitcher />
-          <a href={buildWhatsAppUrl(locale)} target="_blank" rel="noopener" className="btn btn-primary">
+          <a href={buildWhatsAppUrlForPath(locale, pathname)} target="_blank" rel="noopener" className="btn btn-primary">
             {t("nav.bookAppointment")}
           </a>
         </div>
@@ -193,7 +193,7 @@ export function Header() {
             <div className="flex items-center justify-between gap-3 pt-4 border-t border-[var(--color-border-subtle)]">
               <LanguageSwitcher />
               <a
-                href={buildWhatsAppUrl(locale)}
+                href={buildWhatsAppUrlForPath(locale, pathname)}
                 target="_blank"
                 rel="noopener"
                 className="btn btn-primary flex-1 justify-center"

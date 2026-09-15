@@ -45,6 +45,10 @@ export const siteConfig = {
       en: "Hello, I'm reaching out via the Grafta Clinic website. I'd like more information.",
       de: "Hallo, ich melde mich über die Grafta Clinic Website. Ich möchte gerne mehr Informationen.",
     },
+    // Reklam iniş sayfasının KENDİ ön-metni. Genel metin "bilgi almak istiyorum"
+    // der; reklamdan gelen kişi ise tanımlı bir talep taşımalı — reklamın CTA'sı
+    // ile aynı dil ("vertrauliche Vorprüfung anfragen"). Site geneline yayılmaz.
+    landingWhatsappMessage: "Hallo, ich möchte eine vertrauliche Vorprüfung anfragen.",
 
     email: "info@graftaclinic.com",
 
@@ -82,10 +86,22 @@ export const siteConfig = {
 
 export type SiteConfig = typeof siteConfig;
 
-/** WhatsApp linkini locale'e göre üretir. */
-export function buildWhatsAppUrl(locale: "tr" | "en" | "de"): string {
-  const text = encodeURIComponent(siteConfig.contact.whatsappMessage[locale]);
+/** WhatsApp linkini locale'e göre üretir; `message` verilirse genel ön-metnin yerine geçer. */
+export function buildWhatsAppUrl(locale: "tr" | "en" | "de", message?: string): string {
+  const text = encodeURIComponent(message ?? siteConfig.contact.whatsappMessage[locale]);
   return `https://wa.me/${siteConfig.contact.whatsapp}?text=${text}`;
+}
+
+/** Reklam iniş sayfasının yolu (locale öneki olmadan). */
+export const LANDING_PATH = "/vertrauliche-beurteilung";
+
+/**
+ * Sayfaya göre WhatsApp linki: iniş sayfasındaysak onun ön-metni, değilse genel.
+ * Header ve yüzen buton gibi site geneli bileşenler bunu kullanır.
+ */
+export function buildWhatsAppUrlForPath(locale: "tr" | "en" | "de", pathname: string): string {
+  const onLanding = pathname.includes(LANDING_PATH);
+  return buildWhatsAppUrl(locale, onLanding ? siteConfig.contact.landingWhatsappMessage : undefined);
 }
 
 export function buildTelLink(): string {

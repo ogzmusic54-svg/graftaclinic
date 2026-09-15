@@ -2,8 +2,9 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import type { Locale } from "@/i18n/routing";
-import { siteConfig, buildWhatsAppUrl, buildTelLink } from "@/config/site";
+import { siteConfig, buildTelLink } from "@/config/site";
 import { categoryOrder, getServicesByCategory } from "@/config/services";
+import { WhatsAppLink } from "./WhatsAppLink";
 
 export function Footer() {
   const t = useTranslations();
@@ -27,14 +28,9 @@ export function Footer() {
           </Link>
           <p className="text-sm leading-relaxed text-white/70">{t("footer.tagline")}</p>
           <div className="flex gap-3">
-            <a
-              href={buildWhatsAppUrl(locale)}
-              target="_blank"
-              rel="noopener"
-              className="btn btn-whatsapp text-xs"
-            >
+            <WhatsAppLink className="btn btn-whatsapp text-xs">
               {t("common.whatsapp")}
-            </a>
+            </WhatsAppLink>
             <a href={buildTelLink()} className="btn btn-ghost text-xs !text-white !border-white/30 hover:!bg-white/10">
               {t("common.callNow")}
             </a>

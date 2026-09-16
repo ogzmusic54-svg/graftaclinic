@@ -112,11 +112,13 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
           <div>
           <p className="label-caps text-[var(--color-accent-soft)] mb-3">{t("hero.kicker")}</p>
           <h1 className="font-serif text-white max-w-4xl">{t("hero.title")}</h1>
-          <p className="mt-5 max-w-3xl text-lg leading-relaxed text-white/85 md:text-xl">
-            {t("hero.subtitle")}
-          </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          {/* İletişim butonları başlığın HEMEN altında — paragraftan önce.
+              16.09.2026 ölçümü: butonlar paragrafın altındayken mobilde çerez
+              bandının arkasında kalıyordu (y≈560–615, bant y≈513'ten başlıyor);
+              rıza vermeden çıkan %63 hiçbir butonu görmedi. Önce ulaşım aracı,
+              sonra gerekçe. */}
+          <div className="mt-6 flex flex-wrap gap-3">
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -132,7 +134,11 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
               {t("hero.secondaryCta")}
             </a>
           </div>
-          <p className="mt-4 text-sm text-white/65">{t("hero.note")}</p>
+          <p className="mt-3 text-sm text-white/65">{t("hero.note")}</p>
+
+          <p className="mt-6 max-w-3xl text-lg leading-relaxed text-white/85 md:text-xl">
+            {t("hero.subtitle")}
+          </p>
 
           <ul className="mt-10 flex flex-wrap gap-3" aria-label="Trust signals">
             {chips.map((c) => (

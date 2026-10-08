@@ -34,6 +34,7 @@ export default function middleware(req: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!api|_next|_vercel|.*\\..*).*)",
+    // `u` = Umami analitik yolu (next.config.ts rewrite) — dil yönlendirmesine girmez
+    "/((?!api|u/|_next|_vercel|.*\\..*).*)",
   ],
 };

@@ -284,6 +284,25 @@ export const datenschutz: Record<Locale, HukukSayfasi> = {
         ],
       },
       {
+        baslik: "6a. Reichweitenmessung ohne Cookies (Umami)",
+        paragraflar: [
+          "Zur Verbesserung unseres Angebots erfassen wir, welche Seiten " +
+            "aufgerufen, wie weit sie gelesen und welche Schaltflächen " +
+            "angeklickt werden. Dafür nutzen wir die Open-Source-Software " +
+            "Umami, die ausschließlich auf unserem eigenen Server in der EU " +
+            "betrieben wird. Es werden keine Cookies gesetzt und keine Daten " +
+            "an Dritte übermittelt.",
+          "Die IP-Adresse wird nicht gespeichert; aus ihr wird zusammen mit " +
+            "einem täglich wechselnden Zufallswert ein nicht rückrechenbarer " +
+            "Kennwert gebildet, sodass kein Profil einzelner Personen " +
+            "entsteht. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO " +
+            "(berechtigtes Interesse an einer verständlichen, " +
+            "funktionierenden Website). Sie können der Erfassung jederzeit " +
+            "widersprechen, etwa durch Aktivierung der " +
+            "\"Do Not Track\"-Einstellung Ihres Browsers.",
+        ],
+      },
+      {
         baslik: "7. Übermittlung in die Türkei",
         paragraflar: [
           "Ihre Anfragedaten werden an die Klinik in der Türkei übermittelt. " +
@@ -379,6 +398,19 @@ export const datenschutz: Record<Locale, HukukSayfasi> = {
         ],
       },
       {
+        baslik: "5a. Cookie-free audience measurement (Umami)",
+        paragraflar: [
+          "We use the open-source software Umami, hosted solely on our own " +
+            "server in the EU, to understand which pages are visited, how " +
+            "far they are read and which buttons are used. No cookies are " +
+            "set and no data is shared with third parties. Your IP address " +
+            "is not stored; it is hashed with a daily-changing random value " +
+            "so that no individual profile is created. Legal basis: " +
+            "Art. 6(1)(f) GDPR. You can object at any time, for example by " +
+            "enabling \"Do Not Track\" in your browser.",
+        ],
+      },
+      {
         baslik: "6. Transfer to Türkiye",
         paragraflar: [
           "Your enquiry is transferred to the clinic in Türkiye, for which " +
@@ -434,6 +466,18 @@ export const datenschutz: Record<Locale, HukukSayfasi> = {
           "Reklam ölçümü için kullanılan Meta Pixel yalnızca açık rızanızdan " +
             "sonra yüklenir; hassas içerikli sayfalarda rıza verilmiş olsa " +
             "bile yüklenmez. Rızanızı dilediğiniz zaman geri alabilirsiniz.",
+        ],
+      },
+      {
+        baslik: "4a. Çerezsiz ziyaret ölçümü (Umami)",
+        paragraflar: [
+          "Hangi sayfaların görüntülendiğini, ne kadar okunduğunu ve hangi " +
+            "düğmelere tıklandığını anlamak için yalnızca kendi sunucumuzda " +
+            "çalışan açık kaynaklı Umami yazılımını kullanıyoruz. Çerez " +
+            "kullanılmaz, veri üçüncü taraflarla paylaşılmaz. IP adresiniz " +
+            "saklanmaz; günlük değişen rastgele bir değerle geri " +
+            "döndürülemez biçimde özetlenir. Tarayıcınızın \"Do Not Track\" " +
+            "ayarıyla dilediğiniz zaman itiraz edebilirsiniz.",
         ],
       },
       {

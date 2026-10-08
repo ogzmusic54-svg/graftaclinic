@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { trackEvent } from "@/components/Analytics";
+import { trackFormSent } from "@/components/UmamiEvents";
 import { SmartImage } from "@/components/SmartImage";
 import { siteConfig, buildWhatsAppUrl } from "@/config/site";
 
@@ -96,6 +97,7 @@ export function AnfrageForm({ whatsappUrl = buildWhatsAppUrl("de") }: AnfrageFor
       if (!res.ok) throw new Error(String(res.status));
       setStatus("sent");
       trackEvent("Lead");
+      trackFormSent(preference);
       form.reset();
     } catch {
       // Iletim yapilandirilmamis ya da hedef ulasilamaz. Kullaniciyi bos

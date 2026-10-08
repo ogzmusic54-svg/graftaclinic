@@ -15,6 +15,7 @@ import { OrganizationSchema } from "@/components/OrganizationSchema";
 import { WebSiteSchema } from "@/components/WebSiteSchema";
 import { ConsentBanner } from "@/components/ConsentBanner";
 import { Analytics } from "@/components/Analytics";
+import { UmamiEvents } from "@/components/UmamiEvents";
 
 import "../globals.css";
 
@@ -180,6 +181,22 @@ if(c==='granted'){gtag('consent','update',{'ad_storage':'granted',
             `.trim(),
           }}
         />
+        {/*
+          Umami — çerezsiz, rıza gerektirmeyen ziyaret ölçümü; kendi sunucumuz.
+          /u/* yolu next.config.ts'te Umami'ye yönlendirilir (üçüncü alan adı yok).
+          Web sitesi kimliği gizli değildir; env yoksa sabit değer kullanılır.
+          data-do-not-track: tarayıcıda DNT açıksa hiç göndermez (Datenschutz 6a).
+        */}
+        <script
+          defer
+          src="/u/script.js"
+          data-website-id={
+            process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID ?? "fc7171bd-1105-40a6-9915-ac3929679421"
+          }
+          data-domains="graftaclinic.com,www.graftaclinic.com"
+          data-exclude-search="true"
+          data-do-not-track="true"
+        />
       </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
@@ -197,6 +214,7 @@ if(c==='granted'){gtag('consent','update',{'ad_storage':'granted',
           <WhatsAppFloat />
           <ConsentBanner />
           <Analytics />
+          <UmamiEvents />
           <OrganizationSchema locale={locale as Locale} />
           <WebSiteSchema locale={locale as Locale} />
         </NextIntlClientProvider>

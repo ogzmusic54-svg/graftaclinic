@@ -1421,9 +1421,16 @@
         "Ärztliche Prüfung erst nach Ihrer Einwilligung",
         "Schriftliche Entscheidung vor der Buchung"
       ],
-      "primaryCta": "Auf WhatsApp schreiben",
-      "secondaryCta": "Formular ausfüllen",
-      "note": "Für die erste Nachricht brauchen Sie keine Befunde und keine Unterlagen."
+      "primaryCta": "Formular ausfüllen – ohne Telefonnummer",
+      "secondaryCta": "Auf WhatsApp schreiben",
+      "note": "Für die erste Nachricht brauchen Sie keine Befunde und keine Unterlagen.",
+      "stepsTitle": "So läuft es",
+      "steps": [
+        "Sie schreiben – ohne Unterlagen, ohne Telefonnummer. Eine E-Mail-Adresse genügt.",
+        "Ein Arzt liest Ihre Anfrage. Niemand sonst – ärztliche Schweigepflicht.",
+        "Sie erhalten eine schriftliche Antwort, in der Regel innerhalb von 48 Stunden."
+      ],
+      "formHint": "Keine Diagnosen, keine Befunde, keine Unterlagen – nur Ihre Frage."
     },
     "intro": {
       "title": "Worum es auf dieser Seite geht",
@@ -1558,7 +1565,8 @@
       "formTitle": "Formular",
       "formBody": "Der empfohlene Weg. Eine E-Mail-Adresse genügt — keine Telefonnummer, kein Konto, keine Unterlagen.",
       "formCaveat": "Antwort per E-Mail, in der Regel innerhalb eines Werktags.",
-      "formCta": "Zum Formular"
+      "formCta": "Zum Formular",
+      "formAnchor": "Zum Formular oben"
     },
     "form": {
       "title": "Vertrauliche Anfrage",

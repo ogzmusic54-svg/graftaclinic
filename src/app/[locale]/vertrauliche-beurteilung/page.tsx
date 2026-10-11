@@ -70,6 +70,7 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
   const t = await getTranslations("vertraulich");
 
   const chips = t.raw("hero.chips") as string[];
+  const heroSteps = t.raw("hero.steps") as string[];
   const reasons = t.raw("reasons.items") as NamedItem[];
   const protocolItems = t.raw("protocol.items") as NamedItem[];
   const steps = t.raw("steps.items") as StepItem[];
@@ -118,17 +119,19 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
               bandının arkasında kalıyordu (y≈560–615, bant y≈513'ten başlıyor);
               rıza vermeden çıkan %63 hiçbir butonu görmedi. Önce ulaşım aracı,
               sonra gerekçe. */}
+          {/* 11.10.2026 — Umami (258 ziyaretçi): sayfanın ¼'üne inen 20 kişiden
+              form butonuna basan 0, WhatsApp'a basan 3 (hiçbiri yazmadı).
+              Form artık hero'nun içinde (sağ sütun / mobilde hemen altta);
+              birincil buton forma, WhatsApp ikincil. Uzun paragraf yerine
+              3 adımlı "ne olur" listesi — kişi yazarsa ne olacağını görsün. */}
           <div className="mt-6 flex flex-wrap gap-3">
+            <a href="#anfrage" className="btn btn-accent">
+              {t("hero.primaryCta")}
+            </a>
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener"
-              className="btn btn-accent"
-            >
-              {t("hero.primaryCta")}
-            </a>
-            <a
-              href="#anfrage"
               className="btn btn-ghost !border-white/30 !text-white hover:!bg-white/10"
             >
               {t("hero.secondaryCta")}
@@ -136,9 +139,17 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
           </div>
           <p className="mt-3 text-sm text-white/65">{t("hero.note")}</p>
 
-          <p className="mt-6 max-w-3xl text-lg leading-relaxed text-white/85 md:text-xl">
-            {t("hero.subtitle")}
-          </p>
+          <p className="label-caps mt-8 text-[var(--color-accent-soft)]">{t("hero.stepsTitle")}</p>
+          <ol className="mt-3 max-w-2xl space-y-3">
+            {heroSteps.map((s, i) => (
+              <li key={s} className="flex gap-4 text-base leading-relaxed text-white/85 md:text-lg">
+                <span className="font-serif text-2xl leading-none text-[var(--color-accent)]">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span>{s}</span>
+              </li>
+            ))}
+          </ol>
 
           <ul className="mt-10 flex flex-wrap gap-3" aria-label="Trust signals">
             {chips.map((c) => (
@@ -152,28 +163,13 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
           </ul>
           </div>
 
-          {/* Görsel: hekim elleri, saç çizgisi muayenesi. Yüz yok, öncesi–sonrası
-              yok — § 11 HWG. Kategoriyi ilk bakışta okutan tek kare. */}
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
-            <SmartImage
-              src="/images/hero.jpg"
-              alt={t("hero.imageAlt")}
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 40vw"
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary-deep)] via-[var(--color-primary-deep)]/25 to-transparent" />
-            {/* Marka işareti görselin içinde: header'daki logoyla yan yana
-                tekrar etmiyor, imzalanmış bir kare gibi duruyor. */}
-            <SmartImage
-              src={siteConfig.brand.logoDark}
-              alt={t("hero.logoAlt")}
-              width={150}
-              height={54}
-              priority
-              className="absolute bottom-6 left-6 h-11 w-auto drop-shadow-lg"
-            />
+          {/* Sağ sütun: FORM (eskiden hekim eli görseli). Form sayfanın en
+              altındayken kimse ulaşmıyordu; şimdi ilk ekranda. id="anfrage"
+              hero'ya taşındı — alttaki "So erreichen Sie uns" bölümü buraya
+              bağlanır. Görsel, aşağıdaki HIV bölümünün yanında duruyor. */}
+          <div id="anfrage" className="scroll-mt-24">
+            <p className="mb-3 text-sm text-white/65">{t("hero.formHint")}</p>
+            <AnfrageForm whatsappUrl={WHATSAPP_URL} />
           </div>
         </div>
       </section>
@@ -286,7 +282,7 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
       {/* İLETİŞİM GEÇİDİ — brif §5, 03. blok.
           Form birincil ve ÖNCE geliyor; WhatsApp yanında ikincil duruyor.
           Mobilde de form önce render edilir (grid sırası kaynak sırasıdır). */}
-      <section id="anfrage" className="section scroll-mt-24">
+      <section id="kanaele" className="section scroll-mt-24">
         <div className="container-content">
           <div className="max-w-3xl">
             <span className="gold-rule" />
@@ -295,8 +291,20 @@ export default async function VertraulicheBeurteilungPage({ params }: PageProps)
           </div>
 
           <div className="mt-12 grid items-start gap-8 lg:grid-cols-[1.35fr_1fr]">
-            {/* Birincil: form */}
-            <AnfrageForm whatsappUrl={WHATSAPP_URL} />
+            {/* Birincil: form — artık hero'da; burada özet kart ve bağlantı.
+                Aynı form iki kez render edilmez (alan id'leri çakışır). */}
+            <div className="card bg-white p-6 md:p-8">
+              <p className="label-caps text-[var(--color-accent-deep)]">{t("channels.formTitle")}</p>
+              <p className="mt-3 text-lg leading-relaxed text-[var(--color-text-strong)]">
+                {t("channels.formBody")}
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-[var(--color-text-muted)]">
+                {t("channels.formCaveat")}
+              </p>
+              <a href="#anfrage" className="btn btn-accent mt-6">
+                {t("channels.formAnchor")}
+              </a>
+            </div>
 
             {/* İkincil: WhatsApp. Kart görsel olarak daha küçük ve daha sakin —
                 kabul kriteri 4: formdan baskın olmayacak. */}
